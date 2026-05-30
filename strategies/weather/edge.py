@@ -83,24 +83,32 @@ def signals_for_event(markets: list[dict],
                       forecast_high: float,
                       city_code: str,
                       settle_date: str,
-                      buckets: dict) -> list[TradeSignal]:
+                      buckets: dict,
+                      verbose: bool = False) -> list[TradeSignal]:
     month = datetime.fromisoformat(settle_date).month
     season = SEASONS[month]
     bucket = buckets.get(f"{city_code}_{season}")
     if not bucket:
+        if verbose:
+            print(f"  [edge] {city_code}: no bucket for season {season}")
         return []
 
     min_edge = CFG["backtest"]["min_edge"]
     longshot = CFG["backtest"]["longshot_floor_cents"] / 100
     out: list[TradeSignal] = []
+    stats = {"considered": 0, "no_bid_ask": 0, "extreme_price": 0,
+             "tail_skipped": 0, "edge_too_small": 0, "below_floor": 0,
+             "fired": 0, "best_edge": 0.0}
 
     for m in markets:
+        stats["considered"] += 1
         parsed = parse_market_range(m["ticker"], m.get("yes_sub_title"))
         if not parsed:
             continue
         # only trade bracket markets per overlay 1 (tails are usually longshots)
         lo, hi, side = parsed
         if side != "bracket":
+            stats["tail_skipped"] += 1
             continue
 
         # ATM price comes from the resting book. We post a maker order one
@@ -108,28 +116,32 @@ def signals_for_event(markets: list[dict],
         yes_bid = _to_float(m.get("yes_bid_dollars"))
         yes_ask = _to_float(m.get("yes_ask_dollars"))
         if yes_bid is None or yes_ask is None:
+            stats["no_bid_ask"] += 1
             continue
-        # use mid as p_market when both sides quoted, else whichever exists
+        # use mid as p_market when both sides quoted, else last
         if yes_bid > 0 and yes_ask < 1:
             p_market = (yes_bid + yes_ask) / 2
         else:
             last = _to_float(m.get("last_price_dollars"))
-            if last is None:
+            if last is None or last <= 0:
+                stats["no_bid_ask"] += 1
                 continue
             p_market = last
         if p_market <= 0 or p_market >= 1:
+            stats["extreme_price"] += 1
             continue
 
         p_model = model_prob_in_range(forecast_high, lo, hi, bucket)
         edge = p_model - p_market
+        if abs(edge) > abs(stats["best_edge"]):
+            stats["best_edge"] = edge
 
         if edge >= min_edge and longshot <= yes_ask < (1 - longshot):
-            # buy YES as a maker: bid at current ask - 1c, or higher if needed
             limit_cents = max(int(round(yes_bid * 100)) + 1,
                               int(round(p_market * 100)))
-            limit_cents = min(limit_cents, int(round(yes_ask * 100)) - 1)
+            limit_cents = min(limit_cents, max(int(round(yes_ask * 100)) - 1, 1))
             if limit_cents < int(longshot * 100):
-                continue
+                stats["below_floor"] += 1; continue
             out.append(TradeSignal(
                 market_ticker=m["ticker"], side="yes",
                 limit_price_cents=limit_cents,
@@ -138,17 +150,17 @@ def signals_for_event(markets: list[dict],
                 p_market=round(p_market, 3),
                 lo=lo, hi=hi, forecast=forecast_high,
             ))
+            stats["fired"] += 1
         elif edge <= -min_edge:
-            # buy NO: NO bid/ask is implied as 100 - YES ask/bid
             no_bid = 1 - yes_ask
             no_ask = 1 - yes_bid
             if no_ask <= longshot or no_ask >= (1 - longshot):
-                continue
+                stats["below_floor"] += 1; continue
             no_limit_cents = max(int(round(no_bid * 100)) + 1,
                                  int(round((1 - p_market) * 100)))
-            no_limit_cents = min(no_limit_cents, int(round(no_ask * 100)) - 1)
+            no_limit_cents = min(no_limit_cents, max(int(round(no_ask * 100)) - 1, 1))
             if no_limit_cents < int(longshot * 100):
-                continue
+                stats["below_floor"] += 1; continue
             out.append(TradeSignal(
                 market_ticker=m["ticker"], side="no",
                 limit_price_cents=no_limit_cents,
@@ -157,6 +169,12 @@ def signals_for_event(markets: list[dict],
                 p_market=round(p_market, 3),
                 lo=lo, hi=hi, forecast=forecast_high,
             ))
+            stats["fired"] += 1
+        else:
+            stats["edge_too_small"] += 1
+
+    if verbose:
+        print(f"  [edge {city_code}] {stats}")
     return out
 
 

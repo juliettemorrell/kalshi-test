@@ -110,7 +110,7 @@ def main() -> None:
         if fcst is None:
             continue
         signals = edge_mod.signals_for_event(
-            markets, fcst, code, target, buckets)
+            markets, fcst, code, target, buckets, verbose=True)
         print(f"{code}: forecast={fcst:.1f}F, {len(signals)} signals")
 
         for sig in signals:

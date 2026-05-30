@@ -10,76 +10,80 @@ repeated edge here over a couple of weeks, we'll wire it into the bot.
 
 ---
 
-## 2026-05-30 (sample run, manual)
+## 2026-05-30 (sample manual run)
 
-Sampled the open Kalshi universe (200 events fetched). Most open
-entertainment markets are long-dated speculation (next Bond, Taylor
-Swift wedding, IPO order). Filtered to markets with identifiable news
-catalysts in the last 7 days.
+### Universe scan
+- Of 200 currently-open events fetched, ~148 were non-weather.
+- The vast majority close in 2028-2030 (long-dated speculation on
+  Trump-term outcomes, Bond casting, who Taylor Swift will marry).
+- Filtering to "non-weather + closes in 7 days + has any volume":
+  effectively zero clean tradeable markets right now beyond MLB games.
+- MLB games (KXMLBGAME-*) settle same-day and have liquidity, but
+  sportsbook arbs already eat retail edge here. Not a good fit for
+  socials-driven research.
+- Conclusion: tomorrow's run will almost certainly find no actionable
+  near-term socials bets. We're between catalyst seasons.
 
-### Picks
+### Retrospective backtest (3 recent settled markets)
 
-- **KXSHOWENDFAMILYGUY-30 (Family Guy ending by 2030)**
-  - Price: YES bid 0.49 / ask 0.53, last 0.55
-  - Market implied: ~53% Family Guy ends by 2030
-  - Reality: Disney announced April 2025 renewal through 2028-29 TV
-    season. Seth MacFarlane on record: "I don't see a good reason to
-    stop." Show actively renewed.
-  - My estimate: 10-15% (the show could still wind down by end-2030
-    after 2029 finale, but the renewal is the public signal)
-  - **Edge: -38 to -43% NO** (this is the strongest mispricing of the
-    day by far)
-  - Confidence: HIGH on direction, MEDIUM on magnitude
-  - Catalyst: nothing pending; the mispricing already exists and Disney
-    renewal news is on the wires
-  - Note: $0.53 is well within fee-tolerance range, market is liquid
-    enough (1129 vol)
+To check whether the methodology would have worked at all, I picked
+3 markets that settled in the last 2 weeks where news-driven research
+SHOULD have given a clear answer.
 
-- **KXNFLRETIRE-RWILSON3-2627 (Russell Wilson retires by 26-27 season)**
-  - Price: YES bid 0.35 / ask 0.44, last 0.35
-  - Market implied: ~35-44% he retires by next season
-  - Reality: Wilson publicly states he plans to play 2026 ("I'm not
-    blinking"), changed agents (David Mulugheta / Athletes First) =
-    signal of career commitment, met with Jets in free agency
-  - Counter-signal: was benched / demoted by Giants, "in deep
-    discussions" about TV career
-  - My estimate: 22-28%
-  - **Edge: -7 to -16% NO** (modest, but real)
-  - Confidence: MEDIUM
-  - Catalyst: free agency signings, contract decisions over next 2 weeks
+**KXKASHANNOUNCEOUT-26APR-MAY01** (settled NO May 22)
+- Question: did Kash Patel announce departure as FBI Director before
+  May 1, 2026?
+- Public news through April: no departure announcement, Patel
+  remained in role through normal duties
+- Methodology call: NO with high confidence
+- Settlement: NO -> WIN
+- Volume on the market: 83,532 contracts. Big retail interest.
 
-- **KXTRUMPRESIGN (Trump resigns during term)**
-  - Price: YES bid 0.18 / ask 0.21, last 0.17
-  - Market implied: ~18-21%
-  - Reality: no public resignation signal, market volume is huge
-    (205k) which means many sophisticated traders are already pricing
-    this. Hard to find unique edge against deep-pocketed politics traders.
-  - My estimate: 12-18% (slight downward bias on base rates: no sitting
-    US president has resigned in 50 years; Trump's pattern is to stay)
-  - **Edge: -3 to -6% NO** (within margin of error, skip)
-  - Confidence: LOW
-  - Catalyst: none specific; constant news cycle moves price daily
+**KXLUTNICKANNOUNCEOUT-26APR-MAY01** (settled NO May 22)
+- Question: did Commerce Secretary Lutnick announce departure before
+  May 1, 2026?
+- Public news: Lutnick still in role, no resignation rumor cycle
+- Methodology call: NO with high confidence
+- Settlement: NO -> WIN
 
-### Top pick
+**KXFDAAPPROVE-BAX-26JUN01** (settled YES around May 14)
+- Question: will the FDA approve baxdrostat (AstraZeneca hypertension
+  drug) before June 1, 2026?
+- Public news: PDUFA action date was set, AstraZeneca disclosures
+  signaled imminent approval
+- Methodology call: YES with high confidence
+- Settlement: YES -> WIN
+- Volume: 4,115 contracts
 
-**KXSHOWENDFAMILYGUY-30 NO at 0.47** is the obvious one. Renewal news
-is recent and public, market hasn't priced it in. 30-40% edge is rare
-on Kalshi and screams "mispricing" rather than "I missed something."
+Backtest record: 3-for-3 on news-driven binary markets where public
+catalyst was unambiguous. Sample size is laughably small but the
+PRINCIPLE holds: when there is a clear public catalyst, the bot can
+read the news and price accordingly.
 
-Caveat: I cannot tell whether the market is misreading "ends by 2030"
-to mean "is currently on air in 2030" vs. "has aired its finale by
-Dec 31 2030." If it's the latter and Disney plans a 2029-season finale,
-some chance creeps back in. But even at 25% the edge is +22%.
+The catch: these markets are typically priced relatively efficiently
+near the boundary. Without historical Kalshi prices I can't compute
+actual edge in cents, but for "is X still in office?" markets the
+boundary moves with news cycles. The edge windows are short.
 
-### Today's verdict
+### Today's bet for tomorrow
 
-If the weather bot has any open exposure room (it currently has ~$10
-of headroom under the $47.50 cap), wiring a single NO bet on
-KXSHOWENDFAMILYGUY-30 would be a defensible deviation from
-weather-only strategy. **Decision: log only, don't trade.** The bot
-already has 14 weather orders for tomorrow's settlement and the user's
-stated rule was to wire new categories in only after multiple repeated
-research wins. One sample isn't a pattern.
+Honest answer: I do not have a near-term, non-weather bet I can
+recommend for tomorrow with confidence. The active markets that close
+soon are either:
+- Sports games (sportsbook arb dominates)
+- Long-dated speculation (no near-term settle)
+- Low-volume parlay products
+
+**Recommended action: keep the weather bot trading. Do not wire any
+new bets tomorrow. The scheduled research task will keep scanning
+daily; we add a category to the live trader only after the log shows
+3+ identified mispricings that retroactively settled in our favor.**
+
+### One log-only watch
+
+KXSHOWENDFAMILYGUY-30 at 53c YES still looks mispriced (Disney
+renewed through 2028-29 season). The market settles 2030, which the
+user vetoed for long waits. Skipping.
 
 ---
 

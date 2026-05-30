@@ -10,3 +10,14 @@ run_utc,city,settle_date,market_ticker,side,limit_price_cents,count,p_model,p_ma
 2026-05-30T15:04:00.932540+00:00,MIA,2026-05-31,KXHIGHMIA-26MAY31-B92.5,no,68,2,0.0,0.32,-0.32,ok,a0230be3-e085-4bb2-9370-1f6aa5d9dfcf,9ade018ebb780fc21162237a,
 2026-05-30T15:04:00.932540+00:00,AUS,2026-05-31,KXHIGHAUS-26MAY31-B93.5,no,76,0,0.0,0.245,-0.245,no exposure headroom left,,,
 2026-05-30T15:04:00.932540+00:00,AUS,2026-05-31,KXHIGHAUS-26MAY31-B91.5,no,59,0,0.076,0.41,-0.334,no exposure headroom left,,,
+2026-05-30T15:25:26.910674+00:00,NY,2026-05-31,KXHIGHNY-26MAY31-B74.5,no,60,10,0.12,0.395,-0.275,ok,,36052420b1035f08a0d5e435,"POST /trade-api/v2/portfolio/orders -> 409: {'error': {'code': 'order_already_exists', 'message': 'order already exists', 'service': 'exchange'}}"
+2026-05-30T15:25:26.910674+00:00,NY,2026-05-31,KXHIGHNY-26MAY31-B76.5,no,78,4,0.073,0.22,-0.147,ok,f4af3d22-688e-4a96-aa73-1f5b67d508a9,1b5c340943e7d6c63149dfb7,
+2026-05-30T15:25:26.910674+00:00,CHI,2026-05-31,KXHIGHCHI-26MAY31-B74.5,no,81,4,0.017,0.185,-0.168,ok,6912f6bd-8ece-4df8-85c3-08ed9cdd5919,ac1ca6fd46dcd44a0376eb0b,
+2026-05-30T15:25:26.910674+00:00,CHI,2026-05-31,KXHIGHCHI-26MAY31-B76.5,no,65,9,0.062,0.345,-0.283,ok,,4ed6e4279196c34a9976db56,"POST /trade-api/v2/portfolio/orders -> 409: {'error': {'code': 'order_already_exists', 'message': 'order already exists', 'service': 'exchange'}}"
+2026-05-30T15:25:26.910674+00:00,LAX,2026-05-31,KXHIGHLAX-26MAY31-B74.5,no,73,3,0.144,0.265,-0.121,ok,,b9fe6fed19d6c33740d8ec7a,"POST /trade-api/v2/portfolio/orders -> 409: {'error': {'code': 'order_already_exists', 'message': 'order already exists', 'service': 'exchange'}}"
+2026-05-30T15:25:26.910674+00:00,LAX,2026-05-31,KXHIGHLAX-26MAY31-B72.5,no,65,7,0.116,0.345,-0.229,ok,,65f3761624428d0b70ebd881,"POST /trade-api/v2/portfolio/orders -> 409: {'error': {'code': 'order_already_exists', 'message': 'order already exists', 'service': 'exchange'}}"
+2026-05-30T15:25:26.910674+00:00,MIA,2026-05-31,KXHIGHMIA-26MAY31-B88.5,yes,13,9,0.19,0.135,0.055,ok,,46fd115af740a711ddd34f54,"POST /trade-api/v2/portfolio/orders -> 409: {'error': {'code': 'order_already_exists', 'message': 'order already exists', 'service': 'exchange'}}"
+2026-05-30T15:25:26.910674+00:00,MIA,2026-05-31,KXHIGHMIA-26MAY31-B90.5,no,66,9,0.047,0.335,-0.288,ok,,ab937c74de727ff50380babd,"POST /trade-api/v2/portfolio/orders -> 409: {'error': {'code': 'order_already_exists', 'message': 'order already exists', 'service': 'exchange'}}"
+2026-05-30T15:25:26.910674+00:00,MIA,2026-05-31,KXHIGHMIA-26MAY31-B92.5,no,69,10,0.0,0.31,-0.31,ok,56a0ff43-502f-458c-a278-25299aea6ccf,7fd9a3d2e3bf33cde00d2624,
+2026-05-30T15:25:26.910674+00:00,AUS,2026-05-31,KXHIGHAUS-26MAY31-B91.5,no,59,12,0.076,0.41,-0.334,ok,eaec2acc-74cb-46be-a16c-916d5a017c14,c100075b7bd4699809d12c6e,
+2026-05-30T15:25:26.910674+00:00,AUS,2026-05-31,KXHIGHAUS-26MAY31-B93.5,no,76,7,0.0,0.245,-0.245,ok,797ad8f7-796c-4055-b58c-676ba3eaaf97,d9e57cdad4aac78257639ed8,

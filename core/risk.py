@@ -41,11 +41,11 @@ class RiskState:
 
     @property
     def daily_loss_limit(self) -> float:
-        return self.bankroll_dollars * 0.05  # 5% daily loss cap
+        return self.bankroll_dollars * CFG["backtest"].get("daily_loss_pct", 0.05)
 
     @property
     def max_total_exposure(self) -> float:
-        return self.bankroll_dollars * 0.30  # 30% max open at once
+        return self.bankroll_dollars * CFG["backtest"].get("max_exposure_pct", 0.30)
 
 
 def kill_switch_active() -> bool:

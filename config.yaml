@@ -40,5 +40,7 @@ backtest:
   maker_fee_mult: 0.0175  # 25% of taker
   assumed_spread_cents: 2 # conservative
   bankroll: 50
-  per_pos_pct: 0.05       # 5% per position ($2.50 cap on $50 bankroll)
-  kelly_fraction: 0.25
+  per_pos_pct: 0.20       # 20% per position ($10 cap on $50)
+  max_exposure_pct: 0.95  # 95% total open exposure ($47.50)
+  daily_loss_pct: 1.0     # no daily soft-stop, full bankroll can ride
+  kelly_fraction: 0.50    # half-Kelly so high-edge trades use more

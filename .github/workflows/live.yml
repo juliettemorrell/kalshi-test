@@ -1,0 +1,51 @@
+name: live-trader
+
+# Real-money runner on Kalshi PRODUCTION. Requires PROMOTED file in repo,
+# KALSHI_PROD_* secrets, and a non-empty Kalshi account.
+
+on:
+  schedule:
+    - cron: "30 21 * * *"   # 21:30 UTC daily (~5:30pm ET winter)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    env:
+      KALSHI_ENV: prod
+      KALSHI_API_KEY_ID: ${{ secrets.KALSHI_PROD_API_KEY_ID }}
+      KALSHI_PRIVATE_KEY_PATH: /tmp/kalshi_prod.pem
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Materialize private key
+        run: |
+          umask 077
+          printf '%s' "${{ secrets.KALSHI_PROD_PRIVATE_KEY_PEM }}" > /tmp/kalshi_prod.pem
+          test -s /tmp/kalshi_prod.pem
+
+      - name: Run live trader
+        run: python runners/live.py
+
+      - name: Commit live log
+        run: |
+          git config user.name  "live-trader"
+          git config user.email "live-trader@users.noreply.github.com"
+          git add data/live_orders.csv
+          git diff --cached --quiet || git commit -m "live run $(date -u +%FT%T)"
+          git push
+
+      - name: Wipe key
+        if: always()
+        run: rm -f /tmp/kalshi_prod.pem

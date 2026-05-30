@@ -39,6 +39,6 @@ backtest:
   taker_fee_mult: 0.07    # round(0.07 * price * (1-price), 2)
   maker_fee_mult: 0.0175  # 25% of taker
   assumed_spread_cents: 2 # conservative
-  bankroll: 100
-  per_pos_pct: 0.025      # 2.5% per position
+  bankroll: 50
+  per_pos_pct: 0.05       # 5% per position ($2.50 cap on $50 bankroll)
   kelly_fraction: 0.25

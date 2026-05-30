@@ -1,0 +1,3 @@
+User-promoted to live trading 2026-05-30.
+Bankroll cap: $50. Hard caps in core/risk.py apply.
+Kill switch: touch KILLSWITCH && git push to halt.

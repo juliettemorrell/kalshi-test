@@ -1,0 +1,50 @@
+name: paper-trader
+
+# Runs the paper trader on Kalshi DEMO every day. Independent of the
+# logger workflow. Uses the KALSHI_DEMO_* secrets.
+on:
+  schedule:
+    - cron: "30 21 * * *"   # ~5:30pm ET winter
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    env:
+      KALSHI_ENV: demo
+      KALSHI_API_KEY_ID: ${{ secrets.KALSHI_DEMO_API_KEY_ID }}
+      KALSHI_PRIVATE_KEY_PATH: /tmp/kalshi_demo.pem
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt cryptography
+
+      - name: Materialize private key
+        run: |
+          umask 077
+          printf '%s' "${{ secrets.KALSHI_DEMO_PRIVATE_KEY_PEM }}" > /tmp/kalshi_demo.pem
+          test -s /tmp/kalshi_demo.pem
+
+      - name: Run paper trader
+        run: python runners/paper.py
+
+      - name: Commit paper log
+        run: |
+          git config user.name  "paper-trader"
+          git config user.email "paper-trader@users.noreply.github.com"
+          git add data/paper_orders.csv
+          git diff --cached --quiet || git commit -m "paper run $(date -u +%FT%T)"
+          git push
+
+      - name: Wipe key
+        if: always()
+        run: rm -f /tmp/kalshi_demo.pem

@@ -4,3 +4,4 @@ scipy
 xgboost
 requests
 pyyaml
+cryptography

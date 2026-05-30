@@ -1,0 +1,6 @@
+pandas
+numpy
+scipy
+xgboost
+requests
+pyyaml

@@ -1,0 +1,24 @@
+{
+  "trades_total_examined": 1134,
+  "trades_paired_with_forecast": 1104,
+  "trades_after_filters": 466,
+  "wins": 414,
+  "losses": 52,
+  "win_rate": 0.888,
+  "avg_win_per_contract": 0.337,
+  "avg_loss_per_contract": -0.533,
+  "total_pnl_per_contract_unit": 111.89,
+  "ev_per_trade_per_contract": 0.2401,
+  "brier_score": 0.0882,
+  "simulated_bankroll_start": 100,
+  "simulated_total_pnl_dollars": 279.56,
+  "simulated_ending_bankroll": 379.56,
+  "params": {
+    "min_edge": 0.08,
+    "longshot_floor": 0.1,
+    "taker_fee_mult": 0.07,
+    "spread_assumption": 0.02,
+    "kelly_fraction": 0.25,
+    "per_pos_pct": 0.025
+  }
+}

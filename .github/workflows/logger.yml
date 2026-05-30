@@ -1,0 +1,39 @@
+name: phase0-logger
+
+# Runs the Kalshi day-ahead snapshot every day, plus a reconcile pass.
+# 21:00 UTC = 5pm ET (winter) / 4pm ET (summer DST gap). Adjust to taste.
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}   # lets you trigger manually from the Actions tab
+
+permissions:
+  contents: write   # so the workflow can commit updated CSVs
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run logger
+        run: python runners/logger.py
+
+      - name: Backfill realized highs
+        run: python runners/reconcile_realized.py
+
+      - name: Commit data
+        run: |
+          git config user.name  "phase0-logger"
+          git config user.email "phase0-logger@users.noreply.github.com"
+          git add data/phase0_log.csv
+          git diff --cached --quiet || git commit -m "phase0 snapshot $(date -u +%F)"
+          git push

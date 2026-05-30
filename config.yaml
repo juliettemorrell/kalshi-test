@@ -1,0 +1,44 @@
+# Kalshi weather bot config
+# Cities are the most liquid Kalshi temperature markets (KXHIGH* series)
+cities:
+  NY:
+    name: New York
+    station: KNYC          # Central Park, NWS settlement station
+    lat: 40.7794
+    lon: -73.9692
+    kalshi_series: KXHIGHNY
+  CHI:
+    name: Chicago
+    station: KORD
+    lat: 41.9742
+    lon: -87.9073
+    kalshi_series: KXHIGHCHI
+  LAX:
+    name: Los Angeles
+    station: KLAX
+    lat: 33.9425
+    lon: -118.4081
+    kalshi_series: KXHIGHLAX
+  MIA:
+    name: Miami
+    station: KMIA
+    lat: 25.7932
+    lon: -80.2906
+    kalshi_series: KXHIGHMIA
+  AUS:
+    name: Austin
+    station: KAUS
+    lat: 30.1944
+    lon: -97.6700
+    kalshi_series: KXHIGHAUS
+
+backtest:
+  lookback_days: 365
+  min_edge: 0.08          # 8%: only trade if model prob differs from market by this much
+  longshot_floor_cents: 10  # don't buy contracts under 10c
+  taker_fee_mult: 0.07    # round(0.07 * price * (1-price), 2)
+  maker_fee_mult: 0.0175  # 25% of taker
+  assumed_spread_cents: 2 # conservative
+  bankroll: 100
+  per_pos_pct: 0.025      # 2.5% per position
+  kelly_fraction: 0.25

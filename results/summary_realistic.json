@@ -1,0 +1,16 @@
+{
+  "scenario": "realistic_dayahead",
+  "target_stdev_F": 3.8,
+  "forecast_noise_added_stdev_F": 3.0,
+  "trades_after_filters": 482,
+  "wins": 431,
+  "losses": 51,
+  "win_rate": 0.894,
+  "avg_win_per_contract": 0.33,
+  "avg_loss_per_contract": -0.615,
+  "ev_per_trade_per_contract": 0.2299,
+  "brier_score": 0.0954,
+  "simulated_bankroll_start": 100,
+  "simulated_total_pnl_dollars": 277.67,
+  "simulated_ending_bankroll": 377.67
+}

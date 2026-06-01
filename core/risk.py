@@ -90,17 +90,25 @@ def gate(state: RiskState,
 
 
 def refresh_from_portfolio(client) -> RiskState:
-    """Pull true bankroll + open exposure from the exchange. Source of truth."""
+    """Pull true bankroll + open exposure from the exchange. Source of truth.
+
+    Uses portfolio_value (cash + pending settlements + position value) so the
+    bot doesn't get stuck reading 'cash only' during Kalshi's settlement
+    window when most of the account is in transit.
+    """
     bal = client.get_balance()
-    cash = bal.get("balance", 0) / 100  # cents -> dollars
+    # prefer portfolio_value (cents) when present, fall back to cash balance
+    portfolio_cents = bal.get("portfolio_value")
+    if portfolio_cents is None:
+        portfolio_cents = bal.get("balance", 0)
+    bankroll = portfolio_cents / 100
     positions = client.get_positions()
     exposure = 0.0
     for p in positions:
-        # market position rows include resting orders + filled contracts
-        contracts = abs(int(p.get("position", 0)))
+        contracts = abs(int(p.get("position", 0) or 0))
         if not contracts:
             continue
-        avg_price = float(p.get("market_exposure", 0)) / 100  # cents -> $
+        avg_price = float(p.get("market_exposure", 0) or 0) / 100
         exposure += contracts * max(0.01, min(0.99, avg_price))
-    return RiskState(bankroll_dollars=cash + exposure,
+    return RiskState(bankroll_dollars=bankroll,
                      open_exposure_dollars=exposure)

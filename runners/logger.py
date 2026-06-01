@@ -31,7 +31,8 @@ S = requests.Session()
 FIELDS = ["snapshot_utc", "snapshot_date_local", "city",
           "settle_date", "market_ticker", "lower", "upper", "side",
           "yes_bid", "yes_ask", "no_bid", "no_ask", "last_price",
-          "volume", "open_interest", "forecast_high"]
+          "volume", "open_interest", "forecast_high",
+          "ensemble_spread", "n_sources"]
 
 
 def get_json(url, params=None):
@@ -121,8 +122,17 @@ def main() -> None:
         if not markets:
             print(f"  no markets returned (event may not be open yet)")
             continue
-        fcst = get_forecast(city["lat"], city["lon"],
-                            tomorrow_local.isoformat())
+        # full ensemble snapshot at logger time
+        try:
+            from core.forecast_sources import ensemble_forecast
+            fcst, e_spread, sources = ensemble_forecast(
+                city["lat"], city["lon"], tomorrow_local.isoformat())
+            n_sources = len(sources)
+        except Exception:
+            fcst = get_forecast(city["lat"], city["lon"],
+                                tomorrow_local.isoformat())
+            e_spread = 0.0
+            n_sources = 1
         for m in markets:
             parsed = parse_market(m)
             if not parsed:
@@ -145,6 +155,8 @@ def main() -> None:
                 volume=m.get("volume_fp"),
                 open_interest=m.get("open_interest_fp"),
                 forecast_high=fcst,
+                ensemble_spread=round(e_spread, 2) if e_spread else 0,
+                n_sources=n_sources,
             )
             w.writerow(row)
             n_total += 1

@@ -31,7 +31,7 @@ sys.path.insert(0, str(ROOT))
 
 from core.client import KalshiClient
 from core import risk
-from core.adaptive_params import adaptive_params
+from core.adaptive_params import adaptive_params, per_city_kelly_mult
 from strategies.weather import edge as edge_mod
 
 DATA = ROOT / "data"

@@ -160,9 +160,13 @@ def signals_for_event(markets: list[dict],
             stats["best_edge"] = edge
 
         if edge >= min_edge and longshot <= yes_ask < (1 - longshot):
+            # VWAP-aware: only chase up to model_prob - 2c (leave margin)
+            fair_cap_c = max(1, int(round(p_model * 100)) - 2)
             limit_cents = max(int(round(yes_bid * 100)) + 1,
                               int(round(p_market * 100)))
-            limit_cents = min(limit_cents, max(int(round(yes_ask * 100)) - 1, 1))
+            limit_cents = min(limit_cents,
+                              max(int(round(yes_ask * 100)) - 1, 1),
+                              fair_cap_c)
             if limit_cents < int(longshot * 100):
                 stats["below_floor"] += 1; continue
             out.append(TradeSignal(
@@ -179,9 +183,13 @@ def signals_for_event(markets: list[dict],
             no_ask = 1 - yes_bid
             if no_ask <= longshot or no_ask >= (1 - longshot):
                 stats["below_floor"] += 1; continue
+            # VWAP-aware: cap at fair (1-p_model) - 2c on NO side too
+            no_fair_cap = max(1, int(round((1 - p_model) * 100)) - 2)
             no_limit_cents = max(int(round(no_bid * 100)) + 1,
                                  int(round((1 - p_market) * 100)))
-            no_limit_cents = min(no_limit_cents, max(int(round(no_ask * 100)) - 1, 1))
+            no_limit_cents = min(no_limit_cents,
+                                 max(int(round(no_ask * 100)) - 1, 1),
+                                 no_fair_cap)
             if no_limit_cents < int(longshot * 100):
                 stats["below_floor"] += 1; continue
             out.append(TradeSignal(

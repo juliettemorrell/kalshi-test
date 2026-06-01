@@ -83,7 +83,11 @@ def gate(state: RiskState,
     base_kelly = CFG["backtest"]["kelly_fraction"]
     conf_mult = getattr(state, "confidence_multiplier", 1.0)
     kelly_dollars = base_kelly * conf_mult * abs(edge) * state.bankroll_dollars
-    dollars = min(pos_cap, max(entry_price_dollars, kelly_dollars))
+    # per-market exposure cap (additional ceiling beyond per_position_cap):
+    # cap dollars spent on this single ticker at 10% of bankroll
+    per_market_cap = state.bankroll_dollars * 0.10
+    dollars = min(pos_cap, per_market_cap,
+                  max(entry_price_dollars, kelly_dollars))
     contracts = int(dollars // entry_price_dollars)
     if contracts < 1:
         return RiskDecision(False, "size below 1 contract")

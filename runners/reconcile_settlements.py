@@ -143,6 +143,37 @@ def main():
                 break
         by_side.setdefault(r.get("side", "?"), []).append(float(r["pnl_dollars"]))
 
+    # Brier score (uses entry_price as model probability)
+    brier = sum((float(r["entry_price"]) - float(r["settle_price"])) ** 2
+                for r in rows) / max(1, len(rows))
+    # Drawdown: cumulative pnl curve, max peak-to-trough
+    cum = 0.0; peak = 0.0; max_dd = 0.0
+    pnl_series = [float(r["pnl_dollars"]) for r in rows]
+    for p in pnl_series:
+        cum += p
+        peak = max(peak, cum)
+        max_dd = max(max_dd, peak - cum)
+    # Sharpe-like (no risk-free): mean / std of per-trade pnl
+    if len(pnl_series) > 1:
+        import statistics as _st
+        mean_p = _st.fmean(pnl_series)
+        std_p = _st.pstdev(pnl_series) or 1e-9
+        sharpe = mean_p / std_p
+    else:
+        sharpe = 0.0
+    # Reliability bins: entry_price (treated as predicted prob) vs win
+    rel_bins = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
+    rel_rows = []
+    for i in range(len(rel_bins)-1):
+        lo, hi = rel_bins[i], rel_bins[i+1]
+        subset = [r for r in rows
+                  if lo <= float(r["entry_price"]) < hi]
+        if not subset:
+            continue
+        actual = sum(float(r["settle_price"]) for r in subset) / len(subset)
+        rel_rows.append((round(lo,1), round(hi,1), len(subset),
+                         round(actual, 3)))
+
     today = datetime.now(timezone.utc).date().isoformat()
     lines = [
         "# Kalshi Bot Performance Dashboard",
@@ -159,10 +190,20 @@ def main():
         f"- wins / losses: **{wins} / {losses}**",
         f"- win rate: **{(wins/max(1,len(rows))*100):.1f}%**",
         f"- realized P&L: **${total_pnl:+.2f}**",
+        f"- Brier score: **{brier:.4f}** (lower=better)",
+        f"- per-trade Sharpe: **{sharpe:.2f}**",
+        f"- max drawdown: **${max_dd:.2f}**",
         "",
-        "## By workflow source",
+        "## Reliability (entry_price as predicted prob)",
         "",
+        "| pred range | n | mean realized |",
+        "|---|---|---|",
     ]
+    for lo, hi, n, actual in rel_rows:
+        lines.append(f"| {lo}-{hi} | {n} | {actual} |")
+    lines.append("")
+    lines.append("## By workflow source")
+    lines.append("")
     for wf, pnls in sorted(by_wf.items()):
         w = sum(1 for x in pnls if x > 0)
         lines.append(f"- **{wf}**: {len(pnls)} settled, "

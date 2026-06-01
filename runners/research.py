@@ -1,11 +1,13 @@
-"""Daily socials research using the Claude API.
+"""Daily Kalshi socials research using Claude API. Robust universe scan.
 
-Runs in GitHub Actions. No laptop dependency. Pulls open Kalshi markets,
-asks Claude to find catalyst-driven opportunities and append findings
-to data/socials_research_log.md.
+Strategy:
+1. Pull /events for EVERY category (deep pagination to surface near-term ones)
+2. For each event, hydrate its markets with prices and volume
+3. Filter: <=60d settle, vol > $50 (excludes weather + multi-venture parlay)
+4. Sort by volume; pass top ~80 markets WITH full context to Claude
+5. Claude scores each, picks 0-3, writes log
 
-Env vars:
-  ANTHROPIC_API_KEY - secret added in GitHub repo settings
+Env: ANTHROPIC_API_KEY (GitHub secret)
 """
 from __future__ import annotations
 
@@ -22,135 +24,208 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 LOG = DATA / "socials_research_log.md"
 
-KALSHI_BASE = "https://api.elections.kalshi.com/trade-api/v2"
-UA = "research/1.0"
-
-# Anthropic API
+KALSHI = "https://api.elections.kalshi.com/trade-api/v2"
+UA = "research/2.0"
 MODEL = "claude-sonnet-4-6"
-ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
+ANTHROPIC = "https://api.anthropic.com/v1/messages"
+
+CATS = ["Entertainment","Sports","Financials","Economics","Politics",
+        "Elections","Companies","Social","World","Health",
+        "Science and Technology","Transportation"]
+MAX_SETTLE_DAYS = 60
+MIN_VOLUME = 50           # $50 of contracts traded minimum
+PAGES_PER_CAT = 5         # paginate to find non-default-ordered events
 
 
-def kget(url, params=None):
-    for _ in range(3):
+def kget(url, params=None, tries=3):
+    for i in range(tries):
         try:
             r = requests.get(url, params=params,
-                             headers={"User-Agent": UA}, timeout=10)
+                             headers={"User-Agent": UA}, timeout=12)
             if r.status_code == 200:
                 return r.json()
         except requests.RequestException:
             pass
-        time.sleep(0.5)
+        time.sleep(0.5 + i)
     return {}
 
 
-def gather_market_universe(max_events=80):
-    """Return a compact list of currently-open near-term non-weather events."""
-    universe = []
-    seen = set()
-    cats = ["Entertainment", "Sports", "Financials", "Economics",
-            "Politics", "Companies", "Social", "World", "Health"]
-    for cat in cats:
-        d = kget(f"{KALSHI_BASE}/events",
-                 {"status": "open", "limit": 50, "category": cat})
-        for ev in d.get("events", []):
-            et = ev.get("event_ticker")
-            if not et or et in seen:
+def days_until(iso):
+    if not iso:
+        return None
+    try:
+        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        return (dt - datetime.now(timezone.utc)).total_seconds() / 86400
+    except Exception:
+        return None
+
+
+def collect_universe():
+    """Pull events from each category, deeply page, dedupe."""
+    seen_events = {}
+    for cat in CATS:
+        cursor = None
+        for _ in range(PAGES_PER_CAT):
+            params = {"status": "open", "limit": 200, "category": cat}
+            if cursor:
+                params["cursor"] = cursor
+            d = kget(f"{KALSHI}/events", params)
+            evs = d.get("events", [])
+            if not evs:
+                break
+            for ev in evs:
+                et = ev.get("event_ticker")
+                if not et or et in seen_events:
+                    continue
+                seen_events[et] = ev
+            cursor = d.get("cursor")
+            if not cursor:
+                break
+    return seen_events
+
+
+def hydrate_markets(events):
+    """For each event, pull markets, keep only liquid + near-term + sane."""
+    keep = []
+    n = len(events)
+    for i, (et, ev) in enumerate(events.items()):
+        d = kget(f"{KALSHI}/markets", {"event_ticker": et, "limit": 30})
+        for m in d.get("markets", []):
+            tic = m.get("ticker", "")
+            # skip weather (already trading) and exchange parlay garbage
+            if "KXHIGH" in tic or "KXLOW" in tic or "KXMVE" in tic:
                 continue
-            seen.add(et)
-            universe.append({
+            try:
+                vol = float(m.get("volume_fp") or 0)
+            except (TypeError, ValueError):
+                vol = 0
+            if vol < MIN_VOLUME:
+                continue
+            dc = days_until(m.get("close_time"))
+            if dc is None or dc <= 0 or dc > MAX_SETTLE_DAYS:
+                continue
+            ask = m.get("yes_ask_dollars")
+            bid = m.get("yes_bid_dollars")
+            try:
+                askf = float(ask) if ask is not None else None
+            except (TypeError, ValueError):
+                askf = None
+            if askf is None or askf <= 0.005 or askf >= 0.995:
+                continue
+            keep.append({
                 "category": ev.get("category"),
+                "event_title": (ev.get("title") or "")[:90],
                 "event_ticker": et,
-                "title": (ev.get("title") or "")[:120],
+                "market_ticker": tic,
+                "sub": (m.get("subtitle") or m.get("yes_sub_title") or "")[:60],
+                "ask": ask, "bid": bid,
+                "last": m.get("last_price_dollars"),
+                "vol": round(vol, 0),
+                "oi": float(m.get("open_interest_fp") or 0),
+                "days_to_close": round(dc, 1),
             })
-            if len(universe) >= max_events:
-                return universe
-    return universe
-
-
-def fetch_market_prices(event_ticker):
-    """Return list of markets with current prices for shortlisting."""
-    d = kget(f"{KALSHI_BASE}/markets",
-             {"event_ticker": event_ticker, "limit": 20})
-    out = []
-    for m in d.get("markets", []):
-        out.append({
-            "ticker": m.get("ticker"),
-            "sub": (m.get("yes_sub_title") or m.get("subtitle") or "")[:60],
-            "yes_bid": m.get("yes_bid_dollars"),
-            "yes_ask": m.get("yes_ask_dollars"),
-            "last": m.get("last_price_dollars"),
-            "vol": m.get("volume_fp"),
-            "close": m.get("close_time"),
-        })
-    return out
+        if (i + 1) % 25 == 0:
+            print(f"  hydrated {i+1}/{n} events, {len(keep)} markets so far",
+                  flush=True)
+    return keep
 
 
 def call_claude(prompt: str) -> str:
     key = os.environ["ANTHROPIC_API_KEY"]
     body = {
         "model": MODEL,
-        "max_tokens": 3000,
+        "max_tokens": 4000,
         "messages": [{"role": "user", "content": prompt}],
     }
     r = requests.post(
-        ANTHROPIC_URL,
+        ANTHROPIC,
         headers={
             "x-api-key": key,
             "anthropic-version": "2023-06-01",
             "content-type": "application/json",
         },
-        json=body, timeout=120,
+        json=body, timeout=180,
     )
     r.raise_for_status()
     return r.json()["content"][0]["text"]
 
 
 def main():
-    universe = gather_market_universe()
-    print(f"gathered {len(universe)} near-term events", flush=True)
-
     today = datetime.now(timezone.utc).date().isoformat()
-    universe_str = "\n".join(
-        f"- {u['category']:13} | {u['event_ticker']:55} | {u['title']}"
-        for u in universe[:60]
-    )
+    print(f"=== research run {today} ===", flush=True)
 
-    prompt = f"""You are doing daily Kalshi research for a $50 retail bot.
-The weather strategy is already running automatically. Your job is to
-find 0-3 non-weather markets where a public news catalyst + tradeable
-near-term price line up.
+    print("collecting universe...", flush=True)
+    events = collect_universe()
+    print(f"  events: {len(events)}", flush=True)
 
-Today's date: {today}
+    print("hydrating markets...", flush=True)
+    markets = hydrate_markets(events)
+    print(f"  liquid near-term markets: {len(markets)}", flush=True)
 
-Open events (category, ticker, title):
-{universe_str}
+    # sort by volume * recency (recent + liquid = best signal)
+    markets.sort(key=lambda m: -m["vol"])
+    top = markets[:80]
 
-Rules:
-1. Skip anything settling more than 60 days out.
-2. Prefer markets with public news catalysts you can name specifically.
-3. Skip sports games (sportsbook arb dominates retail edge).
-4. Skip ultra-long-tail political speculation.
-5. If nothing looks tradeable, say so honestly.
+    if not top:
+        text = (f"## {today}\n\n**No actionable markets today.**\n\n"
+                f"Deep scan of {len(events)} open events across {len(CATS)} "
+                f"categories yielded zero non-weather markets meeting our "
+                f"thresholds (vol >= {MIN_VOLUME}, settle within "
+                f"{MAX_SETTLE_DAYS}d, ask between 1c-99c). The Kalshi "
+                f"universe outside weather is genuinely thin right now.\n\n---\n")
+    else:
+        # build compact table for Claude
+        lines = []
+        for m in top:
+            lines.append(
+                f"{m['days_to_close']:>4.1f}d | "
+                f"vol=${int(m['vol']):>6d} | "
+                f"bid={m['bid']} ask={m['ask']} | "
+                f"{m['category'][:13]:13} | "
+                f"{m['market_ticker'][:42]:42} | "
+                f"{m['event_title'][:70]}"
+            )
+        table = "\n".join(lines)
 
-Output a concise markdown section starting with `## {today}` and ending
-with `---`. For each pick include: market_ticker, current_price_estimate,
-your_estimated_prob, edge, confidence (low/med/high), specific catalyst.
-Keep it under 400 words. If no picks, state why in 1 paragraph.
+        prompt = f"""You are doing real Kalshi research for a small ($50-100)
+retail bot. Date: {today}. The weather bot trades automatically. Your
+job: pick 0-3 specific non-weather markets that are catalyst-driven and
+mispriced.
+
+Below are the TOP {len(top)} LIQUID, NEAR-TERM (<={MAX_SETTLE_DAYS}d
+settle), NON-WEATHER markets currently open on Kalshi. They've already
+been filtered for volume and excluded multi-venture parlays. This is
+the real actionable universe.
+
+```
+days | vol      | bid/ask    | category    | ticker                              | event title
+{table}
+```
+
+For your picks:
+1. Identify a SPECIFIC public news catalyst that explains why you think
+   the market is mispriced (cite the news).
+2. Estimate fair probability and edge in cents.
+3. Confidence: high/medium/low.
+
+Skip sports games (sportsbook arb dominates retail edge).
+Skip markets you can't tell a real story about.
+Honest "no actionable picks" is OK; specify why.
+
+Output a markdown section starting with `## {today}` and ending with
+`---`. Keep under 500 words.
 """
+        print("calling Claude...", flush=True)
+        text = call_claude(prompt)
 
-    print("calling Claude...", flush=True)
-    text = call_claude(prompt)
-    print(text[:500], flush=True)
-    print("...", flush=True)
-
-    # append to log
     LOG.parent.mkdir(exist_ok=True)
     if not LOG.exists():
         LOG.write_text("# Kalshi Socials Research Log\n\n"
                        "Auto-generated daily by GitHub Actions.\n\n---\n\n")
     with LOG.open("a") as f:
-        f.write("\n" + text.strip() + "\n\n---\n")
+        f.write("\n" + text.strip() + "\n\n")
     print(f"appended to {LOG}", flush=True)
+    print(text[:800], flush=True)
 
 
 if __name__ == "__main__":

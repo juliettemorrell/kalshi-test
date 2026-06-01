@@ -272,6 +272,27 @@ def main():
     DASH.write_text("\n".join(lines) + "\n")
     print(f"dashboard -> {DASH}", flush=True)
 
+    # alerts.md: write notable events
+    alerts = []
+    if total < 25:
+        alerts.append(f"- 🔴 Balance dropped below $25 (${total:.2f})")
+    if max_dd > 20:
+        alerts.append(f"- 🔴 Max drawdown >$20 (${max_dd:.2f})")
+    if total > 75:
+        alerts.append(f"- 🟢 Balance above $75 (${total:.2f}) - up "
+                       f"${total-50:.2f} from start")
+    # streak of losses
+    last5 = pnl_series[-5:] if len(pnl_series) >= 5 else []
+    if last5 and all(x <= 0 for x in last5):
+        alerts.append("- 🔴 5 straight losses in most recent settled trades")
+    last5_w = [x > 0 for x in last5]
+    if last5_w and all(last5_w):
+        alerts.append("- 🟢 5 straight wins")
+    if alerts:
+        alert_p = DATA / "alerts.md"
+        alert_p.write_text("# Active Alerts\n\n" + "\n".join(alerts) + "\n")
+        print(f"alerts -> {alert_p}", flush=True)
+
 
 if __name__ == "__main__":
     main()

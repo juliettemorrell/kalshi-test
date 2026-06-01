@@ -41,6 +41,30 @@ def adaptive_params(base_min_edge: float = DEFAULT_MIN_EDGE,
     return base_min_edge, base_kelly, f"wr {wr:.2f} in target range"
 
 
+def drawdown_brake() -> float:
+    """If we are in drawdown >20% from peak, return a kelly multiplier < 1."""
+    if not RESULTS.exists():
+        return 1.0
+    rows = list(csv.DictReader(RESULTS.open()))
+    if len(rows) < 5:
+        return 1.0
+    cum = 0.0; peak = 0.0
+    for r in rows:
+        cum += float(r["pnl_dollars"])
+        peak = max(peak, cum)
+    drawdown = peak - cum
+    if peak <= 0 or drawdown <= 0:
+        return 1.0
+    pct = drawdown / max(peak, 10)
+    if pct > 0.40:
+        return 0.25  # severe brake
+    if pct > 0.25:
+        return 0.50
+    if pct > 0.15:
+        return 0.75
+    return 1.0
+
+
 def per_city_kelly_mult(city: str) -> float:
     """Look at this city's settled history and return a kelly multiplier.
     Strong wr -> >1.0, weak wr -> <1.0. Defaults to 1.0 with insufficient data."""

@@ -31,7 +31,7 @@ sys.path.insert(0, str(ROOT))
 
 from core.client import KalshiClient
 from core import risk
-from core.adaptive_params import adaptive_params, per_city_kelly_mult
+from core.adaptive_params import adaptive_params, per_city_kelly_mult, drawdown_brake
 from strategies.weather import edge as edge_mod
 
 DATA = ROOT / "data"
@@ -118,10 +118,13 @@ def main() -> None:
         CFG["backtest"]["min_edge"],
         CFG["backtest"]["kelly_fraction"],
     )
+    # apply drawdown brake
+    brake = drawdown_brake()
+    adj_kelly *= brake
     CFG["backtest"]["min_edge"] = adj_edge
     CFG["backtest"]["kelly_fraction"] = adj_kelly
-    print(f"adaptive: min_edge={adj_edge:.3f} kelly={adj_kelly:.3f} ({reason})",
-          flush=True)
+    print(f"adaptive: min_edge={adj_edge:.3f} kelly={adj_kelly:.3f} "
+          f"(brake={brake}) ({reason})", flush=True)
     # cancel resting orders older than threshold to free reserved capital
     stale_h = CFG["backtest"].get("cancel_stale_hours", 16)
     n_cancel = cancel_stale_orders(client, stale_h)

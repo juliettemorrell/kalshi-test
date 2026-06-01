@@ -39,7 +39,8 @@ PROMOTED = ROOT / "PROMOTED"
 with (ROOT / "config.yaml").open() as f:
     CFG = yaml.safe_load(f)
 
-FORECAST_MODELS = ["gfs_seamless", "ecmwf_ifs025"]
+from core.forecast_sources import ensemble_forecast
+from core.observations import current_obs, today_max_so_far
 
 FIELDS = ["run_utc", "city", "settle_date", "market_ticker",
           "action", "side", "limit_price_cents", "count",
@@ -48,29 +49,7 @@ FIELDS = ["run_utc", "city", "settle_date", "market_ticker",
 
 
 def forecast_now(lat, lon, when):
-    values = []
-    for mdl in FORECAST_MODELS:
-        try:
-            r = requests.get(
-                "https://api.open-meteo.com/v1/forecast",
-                params={
-                    "latitude": lat, "longitude": lon,
-                    "daily": "temperature_2m_max",
-                    "temperature_unit": "fahrenheit",
-                    "timezone": "America/New_York",
-                    "models": mdl,
-                    "start_date": when, "end_date": when,
-                }, timeout=10,
-            ).json()
-            v = r["daily"]["temperature_2m_max"][0]
-            if v is not None:
-                values.append(float(v))
-        except Exception:
-            pass
-    if not values:
-        return None, 0.0
-    mean = sum(values) / len(values)
-    spread = (max(values) - min(values)) if len(values) > 1 else 0.0
+    mean, spread, _ = ensemble_forecast(lat, lon, when)
     return mean, spread
 
 

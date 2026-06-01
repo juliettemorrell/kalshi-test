@@ -84,7 +84,13 @@ def signals_for_event(markets: list[dict],
                       city_code: str,
                       settle_date: str,
                       buckets: dict,
-                      verbose: bool = False) -> list[TradeSignal]:
+                      verbose: bool = False,
+                      ensemble_spread_f: float = 0.0,
+                      enable_tails: bool = True,
+                      min_market_volume: float = 50.0,
+                      max_spread_cents: int = 12) -> list[TradeSignal]:
+    """forecast_high = ensemble mean. ensemble_spread_f widens uncertainty
+    when models disagree (range of multi-model means in F)."""
     month = datetime.fromisoformat(settle_date).month
     season = SEASONS[month]
     bucket = buckets.get(f"{city_code}_{season}")
@@ -98,6 +104,7 @@ def signals_for_event(markets: list[dict],
     out: list[TradeSignal] = []
     stats = {"considered": 0, "no_bid_ask": 0, "extreme_price": 0,
              "tail_skipped": 0, "edge_too_small": 0, "below_floor": 0,
+             "thin_book": 0, "wide_spread": 0,
              "fired": 0, "best_edge": 0.0}
 
     for m in markets:
@@ -105,10 +112,17 @@ def signals_for_event(markets: list[dict],
         parsed = parse_market_range(m["ticker"], m.get("yes_sub_title"))
         if not parsed:
             continue
-        # only trade bracket markets per overlay 1 (tails are usually longshots)
         lo, hi, side = parsed
-        if side != "bracket":
+        if side != "bracket" and not enable_tails:
             stats["tail_skipped"] += 1
+            continue
+        # liquidity gates
+        try:
+            vol = float(m.get("volume_fp") or 0)
+        except (TypeError, ValueError):
+            vol = 0.0
+        if vol < min_market_volume:
+            stats["thin_book"] += 1
             continue
 
         # ATM price comes from the resting book. We post a maker order one
@@ -117,6 +131,11 @@ def signals_for_event(markets: list[dict],
         yes_ask = _to_float(m.get("yes_ask_dollars"))
         if yes_bid is None or yes_ask is None:
             stats["no_bid_ask"] += 1
+            continue
+        # spread gate (in cents)
+        spread_c = int(round((yes_ask - yes_bid) * 100))
+        if spread_c > max_spread_cents:
+            stats["wide_spread"] += 1
             continue
         # use mid as p_market when both sides quoted, else last
         if yes_bid > 0 and yes_ask < 1:
@@ -131,7 +150,11 @@ def signals_for_event(markets: list[dict],
             stats["extreme_price"] += 1
             continue
 
-        p_model = model_prob_in_range(forecast_high, lo, hi, bucket)
+        # inflate uncertainty by ensemble spread: when GFS & ECMWF disagree
+        # by N F, treat the day as harder to predict by widening the bucket.
+        lo_eff = lo - ensemble_spread_f / 2
+        hi_eff = hi + ensemble_spread_f / 2
+        p_model = model_prob_in_range(forecast_high, lo_eff, hi_eff, bucket)
         edge = p_model - p_market
         if abs(edge) > abs(stats["best_edge"]):
             stats["best_edge"] = edge

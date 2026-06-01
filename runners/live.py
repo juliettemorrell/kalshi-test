@@ -45,22 +45,35 @@ FIELDS = ["run_utc", "city", "settle_date", "market_ticker", "side",
           "decision", "order_id", "client_order_id", "error"]
 
 
-def forecast_for(lat: float, lon: float, when: str) -> float | None:
-    try:
-        r = requests.get(
-            "https://api.open-meteo.com/v1/forecast",
-            params={
-                "latitude": lat, "longitude": lon,
-                "daily": "temperature_2m_max",
-                "temperature_unit": "fahrenheit",
-                "timezone": "America/New_York",
-                "models": "gfs_seamless",
-                "start_date": when, "end_date": when,
-            }, timeout=10,
-        ).json()
-        return r["daily"]["temperature_2m_max"][0]
-    except Exception:
-        return None
+FORECAST_MODELS = ["gfs_seamless", "ecmwf_ifs025"]
+
+
+def forecast_for(lat: float, lon: float, when: str) -> tuple[float | None, float]:
+    """Return (ensemble_mean_F, ensemble_spread_F). Spread = max-min across models."""
+    values = []
+    for mdl in FORECAST_MODELS:
+        try:
+            r = requests.get(
+                "https://api.open-meteo.com/v1/forecast",
+                params={
+                    "latitude": lat, "longitude": lon,
+                    "daily": "temperature_2m_max",
+                    "temperature_unit": "fahrenheit",
+                    "timezone": "America/New_York",
+                    "models": mdl,
+                    "start_date": when, "end_date": when,
+                }, timeout=10,
+            ).json()
+            v = r["daily"]["temperature_2m_max"][0]
+            if v is not None:
+                values.append(float(v))
+        except Exception:
+            pass
+    if not values:
+        return None, 0.0
+    mean = sum(values) / len(values)
+    spread = (max(values) - min(values)) if len(values) > 1 else 0.0
+    return mean, spread
 
 
 def cancel_stale_orders(client, stale_hours: float) -> int:
@@ -144,12 +157,15 @@ def main() -> None:
             print(f"{code}: list_markets error: {e}"); continue
         if not markets:
             continue
-        fcst = forecast_for(city["lat"], city["lon"], target)
+        fcst, spread = forecast_for(city["lat"], city["lon"], target)
         if fcst is None:
             continue
         signals = edge_mod.signals_for_event(
-            markets, fcst, code, target, buckets, verbose=True)
-        print(f"{code}: forecast={fcst:.1f}F, {len(signals)} signals")
+            markets, fcst, code, target, buckets, verbose=True,
+            ensemble_spread_f=spread, enable_tails=True,
+            min_market_volume=50, max_spread_cents=12)
+        print(f"{code}: forecast={fcst:.1f}F (spread={spread:.1f}F), "
+              f"{len(signals)} signals")
 
         for sig in signals:
             entry = sig.limit_price_cents / 100

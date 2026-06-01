@@ -223,6 +223,29 @@ def main():
         lines.append(f"- **{s}**: {len(pnls)} settled, "
                      f"{w}W/{len(pnls)-w}L, ${sum(pnls):+.2f}")
     lines.append("")
+    # By bracket-distance-from-forecast (extract bracket lo from ticker, but
+    # we don't have entry forecast snapshot - so we use entry_price as proxy:
+    # entry near 0.5 = ATM bet, near 0.05/0.95 = far OTM)
+    by_pricetier = {"deep_otm (<10c)": [], "otm (10-30c)": [],
+                    "atm (30-70c)": [], "itm (70-90c)": [],
+                    "deep_itm (>90c)": []}
+    for r in rows:
+        p = float(r["entry_price"])
+        if p < 0.10: bucket = "deep_otm (<10c)"
+        elif p < 0.30: bucket = "otm (10-30c)"
+        elif p < 0.70: bucket = "atm (30-70c)"
+        elif p < 0.90: bucket = "itm (70-90c)"
+        else: bucket = "deep_itm (>90c)"
+        by_pricetier[bucket].append(float(r["pnl_dollars"]))
+    lines.append("## By entry-price tier (proxy for bracket distance)")
+    lines.append("")
+    for tier, pnls in by_pricetier.items():
+        if not pnls:
+            continue
+        w = sum(1 for x in pnls if x > 0)
+        lines.append(f"- **{tier}**: {len(pnls)} settled, "
+                     f"{w}W/{len(pnls)-w}L, ${sum(pnls):+.2f}")
+    lines.append("")
     lines.append("## Recent settlements (last 20)")
     lines.append("")
     for r in rows[-20:]:

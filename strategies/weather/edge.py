@@ -116,9 +116,12 @@ def signals_for_event(markets: list[dict],
         if side != "bracket" and not enable_tails:
             stats["tail_skipped"] += 1
             continue
-        # liquidity gates
+        # liquidity gates: prefer 24h volume over all-time when available
         try:
-            vol = float(m.get("volume_fp") or 0)
+            v24 = float(m.get("volume_24h_fp") or 0)
+            vall = float(m.get("volume_fp") or 0)
+            # use higher of the two; v24 may be 0 for new markets
+            vol = max(v24, vall)
         except (TypeError, ValueError):
             vol = 0.0
         if vol < min_market_volume:

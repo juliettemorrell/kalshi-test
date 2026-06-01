@@ -84,26 +84,39 @@ class KalshiClient:
         if not path.startswith(PREFIX):
             path = PREFIX + path
         url = self.host + path
-        # path used for signing must EXCLUDE query string
         sign_path = urlparse(url).path
-        headers = self._headers(method, sign_path)
-        for attempt in range(4):
-            r = self.s.request(method, url, params=params, json=body,
-                               headers=headers, timeout=15)
-            if r.status_code == 429:
-                time.sleep(2 ** attempt)
+        last_err: Exception | None = None
+        for attempt in range(5):
+            # re-sign each retry so timestamps stay fresh (signing window)
+            headers = self._headers(method, sign_path)
+            try:
+                r = self.s.request(method, url, params=params, json=body,
+                                   headers=headers, timeout=20)
+            except requests.RequestException as e:
+                last_err = e
+                time.sleep(min(8, 0.5 * (2 ** attempt)))
                 continue
+            if r.status_code == 429:
+                # rate-limited: exponential with jitter
+                import random
+                time.sleep(min(8, (1 + attempt) * 1.5 + random.random()))
+                continue
+            if r.status_code == 401:
+                # auth fail: don't retry, fail loudly
+                raise RuntimeError(f"AUTH FAIL {method} {path}: {r.text[:200]}")
             if r.status_code >= 500:
-                time.sleep(1 + attempt)
+                time.sleep(min(8, 1 + attempt * 2))
                 continue
             try:
                 data = r.json()
             except ValueError:
                 data = {"raw": r.text}
             if r.status_code >= 400:
+                # 4xx (client) errors aren't worth retrying; raise immediately
                 raise RuntimeError(f"{method} {path} -> {r.status_code}: {data}")
             return data
-        raise RuntimeError(f"giving up after retries: {method} {path}")
+        raise RuntimeError(f"giving up after retries: {method} {path} "
+                           f"(last_err={last_err})")
 
     # ---- high-level market data --------------------------------------
 

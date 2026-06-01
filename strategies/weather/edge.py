@@ -235,5 +235,18 @@ def _to_float(x):
 
 
 def load_buckets() -> dict:
-    with (DATA / "error_buckets.json").open() as f:
+    p = DATA / "error_buckets.json"
+    if not p.exists():
+        print(f"WARN: {p} missing; using wide-default buckets")
+        # synthetic wide bucket as fallback
+        import numpy as _np
+        q_levels = _np.linspace(0.01, 0.99, 99).tolist()
+        # std=4F symmetric: at p, error ~= norm.ppf(p)*4
+        from scipy.stats import norm as _norm
+        q_values = [float(_norm.ppf(p) * 4.0) for p in q_levels]
+        synth = {"n": 0, "mean": 0.0, "std": 4.0,
+                 "quantile_levels": q_levels, "quantile_values": q_values}
+        return {f"{c}_{s}": synth for c in ["NY","CHI","LAX","MIA","AUS"]
+                for s in ["DJF","MAM","JJA","SON"]}
+    with p.open() as f:
         return json.load(f)

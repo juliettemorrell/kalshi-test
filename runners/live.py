@@ -217,6 +217,26 @@ def main() -> None:
     f.close()
     print(f"live run complete -> {LOG}")
 
+    # write a per-run summary line to daily_runs.csv
+    summary_path = DATA / "daily_runs.csv"
+    new = not summary_path.exists()
+    import csv as _csv
+    with summary_path.open("a", newline="") as sf:
+        sw = _csv.DictWriter(sf, fieldnames=[
+            "run_utc", "workflow", "balance_total", "open_exposure",
+            "min_edge", "kelly_fraction"
+        ])
+        if new:
+            sw.writeheader()
+        sw.writerow({
+            "run_utc": now.isoformat(),
+            "workflow": "live",
+            "balance_total": round(state.bankroll_dollars, 2),
+            "open_exposure": round(state.open_exposure_dollars, 2),
+            "min_edge": adj_edge,
+            "kelly_fraction": adj_kelly,
+        })
+
 
 if __name__ == "__main__":
     main()

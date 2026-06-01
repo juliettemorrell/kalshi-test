@@ -174,8 +174,13 @@ def main() -> None:
         # confidence multiplier: tight ensemble + small XGB std => bigger size
         conf = max(0.4, min(1.5, 2.0 / max(1.0, spread + 1.0)))
         state.confidence_multiplier = conf
+        # Inter-bracket hedge cap: limit total exposure on this single event
+        per_event_cap = state.bankroll_dollars * 0.25
+        per_event_used = 0.0
         for sig in signals:
             entry = sig.limit_price_cents / 100
+            if per_event_used >= per_event_cap:
+                break
             decision = risk.gate(state, entry, sig.edge)
             row = {
                 "run_utc": now.isoformat(), "city": code,

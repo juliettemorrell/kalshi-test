@@ -211,9 +211,12 @@ def main():
         if not decision:
             continue
 
-        # place a closing order: opposite side at slightly worse-than-mid
+        # place a closing order: opposite side at spread-aware sell price
         sell_side = "yes" if holding_yes else "no"
-        sell_price_cents = max(1, int(round(mid_we * 100)) - 1)
+        # spread cost: undercut by 1c on tight books, by 3c on wide
+        spread_c = max(1, int(round((ya - yb) * 100)))
+        cross = 1 if spread_c <= 3 else 3
+        sell_price_cents = max(1, int(round(mid_we * 100)) - cross)
         n = sell_count
         seed = f"MIDDAY|{tic}|{sell_side}|{sell_price_cents}|{today}"
         coid = hashlib.sha1(seed.encode()).hexdigest()[:24]

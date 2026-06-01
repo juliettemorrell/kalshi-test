@@ -40,6 +40,14 @@ def main():
     total = cash + portfolio
     print(f"balance: cash=${cash:.2f} positions=${portfolio:.2f} total=${total:.2f}",
           flush=True)
+    # Auto-balance health check: warn if total drifts hugely from expected
+    expected_baseline = 50.0
+    if total < expected_baseline * 0.10:
+        print(f"WARN: balance ${total:.2f} below 10% of starting bankroll",
+              flush=True)
+    if total > expected_baseline * 5:
+        print(f"WARN: balance ${total:.2f} above 5x starting bankroll (suspicious?)",
+              flush=True)
 
     # pull settled fills via portfolio/fills
     try:

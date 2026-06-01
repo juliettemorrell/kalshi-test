@@ -34,6 +34,7 @@ class RiskState:
     bankroll_dollars: float
     open_exposure_dollars: float = 0.0
     realized_pnl_today: float = 0.0
+    confidence_multiplier: float = 1.0  # 0.4-1.5; set per-signal at trade time
 
     @property
     def per_position_cap(self) -> float:
@@ -78,9 +79,10 @@ def gate(state: RiskState,
     if pos_cap <= entry_price_dollars:
         return RiskDecision(False, "no exposure headroom left")
 
-    # quarter-Kelly sizing in dollars, capped by per-position
-    kelly_dollars = (CFG["backtest"]["kelly_fraction"]
-                     * abs(edge) * state.bankroll_dollars)
+    # confidence-weighted Kelly: when ensemble disagrees a lot, scale down
+    base_kelly = CFG["backtest"]["kelly_fraction"]
+    conf_mult = getattr(state, "confidence_multiplier", 1.0)
+    kelly_dollars = base_kelly * conf_mult * abs(edge) * state.bankroll_dollars
     dollars = min(pos_cap, max(entry_price_dollars, kelly_dollars))
     contracts = int(dollars // entry_price_dollars)
     if contracts < 1:

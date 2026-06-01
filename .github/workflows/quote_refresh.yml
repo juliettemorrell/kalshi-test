@@ -1,0 +1,33 @@
+name: quote-refresh
+
+# Late evening + early night re-quote of stale buy orders.
+on:
+  schedule:
+    - cron: "30 0 * * *"
+    - cron: "30 2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      KALSHI_ENV: prod
+      KALSHI_API_KEY_ID: ${{ secrets.KALSHI_PROD_API_KEY_ID }}
+      KALSHI_PRIVATE_KEY_PATH: /tmp/kalshi_prod.pem
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Materialize key
+        run: |
+          umask 077
+          printf '%s' "${{ secrets.KALSHI_PROD_PRIVATE_KEY_PEM }}" > /tmp/kalshi_prod.pem
+      - run: python runners/quote_refresh.py
+      - name: Wipe
+        if: always()
+        run: rm -f /tmp/kalshi_prod.pem

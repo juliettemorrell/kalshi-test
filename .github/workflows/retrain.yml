@@ -1,0 +1,33 @@
+name: weekly-retrain
+
+# Sunday 03:00 UTC. Refresh 3yr training data + retrain per-city XGBoost.
+on:
+  schedule:
+    - cron: "0 3 * * 0"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  retrain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Refresh training data
+        run: python core/fetch_weather.py
+      - name: Rebuild empirical distributions
+        run: python core/error_dist.py
+      - name: Retrain per-city XGBoost
+        run: python core/train_model.py
+      - name: Commit
+        run: |
+          git config user.name  "weekly-retrain"
+          git config user.email "weekly-retrain@users.noreply.github.com"
+          git add data/forecast_vs_actual.csv data/error_summary.csv data/error_buckets.json data/xgb_*.json
+          git diff --cached --quiet || git commit -m "weekly retrain $(date -u +%F)"
+          git push

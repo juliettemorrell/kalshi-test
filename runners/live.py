@@ -156,6 +156,9 @@ def main() -> None:
         print(f"{code}: forecast={fcst:.1f}F (spread={spread:.1f}F), "
               f"{len(signals)} signals")
 
+        # confidence multiplier: tight ensemble + small XGB std => bigger size
+        conf = max(0.4, min(1.5, 2.0 / max(1.0, spread + 1.0)))
+        state.confidence_multiplier = conf
         for sig in signals:
             entry = sig.limit_price_cents / 100
             decision = risk.gate(state, entry, sig.edge)

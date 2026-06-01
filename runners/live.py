@@ -63,6 +63,39 @@ def forecast_for(lat: float, lon: float, when: str) -> float | None:
         return None
 
 
+def cancel_stale_orders(client, stale_hours: float) -> int:
+    """Cancel any resting orders older than stale_hours. Returns count."""
+    import re as _re
+    from datetime import datetime as _dt
+    try:
+        orders = client.get_orders(status="resting")
+    except Exception as e:
+        print(f"  could not list orders: {e}"); return 0
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=stale_hours))
+    n = 0
+    for o in orders:
+        cts = o.get("created_time") or o.get("created_ts") or ""
+        try:
+            m = _re.match(r"^(.*?)\.(\d+)Z$", cts)
+            if m:
+                clean = f"{m.group(1)}.{m.group(2).ljust(6,'0')[:6]}+00:00"
+            else:
+                clean = cts.replace("Z", "+00:00")
+            ct = _dt.fromisoformat(clean)
+        except Exception:
+            continue
+        if ct < cutoff:
+            oid = o.get("order_id")
+            if not oid:
+                continue
+            try:
+                client.cancel_order(oid)
+                n += 1
+            except Exception as e:
+                print(f"  cancel {oid} failed: {e}")
+    return n
+
+
 def main() -> None:
     if not PROMOTED.exists():
         print("PROMOTED sentinel not found; refusing to run live.",
@@ -78,6 +111,11 @@ def main() -> None:
         print("kill switch active; exiting"); sys.exit(0)
 
     client = KalshiClient()
+    # cancel resting orders older than threshold to free reserved capital
+    stale_h = CFG["backtest"].get("cancel_stale_hours", 16)
+    n_cancel = cancel_stale_orders(client, stale_h)
+    if n_cancel:
+        print(f"canceled {n_cancel} stale resting order(s) (>{stale_h}h)")
     state = risk.refresh_from_portfolio(client)
     # Hard cap bankroll at the configured deposit. Do not top up to chase.
     state.bankroll_dollars = min(state.bankroll_dollars,

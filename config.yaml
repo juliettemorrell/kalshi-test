@@ -42,5 +42,6 @@ backtest:
   bankroll: 50
   per_pos_pct: 0.20       # 20% per position ($10 cap on $50)
   max_exposure_pct: 0.95  # 95% total open exposure ($47.50)
-  daily_loss_pct: 1.0     # no daily soft-stop, full bankroll can ride
+  daily_loss_pct: 0.40    # 40% = $20: catastrophic-day brake
   kelly_fraction: 0.50    # half-Kelly so high-edge trades use more
+  cancel_stale_hours: 16  # cancel resting orders older than this

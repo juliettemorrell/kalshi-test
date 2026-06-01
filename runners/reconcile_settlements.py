@@ -50,8 +50,10 @@ def main():
         print(f"fills error: {e}")
         fills = []
 
-    # join fills against existing orders logs to find source workflow
-    order_source = {}
+    # join fills against existing orders logs by client_order_id (preferred)
+    # falling back to ticker for old rows that lacked the COID
+    order_source: dict[str, str] = {}
+    coid_source: dict[str, str] = {}
     for log in ["live_orders.csv", "midday_actions.csv"]:
         p = DATA / log
         if not p.exists():
@@ -62,6 +64,9 @@ def main():
                 t = row.get("market_ticker") or row.get("ticker")
                 if t:
                     order_source[t] = wf
+                coid = row.get("client_order_id")
+                if coid:
+                    coid_source[coid] = wf
 
     # for each fill, determine if it's settled (yes_price 0 or 1 final)
     new_rows = []
@@ -90,6 +95,8 @@ def main():
                (side == "no" and result == "no"))
         pnl_per = (1 - entry) if won else (-entry)
         pnl = round(pnl_per * float(ct), 2)
+        fl_coid = fl.get("client_order_id")
+        src = coid_source.get(fl_coid) or order_source.get(tic, "unknown")
         new_rows.append({
             "settle_date": (fl.get("created_time", "") or "")[:10],
             "ticker": tic, "side": side,
@@ -98,7 +105,7 @@ def main():
             "result": result,
             "settle_price": 1.0 if won else 0.0,
             "pnl_dollars": pnl,
-            "source_workflow": order_source.get(tic, "unknown"),
+            "source_workflow": src,
         })
 
     # append non-duplicate (by ticker + side + contracts) rows

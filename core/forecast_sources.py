@@ -64,7 +64,12 @@ def _nws_forecast(lat: float, lon: float, when_iso: str) -> float | None:
 
 
 def ensemble_forecast(lat: float, lon: float, when_iso: str) -> tuple[float | None, float, dict]:
-    """Returns (mean_F, spread_F, per_source_dict)."""
+    """Returns (mean_F, spread_F, per_source_dict).
+
+    NWS direct gets DOUBLE weight in the ensemble because it's the same
+    source Kalshi settles on. If NWS disagrees with model consensus by
+    4F+ we widen the spread automatically (caller sees more uncertainty).
+    """
     sources = {}
     for mdl in OM_MODELS:
         v = _open_meteo(lat, lon, when_iso, mdl)
@@ -77,6 +82,20 @@ def ensemble_forecast(lat: float, lon: float, when_iso: str) -> tuple[float | No
     if not sources:
         return None, 0.0, {}
     values = list(sources.values())
-    mean = sum(values) / len(values)
+    # weighted mean: NWS direct gets 2x weight, others 1x
+    weights = []
+    for k in sources:
+        weights.append(2.0 if k == "nws_direct" else 1.0)
+    wsum = sum(weights)
+    mean = sum(v * w for v, w in zip(values, weights)) / wsum
     spread = (max(values) - min(values)) if len(values) > 1 else 0.0
+    # NWS-vs-model sanity check
+    if "nws_direct" in sources and len(sources) > 1:
+        other = [v for k, v in sources.items() if k != "nws_direct"]
+        nws = sources["nws_direct"]
+        other_mean = sum(other) / len(other)
+        nws_gap = abs(nws - other_mean)
+        if nws_gap > 4.0:
+            # widen spread, model is less trustworthy when NWS disagrees
+            spread = max(spread, nws_gap)
     return mean, spread, sources

@@ -172,11 +172,19 @@ def signals_for_event(markets: list[dict],
         if edge >= min_edge and longshot <= yes_ask < (1 - longshot):
             # VWAP-aware: only chase up to model_prob - 2c (leave margin)
             fair_cap_c = max(1, int(round(p_model * 100)) - 2)
+            # Real VWAP from recent trades when available
+            try:
+                from core.vwap import recent_vwap
+                rv = recent_vwap(m["ticker"], limit=30, max_age_hours=4)
+            except Exception:
+                rv = None
+            vwap_cap_c = (max(1, int(round(rv * 100)) - 1)
+                          if rv is not None else fair_cap_c)
             limit_cents = max(int(round(yes_bid * 100)) + 1,
                               int(round(p_market * 100)))
             limit_cents = min(limit_cents,
                               max(int(round(yes_ask * 100)) - 1, 1),
-                              fair_cap_c)
+                              fair_cap_c, vwap_cap_c)
             if limit_cents < int(longshot * 100):
                 stats["below_floor"] += 1; continue
             out.append(TradeSignal(

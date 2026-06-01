@@ -209,6 +209,7 @@ def main() -> None:
                 resp = client.place_order(**kw)
                 row["order_id"] = resp.get("order", {}).get("order_id", "")
                 state.open_exposure_dollars += entry * decision.max_contracts
+                per_event_used += entry * decision.max_contracts
             except Exception as e:
                 row["error"] = str(e)[:200]
             w.writerow(row); f.flush()

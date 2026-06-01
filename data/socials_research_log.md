@@ -87,3 +87,19 @@ user vetoed for long waits. Skipping.
 
 ---
 
+
+## 2026-06-01
+
+**No strong picks today.**
+
+After reviewing the full list against the 60-day settlement rule, nearly every open market here resolves on multi-year or decade-long horizons (Mars colonization, climate goals by 2030/2050, supervolcano eruptions, etc.). None of these settle within the 60-day window required by Rule 1.
+
+The handful of markets that are theoretically nearer-term — such as **KXNEWPOPE-70** (next Pope), **KXNEXTDNCCHAIR-45** (next DNC Chair), or **KXMLBDEBUT-EHOLLIDAY** (Ethan Holliday debut) — either lack a specific imminent public catalyst today (the papal conclave already resolved in May 2025 with Leo XIV selected, so this market may already be stale/mispriced but settlement timing is unclear), fall into sports-adjacent territory dominated by sharper pricing, or involve political speculation without a concrete near-term resolution trigger.
+
+**KXFDAAPPROVE-MDMA** is the one market worth watching — FDA MDMA/PTSD decisions have had live advisory committee activity — but as of June 2026 there is no confirmed PDUFA date or advisory meeting scheduled within 60 days that would force resolution, and the FDA's posture on this application remains deeply uncertain post the 2024 rejection cycle.
+
+**Bottom line:** All listed markets fall outside the 60-day settlement window or lack a named, specific, near-term catalyst that creates a clear retail edge over current market pricing. Deploying the $50 into any of these would be speculative noise rather than catalyst-driven edge. Hold cash until shorter-dated markets appear.
+
+---
+
+---

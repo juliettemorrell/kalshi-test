@@ -112,6 +112,11 @@ def main():
     # ==== PHASE 1: review open positions for stop-loss / take-profit ====
     positions = client.get_positions()
     sells = 0
+    # cache current station observations by city (one call per city)
+    obs_cache: dict[str, float | None] = {}
+    for code, city in CFG["cities"].items():
+        obs_cache[code] = today_max_so_far(city["station"])
+        print(f"  {code} max-so-far: {obs_cache[code]}F", flush=True)
     for p in positions:
         contracts = int(p.get("position", 0) or 0)
         if contracts == 0:
@@ -172,8 +177,22 @@ def main():
         # entry approx (avg cost / contract in cents)
         avg_cost = float(p.get("market_exposure", 0) or 0) / 100 / max(1, abs(contracts))
 
+        # Observation-driven kill: if YES bet on [lo,hi] and the station
+        # has already exceeded hi+1F today, the high WILL be above hi.
+        # Conversely if max-so-far < lo-1F AND p_model agrees, dead.
+        obs_max = obs_cache.get(code)
+        obs_dead = False
+        if obs_max is not None:
+            if holding_yes and obs_max > hi + 1:
+                obs_dead = True   # YES on bracket already exceeded
+            elif (not holding_yes) and obs_max <= lo - 5:
+                # NO bet thrives, no rush to sell
+                pass
+
         decision = None
-        if p_we_win < 0.10 and mid_we < (avg_cost - 0.25):
+        if obs_dead and mid_we < (avg_cost - 0.10):
+            decision = "OBS_DEAD"
+        elif p_we_win < 0.10 and mid_we < (avg_cost - 0.25):
             decision = "STOP_LOSS"
         elif p_we_win > 0.85 and mid_we > 0.80:
             decision = "TAKE_PROFIT"

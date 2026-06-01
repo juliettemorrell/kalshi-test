@@ -1,0 +1,50 @@
+name: settlements-tracker
+
+# 13:00 UTC = 9am ET. NWS climate reports typically post 7-9am ET so
+# settlements should be in by 1pm UTC.
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  settlements:
+    runs-on: ubuntu-latest
+    env:
+      KALSHI_ENV: prod
+      KALSHI_API_KEY_ID: ${{ secrets.KALSHI_PROD_API_KEY_ID }}
+      KALSHI_PRIVATE_KEY_PATH: /tmp/kalshi_prod.pem
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Materialize private key
+        run: |
+          umask 077
+          printf '%s' "${{ secrets.KALSHI_PROD_PRIVATE_KEY_PEM }}" > /tmp/kalshi_prod.pem
+          test -s /tmp/kalshi_prod.pem
+
+      - name: Run reconciler
+        run: python runners/reconcile_settlements.py
+
+      - name: Commit results
+        run: |
+          git config user.name  "settlements-tracker"
+          git config user.email "settlements-tracker@users.noreply.github.com"
+          git add data/settlement_results.csv data/daily_pnl.md
+          git diff --cached --quiet || git commit -m "settlement $(date -u +%FT%T)"
+          git push
+
+      - name: Wipe key
+        if: always()
+        run: rm -f /tmp/kalshi_prod.pem

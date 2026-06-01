@@ -46,11 +46,21 @@ FIELDS = ["run_utc", "city", "settle_date", "market_ticker", "side",
 
 
 from core.forecast_sources import ensemble_forecast
+from core import xgb_predict
 
 
-def forecast_for(lat: float, lon: float, when: str) -> tuple[float | None, float]:
-    """5-source ensemble: GFS + ECMWF + HRRR + ICON + NWS direct."""
+def forecast_for(lat: float, lon: float, when: str,
+                 city_code: str | None = None) -> tuple[float | None, float]:
+    """5-source ensemble + XGBoost bias correction."""
     mean, spread, sources = ensemble_forecast(lat, lon, when)
+    if mean is None:
+        return None, 0.0
+    if city_code:
+        corrected, std = xgb_predict.correct(mean, spread, city_code,
+                                              when, n_models=len(sources))
+        # widen effective spread to include model-predicted std
+        eff_spread = max(spread, std)
+        return corrected, eff_spread
     return mean, spread
 
 
@@ -135,7 +145,8 @@ def main() -> None:
             print(f"{code}: list_markets error: {e}"); continue
         if not markets:
             continue
-        fcst, spread = forecast_for(city["lat"], city["lon"], target)
+        fcst, spread = forecast_for(city["lat"], city["lon"], target,
+                                     city_code=code)
         if fcst is None:
             continue
         signals = edge_mod.signals_for_event(

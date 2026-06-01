@@ -1,0 +1,50 @@
+name: afternoon-refresh
+
+# 17:00 UTC = 1pm ET. Catches sea breeze, afternoon convection,
+# frontal passages that morning forecast missed.
+on:
+  schedule:
+    - cron: "0 17 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  afternoon:
+    runs-on: ubuntu-latest
+    env:
+      KALSHI_ENV: prod
+      KALSHI_API_KEY_ID: ${{ secrets.KALSHI_PROD_API_KEY_ID }}
+      KALSHI_PRIVATE_KEY_PATH: /tmp/kalshi_prod.pem
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Materialize private key
+        run: |
+          umask 077
+          printf '%s' "${{ secrets.KALSHI_PROD_PRIVATE_KEY_PEM }}" > /tmp/kalshi_prod.pem
+          test -s /tmp/kalshi_prod.pem
+
+      - name: Run afternoon refresh
+        run: python runners/midday.py
+
+      - name: Commit log
+        run: |
+          git config user.name  "afternoon-refresh"
+          git config user.email "afternoon-refresh@users.noreply.github.com"
+          git add data/midday_actions.csv
+          git diff --cached --quiet || git commit -m "afternoon $(date -u +%FT%T)"
+          git push
+
+      - name: Wipe key
+        if: always()
+        run: rm -f /tmp/kalshi_prod.pem

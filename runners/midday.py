@@ -41,6 +41,7 @@ with (ROOT / "config.yaml").open() as f:
 
 from core.forecast_sources import ensemble_forecast
 from core.observations import current_obs, today_max_so_far
+from core import xgb_predict
 
 FIELDS = ["run_utc", "city", "settle_date", "market_ticker",
           "action", "side", "limit_price_cents", "count",
@@ -48,8 +49,14 @@ FIELDS = ["run_utc", "city", "settle_date", "market_ticker",
           "order_id", "client_order_id", "error"]
 
 
-def forecast_now(lat, lon, when):
-    mean, spread, _ = ensemble_forecast(lat, lon, when)
+def forecast_now(lat, lon, when, city_code=None):
+    mean, spread, sources = ensemble_forecast(lat, lon, when)
+    if mean is None:
+        return None, 0.0
+    if city_code:
+        corrected, std = xgb_predict.correct(mean, spread, city_code,
+                                              when, n_models=len(sources))
+        return corrected, max(spread, std)
     return mean, spread
 
 
@@ -136,7 +143,7 @@ def main():
             continue
         lo, hi, _ = parsed
 
-        fcst, spread = forecast_now(city["lat"], city["lon"], today)
+        fcst, spread = forecast_now(city["lat"], city["lon"], today, code)
         if fcst is None:
             continue
 
@@ -250,7 +257,7 @@ def main():
             continue
         if not markets:
             continue
-        fcst, spread = forecast_now(city["lat"], city["lon"], today)
+        fcst, spread = forecast_now(city["lat"], city["lon"], today, code)
         if fcst is None:
             continue
         signals = edge_mod.signals_for_event(

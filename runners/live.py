@@ -31,6 +31,7 @@ sys.path.insert(0, str(ROOT))
 
 from core.client import KalshiClient
 from core import risk
+from core.adaptive_params import adaptive_params
 from strategies.weather import edge as edge_mod
 
 DATA = ROOT / "data"
@@ -112,6 +113,15 @@ def main() -> None:
         print("kill switch active; exiting"); sys.exit(0)
 
     client = KalshiClient()
+    # adapt risk params based on recent performance
+    adj_edge, adj_kelly, reason = adaptive_params(
+        CFG["backtest"]["min_edge"],
+        CFG["backtest"]["kelly_fraction"],
+    )
+    CFG["backtest"]["min_edge"] = adj_edge
+    CFG["backtest"]["kelly_fraction"] = adj_kelly
+    print(f"adaptive: min_edge={adj_edge:.3f} kelly={adj_kelly:.3f} ({reason})",
+          flush=True)
     # cancel resting orders older than threshold to free reserved capital
     stale_h = CFG["backtest"].get("cancel_stale_hours", 16)
     n_cancel = cancel_stale_orders(client, stale_h)

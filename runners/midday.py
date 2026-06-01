@@ -197,20 +197,24 @@ def main():
                 pass
 
         decision = None
+        sell_count = abs(contracts)
         if obs_dead and mid_we < (avg_cost - 0.10):
             decision = "OBS_DEAD"
         elif p_we_win < 0.10 and mid_we < (avg_cost - 0.25):
             decision = "STOP_LOSS"
-        elif p_we_win > 0.85 and mid_we > 0.80:
-            decision = "TAKE_PROFIT"
+        # take-profit LADDER: half at 70c, rest at 90c
+        elif p_we_win > 0.85 and mid_we > 0.90:
+            decision = "TAKE_PROFIT_FULL"
+        elif p_we_win > 0.75 and mid_we > 0.70:
+            decision = "TAKE_PROFIT_HALF"
+            sell_count = max(1, abs(contracts) // 2)
         if not decision:
             continue
 
         # place a closing order: opposite side at slightly worse-than-mid
         sell_side = "yes" if holding_yes else "no"
-        # sell at 1c below mid_we to cross the spread
         sell_price_cents = max(1, int(round(mid_we * 100)) - 1)
-        n = abs(contracts)
+        n = sell_count
         seed = f"MIDDAY|{tic}|{sell_side}|{sell_price_cents}|{today}"
         coid = hashlib.sha1(seed.encode()).hexdigest()[:24]
         row = {

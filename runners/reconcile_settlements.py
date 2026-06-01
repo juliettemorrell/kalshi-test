@@ -130,9 +130,18 @@ def main():
     wins = sum(1 for r in rows if float(r["pnl_dollars"]) > 0)
     losses = sum(1 for r in rows if float(r["pnl_dollars"]) <= 0)
     by_wf = {}
+    by_city = {}
+    by_side = {}
     for r in rows:
         wf = r.get("source_workflow", "?")
         by_wf.setdefault(wf, []).append(float(r["pnl_dollars"]))
+        # city from ticker prefix
+        tic = r.get("ticker", "")
+        for c in ["NY","CHI","LAX","MIA","AUS"]:
+            if tic.startswith(f"KXHIGH{c}-"):
+                by_city.setdefault(c, []).append(float(r["pnl_dollars"]))
+                break
+        by_side.setdefault(r.get("side", "?"), []).append(float(r["pnl_dollars"]))
 
     today = datetime.now(timezone.utc).date().isoformat()
     lines = [
@@ -155,7 +164,23 @@ def main():
         "",
     ]
     for wf, pnls in sorted(by_wf.items()):
-        lines.append(f"- **{wf}**: {len(pnls)} settled, ${sum(pnls):+.2f}")
+        w = sum(1 for x in pnls if x > 0)
+        lines.append(f"- **{wf}**: {len(pnls)} settled, "
+                     f"{w}W/{len(pnls)-w}L, ${sum(pnls):+.2f}")
+    lines.append("")
+    lines.append("## By city")
+    lines.append("")
+    for c, pnls in sorted(by_city.items()):
+        w = sum(1 for x in pnls if x > 0)
+        lines.append(f"- **{c}**: {len(pnls)} settled, "
+                     f"{w}W/{len(pnls)-w}L, ${sum(pnls):+.2f}")
+    lines.append("")
+    lines.append("## By side")
+    lines.append("")
+    for s, pnls in sorted(by_side.items()):
+        w = sum(1 for x in pnls if x > 0)
+        lines.append(f"- **{s}**: {len(pnls)} settled, "
+                     f"{w}W/{len(pnls)-w}L, ${sum(pnls):+.2f}")
     lines.append("")
     lines.append("## Recent settlements (last 20)")
     lines.append("")

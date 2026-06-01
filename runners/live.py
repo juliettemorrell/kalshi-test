@@ -45,34 +45,12 @@ FIELDS = ["run_utc", "city", "settle_date", "market_ticker", "side",
           "decision", "order_id", "client_order_id", "error"]
 
 
-FORECAST_MODELS = ["gfs_seamless", "ecmwf_ifs025"]
+from core.forecast_sources import ensemble_forecast
 
 
 def forecast_for(lat: float, lon: float, when: str) -> tuple[float | None, float]:
-    """Return (ensemble_mean_F, ensemble_spread_F). Spread = max-min across models."""
-    values = []
-    for mdl in FORECAST_MODELS:
-        try:
-            r = requests.get(
-                "https://api.open-meteo.com/v1/forecast",
-                params={
-                    "latitude": lat, "longitude": lon,
-                    "daily": "temperature_2m_max",
-                    "temperature_unit": "fahrenheit",
-                    "timezone": "America/New_York",
-                    "models": mdl,
-                    "start_date": when, "end_date": when,
-                }, timeout=10,
-            ).json()
-            v = r["daily"]["temperature_2m_max"][0]
-            if v is not None:
-                values.append(float(v))
-        except Exception:
-            pass
-    if not values:
-        return None, 0.0
-    mean = sum(values) / len(values)
-    spread = (max(values) - min(values)) if len(values) > 1 else 0.0
+    """5-source ensemble: GFS + ECMWF + HRRR + ICON + NWS direct."""
+    mean, spread, sources = ensemble_forecast(lat, lon, when)
     return mean, spread
 
 

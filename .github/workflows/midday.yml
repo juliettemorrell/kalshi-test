@@ -1,0 +1,50 @@
+name: midday-refresh
+
+# 14:00 UTC = 10am ET. Cuts stale losers, takes profit on big winners,
+# places new orders on the refreshed midday forecast.
+on:
+  schedule:
+    - cron: "0 14 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  midday:
+    runs-on: ubuntu-latest
+    env:
+      KALSHI_ENV: prod
+      KALSHI_API_KEY_ID: ${{ secrets.KALSHI_PROD_API_KEY_ID }}
+      KALSHI_PRIVATE_KEY_PATH: /tmp/kalshi_prod.pem
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Materialize private key
+        run: |
+          umask 077
+          printf '%s' "${{ secrets.KALSHI_PROD_PRIVATE_KEY_PEM }}" > /tmp/kalshi_prod.pem
+          test -s /tmp/kalshi_prod.pem
+
+      - name: Run midday refresh
+        run: python runners/midday.py
+
+      - name: Commit log
+        run: |
+          git config user.name  "midday-refresh"
+          git config user.email "midday-refresh@users.noreply.github.com"
+          git add data/midday_actions.csv
+          git diff --cached --quiet || git commit -m "midday $(date -u +%FT%T)"
+          git push
+
+      - name: Wipe key
+        if: always()
+        run: rm -f /tmp/kalshi_prod.pem

@@ -150,10 +150,17 @@ def signals_for_event(markets: list[dict],
             stats["extreme_price"] += 1
             continue
 
-        # inflate uncertainty by ensemble spread: when GFS & ECMWF disagree
-        # by N F, treat the day as harder to predict by widening the bucket.
-        lo_eff = lo - ensemble_spread_f / 2
-        hi_eff = hi + ensemble_spread_f / 2
+        # inflate uncertainty by ensemble spread AND extreme-weather multiplier
+        try:
+            from core.extreme_weather import variance_multiplier
+            month_int = datetime.fromisoformat(settle_date).month
+            v_mult = variance_multiplier(forecast_high, ensemble_spread_f,
+                                          month_int, city_code)
+        except Exception:
+            v_mult = 1.0
+        eff_spread = ensemble_spread_f * v_mult
+        lo_eff = lo - eff_spread / 2
+        hi_eff = hi + eff_spread / 2
         p_model = model_prob_in_range(forecast_high, lo_eff, hi_eff, bucket)
         edge = p_model - p_market
         if abs(edge) > abs(stats["best_edge"]):

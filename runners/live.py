@@ -136,8 +136,13 @@ def main() -> None:
 
     buckets = edge_mod.load_buckets()
     now = datetime.now(timezone.utc)
-    tomorrow_local = (now - timedelta(hours=4)).date() + timedelta(days=1)
-    target = tomorrow_local.isoformat()
+    # Trade BOTH tomorrow's markets (primary) and day+2 markets (secondary).
+    # Day+2 markets have wider spread and less liquidity but doubling the
+    # decision-points expands exposure to our edge.
+    targets = [
+        ((now - timedelta(hours=4)).date() + timedelta(days=1), 1.0),
+        ((now - timedelta(hours=4)).date() + timedelta(days=2), 0.5),  # half conf
+    ]
 
     new_file = not LOG.exists()
     f = LOG.open("a", newline="")
@@ -163,8 +168,8 @@ def main() -> None:
             markets, fcst, code, target, buckets, verbose=True,
             ensemble_spread_f=spread, enable_tails=True,
             min_market_volume=50, max_spread_cents=12)
-        print(f"{code}: forecast={fcst:.1f}F (spread={spread:.1f}F), "
-              f"{len(signals)} signals")
+        print(f"{code} {target}: forecast={fcst:.1f}F (spread={spread:.1f}F, "
+              f"conf={conf:.2f}), {len(signals)} signals")
 
         # confidence multiplier: tight ensemble + small XGB std => bigger size
         conf = max(0.4, min(1.5, 2.0 / max(1.0, spread + 1.0)))

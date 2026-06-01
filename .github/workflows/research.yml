@@ -1,0 +1,39 @@
+name: socials-research
+
+# Daily Claude-driven research run. No laptop, no Cowork. Pure cloud.
+# Cost: ~$0.05-0.20 per run depending on tokens.
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # 9am ET, before live-trader fires later
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run research
+        run: python runners/research.py
+
+      - name: Commit log
+        run: |
+          git config user.name  "socials-research"
+          git config user.email "socials-research@users.noreply.github.com"
+          git add data/socials_research_log.md
+          git diff --cached --quiet || git commit -m "research $(date -u +%F)"
+          git push

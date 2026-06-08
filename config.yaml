@@ -34,8 +34,8 @@ cities:
 
 backtest:
   lookback_days: 365
-  min_edge: 0.10          # tightened after $42 loss; only fire on obvious mispricings
-  longshot_floor_cents: 15 # raised floor (sub-15c bets are lottery tickets)
+  min_edge: 0.08          # 8% min edge (small bankroll but no point in only 10%+ edges)
+  longshot_floor_cents: 10 # back to 10c so bot has actual markets to bet
   taker_fee_mult: 0.07
   maker_fee_mult: 0.0175
   assumed_spread_cents: 2

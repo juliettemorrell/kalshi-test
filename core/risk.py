@@ -53,7 +53,7 @@ def kill_switch_active() -> bool:
     return KILL.exists()
 
 
-HARD_BANKROLL_FLOOR = 5.0   # below this, full stop
+HARD_BANKROLL_FLOOR = 1.0   # user accepts $0 outcome; only stop at $1 to avoid 0-contract errors
 
 
 def gate(state: RiskState,

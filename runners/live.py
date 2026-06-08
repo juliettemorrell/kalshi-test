@@ -113,6 +113,19 @@ def main() -> None:
         print("kill switch active; exiting"); sys.exit(0)
 
     client = KalshiClient()
+    # Foolproof: record balance + check circuit breaker BEFORE doing anything
+    try:
+        from core.circuit_breaker import record as cb_record
+        bal_now = client.get_balance()
+        cash = (bal_now.get("balance", 0) or 0) / 100
+        portfolio = (bal_now.get("portfolio_value", 0) or 0) / 100
+        tripped = cb_record(cash, portfolio)
+        if tripped:
+            print("circuit breaker active; exiting"); sys.exit(0)
+    except SystemExit:
+        raise
+    except Exception as e:
+        print(f"circuit breaker check failed: {e}")
     # adapt risk params based on recent performance
     adj_edge, adj_kelly, reason = adaptive_params(
         CFG["backtest"]["min_edge"],
@@ -150,6 +163,12 @@ def main() -> None:
     if new_file:
         w.writeheader()
 
+    # Foolproof: hard cap on orders placed per run. The wave-4-to-10 era
+    # placed 10+ orders in a single run. Now cap at 5. If more would
+    # qualify they're skipped (the highest-edge ones win the slots).
+    MAX_ORDERS_PER_RUN = 5
+    orders_placed = 0
+
     for code, city in CFG["cities"].items():
         series = city["kalshi_series"]
         mon = tomorrow_local.strftime("%b").upper()
@@ -177,7 +196,11 @@ def main() -> None:
         # Inter-bracket hedge cap: limit total exposure on this single event
         per_event_cap = state.bankroll_dollars * 0.25
         per_event_used = 0.0
+        # Sort signals by absolute edge so the highest-conviction ones go first
+        signals = sorted(signals, key=lambda s: -abs(s.edge))
         for sig in signals:
+            if orders_placed >= MAX_ORDERS_PER_RUN:
+                break
             entry = sig.limit_price_cents / 100
             if per_event_used >= per_event_cap:
                 break
@@ -206,10 +229,17 @@ def main() -> None:
                     kw["yes_price_cents"] = sig.limit_price_cents
                 else:
                     kw["no_price_cents"] = sig.limit_price_cents
+                # Foolproof pre-order sanity check
+                proposed_dollars = entry * decision.max_contracts
+                if proposed_dollars > state.bankroll_dollars * 0.10:
+                    row["error"] = (f"sanity: proposed ${proposed_dollars:.2f} "
+                                    f">10% of ${state.bankroll_dollars:.2f}")
+                    w.writerow(row); f.flush(); continue
                 resp = client.place_order(**kw)
                 row["order_id"] = resp.get("order", {}).get("order_id", "")
                 state.open_exposure_dollars += entry * decision.max_contracts
                 per_event_used += entry * decision.max_contracts
+                orders_placed += 1
             except Exception as e:
                 row["error"] = str(e)[:200]
             w.writerow(row); f.flush()

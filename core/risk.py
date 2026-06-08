@@ -53,11 +53,21 @@ def kill_switch_active() -> bool:
     return KILL.exists()
 
 
+HARD_BANKROLL_FLOOR = 5.0   # below this, full stop
+
+
 def gate(state: RiskState,
          entry_price_dollars: float,
          edge: float) -> RiskDecision:
     if kill_switch_active():
         return RiskDecision(False, "kill switch active")
+
+    # Foolproof: hard floor. Below $5 means we can't even afford a 1-contract
+    # bet at most prices, so just stop completely until human intervention.
+    if state.bankroll_dollars < HARD_BANKROLL_FLOOR:
+        return RiskDecision(False,
+                            f"bankroll ${state.bankroll_dollars:.2f} "
+                            f"below hard floor ${HARD_BANKROLL_FLOOR}")
 
     if state.realized_pnl_today <= -state.daily_loss_limit:
         return RiskDecision(False, "daily loss limit hit")

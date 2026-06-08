@@ -34,14 +34,14 @@ cities:
 
 backtest:
   lookback_days: 365
-  min_edge: 0.04          # 4%: matches documented Kalshi weather mispricing magnitude
-  longshot_floor_cents: 10  # don't buy contracts under 10c
-  taker_fee_mult: 0.07    # round(0.07 * price * (1-price), 2)
-  maker_fee_mult: 0.0175  # 25% of taker
-  assumed_spread_cents: 2 # conservative
+  min_edge: 0.10          # tightened after $42 loss; only fire on obvious mispricings
+  longshot_floor_cents: 15 # raised floor (sub-15c bets are lottery tickets)
+  taker_fee_mult: 0.07
+  maker_fee_mult: 0.0175
+  assumed_spread_cents: 2
   bankroll: 50
-  per_pos_pct: 0.20       # 20% per position ($10 cap on $50)
-  max_exposure_pct: 0.95  # 95% total open exposure ($47.50)
-  daily_loss_pct: 0.40    # 40% = $20: catastrophic-day brake
-  kelly_fraction: 0.50    # half-Kelly so high-edge trades use more
-  cancel_stale_hours: 16  # cancel resting orders older than this
+  per_pos_pct: 0.08       # was 0.20, now 8% per position
+  max_exposure_pct: 0.50  # was 0.95, now 50% so bot never deploys all cash
+  daily_loss_pct: 0.20    # was 0.40, now 20% (any 20% red day pauses)
+  kelly_fraction: 0.15    # was 0.50, now tenth-ish-Kelly
+  cancel_stale_hours: 16

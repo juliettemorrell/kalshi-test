@@ -82,12 +82,24 @@ def main():
         tic = fl.get("ticker", "")
         if not tic.startswith("KXHIGH"):
             continue
-        side = fl.get("side") or fl.get("yes_no", "")
-        action = fl.get("action", "")
-        if action != "buy":
+        # Kalshi fills use *_dollars and taker_side fields
+        side = (fl.get("taker_side") or fl.get("side")
+                or fl.get("yes_no", ""))
+        action = fl.get("action", "buy")  # assume buy if not specified
+        # entry price in DOLLARS not cents; try multiple field names
+        cents = (fl.get("yes_price")
+                 or fl.get("no_price")
+                 or float(fl.get("yes_price_dollars") or 0) * 100
+                 or float(fl.get("no_price_dollars") or 0) * 100
+                 or 0)
+        ct = (fl.get("count") or fl.get("count_fp") or 0) or 0
+        try:
+            cents = float(cents)
+            ct = float(ct)
+        except (TypeError, ValueError):
             continue
-        cents = fl.get("yes_price") or fl.get("no_price") or 0
-        ct = fl.get("count", 0) or 0
+        if ct <= 0:
+            continue
         # check if the market the fill is in is settled
         try:
             mkt = client.get_market(tic)

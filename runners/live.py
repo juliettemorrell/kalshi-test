@@ -139,12 +139,9 @@ def main() -> None:
 
     buckets = edge_mod.load_buckets()
     now = datetime.now(timezone.utc)
-    # Trade BOTH tomorrow's markets (primary) and day+2 markets (secondary).
-    # Day+2 markets have wider spread and less liquidity but doubling the
-    # decision-points expands exposure to our edge.
+    # REVERTED: day+2 was a disaster on $50 bankroll. Single day only.
     targets = [
         ((now - timedelta(hours=4)).date() + timedelta(days=1), 1.0),
-        ((now - timedelta(hours=4)).date() + timedelta(days=2), 0.5),  # half conf
     ]
 
     new_file = not LOG.exists()

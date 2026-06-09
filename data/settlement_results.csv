@@ -253,3 +253,9 @@ settle_date,ticker,side,entry_price,contracts,result,settle_price,pnl_dollars,so
 2026-05-30,KXHIGHLAX-26MAY31-B74.5,no,0.27,2,no,1.0,1.46,live
 2026-05-30,KXHIGHCHI-26MAY31-B76.5,no,0.35,3,no,1.0,1.95,live
 2026-05-30,KXHIGHCHI-26MAY31-B74.5,no,0.2,2,yes,0.0,-0.4,live
+2026-06-08,KXHIGHAUS-26JUN08-B90.5,yes,0.1,4,no,0.0,-0.4,midday
+2026-06-08,KXHIGHLAX-26JUN08-B71.5,no,0.77,1,yes,0.0,-0.77,midday
+2026-06-08,KXHIGHAUS-26JUN08-B92.5,yes,0.22,1,no,0.0,-0.22,midday
+2026-06-08,KXHIGHMIA-26JUN08-B90.5,no,0.73,1,yes,0.0,-0.73,midday
+2026-06-08,KXHIGHCHI-26JUN08-B82.5,yes,0.21,1,yes,1.0,0.79,midday
+2026-06-08,KXHIGHNY-26JUN08-B76.5,yes,0.38,1,no,0.0,-0.38,midday

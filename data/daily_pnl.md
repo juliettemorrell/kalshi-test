@@ -1,18 +1,18 @@
 # Kalshi Bot Performance Dashboard
 
-_updated 2026-06-09_
+_updated 2026-06-10_
 
-- **Current total worth (cash + positions): $4.36**
-  - cash: $4.36
+- **Current total worth (cash + positions): $2.33**
+  - cash: $2.33
   - open positions: $0.00
 
 ## Settled trades to date
 
-- total settled: **260**
-- wins / losses: **55 / 205**
-- win rate: **21.2%**
-- realized P&L: **$-57.02**
-- Brier score: **0.3494** (lower=better)
+- total settled: **268**
+- wins / losses: **55 / 213**
+- win rate: **20.5%**
+- realized P&L: **$-60.68**
+- Brier score: **0.3489** (lower=better)
 - per-trade Sharpe: **-0.13**
 - max drawdown: **$84.90**
 
@@ -22,49 +22,41 @@ _updated 2026-06-09_
 |---|---|---|
 | 0.0-0.1 | 122 | 0.418 |
 | 0.1-0.2 | 30 | 0.067 |
-| 0.2-0.3 | 27 | 0.593 |
-| 0.3-0.4 | 21 | 0.667 |
+| 0.2-0.3 | 29 | 0.552 |
+| 0.3-0.4 | 22 | 0.636 |
 | 0.4-0.5 | 20 | 0.65 |
 | 0.5-0.6 | 15 | 0.333 |
-| 0.6-0.7 | 9 | 0.333 |
-| 0.7-0.8 | 11 | 0.182 |
+| 0.6-0.7 | 12 | 0.25 |
+| 0.7-0.8 | 13 | 0.154 |
 | 0.8-0.9 | 5 | 0.0 |
 
 ## By workflow source
 
 - **live**: 83 settled, 25W/58L, $+26.84
-- **midday**: 177 settled, 30W/147L, $-83.86
+- **midday**: 185 settled, 30W/155L, $-87.52
 
 ## By city
 
 - **AUS**: 54 settled, 19W/35L, $+16.95
-- **CHI**: 46 settled, 7W/39L, $-9.92
-- **LAX**: 58 settled, 11W/47L, $-12.37
-- **MIA**: 37 settled, 8W/29L, $-9.88
-- **NY**: 65 settled, 10W/55L, $-41.80
+- **CHI**: 48 settled, 7W/41L, $-10.91
+- **LAX**: 60 settled, 11W/49L, $-13.80
+- **MIA**: 39 settled, 8W/31L, $-10.54
+- **NY**: 67 settled, 10W/57L, $-42.38
 
 ## By side
 
-- **no**: 145 settled, 37W/108L, $-35.41
-- **yes**: 115 settled, 18W/97L, $-21.61
+- **no**: 150 settled, 37W/113L, $-38.23
+- **yes**: 118 settled, 18W/100L, $-22.45
 
 ## By entry-price tier (proxy for bracket distance)
 
 - **deep_otm (<10c)**: 122 settled, 0W/122L, $+0.00
-- **otm (10-30c)**: 57 settled, 18W/39L, $-11.84
-- **atm (30-70c)**: 65 settled, 35W/30L, $+8.21
-- **itm (70-90c)**: 16 settled, 2W/14L, $-53.39
+- **otm (10-30c)**: 59 settled, 18W/41L, $-12.34
+- **atm (30-70c)**: 69 settled, 35W/34L, $+6.55
+- **itm (70-90c)**: 18 settled, 2W/16L, $-54.89
 
 ## Recent settlements (last 20)
 
-- 2026-05-30 | KXHIGHAUS-26MAY31-B93.5                  | no  @ 0.24 | x  6 | result=no | +$4.56
-- 2026-05-30 | KXHIGHAUS-26MAY31-B91.5                  | no  @ 0.41 | x  1 | result=no | +$0.59
-- 2026-05-30 | KXHIGHMIA-26MAY31-B88.5                  | yes @ 0.13 | x  2 | result=no | $-0.26
-- 2026-05-30 | KXHIGHMIA-26MAY31-B92.5                  | no  @ 0.31 | x  5 | result=no | +$3.45
-- 2026-05-30 | KXHIGHCHI-26MAY31-B74.5                  | no  @ 0.19 | x  2 | result=yes | $-0.39
-- 2026-05-30 | KXHIGHCHI-26MAY31-B74.5                  | no  @ 0.19 | x  1 | result=yes | $-0.37
-- 2026-05-30 | KXHIGHMIA-26MAY31-B90.5                  | no  @ 0.34 | x  3 | result=no | +$1.98
-- 2026-05-30 | KXHIGHLAX-26MAY31-B72.5                  | no  @ 0.35 | x  1 | result=yes | $-0.35
 - 2026-05-30 | KXHIGHNY-26MAY31-B74.5                   | no  @ 0.4 | x  4 | result=yes | $-1.6
 - 2026-05-30 | KXHIGHLAX-26MAY31-B72.5                  | no  @ 0.35 | x  2 | result=yes | $-0.7
 - 2026-05-30 | KXHIGHNY-26MAY31-B76.5                   | no  @ 0.22 | x  4 | result=no | +$3.12
@@ -77,3 +69,11 @@ _updated 2026-06-09_
 - 2026-06-08 | KXHIGHMIA-26JUN08-B90.5                  | no  @ 0.73 | x  1 | result=yes | $-0.73
 - 2026-06-08 | KXHIGHCHI-26JUN08-B82.5                  | yes @ 0.21 | x  1 | result=yes | +$0.79
 - 2026-06-08 | KXHIGHNY-26JUN08-B76.5                   | yes @ 0.38 | x  1 | result=no | $-0.38
+- 2026-06-09 | KXHIGHLAX-26JUN09-B72.5                  | no  @ 0.77 | x  1 | result=yes | $-0.77
+- 2026-06-09 | KXHIGHNY-26JUN09-B80.5                   | yes @ 0.24 | x  1 | result=no | $-0.24
+- 2026-06-09 | KXHIGHCHI-26JUN09-B86.5                  | yes @ 0.26 | x  1 | result=no | $-0.26
+- 2026-06-09 | KXHIGHCHI-26JUN09-B88.5                  | no  @ 0.73 | x  1 | result=yes | $-0.73
+- 2026-06-09 | KXHIGHNY-26JUN09-B80.5                   | yes @ 0.34 | x  1 | result=no | $-0.34
+- 2026-06-09 | KXHIGHMIA-26JUN09-B89.5                  | no  @ 0.66 | x  0 | result=yes | $-0.22
+- 2026-06-09 | KXHIGHMIA-26JUN09-B89.5                  | no  @ 0.66 | x  0 | result=yes | $-0.44
+- 2026-06-09 | KXHIGHLAX-26JUN09-B72.5                  | no  @ 0.66 | x  1 | result=yes | $-0.66

@@ -103,3 +103,48 @@ The handful of markets that are theoretically nearer-term — such as **KXNEWPOP
 ---
 
 ---
+
+## 2026-06-10
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCOMPANYACTIONEA-27-26JUL01 — EA Take-Private Closes by Jul 1**
+- **Bid/Ask:** 0.10 / 0.11 | **Vol:** $18,475
+- **Catalyst:** The $1.2B+ take-private of EA by a consortium (reported closed/pending regulatory sign-off in May 2026) has cleared EU and FTC review with no material objections flagged. Deal timelines of this type typically close within 30–45 days of final regulatory clearance. Jun 10 → Jul 1 is ~21 days, well within that window.
+- **Fair probability:** ~30–35% (market is pricing ~10%). The market appears to be treating this as a long-shot, but regulatory path is clear and no competing bid/litigation has surfaced.
+- **Edge:** ~20–25 cents on a YES at ask of $0.11. Risk: closing slips past Jul 1 into August (the Aug contract at 0.39/0.46 implies the market agrees the deal closes *eventually*, just uncertain on timing).
+- **Trade:** BUY YES at $0.11, size $30–40. Expected value positive even with ~25% close probability by Jul 1.
+- **Confidence:** Medium
+
+---
+
+**2. KXZELENSKYPUTIN-29-26JUL — Zelenskyy and Putin Speak by Jul**
+- **Bid/Ask:** 0.027 / 0.028 | **Vol:** $159,766
+- **Catalyst:** As of early June 2026, US-brokered ceasefire talks have stalled; Trump's envoy Witkoff has not secured a direct call. Saudi Arabia hosted proximity talks in May but no direct leader-to-leader contact occurred. The precondition gap (Ukraine insists on territorial acknowledgment; Russia refuses) remains wide. No credible news suggests a call is imminent before Jul.
+- **Fair probability:** ~2–3%. Market ask of 2.8¢ is roughly fair to slightly expensive.
+- **Assessment:** **No edge — skip.** Spread is tight and fair value is near current price.
+
+---
+
+**3. KXCABLEAVE-26MAY22-26JUL — Trump Cabinet Member Leaves by Jul**
+- **Bid/Ask:** 0.15 / 0.20 | **Vol:** $576
+- **Catalyst:** Low volume but a real story: no Cabinet-level departure has been confirmed as of Jun 10. Trump's second-term Cabinet has shown unusual stability vs. first term through mid-2026. The wide bid/ask (5¢ spread) and thin volume suggest retail noise. Base rate for a ~21-day window with no publicly telegraphed departure is low (~10–12%).
+- **Fair probability:** ~12%. Ask of 0.20 is expensive.
+- **Trade:** BUY NO (sell YES) if platform allows, or simply avoid. Not actionable for a retail bot that likely can only go long.
+- **Confidence:** Low / pass
+
+---
+
+### Summary
+
+| Pick | Direction | Entry | Fair Value | Edge |
+|------|-----------|-------|------------|------|
+| EA close by Jul 1 | YES | $0.11 | ~$0.32 | ~21¢ |
+| Cabinet departure | NO | — | ~$0.12 | Not tradeable long |
+
+**Deploy ~$35 on EA YES. Skip remainder.**
+
+---
+

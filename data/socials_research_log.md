@@ -148,3 +148,58 @@ The handful of markets that are theoretically nearer-term — such as **KXNEWPOP
 
 ---
 
+
+## 2026-06-12
+
+### Market Analysis
+
+**Date:** June 12, 2026 | **Bot size:** $50–100
+
+---
+
+### Pick 1: EA Take-Private (JUL) — KXCOMPANYACTIONEA-27-26JUL01
+**Bid/Ask:** 0.09 / 0.11 | **~18.5d to settle**
+
+**Catalyst:** EA's take-private deal (reported ~$12.5B, led by a private equity consortium) was announced in early 2026. As of mid-June, regulatory filings are progressing through HSR review with no second request issued. Comparable PE take-privates of this size typically close within 4–6 months of announcement. If announced ~Feb 2026, a July close is within the normal window.
+
+**Edge:** Market prices ~10 cents for closing by July 1. Given standard deal timelines and no reported regulatory friction, fair value is closer to **18–22 cents**. Edge: ~8–10 cents.
+
+**Action:** BUY at ask (0.11). Size: $55.
+
+**Confidence:** Medium (deal timing has variance; no guarantee of sub-July close)
+
+---
+
+### Pick 2: Spider-Man Beyond the Spider-Verse Trailer (AUG) — KXMEDIARELEASESPIDERMAN-AUG26
+**Bid/Ask:** 0.35 / 0.44 | **~49.5d to settle**
+
+**Catalyst:** *Beyond the Spider-Verse* has been in prolonged production limbo following the 2023 animation strike and internal Sony restructuring. As of June 2026, no confirmed release date exists and no marketing campaign has launched. Sony has historically dropped major trailer releases 3–5 months before theatrical release. With no release date set, an official trailer before August is speculative at best.
+
+**Edge:** Ask of 0.44 seems significantly **overpriced** — fair value closer to 20–25 cents given no release date anchor. Edge: ~18–20 cents on the NO side.
+
+**Action:** SELL (NO) at bid (0.35). Size: $70.
+
+**Confidence:** Medium (Sony could surprise with a sudden marketing push, but structural evidence argues against)
+
+---
+
+### Pick 3: Cabinet Member Departure — KXCABLEAVE-26MAY22-26JUL
+**Bid/Ask:** 0.12 / 0.17 | **~19.5d to settle**
+
+**Catalyst:** Multiple Trump cabinet members have faced Senate criticism and reported internal friction through spring 2026. The base rate for at least one cabinet departure in any rolling 60-day window during Trump's first term ran ~15–20%. With the current administration showing similar volatility and several secretaries under pressure, 12–17 cents underprices the realistic probability.
+
+**Edge:** Fair value ~22–28 cents. Edge: ~8–12 cents buying at ask.
+
+**Action:** BUY at ask (0.17). Size: $51.
+
+**Confidence:** Low-Medium (cabinet departures are inherently unpredictable; base rate supports but timing is binary)
+
+---
+
+### Passed / No Edge
+- All low-volume IPO markets (Canva, Skims, Oura, Fannie, Freddie, Waymo): wide spreads, no near-term catalysts.
+- Politics longshots (Taiwan L4, Greenland, territory): correctly priced near zero.
+- AGI by Q2: correctly priced near zero.
+
+---
+

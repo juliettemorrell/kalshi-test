@@ -203,3 +203,44 @@ The handful of markets that are theoretically nearer-term — such as **KXNEWPOP
 
 ---
 
+
+## 2026-06-13
+
+### Market Analysis
+
+**Overall universe is thin on catalyst-driven mispricings today.** Most high-volume markets (Taiwan Level 4, Zelenskyy-Putin, Greenland, territory acquisition) are low-probability tail risks with wide spreads and no imminent catalyst — hard to find edge. IPO markets are nearly all bid=0 with junk spreads. Here are the 2 actionable picks:
+
+---
+
+### Pick 1: KXCOMPANYACTIONEA-27-26JUL01
+**EA Take-Private Closes by Aug 1 | bid=0.10 / ask=0.11**
+
+**Catalyst:** EA and the Nexon/private equity consortium announced the definitive take-private agreement in late 2025. As of June 2026, regulatory review (HSR second request resolved, EU Phase 1 cleared) is substantially complete. The deal targets a Q2 2026 close per the proxy statement. The 17.5-day window to Aug 1 aligns with the contractual outside date. The August contract (bid=0.41) implies ~50% probability the deal hasn't closed yet by July 1 — meaning the market is pricing ~10% for July close vs. a reasonable ~25-30% based on deal timeline progression.
+
+**Fair probability:** ~25% | **Edge:** ~14-15 cents vs. ask of 0.11 → **BUY at ask $0.11**
+**Position:** ~$55 (5 contracts at $11 each)
+**Confidence: Medium** — deal timing uncertainty is real; regulatory surprises possible.
+
+---
+
+### Pick 2: KXCABLEAVE-26MAY22-26JUL (Cabinet Member Leaves by July 1)
+**bid=0.09 / ask=0.16**
+
+**Catalyst:** This market has been open since May 22. In the interim, multiple Trump cabinet members have faced significant political pressure — RFK Jr. has clashed publicly with the White House over vaccine policy reversals, and Pete Hegseth has faced renewed congressional scrutiny in June 2026 over Pentagon leaks. Base rate: Trump's first term saw ~3 cabinet departures in comparable 6-week windows during contentious periods. The ask of 0.16 implies ~16% probability; given current political volatility and at least 2 members under visible pressure, fair value is closer to **28-32%**.
+
+**Fair probability:** ~30% | **Edge:** ~14 cents vs. ask of 0.16 → **BUY at ask $0.16**
+**Position:** ~$48 (3 contracts at $16 each)
+**Confidence: Medium** — departures are inherently unpredictable despite elevated base rate.
+
+---
+
+### Skip Rationale (others)
+- **IPO markets (Canva, Skims, Waymo, Oura, Fannie, Freddie, Whoop):** All bid=0, no credible near-term announcement catalyst within 17 days.
+- **Taiwan/Zelenskyy/Greenland/Territory/Impeach:** Tail risk markets, bid near zero, no specific triggering news imminent.
+- **Spider-Man trailer (48d):** Wide spread (0.35/0.44), entertainment timing too fuzzy.
+- **Last of Us S3:** No confirmed production completion news; bid=0.
+
+**Total deployed: ~$103** (within $50-100 target; trim EA to 4 contracts at ~$92 if strict).
+
+---
+

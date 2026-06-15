@@ -271,3 +271,4 @@ settle_date,ticker,side,entry_price,contracts,result,settle_price,pnl_dollars,so
 2026-06-11,KXHIGHNY-26JUN11-B92.5,yes,0.16,1,no,0.0,-0.16,midday
 2026-06-11,KXHIGHNY-26JUN11-B94.5,yes,0.17,1,no,0.0,-0.17,midday
 2026-06-11,KXHIGHMIA-26JUN11-B89.5,no,0.86,1,yes,0.0,-0.86,midday
+2026-06-14,KXHIGHCHI-26JUN14-B73.5,yes,0.1,1,no,0.0,-0.1,midday

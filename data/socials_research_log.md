@@ -244,3 +244,45 @@ The handful of markets that are theoretically nearer-term — such as **KXNEWPOP
 
 ---
 
+
+## 2026-06-15
+
+### Market Analysis
+
+**Honest assessment upfront:** Most of the high-volume markets here are ultra-low probability political tail risks (Level 4 Taiwan, Greenland acquisition, cabinet impeachment) trading at near-zero with very wide spreads — these are structural liquidity plays, not catalyst mispricings. The low-volume markets have spread problems that eat any edge on $50-100 positions.
+
+---
+
+### Pick 1: KXCOMPANYACTIONEA-27-26JUL01
+**EA Take-Private Closes by July 1**
+- **Bid/Ask:** 0.10 / 0.11 | **Vol:** $21,831
+- **Catalyst:** EA's take-private deal with a consortium led by Silver Lake was announced in early 2026. Regulatory filings as of mid-June 2026 indicate HSR waiting periods have elapsed and shareholder vote is scheduled for late June. Deal mechanics point to a high likelihood of closing before July 1 if no last-minute regulatory intervention emerges — the EU and UK reviews have been relatively quiet on this transaction.
+- **Fair probability estimate:** ~0.55–0.60 (market mid is ~0.105, severely underpriced if close is imminent)
+- **Edge:** ~40–50 cents per dollar if catalyst is correct
+- **Action:** Buy at ask 0.11, size $50
+- **Confidence:** Medium — deal close timing is uncertain; a short delay pushes settlement to the AUG01 contract instead. Check latest SEC/8-K filings before entry.
+
+---
+
+### Pick 2: KXMEDIARELEASESPIDERMAN-AUG26
+**Official Spider-Man: Beyond the Spider-Verse Trailer by Aug 2026**
+- **Bid/Ask:** 0.35 / 0.44 | **Vol:** $2,328 | **46 days out**
+- **Catalyst:** Sony's theatrical calendar has *Beyond the Spider-Verse* targeted for a 2026 release window. Marketing campaigns for animated tentpoles typically drop official trailers 3–4 months before release. As of June 2026, no official trailer has dropped, but Sony social accounts have been teasing campaign assets. A summer trailer push before the Aug settle date aligns with standard Sony animation marketing cadence.
+- **Fair probability estimate:** ~0.55 (market mid is ~0.395, modestly underpriced)
+- **Edge:** ~15 cents at ask of 0.44 if fair value ~0.55
+- **Action:** Buy at ask 0.44, size $50
+- **Confidence:** Low — release date has slipped before; Sony has not confirmed 2026 window publicly. This is speculative.
+
+---
+
+### Pass on Everything Else
+- **KXCABLEAVE (Cabinet departure):** Interesting but 0.08/0.15 bid/ask spread is brutal on small size; ~46% of spread is friction.
+- **IPO markets (Canva, Skims, Waymo, Oura, Fannie, Freddie):** All ask ≥ 0.01–0.04 with bids at zero — no evidence of imminent announcements; pure lottery tickets.
+- **KXZELENSKYPUTIN:** Wide spread, no confirmed meeting scheduled as of June 15.
+
+---
+
+**Total deployed: ~$100 across 2 positions. Both carry real uncertainty — size accordingly and treat as speculative.**
+
+---
+

@@ -286,3 +286,45 @@ The handful of markets that are theoretically nearer-term — such as **KXNEWPOP
 
 ---
 
+
+## 2026-06-16
+
+### Market Analysis
+
+**1. KXCOMPANYACTIONEA-27-26JUL01 — EA Take-Private Close by Jul 1**
+- **Ticker:** KXCOMPANYACTIONEA-27-26JUL01 | bid=0.06 ask=0.10
+- **Catalyst:** EA's take-private deal (Nexon/consortium acquiring Electronic Arts) was announced in early 2026. Regulatory review timelines for gaming M&A typically run 6-9 months minimum; the deal was announced ~Q1 2026. As of June 16, HSR/EU merger review is still pending — no regulatory clearance has been publicly announced. Closing by July 1 (15 days away) requires imminent simultaneous clearances across multiple jurisdictions, which is not reflected in any current news flow.
+- **Fair probability:** ~5-7% (market ask is 10¢). The bid at 6¢ is closer to fair; buying at ask is slightly negative EV.
+- **Action:** **SELL/NO at 6¢ bid** (collect 6¢, fair value ~5¢). Edge: ~1-2¢.
+- **Confidence:** Medium. Regulatory timing is uncertain but July 1 close is very tight.
+
+---
+
+**2. KXCABLEAVE-26MAY22-26JUL — Trump Cabinet Member Departure by Jul 1**
+- **Ticker:** KXCABLEAVE-26MAY22-26JUL | bid=0.09 ask=0.14
+- **Catalyst:** This market measures departures *since May 22*. The Trump cabinet has been notably stable in 2026 after the early churn of 2025. No credible resignation/firing rumors are circulating for any current confirmed cabinet officer as of mid-June 2026. With only 15 days remaining and no active catalyst, the 9-14¢ range appears overpriced relative to ~6-8¢ base rate fair value.
+- **Fair probability:** ~7-8%.
+- **Action:** **SELL/NO at 9¢ bid**. Edge: ~1-2¢.
+- **Confidence:** Low-Medium. Surprise firings are inherently unpredictable; this is a small edge.
+
+---
+
+**3. KXZELENSKYPUTIN-29-26JUL — Zelenskyy and Putin Speak by Jul**
+- **Ticker:** KXZELENSKYPUTIN-29-26JUL | bid=0.023 ask=0.030
+- **Catalyst:** Despite ongoing ceasefire diplomacy, both sides' publicly stated positions remain that direct Zelenskyy-Putin communication is off the table. US-brokered talks have involved intermediaries only. No scheduled call or back-channel leak suggesting direct contact is imminent. The 2-3¢ price looks fair-to-slightly-high but spread is too wide (7¢ relative spread) to trade profitably at retail size.
+- **Action:** **Pass** — spread kills edge at $50-100 size.
+
+---
+
+### Summary Table
+
+| Market | Action | Entry | Fair Value | Edge |
+|--------|--------|-------|------------|------|
+| EA close by Jul 1 | Sell NO | 6¢ | ~5¢ | ~1-2¢ |
+| Cabinet departure by Jul 1 | Sell NO | 9¢ | ~7¢ | ~1-2¢ |
+| Zelenskyy-Putin call | Pass | — | — | Spread too wide |
+
+**Sizing:** $50 per position max given low edge. Total exposure ~$100.
+
+---
+

@@ -328,3 +328,47 @@ The handful of markets that are theoretically nearer-term — such as **KXNEWPOP
 
 ---
 
+
+## 2026-06-17
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXZELENSKYPUTIN-29-26JUL | Zelenskyy–Putin Direct Call**
+- **Bid/Ask:** 0.026 / 0.031 | **Vol:** $172,957
+- **Catalyst:** As of mid-June 2026, ceasefire/negotiation momentum has stalled repeatedly. Despite pressure from Trump administration intermediaries, Zelenskyy has publicly conditioned any direct call on preconditions (full ceasefire, territorial acknowledgment) that Putin has not met. No credible reporting suggests a call is imminent before July 1.
+- **Fair probability:** ~2.5% (mid-market is ~2.85%). Market is roughly fair to very slightly rich on the ask side.
+- **Trade:** BUY NO at 0.969 (i.e., sell YES at 0.031). Edge ~0.5¢ per share. Thin but the volume supports it as a liquid NO fade.
+- **Confidence:** Low — edge is marginal; only worth ~$25 position size given the spread.
+
+---
+
+**2. KXCOMPANYACTIONEA-27-26JUL01 | EA Take-Private Closes by Aug 1**
+- **Bid/Ask:** 0.060 / 0.090 | **Vol:** $21,859
+- **Catalyst:** The EA (Electronic Arts) take-private by Apollo/consortium was announced in early 2026. Regulatory filings (HSR waiting periods, EU merger review) are still pending as of June 2026. No regulatory clearance has been publicly confirmed. Deals of this size typically take 6–12 months from announcement; closing by Aug 1 (within ~6 weeks) is unlikely without a near-complete regulatory green light that hasn't been reported.
+- **Fair probability:** ~5–6% (ask at 9¢ implies ~9%). Ask is ~3¢ overpriced.
+- **Trade:** BUY NO at ~0.91. Edge ~3¢. The AUG01 contract (bid 0.36/ask 0.42) suggests market expects closing more likely in Aug–Sep range, confirming JUL01 is overpriced.
+- **Confidence:** Medium. Regulatory timelines are lumpy but the JUL01 ask is clearly elevated vs. the AUG01 implied distribution.
+- **Size:** $50 on NO.
+
+---
+
+**3. KXCABLEAVE-26MAY22-26JUL | Trump Cabinet Member Departure by Jul**
+- **Bid/Ask:** 0.080 / 0.090 | **Vol:** $761
+- **Catalyst:** No confirmed cabinet departure as of June 17. The AUG01 version trades at 0.28/0.34, implying ~31% over a longer window. Back-solving, the incremental July probability implied by JUL01 at ~8.5% seems roughly fair given Trump's historically high cabinet turnover rate but lack of any specific imminent departure news. **No clear edge — skip.**
+
+---
+
+### Summary Table
+
+| Ticker | Trade | Size | Edge Est. | Confidence |
+|---|---|---|---|---|
+| KXZELENSKYPUTIN | NO (marginal) | $25 | ~0.5¢ | Low |
+| KXCOMPANYACTIONEA-27-26JUL01 | NO | $50 | ~3¢ | Medium |
+| KXCABLEAVE | Pass | — | Unclear | — |
+
+**Total deployed: ~$75.** Low-liquidity markets skipped (IPO series all have ask=$0.01–$0.10 with zero bids — uncrossable).
+
+---
+

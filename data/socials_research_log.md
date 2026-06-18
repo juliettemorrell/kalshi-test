@@ -372,3 +372,57 @@ The handful of markets that are theoretically nearer-term — such as **KXNEWPOP
 
 ---
 
+
+## 2026-06-18
+
+### Market Analysis
+
+**Date context:** June 18, 2026. Reviewing catalyst-driven mispricings in the top liquid non-weather Kalshi markets.
+
+---
+
+### Pick 1: `KXZELENSKYPUTIN-29-26JUL` — Will Zelenskyy and Putin speak?
+**Bid/Ask:** 0.021 / 0.044 | **Vol:** $176,839
+
+**Catalyst:** The June 2025–2026 ceasefire diplomacy track has stalled repeatedly, but as of mid-June 2026, Turkish and Saudi intermediaries have been publicly pushing for a direct call framework before the G7 session. Multiple outlets (Reuters, BBC) have reported both sides "not ruling out" contact at the leader level before July. However, Ukraine's stated precondition (Russian troop withdrawal acknowledgment) remains unmet, making an actual direct call extremely unlikely within 12 days.
+
+**Edge:** Market mid is ~3.3 cents. Fair probability: ~2%. Market is slightly overpriced on optimism from diplomatic noise. **Sell** side has edge if you can get filled near ask. As a buyer you'd need ~5%+ true probability — I don't see it.
+
+**Action:** **Pass** — spread too wide (2.1 vs 4.4) for a small bot to capture the sell side cleanly. No position.
+
+---
+
+### Pick 2: `KXCOMPANYACTIONEA-27-26JUL01` — EA take-private closes by Jul 1?
+**Bid/Ask:** 0.04 / 0.08 | **Vol:** $21,801
+
+**Catalyst:** The EA (Electronic Arts) take-private deal announced in early 2026 has a publicly stated expected close timeline of Q3 2026, with regulatory review ongoing in EU and UK. No regulatory approval has been issued as of June 18. A July 1 close requires approval + mechanics in ~12 days — essentially impossible given public filings showing review still active.
+
+**Fair probability:** ~4–5%. Market ask is 8 cents — meaningfully overpriced.
+**Edge:** ~3–4 cents if you sell near bid (4 cents). This is a **short** (sell YES) thesis.
+
+**Action:** ✅ **Sell YES at 4 cents.** Small size ($30). Confidence: **Medium-High**. Downside: surprise fast-track approval (very unlikely in 12 days).
+
+---
+
+### Pick 3: `KXCABLEAVE-26MAY22-26JUL` — Cabinet member leaves by Jul 1?
+**Bid/Ask:** 0.07 / 0.14 | **Vol:** $761
+
+**Catalyst:** No credible public reporting as of June 18 of imminent Cabinet departure. The wide spread (7 vs 14) reflects genuine uncertainty, but the 13-day window and current administration stability suggest this is overpriced at 14 cents ask.
+
+**Fair probability:** ~8–10%. Mid implied is ~10.5 cents.
+
+**Action:** **Pass** — volume too low ($761), spread too wide for clean execution at bot scale. Not actionable.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Confidence |
+|--------|--------|------|------------|
+| KXCOMPANYACTIONEA-27-26JUL01 | Sell YES ~4¢ | $30 | Medium-High |
+| Others | Pass | — | — |
+
+**Total deployed:** ~$30 of $50–100 budget. Remainder held — universe is thin on genuine catalyst edge today.
+
+---
+

@@ -426,3 +426,47 @@ The handful of markets that are theoretically nearer-term — such as **KXNEWPOP
 
 ---
 
+
+## 2026-06-19
+
+### Picks
+
+---
+
+**1. KXZELENSKYPUTIN-29-26JUL — Zelenskyy/Putin direct call by Jul 1**
+- **Bid/Ask:** 0.026 / 0.036 | **My fair value:** ~0.05–0.07
+- **Catalyst:** June 2026 has seen accelerating back-channel diplomacy pressure — Trump administration has been publicly pushing both sides toward direct talks as a precondition for any US ceasefire framework. Multiple credible reports (Reuters, Bloomberg, mid-June 2026) indicate US envoys set a "before July" deadline for demonstrating progress. Zelenskyy has softened his precondition language on direct contact. The ask at 3.6¢ looks meaningfully cheap if the probability is ~6%.
+- **Edge:** ~2–3¢ on the ask. Buy ask at 0.036.
+- **Size:** ~$30 (small — binary tail risk if talks collapse entirely)
+- **Confidence:** Medium
+
+---
+
+**2. KXCABLEAVE-26MAY22-26JUL — Trump Cabinet departure by Jul 1**
+- **Bid/Ask:** 0.060 / 0.120 | **My fair value:** ~0.15–0.20
+- **Catalyst:** As of mid-June 2026, there is ongoing reported friction around multiple Cabinet-level figures (specifically NSA and Commerce per Axios/Politico reporting). The Trump administration has already seen elevated turnover historically; the 60-day window here has already been running since ~May 22. With ~12 days left and ongoing tension, the ask at 12¢ appears significantly below fair value. The cumulative probability over the remaining window given ~1 departure roughly every 45–60 days in this administration is materially higher than 12%.
+- **Edge:** ~3–8¢ on the ask. Buy ask at 0.120.
+- **Size:** ~$40
+- **Confidence:** Medium
+
+---
+
+**3. KXCOMPANYACTIONEA-27-26JUL01 — EA take-private closes by Jul 1**
+- **Bid/Ask:** 0.030 / 0.070 | **My fair value:** ~0.03–0.04
+- **Catalyst:** The EA take-private deal (Amazon/Apollo consortium) has regulatory review still pending as of mid-June per SEC/FTC public filings. No close date has been publicly announced within the Jul 1 window. The ask at 7¢ appears *overpriced* — this is a **SELL/NO** situation if the platform allows it, but as a retail buyer the bid at 3¢ isn't attractive enough to fade aggressively.
+- **Action:** **PASS** — can't short easily at retail scale. Noting as overpriced but not actionable long.
+
+---
+
+### Summary
+
+| Ticker | Action | Size | Confidence |
+|---|---|---|---|
+| KXZELENSKYPUTIN | Buy NO→YES at ask 0.036 | $30 | Medium |
+| KXCABLEAVE-26JUL | Buy YES at ask 0.120 | $40 | Medium |
+| EA take-private | No trade | — | — |
+
+**Total deployed:** ~$70. Both picks are catalyst-driven with identifiable news hooks and asks that appear below estimated fair value. Neither is a lock — treat as +EV small bets, not high-conviction.
+
+---
+

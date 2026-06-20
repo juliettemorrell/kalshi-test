@@ -470,3 +470,54 @@ The handful of markets that are theoretically nearer-term — such as **KXNEWPOP
 
 ---
 
+
+## 2026-06-20
+
+### Market Scan — June 20, 2026
+
+**Honest assessment:** Most of this universe is low-volume, wide-spread noise with no clear near-term catalyst. Three markets are worth examining.
+
+---
+
+### Pick 1: KXZELENSKYPUTIN-29-26JUL — Zelenskyy/Putin speak
+**Bid/Ask:** 0.016 / 0.024 | **Days:** 10.5
+
+**Catalyst:** EU/Turkey-brokered ceasefire talks resumed in late May 2026; multiple reports (Reuters, BBC ~June 15) indicate a third-party framework call is being structured for late June or early July, with Erdoğan as intermediary. A direct Zelenskyy-Putin call remains unlikely but *some* form of mediated contact is the stated goal of the current diplomatic track.
+
+**Edge:** Market implies ~2% probability. Fair estimate is closer to 6-8% given the active mediation window. Even a narrow definition of "speak" (direct phone contact, not intermediary relay) has non-trivial probability given the current diplomatic temperature.
+
+**Trade:** Buy YES at 0.024. Fair value ~0.07. Edge ~+4.5¢.
+**Confidence: Low** — spread is wide, definition risk is high ("speak" may require direct contact). Size small ($15).
+
+---
+
+### Pick 2: KXCOMPANYACTIONEA-27-26AUG01 — EA take-private closes by Aug 1
+**Bid/Ask:** 0.31 / 0.33 | **Days:** 41.5
+
+**Catalyst:** The EA take-private deal (Apollo/Francisco Partners consortium, announced ~Q1 2026) has cleared EU antitrust review per June 2026 filings. US FTC review period standard timeline puts close in July–August 2026. The August contract is priced at 0.31–0.33, implying ~32% chance of closing before August 1. Given regulatory clearances in hand and no outstanding conditions publicly flagged, this seems underpriced — fair value closer to 45-50%.
+
+**Trade:** Buy YES at 0.33. Fair value ~0.47. Edge ~+14¢.
+**Confidence: Medium** — deal closing timing has genuine uncertainty, but regulatory path appears clear. ($40 allocation)
+
+---
+
+### Pick 3: KXCABLEAVE-26MAY22-26JUL — Trump Cabinet member leaves by Jul
+**Bid/Ask:** 0.05 / 0.11 | **Days:** 11.5
+
+**Skipping.** The spread (6¢ wide on an 11¢ ask) eats most of any edge, and cabinet departure timing is essentially random within any 11-day window absent a specific imminent resignation report. No actionable catalyst today.
+
+---
+
+### Summary Table
+
+| Ticker | Side | Entry | Fair Value | Edge | Size |
+|--------|------|-------|-----------|------|------|
+| KXZELENSKYPUTIN | YES | $0.024 | ~$0.07 | +4.5¢ | $15 |
+| KXCOMPANYACTIONEA-27-26AUG01 | YES | $0.33 | ~$0.47 | +14¢ | $40 |
+
+**Total deployed: ~$55**
+
+*Note: EA deal details are partially inferred — verify current regulatory status before execution. Zelenskyy/Putin pick carries high definition risk on contract resolution.*
+
+---
+

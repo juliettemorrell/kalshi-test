@@ -521,3 +521,41 @@ The handful of markets that are theoretically nearer-term — such as **KXNEWPOP
 
 ---
 
+
+## 2026-06-21
+
+### Market Review
+
+Most of these markets are extremely illiquid tail-risk plays (bid=0) or have spreads so wide (e.g., 1¢ bid / 9¢ ask) that the house edge dominates any informational edge at $50-100 size. Three markets worth examining:
+
+---
+
+### Pick 1: `KXCOMPANYACTIONEA-27-26JUL01` — EA Take-Private Closes by Jul 1
+**Bid 0.01 / Ask 0.06 | ~$21K vol | 9.5d**
+
+**Catalyst:** EA's take-private by a consortium (Apax/others) was announced in early 2026 and has been working through regulatory review. As of mid-June 2026, no major regulatory block has been reported; EU and US HSR review timelines suggest a close is plausible within Q2/early Q3. However, July 1 is an aggressive deadline — most deal timelines cited late Q3 2026. The ask at 6¢ implies ~6% probability of closing in 9 days, which seems roughly fair-to-slightly-high given no confirmed close date announcement. **No clear edge — skip.**
+
+---
+
+### Pick 2: `KXZELENSKYPUTIN-29-26JUL` — Zelenskyy and Putin Speak by Jul 1
+**Bid 0.01 / Ask 0.023 | $186K vol | 9.5d**
+
+**Catalyst:** The June 2026 ceasefire negotiation track has seen Turkey and Saudi Arabia as intermediaries, but direct Zelenskyy-Putin communication remains explicitly ruled out by both sides publicly as of this week. Putin's stated preconditions (territorial recognition) remain unacceptable to Kyiv. Ask at 2.3¢ implies ~2.3% probability. This feels roughly fair — there's no credible news of imminent direct contact. **No actionable edge at retail size.**
+
+---
+
+### Pick 3: `KXCABLEAVE-26MAY22-26JUL` — Trump Cabinet Member Leaves by Jul 1
+**Bid 0.05 / Ask 0.10 | ~$769 vol | 10.5d**
+
+**Catalyst:** This is the one market with a plausible story. As of June 2026, there are recurring reports of tension around specific cabinet members (Commerce, HHS). However, actual departures in Trump's second term have been slow despite speculation. The ask at 10¢ implies 10% probability of a departure in ~10 days. Base rate from Trump 2.0 so far: roughly 1-2 departures per quarter, so ~10-15% per month, making 10% over 10 days *slightly* generous to sellers. The bid-ask spread (5¢/10¢) is brutal for $50-100 size.
+
+**Verdict:** Marginally overpriced at ask but spread kills the trade. **Pass.**
+
+---
+
+### Conclusion: **No actionable picks today.**
+
+**Reasoning:** The liquid markets (Taiwan Level 4, Zelenskyy-Putin, US territory) are efficiently priced near-zero tail risks. The illiquid markets have spreads of 4-9¢ on assets worth 0-2¢, making the market-maker edge insurmountable for a $50-100 retail bot. The EA deal market lacks a specific near-term catalyst to justify directional conviction. Revisit if a confirmed EA closing date or surprise cabinet resignation headline drops.
+
+---
+

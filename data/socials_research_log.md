@@ -559,3 +559,42 @@ Most of these markets are extremely illiquid tail-risk plays (bid=0) or have spr
 
 ---
 
+
+## 2026-06-22
+
+### Pick 1: EA Take-Private (July) — KXCOMPANYACTIONEA-27-26JUL01
+**Bid/Ask:** 0.02 / 0.08 | **Days:** 8.4d
+
+**Catalyst:** The EA take-private deal (led by a consortium including Amazon) was announced in March 2026 with an expected close in mid-2026. As of late June, regulatory review (HSR clearance) has been proceeding without public objection. No FTC challenge has been filed. Standard Hart-Scott-Rodino waiting periods for gaming/media deals of this size typically clear in 30–60 days. If the deal targets a Q2/early-Q3 close, the July 1 window is plausible but tight — the ask at 8¢ seems wide given genuine uncertainty, but the *bid* at 2¢ is too low given deal progress.
+
+**Fair probability:** ~15–20% for closing by July 1 specifically. Ask at 8¢ is roughly fair-to-slightly-high; **no buy here**. But the bid at 2¢ is exploitable if you can *sell* NO (i.e., market makers are pricing close at ~5¢ midpoint, which is reasonable). **Pass** — spread too wide for small retail.
+
+---
+
+### Pick 2: Spider-Man Beyond the Spider-Verse Trailer — KXMEDIARELEASESPIDERMAN-AUG26
+**Bid/Ask:** 0.39 / 0.40 | **Days:** 39.4d
+
+**Catalyst:** *Beyond the Spider-Verse* has been in production limbo since the 2023 writers'/animators' strike disruptions. Sony has not confirmed a 2026 release date as of June 2026, and no official trailer has been greenlit publicly. With ~39 days to an August settle, the market pricing at ~39–40¢ for an official trailer drop implies ~40% probability. Given Sony's continued silence and no Comic-Con (SDCC is late July — *possible* reveal venue but not confirmed), 40¢ feels 8–12 cents **too high**.
+
+**Trade:** **Sell YES / Buy NO at 0.39 bid.** Fair value ~28–32¢.
+**Edge:** ~7–11 cents. **Size: $40.**
+**Confidence: Medium.**
+
+---
+
+### Pick 3: Cabinet Member Departure (July) — KXCABLEAVE-26MAY22-26JUL
+**Bid/Ask:** 0.04 / 0.11 | **Days:** 9.4d
+
+**Catalyst:** No confirmed resignation or firing is publicly imminent as of 2026-06-22. The Trump second-term cabinet has shown some turnover signals (ongoing speculation around several secretaries) but no concrete announcement. The 9-day window is very short. The ask at 11¢ implies ~7–8¢ midpoint — too rich for a binary event with no confirmed trigger. Base rate for any cabinet departure in a random 9-day window is historically ~3–5%.
+
+**Trade:** **Buy NO (fade the ask).** Fair value ~5–7¢ vs. implied mid of ~7.5¢.
+**Edge:** ~2–3 cents only. Spread is too wide (7¢) for clean entry.
+**Verdict: Skip** — spread eats the edge.
+
+---
+
+### Summary
+**One actionable trade:** Sell Spider-Man trailer YES (~$40 notional). The other markets either have spreads too wide for $50–100 size or insufficient edge after friction. No forced trades.
+
+---
+

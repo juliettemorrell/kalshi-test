@@ -598,3 +598,55 @@ Most of these markets are extremely illiquid tail-risk plays (bid=0) or have spr
 
 ---
 
+
+## 2026-06-23
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCOMPANYACTIONEA-27-26JUL01**
+*When will EA's take-private acquisition close? (by Jul 1)*
+`bid=0.01 / ask=0.04`
+
+**Catalyst:** The EA take-private deal (Amazon/Blackstone consortium, announced ~Feb 2026) has been working through regulatory review. As of late June 2026, EU and FTC review timelines point to a late-Q3 close at earliest — there is no credible signal of a sub-Jul-1 close. The July contract is almost certainly a "No" / wrong-bucket position. At ask=0.04, the market is already cheap, but the August contract at bid=0.27/ask=0.32 is where the real action is.
+
+**Action:** **BUY KXCOMPANYACTIONEA-27-26AUG01** at ask=0.32
+**Fair value estimate:** ~0.55 (deal close in July–August window is the modal outcome once regulators clear). Edge: ~+23 cents.
+**Confidence: Medium** — regulatory timing is uncertain but Aug window is realistic.
+
+---
+
+**2. KXZELENSKYPUTIN-29-26JUL**
+*Will Zelenskyy and Putin speak? (by Jul ~1)*
+`bid=0.008 / ask=0.021`
+
+**Catalyst:** As of June 2026, multiple ceasefire-adjacent diplomatic tracks (Turkey, Saudi Arabia, Vatican back-channels) have stalled. There is no confirmed direct communication channel and both sides have publicly refused direct talks. The ~2% ask price still overstates the probability; this is closer to 0.5–0.8% given the complete absence of scheduled contact and ongoing battlefield activity in Zaporizhzhia.
+
+**Action:** **PASS / SELL if you can** — hard to efficiently fade at these tiny spreads with a $50–100 bot. Spread cost eats the edge.
+
+---
+
+**3. KXCABLEAVE-26MAY22-26JUL**
+*When will a Trump Cabinet member leave? (by ~Jul 1)*
+`bid=0.03 / ask=0.09`
+
+**Catalyst:** Pete Hegseth survived a Senate near-removal vote in May 2026 and Trump publicly reaffirmed his cabinet in a June 18 statement. No active resignation rumors exist in credible outlets as of this writing. The 8.5-day window is very short. Ask at 0.09 implies ~9% probability in <9 days — historically, Trump cabinet turnover in any given week runs ~1–2%. The market is pricing residual drama premium.
+
+**Action:** **SELL / NO at bid=0.03** — but note the $0.06 spread is punishing. Only viable if limit-selling near 0.07–0.08.
+**Fair value estimate:** ~0.03–0.04. Edge: ~4–5 cents at mid.
+**Confidence: Medium-low** — surprise firings are always possible.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Ask/Bid | Fair Value | Edge | Confidence |
+|---|---|---|---|---|---|
+| KXCOMPANYACTIONEA-27-26AUG01 | BUY | 0.32 | ~0.55 | +23¢ | Medium |
+| KXCABLEAVE-26MAY22-26JUL | SELL | 0.03 bid | ~0.04 | +4¢ | Med-Low |
+
+*Best single trade for a small bot: EA August close at 0.32.*
+
+---
+

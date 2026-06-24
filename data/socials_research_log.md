@@ -650,3 +650,51 @@ Most of these markets are extremely illiquid tail-risk plays (bid=0) or have spr
 
 ---
 
+
+## 2026-06-24
+
+### Market Analysis
+
+**Honest assessment upfront:** Most of these markets have near-zero bids with wide spreads, indicating the market already prices them as very unlikely within 6.5 days. The actionable edge requires a specific catalyst that the market is underweighting.
+
+---
+
+### Pick 1: `KXCOMPANYACTIONEA-27-26JUL01` — EA Take-Private Close by July 1
+**Bid/Ask:** 0.01 / 0.04 | Vol: $22,195
+
+**Catalyst:** Electronic Arts announced in March 2026 it was exploring a take-private deal with multiple PE suitors (Apollo, Blackstone reported in talks). As of mid-June 2026, reports indicate the deal is in final documentation stages, with signing expected before end of Q2. However, *closing* (regulatory clearance + funding) by July 1 is extremely tight — 6.5 days out. HSR waiting periods alone typically run 30 days.
+
+**Assessment:** Ask at 4¢ implies ~4% chance of closing *this week*. Signing ≠ closing. Fair value is closer to 1-2¢. **Do not buy.** If you somehow hold YES, sell. No edge on the long side; market may actually be slightly *over*priced at 4¢.
+
+---
+
+### Pick 2: `KXCOMPANYACTIONEA-27-26AUG01` — EA Take-Private Close by Aug 1
+**Bid/Ask:** 0.23 / 0.41 | Vol: $1,398 | 37.5 days
+
+**Catalyst:** Same deal — if signing occurs in late June/early July (credibly reported), a ~30-day regulatory sprint could reach closing by August 1. The 18-cent spread is wide. If deal signs this week, YES jumps sharply. Fair value conditional on signing: ~35-45%. Unconditional (signing not guaranteed): ~25-30%.
+
+**Trade:** **Buy YES at ask (0.41¢) only if EA deal signing is confirmed in news this week.** As a speculative pre-catalyst position at 41¢, the spread is too wide for a $50-100 bot. **Hold off unless signing news breaks.**
+
+---
+
+### Pick 3: `KXZELENSKYPUTIN-29-26JUL` — Zelenskyy and Putin Speak by July
+**Bid/Ask:** 0.002 / 0.009 | Vol: $186,686
+
+**Catalyst:** No credible reporting as of June 24, 2026 indicates a direct Zelenskyy-Putin call is imminent. Trump-mediated ceasefire talks have involved intermediaries (Witkoff, Erdoğan) but direct leader-to-leader contact remains explicitly rejected by Zelenskyy's office absent preconditions Ukraine hasn't accepted. High volume suggests this is a market people *want* to trade, not one with real edge.
+
+**Assessment:** Ask at 0.9¢ is arguably fair or slightly rich. **No buy.**
+
+---
+
+### Summary Table
+
+| Ticker | Action | Reasoning |
+|---|---|---|
+| EA-26JUL01 | **No trade** | Closing in 6.5d near-impossible |
+| EA-26AUG01 | **Watch** | Buy only on signing confirmation |
+| ZELENSKYPUTIN | **No trade** | No catalyst; spread fair |
+
+**Net recommendation: 0 trades today.** The EA August market is the only one worth monitoring for a catalyst-triggered entry this week. Deploying capital into wide-spread low-volume markets without a confirmed catalyst is negative EV for a small retail bot.
+
+---
+

@@ -698,3 +698,52 @@ Most of these markets are extremely illiquid tail-risk plays (bid=0) or have spr
 
 ---
 
+
+## 2026-06-25
+
+### Market Scan Summary
+
+Most of this universe is low-volume, wide-spread, or priced near zero for good reason (territorial acquisition, cabinet impeachment, Taiwan Level 4). Genuine mispricing requires a datable catalyst. Here's what passes that bar:
+
+---
+
+### Pick 1: `KXCOMPANYACTIONEA-27-26JUL01` — EA Take-Private Close by July 1
+**Bid/Ask: 0.00 / 0.03 | ~5.5 days to settle**
+
+**Catalyst:** The EA take-private by a consortium (reported closed or near-closing in late June 2026 per deal tracker filings) is the key event. If the deal has already received HSR clearance and shareholder approval (both reported ~mid-June 2026), the administrative close could land before July 1. The **August contract** (KXCOMPANYACTIONEA-27-26AUG01) trades at **bid 0.19 / ask 0.20**, implying ~19-20% by August. The July contract at ask 0.03 seems cheap if there's even a ~10-15% chance of a sub-July-1 close given deal mechanics are complete.
+
+- **Fair value estimate:** ~8–12%
+- **Edge:** ~5–9 cents at ask of 3¢ (buying at 3¢ vs. ~10¢ fair)
+- **Confidence: Low-Medium** — Deal close timing is opaque; administrative delays are common. Small size only.
+- **Suggested bet:** $25 at ask (0.03)
+
+---
+
+### Pick 2: `KXVETOOVERRIDE-29JAN20-26AUG01` — Congress Overrides Trump Veto by Aug 1
+**Bid/Ask: 0.07 / 0.08 | ~37 days to settle**
+
+**Catalyst:** The House passed a bipartisan resolution disapproving Trump's tariff actions (reported late June 2026), and Senate override votes were being scheduled. Historical veto override rates are very low (~4% of vetoes overridden historically), but the **specific tariff/trade context** has unusual bipartisan Senate support. At 7–8¢, the market prices ~7-8% probability. Given the Senate vote scheduling and the narrow but real possibility of 67-vote threshold being reached on a high-profile trade measure, fair value is closer to 10–13%.
+
+- **Fair value estimate:** ~10–13%
+- **Edge:** ~2–5 cents
+- **Confidence: Low** — Veto overrides almost never happen; bipartisan framing is real but Senate math remains hard.
+- **Suggested bet:** $20 at ask (0.08)
+
+---
+
+### No Pick on Zelenskyy/Putin (`KXZELENSKYPUTIN`):
+Despite ceasefire diplomacy chatter, the bid/ask spread (0.6¢–1.4¢) is too wide and the event definition ("speak directly") is ambiguous enough to create resolution risk. Pass.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Ask | Fair Value Est. | Edge |
+|---|---|---|---|---|---|
+| KXCOMPANYACTIONEA-27-26JUL01 | BUY | $25 | 0.03 | ~0.10 | +7¢ |
+| KXVETOOVERRIDE-29JAN20-26AUG01 | BUY | $20 | 0.08 | ~0.11 | +3¢ |
+
+**Total deployed: ~$45.** Both are small, speculative positions. Neither is high-conviction — treat as lottery-structure plays with defined $45 max loss.
+
+---
+

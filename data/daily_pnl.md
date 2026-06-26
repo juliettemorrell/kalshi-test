@@ -1,6 +1,6 @@
 # Kalshi Bot Performance Dashboard
 
-_updated 2026-06-25_
+_updated 2026-06-26_
 
 - **Current total worth (cash + positions): $0.65**
   - cash: $0.65

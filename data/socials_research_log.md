@@ -747,3 +747,43 @@ Despite ceasefire diplomacy chatter, the bid/ask spread (0.6¢–1.4¢) is too w
 
 ---
 
+
+## 2026-06-26
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXUSAEXPANDTERRITORY-26JUL01 — Will the US acquire any new territory?**
+- **Bid/Ask:** 0.0050 / 0.0060 | **Days to settle:** 4.9d
+- **Catalyst:** As of late June 2026, no credible legislative or treaty mechanism for US territorial acquisition (Greenland, Panama, Canada) has advanced past rhetoric. Congress has not voted, no treaty has been submitted, and Denmark/Panama have firmly rejected overtures. The window to formally *acquire* territory in 5 days is essentially zero.
+- **Fair probability:** ~0.3% (0.003)
+- **Edge:** Ask is 0.60¢. Fair value ~0.30¢. **Sell YES at 0.50¢ bid** if possible, or skip — the bid side (0.50¢) is already thin. Actually the ask is only 0.60¢, so buying NO (selling YES) isn't directly available at a good price. **Pass on execution** — spread too tight to sell YES meaningfully at retail size.
+- **Revised action:** Skip — no retail-executable edge on this side.
+
+---
+
+**2. KXCOMPANYACTIONEA-27-26AUG01 — EA take-private acquisition closes by Aug 1**
+- **Bid/Ask:** 0.19 / 0.20 | **Days to settle:** 35.5d | **Vol:** $1,438
+- **Catalyst:** The Electronic Arts take-private deal (reported ~$20/share buyout by a consortium including Amazon, per late 2025 reports) has been in regulatory review. As of June 2026, no HSR clearance or shareholder vote completion has been publicly announced. Large gaming M&A typically takes 9–12 months from announcement; deal was announced ~Q4 2025, making a pre-August 1 close plausible but not certain. The July contract (4.5d) sits at ask=0.02, implying near-zero chance of closing *this week* — correct. The **August contract at 19–20¢ reflects ~20% close probability by Aug 1**, which seems slightly *low* if regulatory review is on track.
+- **Fair probability:** ~25–28%
+- **Edge:** ~5–8¢ on the ask. **Buy YES at 0.20** ($20 position → $80–140 expected profit at fair value)
+- **Confidence:** Low-Medium. Regulatory timing is opaque; don't size up.
+- **Suggested bet:** $30 at ask=0.20
+
+---
+
+**3. KXVETOOVERRIDE-29JAN20-26AUG01 — Will Congress override Trump's veto?**
+- **Bid/Ask:** 0.07 / 0.09 | **Days to settle:** 35.9d | **Vol:** $150
+- **Catalyst:** Veto overrides require 2/3 supermajority in both chambers. Republicans hold the House; no veto override has succeeded under unified government opposition since this Congress began. There's no pending override vote with 67+ Senate votes in sight. Ask at 9¢ is too high.
+- **Fair probability:** ~3–4%
+- **Edge:** Sell YES / buy NO — but **volume is only $150 total**. Spread too wide, liquidity too thin for reliable execution at retail.
+- **Action:** Skip — insufficient liquidity.
+
+---
+
+### Summary
+**One actionable trade:** Buy EA August take-private close (KXCOMPANYACTIONEA-27-26AUG01) at $0.20, ~$30 position. All other apparent mispricings fail on liquidity or executability at retail size.
+
+---
+

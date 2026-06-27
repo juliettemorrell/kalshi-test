@@ -787,3 +787,51 @@ Despite ceasefire diplomacy chatter, the bid/ask spread (0.6¢–1.4¢) is too w
 
 ---
 
+
+## 2026-06-27
+
+### Market Assessment
+
+Most markets here are low-liquidity IPO-announcement shells with 0 bid / tiny ask — classic "lottery ticket" structure where the house wins on spread. Skipping those wholesale.
+
+---
+
+### Pick 1: KXZELENSKYPUTIN-29-26JUL — Zelenskyy/Putin speak by ~Jul 1
+**Bid/Ask: 0.006 / 0.016 | ~3.5 days to settle**
+
+**Catalyst:** As of late June 2026, back-channel ceasefire negotiations have been intensifying (Trump envoy Kellogg/Witkoff shuttle diplomacy, G7 pressure), but *direct* Zelenskyy-Putin voice contact remains explicitly blocked by Zelenskyy's own October 2022 decree prohibiting talks with Putin personally. Ukraine has repeatedly reaffirmed this policy in June 2026. A direct call in the next 3.5 days would require Zelenskyy to publicly reverse a foundational war policy with zero warning — essentially impossible on this timeline.
+
+**Fair probability:** ~1–1.5%. Market ask of 1.6¢ is near fair value but the *bid* side at 0.6¢ is where edge lives — **sell/NO at bid is unattractive** since you can't sell at 0.6¢ profitably. Buying at 1.6¢ is slightly overpriced at fair ~1–1.2¢.
+
+**Verdict:** Marginal — **pass**. Spread too wide for small retail, no actionable NO side.
+
+---
+
+### Pick 2: KXVETOOVERRIDE-29JAN20-26AUG01 — Congress Override Trump Veto by Aug 1
+**Bid/Ask: 0.06 / 0.07 | ~35 days | Vol=$261**
+
+**Catalyst:** Trump has used vetoes on several bills in 2026; Republican House/Senate majorities make a 2/3 override mathematically implausible — the GOP has not broken ranks to override any Trump veto in this term, and there is no pending legislation with bipartisan supermajority support as of late June 2026. Historical override rate in unified-party congresses is near zero.
+
+**Fair probability:** ~2–3%. Market at 6–7¢ is **significantly overpriced**.
+
+**Action:** Buy NO (sell YES) — but Kalshi retail mechanics require checking if NO is purchasable. At 7¢ ask for YES, implied NO = 93¢. Buying NO at ~93¢ to win $7 on $93 risked = poor payout structure for small account. **Pass on size grounds.**
+
+---
+
+### Pick 3: KXCOMPANYACTIONEA-27-26JUL01 — EA Take-Private Closes by Jul 1
+**Bid/Ask: 0.00 / 0.02 | 3.5 days**
+
+**Catalyst:** The EA take-private deal (reported ~early 2026) involves regulatory review timelines that publicly extend beyond July 1. No closing announcement has been made. Zero bid confirms market consensus.
+
+**Fair probability:** <1%. Ask at 2¢ is 2x fair value.
+
+**Verdict:** Don't buy. Correct direction but no edge buying a 1¢ thing at 2¢.
+
+---
+
+### Conclusion: **No actionable buys this cycle.**
+
+Every catalyst-driven market either has a spread that eats the edge or implies NO-side payouts too thin for $50–100 retail. The veto override is the most genuinely mispriced (~6¢ vs ~2¢ fair) but NO-side economics don't work at small size. Recommend holding cash until next refresh.
+
+---
+

@@ -835,3 +835,49 @@ Every catalyst-driven market either has a spread that eats the edge or implies N
 
 ---
 
+
+## 2026-06-28
+
+### Market Analysis
+
+Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, meaning the market maker is essentially offering lottery tickets on events that almost certainly won't happen by July 1. The edge typically runs *against* the buyer here. I'll look for cases where YES is mispriced cheap OR where a specific catalyst makes the ask worth hitting.
+
+---
+
+### Pick 1: KXVETOOVERRIDE-29JAN20-26AUG01
+**"Will Congress override Trump's veto?"**
+- **Bid/Ask:** 0.06 / 0.07 | 33.9d | Vol=$261
+- **Catalyst:** The "Big Beautiful Bill" passed the House narrowly and faces Senate resistance, but a *veto override* requires 2/3 of both chambers — an extraordinarily high bar given current Republican majorities. No credible override coalition exists as of late June 2026. Historical base rate for override attempts succeeding is near zero in unified-party environments.
+- **Fair probability:** ~3–4%
+- **Edge:** Market is pricing 6–7¢. Fair value is ~3–4¢. This is a **SELL/NO** if tradeable, but Kalshi retail accounts typically can't short easily. **Pass on buying.**
+
+---
+
+### Pick 2: KXCOMPANYACTIONEA-27-26AUG01
+**"When will EA's take-private acquisition close? — by Aug 1"**
+- **Bid/Ask:** 0.19 / 0.22 | 33.5d | Vol=$1,438
+- **Catalyst:** Amazon's reported ~$8.5B acquisition of EA (announced spring 2026) is undergoing FTC review. Given the current FTC posture under the Trump administration (more permissive on tech M&A than prior administration), regulatory approval timelines suggest a Q3 2026 close is plausible but August 1 is tight — most large acquisitions take 6–9 months post-announcement. If announced ~April 2026, August close is aggressive but not impossible.
+- **Fair probability:** ~22–28% for closing by Aug 1
+- **Edge:** Ask of 0.22 is roughly at fair value low end. **No strong edge; skip.**
+
+---
+
+### Pick 3: KXSPIDERMAN AUG26 (KXMEDIARELEASESPIDERMAN-AUG26)
+**"Official Spider-Man: Beyond the Spider-Verse trailer by Aug 2026"**
+- **Bid/Ask:** 0.39 / 0.40 | 33.5d | Vol=$2,620
+- **Catalyst:** Sony has the film targeting a 2026 theatrical release after years of delay. A trailer by August is nearly mandatory for any fall/holiday 2026 release window — studios typically drop trailers 3–5 months out. No confirmed release date yet, but Sony's marketing cadence and fan pressure make a summer 2026 trailer drop highly likely.
+- **Fair probability:** ~55–65%
+- **Edge:** Buying at 0.40 with fair value ~60% = **+18–22¢ edge**
+- **Confidence: Medium** (risk: film still delayed/no release date confirmed)
+- **Action: BUY at ask 0.40, size $40–50**
+
+---
+
+### Summary Table
+| Pick | Action | Size | Edge |
+|------|--------|------|------|
+| Spider-Man trailer by Aug | BUY 0.40 | $45 | +~20¢ |
+| Others | Skip | — | No edge |
+
+---
+

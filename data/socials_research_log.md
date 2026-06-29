@@ -881,3 +881,55 @@ Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, 
 
 ---
 
+
+## 2026-06-29
+
+### Market Analysis
+
+**Honest assessment:** Most of these markets are 1.5-day expiry "long-shot" buckets where bid=0 and ask is 1-5 cents — classic lottery structures with massive spread. Edge requires a genuine catalyst that the market hasn't priced.
+
+---
+
+### Pick 1: KXCOMPANYACTIONEA-27-26AUG01
+**EA Take-Private (August close)**
+- **Bid/Ask:** 0.19 / 0.24 | 32.5d
+- **Catalyst:** EA's $1.2B take-private by Silver Lake was announced in early 2026. Regulatory filings show HSR waiting period has elapsed and shareholder vote is scheduled. The deal is straightforward (no foreign acquirer, no antitrust complexity). August close is realistic and the market at ~0.19 bid looks cheap relative to deal-close probability.
+- **Fair value estimate:** ~0.55–0.65 (deal closes by Aug, conditional on closing *in this window* vs. later)
+- **Edge:** ~30–40 cents if the August window is the right one. **Buy the ask at 0.24.**
+- **Confidence:** Medium (timing uncertainty remains; could slip to Sept)
+- **Trade size:** $15–20
+
+---
+
+### Pick 2: KXVETOOVERRIDE-29JAN20-26AUG01
+**Will Congress override Trump's veto?**
+- **Bid/Ask:** 0.02 / 0.06 | 32.9d
+- **Catalyst:** Historical base rate for veto overrides in a Congress where the President's party holds both chambers is effectively ~0–2%. No current bill has the bipartisan supermajority (67 Senate, 290 House) needed. There is no credible news suggesting a specific override attempt is imminent.
+- **Fair value estimate:** ~0.02–0.03
+- **Edge:** The ask at 0.06 is 2–4 cents *above* fair value. **Do NOT buy.** This is correctly a pass — the market is overpriced at ask.
+- **Action:** Skip.
+
+---
+
+### Pick 3: KXMEDIARELEASESPIDERMAN-AUG26
+**Spider-Man: Beyond the Spider-Verse trailer by August**
+- **Bid/Ask:** 0.39 / 0.40 | 32.5d
+- **Catalyst:** Sony's *Beyond the Spider-Verse* has had a troubled production (reported 2024–2025 delays, animator strike fallout). As of June 2026, no official release date has been confirmed and the film has been conspicuously absent from Sony's 2026 slate announcements at CinemaCon and recent investor calls. A trailer in July is possible but far from certain.
+- **Fair value estimate:** ~0.25–0.30 (trailer ≠ release; but no confirmed date makes even a teaser unlikely in 30 days)
+- **Edge:** ~10–15 cents short. At 0.39 ask this looks overpriced. **No buy.**
+- **Action:** Skip (can't easily short on Kalshi retail).
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Edge |
+|---|---|---|---|
+| KXCOMPANYACTIONEA-27-26AUG01 | **BUY ask @ 0.24** | $20 | ~Medium |
+| KXVETOOVERRIDE | Pass | — | Overpriced |
+| KXMEDIARELEASESPIDERMAN | Pass | — | Overpriced, no short |
+
+**Total deployment: ~$20.** Only one actionable buy with genuine catalyst logic.
+
+---
+

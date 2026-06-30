@@ -933,3 +933,59 @@ Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, 
 
 ---
 
+
+## 2026-06-30
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCOMPANYACTIONEA-27-26AUG01**
+*When will EA's take-private acquisition close? (August window)*
+`bid=0.26 ask=0.27 | 31.5d`
+
+**Catalyst:** Microsoft/Nexon/Apollo-backed take-private of EA was announced in early 2026. Regulatory filings (HSR, EU merger review) are tracking toward a Q3 close. As of late June 2026, no material antitrust objections have been raised publicly, and EA's board unanimously approved the deal. Standard deal timelines for this size (~$13B) run 4–6 months from announcement, pointing squarely at August.
+
+**Edge:** Market is pricing ~26–27¢ for August close. Given deal is on track with no regulatory headwinds surfaced, fair probability is closer to 40–45¢. Edge: ~+15¢.
+
+**Action:** BUY at ask 0.27, small size (~$30).
+**Confidence:** Medium (deal timing always has slippage risk).
+
+---
+
+**2. KXMEDIARELEASESPIDERMAN-AUG26**
+*Official trailer for Spider-Man: Beyond the Spider-Verse — August?*
+`bid=0.39 ask=0.40 | 31.5d`
+
+**Catalyst:** Sony has the film slotted for a **November 2026** theatrical release (confirmed via Sony's investor day and trade press, March 2026). Studios typically drop official trailers ~90–120 days before release. That window falls squarely in July–August. With July nearly over at settlement of the July contract, the August contract captures the highest-probability trailer drop window. No trailer has dropped as of June 30.
+
+**Edge:** 39–40¢ feels slightly cheap if you believe Sony is on schedule. Fair value ~50–55¢ given standard marketing cadence. Edge: ~+12¢.
+
+**Action:** BUY at ask 0.40, ~$40.
+**Confidence:** Medium (Sony has delayed this film before; production status unclear).
+
+---
+
+**3. KXVETOOVERRIDE-29JAN20-26AUG01**
+*Will Congress override Trump's veto? (by Aug 1)*
+`bid=0.02 ask=0.06 | 31.9d`
+
+**Catalyst:** No veto override has succeeded against a same-party president controlling either chamber since modern precedent. Republicans hold the House; the 2/3 threshold is essentially unreachable on any current legislation. There is no active bill in override proceedings as of late June 2026 with enough bipartisan momentum.
+
+**Edge:** Ask is 6¢, fair value is closer to 1–2¢. This is a **SELL/NO** opportunity, not a buy. At 6¢ ask, market is overpriced by ~4¢.
+
+**Action:** SELL NO at 0.94 (i.e., sell the YES side), or simply avoid buying. If Kalshi allows limit sell of YES, sell at ~0.05.
+**Confidence:** High — structural/political math makes this near-zero probability.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Entry | Fair Value | Edge | Size |
+|---|---|---|---|---|---|
+| EA-AUG | YES | $0.27 | ~$0.42 | +15¢ | $30 |
+| SPIDERMAN-AUG | YES | $0.40 | ~$0.52 | +12¢ | $40 |
+| VETOOVERRIDE-AUG | SELL YES | $0.06 | ~$0.02 | +4¢ | $20 |
+
+---
+

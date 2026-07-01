@@ -1,10 +1,10 @@
 # Kalshi Bot Performance Dashboard
 
-_updated 2026-06-30_
+_updated 2026-07-01_
 
-- **Current total worth (cash + positions): $1.61**
-  - cash: $1.61
-  - open positions: $0.00
+- **Current total worth (cash + positions): $1.44**
+  - cash: $0.00
+  - open positions: $1.44
 
 ## Settled trades to date
 

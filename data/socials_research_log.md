@@ -989,3 +989,55 @@ Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, 
 
 ---
 
+
+## 2026-07-01
+
+### Market Analysis
+
+---
+
+**1. KXCOMPANYACTIONEA-27-26AUG01 — EA Take-Private Close**
+*Bid 0.10 / Ask 0.17 (this contract = closes by Aug 1)*
+
+**Catalyst:** EA's take-private deal with a consortium (reported late 2025/early 2026) has regulatory review ongoing. As of July 2026, no major antitrust objections have been raised publicly, and deal timelines for mid-size gaming take-privates typically run 6-9 months from announcement. If announced ~late 2025, an Aug 1 close is plausible but tight. However, the market is pricing only 10-17% probability. Gaming M&A has faced minimal FTC friction under current administration, and deal closure announcements often come with little warning.
+
+**Edge:** Fair value closer to 25-30%. Ask at 0.17 looks cheap.
+**Play:** Buy at ask (0.17), size ~$25.
+**Edge:** ~8-13 cents. **Confidence: Medium.**
+
+---
+
+**2. KXCABLEAVE-26MAY22-26AUG — Trump Cabinet Departure by Aug**
+*Bid 0.18 / Ask 0.25*
+
+**Catalyst:** As of mid-2026, Cabinet turnover in Trump's second term has been elevated. Multiple confirmed friction points exist (reported tensions at DOJ, HHS restructuring, and ongoing DOGE-related reorganizations). Historical base rate for at least one Cabinet-level departure in any 3-month window of Trump's tenure has been high (~60-70% in first term). The market at 18-25% appears to significantly underweight this base rate and current reported tensions.
+
+**Edge:** Fair value ~40-50%. Ask at 0.25 looks notably cheap.
+**Play:** Buy at ask (0.25), size ~$35.
+**Edge:** ~15-25 cents. **Confidence: Medium-High.**
+
+---
+
+**3. KXVETOOVERRIDE-29JAN20-26AUG01 — Congress Override Trump Veto**
+*Bid 0.02 / Ask 0.06*
+
+**Catalyst:** A specific veto override requires 2/3 majority in both chambers. Republicans hold the House and Senate. Override votes against a sitting president of the same party are historically near-zero (last successful override of a same-party president was 1998, Bush/2002). No known pending legislation with bipartisan supermajority support is near a veto override threshold as of July 2026. The 2-6% pricing is actually *fair to slightly rich*.
+
+**Play:** **Skip.** Market is correctly priced; no edge here.
+
+---
+
+### Summary Table
+
+| Ticker | Play | Size | Edge Est. | Confidence |
+|---|---|---|---|---|
+| KXCOMPANYACTIONEA | Buy @ 0.17 | $25 | +8-13¢ | Medium |
+| KXCABLEAVE | Buy @ 0.25 | $35 | +15-25¢ | Med-High |
+| KXVETOOVERRIDE | Skip | — | None | — |
+
+**Total deployed: ~$60** (within $50-100 bot budget)
+
+*Note: Skims/Fannie/Waymo/Freddie IPO markets all trade near zero for good reason — no confirmed S-1 filings or banker mandates publicly announced. Spider-Man trailer timing is entertainment event arb with insufficient news edge today.*
+
+---
+

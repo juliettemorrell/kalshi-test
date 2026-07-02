@@ -1041,3 +1041,49 @@ Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, 
 
 ---
 
+
+## 2026-07-02
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCOMPANYACTIONEA-27-26AUG01 — EA Take-Private Close by Aug 1**
+- **Bid/Ask:** 0.09 / 0.10
+- **Catalyst:** EA and Apollo/Temasek announced the ~$9.3B take-private deal in March 2026. As of early July, the deal is in regulatory review. HSR waiting period has expired and no second request was reported publicly, which is the main gating item for a deal of this size. Shareholder vote is scheduled; no material antitrust pushback has emerged. The deal timeline points to a late-July or early-August close, which is tight but plausible.
+- **Fair probability estimate:** ~25–30% (closing *by* Aug 1 specifically is the hurdle — any slip to Aug 5 pays zero)
+- **Edge:** Market at ~9–10¢ looks significantly cheap if close probability is 25%+. Edge: ~15–18¢
+- **Action:** BUY at 0.10, small size (~$20)
+- **Confidence:** Medium — deal mechanics favor timely close, but exact date risk is real.
+
+---
+
+**2. KXMEDIARELEASESPIDERMAN-AUG26 — Spider-Man: Beyond the Spider-Verse Trailer by Aug 2026**
+- **Bid/Ask:** 0.39 / 0.40
+- **Catalyst:** Sony's *Beyond the Spider-Verse* has been in prolonged production limbo due to the 2023 animation strike and director disputes. As of mid-2026, the film has no confirmed release date and Sony has repeatedly declined to show footage. There is no credible marketing ramp underway — no Comic-Con slot confirmed at SDCC 2026 (held late July). An official trailer by end of August looks unlikely given Sony's silence.
+- **Fair probability estimate:** ~20–25%
+- **Edge:** Market at 39–40¢ is overpriced by ~15–18¢
+- **Action:** SELL at 0.39 (~$25 risk)
+- **Confidence:** Medium — Sony could surprise with a stealth drop, but the production situation argues strongly against.
+
+---
+
+**3. KXCABLEAVE-26MAY22-26AUG — Cabinet Member Leaves by Aug 2026**
+- **Bid/Ask:** 0.17 / 0.24 (wide spread — use caution)**
+- **Catalyst:** The spread here is too wide (7¢) for a $50–100 bot to get clean edge. While Cabinet turnover risk is real and ongoing (there have been rumors around several secretaries in mid-2026), the wide bid/ask means any position starts underwater. No single high-conviction near-term catalyst (imminent firing, resignation letter leaked) is available to justify crossing this spread.
+- **Action:** PASS — spread kills edge on small size.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Entry | Fair Value | Edge | Size |
+|---|---|---|---|---|---|
+| EA Take-Private | BUY | $0.10 | ~$0.27 | +17¢ | $20 |
+| Spider-Verse Trailer | SELL | $0.39 | ~$0.22 | +17¢ | $25 |
+| Cabinet Leave | PASS | — | — | eaten by spread | $0 |
+
+**Total deployed: ~$45**
+
+---
+

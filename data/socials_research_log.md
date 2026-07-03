@@ -1087,3 +1087,61 @@ Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, 
 
 ---
 
+
+## 2026-07-03
+
+### Market Review — Non-Weather, Catalyst-Driven
+
+---
+
+**Pick 1: KXCOMPANYACTIONEA-27-26AUG01**
+*When will EA's take-private acquisition close? (by Aug 1)*
+**Bid/Ask: 0.08/0.09 | ~28.5d**
+
+**Catalyst:** The Amazon/EA take-private deal (announced ~early 2026) has moved through HSR antitrust review. As of late June 2026, no second request was issued and the deal is tracking toward a standard ~6-month close. Multiple deal-tracker sources place closing probability in Q3 2026, with August being the modal close window. The Aug 1 contract essentially asks "does it close in the next 28 days."
+
+**Assessment:** A deal closing *before* Aug 1 is plausible but not the base case — regulatory filings typically finalize late in the quarter. Fair value is probably 12–18%, not 8–9%. The ask at 0.09 offers modest but real edge.
+
+- **Fair probability:** ~15%
+- **Edge:** ~+6 cents vs. ask
+- **Action:** BUY at ask (0.09), small size (~$30)
+- **Confidence:** Low-medium (deal timing is uncertain; don't oversize)
+
+---
+
+**Pick 2: KXLAKECONF-26MAY12-SEP01**
+*When will Kari Lake be confirmed as Ambassador to Jamaica? (by Sep 1)*
+**Bid/Ask: 0.15/0.16 | ~59.5d**
+
+**Catalyst:** Lake's nomination has stalled in committee since spring 2026. Multiple GOP senators have raised procedural objections and the Senate calendar is congested through August recess (typically begins ~Aug 4). A floor vote before Sep 1 would require unanimous consent or a filled recess calendar — neither appears likely. Current Senate schedule shows no confirmed floor time for this nomination.
+
+**Assessment:** The market at 15–16% already reflects uncertainty, but given August recess nearly eliminates floor time, fair value is closer to 8–10%. This is a **SELL/NO** opportunity.
+
+- **Fair probability:** ~9%
+- **Edge:** ~+6 cents on the NO side (selling bid at 0.15)
+- **Action:** SELL NO at 0.15 bid (~$25)
+- **Confidence:** Medium
+
+---
+
+**Pick 3: KXVETOOVERRIDE-29JAN20-26AUG01**
+*Will Congress override Trump's veto? (by Aug 1)*
+**Bid/Ask: 0.01/0.04 | ~28.9d**
+
+**Catalyst:** No veto override has succeeded against a sitting president from the same party controlling both chambers in the modern era. The current GOP House/Senate majority makes a 2/3 threshold essentially impossible in the next 29 days. The wide 3-cent spread (1/4) signals illiquidity, not mispricing — **no edge here.**
+
+**Action:** Pass.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Size | Edge Est. | Confidence |
+|---|---|---|---|---|
+| KXCOMPANYACTIONEA-27-26AUG01 | BUY YES @0.09 | $30 | +6¢ | Low-Med |
+| KXLAKECONF-26MAY12-SEP01 | SELL NO @0.15 | $25 | +6¢ | Medium |
+
+**Total deployed: ~$55** — within bot range. Both positions are small given genuine uncertainty. Do not chase size on either.
+
+---
+

@@ -1145,3 +1145,46 @@ Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, 
 
 ---
 
+
+## 2026-07-04
+
+### Market Scan — Independence Day
+
+**Honest framing:** Several of these markets have very wide spreads or near-zero bids, which destroys edge for a small retail bot. I'm focusing only on markets where a specific catalyst creates a directional thesis.
+
+---
+
+### Pick 1: `KXCOMPANYACTIONEA-27-26AUG01` — EA Take-Private Closes by Aug 1
+**Bid/Ask:** 0.08 / 0.10 | **Days:** 27.5
+
+**Catalyst:** The EA take-private deal (reportedly led by a consortium including Apollo/Sega rumors, though the specific acquirer matters less than timeline) was announced in late 2025/early 2026 with an expected closing in mid-2026. Regulatory HSR waiting periods for gaming M&A have been running ~6–8 months post-announcement. As of July 4, the Aug 1 window is tight but plausible if filings cleared in Q1. The Sep1 contract (same ticker, `26SEP01`) sits at 0.36/0.43 — the market implies most probability lands in the Aug–Sep window. The Aug1 leg at 8–10 cents looks slightly cheap if regulatory clearance is imminent; however, the spread is 2 cents on a 10-cent ask, which is 20% friction.
+
+**Fair probability estimate:** ~12–15%. Edge: ~3–5 cents on the BUY at ask=0.10.
+**Action:** BUY 5–8 contracts at ask (0.10). Max loss ~$8.
+**Confidence: Low** — close timing is binary and hard to pin.
+
+---
+
+### Pick 2: `KXLAKECONF-26MAY12-SEP01` — Kari Lake Confirmed as Ambassador by Sep 1
+**Bid/Ask:** 0.15 / 0.16 | **Days:** 58.5
+
+**Catalyst:** Kari Lake's nomination has been stalled in Senate Foreign Relations Committee since early 2026 amid Democratic holds and some Republican unease. As of late June 2026, no floor vote has been scheduled. With the Senate calendar compressed by recess schedules (August recess typically starts late July), a confirmation before Sep 1 requires a floor vote in the next ~3 weeks. The market at 15–16 cents seems *too high* given the procedural reality — holds remain active and leadership hasn't prioritized this nomination.
+
+**Fair probability estimate:** ~8–10%. Current ask of 0.16 implies ~16%. Edge: ~6–7 cents on the SELL (NO side).
+**Action:** SELL 10 contracts at bid=0.15 (collect 15 cents, risk 85 cents if confirmed). Max loss ~$85 if confirmed before Sep 1 — sized accordingly, 1–2 contracts only given asymmetric downside.
+**Confidence: Medium** — Senate scheduling is genuinely uncertain but procedural friction is real.
+
+---
+
+### Skip Explanations
+- **Waymo/Canva/Skims IPO (Aug/Sep):** Near-zero bids, 5-cent asks = pure lottery tickets, no edge.
+- **Fannie/Freddie IPO:** FHFA conservatorship exit requires legislative action; essentially 0% by Aug. Ask is 2–5 cents, not worth the friction.
+- **Cabinet departure / Veto override:** Too wide spreads, no specific imminent catalyst I can pin with confidence.
+- **Spider-Man trailer:** Entertainment timing with no confirmed studio announcement; skip.
+
+---
+
+**Total deployed:** ~$15–30 across 2 small positions. Sizing respects the bot's $50–100 budget with room for error.
+
+---
+

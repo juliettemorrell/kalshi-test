@@ -1188,3 +1188,47 @@ Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, 
 
 ---
 
+
+## 2026-07-05
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCOMPANYACTIONEA-27-26AUG01 — EA Take-Private Closes by Aug 1**
+- **Bid/Ask:** 0.08 / 0.09 | **Days:** 26.5d
+- **Catalyst:** The EA take-private by a consortium (reported ~early 2026) has been progressing through regulatory review. As of late June 2026, no major antitrust objections have materialized and shareholder approval was secured. Deals of this size typically have 60–90 day close windows post-approval; the timeline puts an August close in range but tight. The September contract (KXCOMPANYACTIONEA-27-26SEP01) trades 0.36/0.43, implying ~80%+ cumulative by Sep. The August leg at 8–9 cents looks cheap if the deal is on track — the spread between Aug and Sep contracts implies only ~30% probability of closing in August vs. September, which seems low if regulatory clearance is already in hand.
+- **Fair value estimate:** ~18–22 cents. Edge: ~10–13 cents.
+- **Action:** BUY at 0.09 (ask). Size: $45.
+- **Confidence:** Medium. Key risk: close slips past Aug 1 on administrative/closing mechanics.
+
+---
+
+**2. KXMEDIARELEASESPIDERMAN-AUG26 — Spider-Man: Beyond the Spider-Verse Trailer by Aug**
+- **Bid/Ask:** 0.31 / 0.32 | **Days:** 26.5d
+- **Catalyst:** Sony has a confirmed theatrical window for *Beyond the Spider-Verse* in 2026. Marketing campaigns for major animated tentpoles typically launch official trailers 3–5 months before release. If the film targets a late 2026 or Q1 2027 release, a trailer in July–August is squarely in the expected marketing window. No credible reports of production delays (unlike the earlier troubled production cycle). 31–32 cents feels slightly cheap for a trailer drop that is essentially a marketing inevitability within this window.
+- **Fair value estimate:** ~42–48 cents. Edge: ~10–16 cents.
+- **Action:** BUY at 0.32 (ask). Size: $32.
+- **Confidence:** Medium. Risk: Sony delays campaign; market may have information on a later release date.
+
+---
+
+**3. KXLAKECONF-26MAY12-SEP01 — Kari Lake Confirmed as Ambassador by Sep 1**
+- **Bid/Ask:** 0.15 / 0.16 | **Days:** 57.5d
+- **Catalyst:** Lake's nomination has been pending; Senate floor time for ambassador confirmations is routinely bottlenecked. The Senate recess schedule in August compresses available floor time significantly. With 57 days remaining but ~3–4 weeks of August recess, effective working days are limited. 15–16 cents may actually be *fairly priced or slightly rich* — passing on this one.
+
+**→ No trade on Lake.**
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Fair Value | Edge |
+|---|---|---|---|---|
+| KXCOMPANYACTIONEA-27-26AUG01 | BUY @0.09 | $45 | ~0.20 | ~11¢ |
+| KXMEDIARELEASESPIDERMAN-AUG26 | BUY @0.32 | $32 | ~0.45 | ~13¢ |
+
+**Total deployed: ~$77**
+
+---
+

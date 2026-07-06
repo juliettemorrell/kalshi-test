@@ -1232,3 +1232,43 @@ Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, 
 
 ---
 
+
+## 2026-07-06
+
+### Market Analysis
+
+**1. KXCOMPANYACTIONEA-27-26AUG01 — EA Take-Private Closes by Aug 1**
+- **Bid/Ask:** 0.08/0.09 | 25.5 days to settle
+- **Catalyst:** EA's take-private by a consortium (reported led by Apollo/Blackstone) was announced in early 2026. As of July 2026, the deal has cleared HSR waiting periods and received EA shareholder approval (reported ~June 2026). Remaining step is regulatory sign-off in EU/UK, which has reportedly progressed without material objection. Closing by Aug 1 is plausible but tight — most sources project late-August or September closing.
+- **Fair probability:** ~12-15% (slightly above market ask of 9¢, but not a slam dunk given timeline uncertainty)
+- **Edge:** ~3-6 cents. **Skip** — edge is thin and timeline risk is real. The SEP contract at 0.35/0.41 is more interesting but too wide a spread for a small bot.
+
+**2. KXMEDIARELEASESPIDERMAN-AUG26 — Spider-Man: Beyond the Spider-Verse Trailer by Aug 26**
+- **Bid/Ask:** 0.31/0.32 | 25.5 days to settle
+- **Catalyst:** Sony's *Beyond the Spider-Verse* has had a notoriously troubled production (director departures, staff walkouts). As of mid-2026 the film has **no confirmed release date** and Sony has not rescheduled it. No credible leak or marketing push has begun. A trailer typically requires a locked film; given the production chaos, releasing an *official* trailer by Aug 26 seems unlikely.
+- **Fair probability:** ~15-18%
+- **Market price:** ~31-32¢ — significantly overpriced
+- **Edge:** ~13-17 cents on the NO side (sell at 31¢, fair ~17¢)
+- **Action:** **SELL (NO) at 0.31** — best edge in the set. $50 position.
+- **Confidence:** Medium-High
+
+**3. KXLAKECONF-26MAY12-SEP01 — Kari Lake Confirmed as Ambassador by Sep 1**
+- **Bid/Ask:** 0.15/0.16 | 56.5 days to settle
+- **Catalyst:** Lake's nomination has been stalled in the Senate Foreign Relations Committee since early 2026 amid Democratic holds and reported Republican skepticism. The Senate calendar through August is crowded with recess (typically Aug 1–Sep 5). Confirmation before Sep 1 requires unanimous consent or a committee markup that hasn't been scheduled — both unlikely.
+- **Fair probability:** ~8-10%
+- **Market price:** 15-16¢ — roughly 6-8¢ overpriced
+- **Action:** **SELL (NO) at 0.15** — $40 position.
+- **Confidence:** Medium
+
+---
+
+### Sizing Summary
+| Trade | Side | Entry | Fair | Edge | Size |
+|-------|------|-------|------|------|------|
+| Spider-Man trailer by Aug 26 | NO | 0.31 | 0.17 | ~14¢ | $50 |
+| Kari Lake confirmed by Sep 1 | NO | 0.15 | 0.09 | ~6¢ | $40 |
+
+**Pass on:** Waymo/Canva/Skims IPO announcements (too speculative, near-zero priced), EA timing (spread too wide), Fannie/Freddie (no credible near-term catalyst).
+
+---
+

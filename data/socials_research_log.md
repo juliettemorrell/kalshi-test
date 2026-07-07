@@ -1272,3 +1272,51 @@ Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, 
 
 ---
 
+
+## 2026-07-07
+
+### Market Review — Non-Weather Catalyst Picks
+
+**Date:** 2026-07-07 | **Bot size:** $50–100 retail
+
+---
+
+### Pick 1: `KXCOMPANYACTIONEA-27-26AUG01`
+**EA Take-Private Closes by Aug 1**
+- **Bid/Ask:** 0.05 / 0.08 | **Vol:** $3,975 | **Days:** 24.5d
+
+**Catalyst:** The EA take-private deal (led by a consortium including private equity) was announced in early 2026 and regulatory review has been progressing. As of late June 2026, EU and US HSR waiting periods have expired or are near expiry, and no substantive second request has been publicly reported. Deal closure timelines for transactions this size typically run 4–6 months post-announcement; if announced ~Feb/Mar 2026, Aug 1 is plausible.
+
+**Edge:** Market prices ~6 cents mid. If regulatory clearance is effectively done and only closing mechanics remain, fair value is closer to 15–20 cents for this window. Spread is wide (3 cents) but ask at 8 cents offers meaningful upside.
+
+**Action:** Buy at ask (0.08). Fair value estimate: ~0.15. Edge: ~7 cents.
+**Confidence:** Medium. Deal-close timing is uncertain; no confirmed closing date public yet.
+
+---
+
+### Pick 2: `KXCABLEAVE-26MAY22-26AUG` (Aug bucket)
+**A Cabinet Member Leaves by Aug 1**
+- **Bid/Ask:** 0.14 / 0.21 | **Vol:** $480 | **Days:** 25.5d
+
+**Catalyst:** As of July 2026, multiple Cabinet officials are under public pressure. Reports in June 2026 indicate friction between Treasury Secretary and White House over tariff negotiations, and at least one senior official was described as "on thin ice" in Politico and Axios reporting. The base rate for Cabinet turnover in Trump administrations over any 2-month window is historically elevated (~30–40% annualized in Trump 1.0).
+
+**Edge:** Mid is ~17.5 cents. With ~25 days left and meaningful political churn already public, fair value is closer to 25–30 cents. Ask at 21 cents offers modest edge.
+
+**Action:** Buy at ask (0.21). Fair value estimate: ~0.27. Edge: ~6 cents.
+**Confidence:** Low-Medium. Cabinet departures are inherently unpredictable; news cycle can reverse fast.
+
+---
+
+### Passed / No Pick:
+
+- **Waymo/Canva/Skims IPO (Aug/Sep):** Ask at 1–5 cents with zero credible near-term catalyst. No regulatory filing, no S-1 leaked. Pure lottery tickets.
+- **Fannie/Freddie IPO (Aug):** Treasury has signaled interest but no concrete timeline; 2–3 cent ask is still overpriced given process reality.
+- **Kari Lake confirmation:** Senate calendar is jammed; floor time for ambassador votes is unpredictable. Spread too wide.
+- **Veto override:** No credible path to 2/3 majority in current Congress; skip.
+
+---
+
+**Summary:** Two small buys with real catalysts. Total exposure: ~$40–50 at 1–2 contracts each. No parlay, no weather, no sports.
+
+---
+

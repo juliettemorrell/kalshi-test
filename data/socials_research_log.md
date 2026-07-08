@@ -1320,3 +1320,50 @@ Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, 
 
 ---
 
+
+## 2026-07-08
+
+### Market Analysis
+
+**Date context:** July 8, 2026. Checking catalyst-driven mispricings across the 16 liquid markets.
+
+---
+
+### Pick 1: KXCOMPANYACTIONEA-27-26AUG01
+**EA Take-Private Closes by Aug 1**
+- **Bid/Ask:** 0.05 / 0.08 | **Days:** 23.5d
+- **Catalyst:** EA's take-private deal (led by a consortium including Apollo) was announced in late 2025 and has been progressing through regulatory review. As of early July 2026, HSR waiting periods have elapsed and no major antitrust objection has emerged from DOJ/FTC. The Sep-window contract (KXCOMPANYACTIONEA-27-26SEP01) trades at 0.35–0.41, implying the market thinks August close is only ~6.5% likely vs. September being ~38% likely. But deal timelines of this vintage (announced ~8 months ago) typically close within this window. If regulatory clearance landed in late June, Aug 1 is tight but plausible.
+- **Fair probability estimate:** ~12–15% (vs. implied ~6.5% mid)
+- **Edge:** ~5–8 cents buying the ask at 0.08
+- **Action:** Buy AUG01 at ask 0.08, small size ($30–40)
+- **Confidence:** Low-Medium — timeline is genuinely uncertain; this is a small-edge play on compressed August pricing.
+
+---
+
+### Pick 2: KXCABLEAVE-26MAY22-26AUG (Cabinet Departure by Aug)
+**Bid/Ask:** 0.14 / 0.21 | **Days:** 24.5d
+- **Catalyst:** The Sep-window version trades at 0.30–0.37 mid (~33%), while the Aug version trades at ~0.175 mid. The implied probability of a departure *specifically in July* (the gap between windows) is roughly 33% minus 17.5% = ~15.5%. That's actually reasonable given the current cabinet stability signals — no imminent resignation rumors as of early July 2026. However, the ask at 0.21 is wide. At 0.21 you'd need >21% probability of departure before Aug; the Sep contract suggests the market puts ~33% on "by September," meaning August-specific probability is likely closer to 15–18%.
+- **This is a FADE, not a buy.** The ask at 0.21 is too expensive given the Sep contract anchor.
+- **Action:** No trade — spread too wide to short efficiently at retail size.
+
+---
+
+### Pick 3: KXVETOOVERRIDE-29JAN20-26AUG01
+**Congress Override Trump Veto by Aug 1**
+- **Bid/Ask:** 0.01 / 0.04 | **Days:** 23.9d
+- **Assessment:** No credible override attempt is in progress. Veto overrides require 2/3 supermajority; Republican congressional majorities make this structurally near-impossible in 2026. Fair value is <1%. Ask at 0.04 is overpriced 4x. But **shorting at $0.01 bid yields near-zero profit at retail size** — not worth the friction.
+- **Action:** Pass.
+
+---
+
+### Summary
+
+| Ticker | Action | Size | Edge |
+|---|---|---|---|
+| KXCOMPANYACTIONEA-27-26AUG01 | Buy ask @0.08 | $35 | ~5–7¢ |
+| Others | Pass | — | Spread/friction kills edge |
+
+**Only 1 actionable trade this scan.** Honest assessment: this universe is thin on genuine catalyst mispricings at retail size today.
+
+---
+

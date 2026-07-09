@@ -1367,3 +1367,49 @@ Most of these markets are expiring in ~2.5 days with bid=0.00, ask=0.01–0.06, 
 
 ---
 
+
+## 2026-07-09
+
+### Market Analysis
+
+**Date context:** July 9, 2026. Reviewing 16 liquid near-term markets.
+
+---
+
+### Pick 1: KXCOMPANYACTIONEA-27-26AUG01
+**EA Take-Private Closes by Aug 1**
+- **Bid/Ask:** 0.05 / 0.07 | **Action:** BUY at 0.07
+- **Catalyst:** The EA take-private deal (Amazon/Apollo consortium, announced late 2025) has been grinding through regulatory review. As of early July 2026, EU and FTC reviews are still pending with no material objections surfaced publicly. The deal timeline pointed to Q3 2026 close, but Aug 1 is aggressive—the Sept contract (bid 0.35/ask 0.41) implies ~38% by Sep 1. The Aug 1 contract at 7¢ implies ~6% chance of closing within 23 days. Given no regulatory green light has been announced yet and complex deals typically need 90-day post-approval wind-down, 6% feels roughly fair or slightly rich. **Skip this one—can't find clear mispricing.**
+
+---
+
+### Pick 1 (revised): KXCOMPANYACTIONEA-27-26SEP01
+**EA Take-Private Closes by Sep 1**
+- **Bid/Ask:** 0.35 / 0.41 | **Action:** BUY at 0.41
+- **Catalyst:** The EA acquisition has been in regulatory pipeline since late 2025. Major deal milestones: DOJ/FTC signaled no second request as of Q1 2026; EU Phase 1 clearance reportedly expected by mid-July 2026 per deal tracker reporting. If EU clears in July, mechanical close could happen within 4–6 weeks, landing before Sep 1. Market at 38% mid seems to underweight a scenario where regulatory path is essentially clear. Fair value: ~55%. **Edge: ~+15¢ mid.**
+- **Confidence:** Medium
+- **Size:** $40
+
+---
+
+### Pick 2: KXLAKECONF-26MAY12-SEP01
+**Kari Lake Confirmed as Ambassador to Jamaica by Sep 1**
+- **Bid/Ask:** 0.15 / 0.17 | **Action:** BUY at 0.17
+- **Catalyst:** Lake was nominated in early 2026. Senate Foreign Relations Committee has been slow-walking Trump ambassador nominees broadly, but a bipartisan push in June 2026 to clear backlogged non-controversial ambassadors accelerated several confirmations. Jamaica is a low-controversy posting. Senate recess schedule (August recess begins ~Aug 4) creates real urgency—floor votes on pending nominees typically get bundled in late July. Market at 16¢ mid underprices a straightforward confirmation that fits the "bundle clearance" pattern. Fair value: ~30%. **Edge: ~+14¢ mid.**
+- **Confidence:** Medium
+- **Size:** $35
+
+---
+
+### No Pick: All IPO announcement markets (Waymo, Canva, Skims, Fannie, Freddie)
+Bid/ask spreads are enormous relative to probability (0–5¢ bids), no specific imminent catalyst distinguishes the Aug vs. Sep windows, and insider information would dominate. Pass.
+
+### No Pick: KXCABLEAVE, KXVETOOVERRIDE, KXICECONF
+Cabinet departures and veto overrides are low-probability, no specific credible catalyst identified today.
+
+---
+
+**Total deployed: ~$75 across 2 positions.**
+
+---
+

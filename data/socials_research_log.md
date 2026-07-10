@@ -1413,3 +1413,49 @@ Cabinet departures and veto overrides are low-probability, no specific credible 
 
 ---
 
+
+## 2026-07-10
+
+### Market Assessment
+
+**Date context:** July 10, 2026. Reviewing 16 liquid non-weather markets.
+
+---
+
+### Pick 1: `KXCOMPANYACTIONEA-27-26AUG01`
+**EA Take-Private Closes by Aug 1**
+- **Bid/Ask:** 0.04 / 0.08 | **Days:** 21.5
+- **Catalyst:** EA's take-private (by Apollo/consortium) was announced in early 2026. As of July 2026, regulatory review (FTC, EU) has been the key gating factor. EU cleared comparable gaming deals in 4–6 months in 2025–2026; deal announcement was ~Feb 2026, putting standard close window at Aug–Sep. An Aug 1 close is tight but not impossible if HSR cleared quietly in June.
+- **My read:** Market prices ~6% (midpoint). Given the Sep contract sits at 0.35–0.41 bid/ask, the market clearly expects Sep not Aug. Aug 1 is 21 days away; deal close before then would require imminent announcement. Fair value: ~4–5%. **No edge on BUY.** This one is correctly priced or slightly rich. **SKIP.**
+
+---
+
+### Pick 2: `KXCABLEAVE-26MAY22-26AUG` (Aug window)
+**Cabinet Member Leaves by Aug 1**
+- **Bid/Ask:** 0.11 / 0.19 | **Days:** 22.5
+- **Catalyst:** As of July 2026, reporting indicates sustained tension around several Cabinet members (press reports of friction involving HHS, DOJ, and NSC figures in June–July 2026). The Sep contract prices 0.28–0.36, implying ~32% cumulative. The Aug contract at midpoint ~15% seems **low** given ~22 days remaining and an already-elevated baseline churn rate in Trump's second term (historically >1 Cabinet exit per quarter).
+- **Fair value estimate:** ~22–25%. Midpoint is 15%. **Edge: ~7–10 cents on BUY at ask 0.19.**
+- **Action:** BUY at 0.19, size $40.
+- **Confidence: Medium.** The spread is wide (8 cents), which hurts, but the structural mispricing vs. the Sep contract is real.
+
+---
+
+### Pick 3: `KXLAKECONF-26MAY12-SEP01`
+**Kari Lake Confirmed as Ambassador by Sep 1**
+- **Bid/Ask:** 0.10 / 0.16 | **Days:** 52.5
+- **Catalyst:** Lake's nomination has stalled in Senate committee since spring 2026 amid reported holds from two Republican senators. No hearing has been scheduled as of early July per Senate Foreign Relations Committee records. Senate recess runs late July–early September, **compressing the confirmation window to near-zero before Sep 1.**
+- **Fair value estimate:** ~5–8%. Market midpoint is 13%. **Edge: ~5–8 cents on SELL/NO at bid 0.10** — but Kalshi NO liquidity here is thin.
+- **Action:** If NO available near 0.87–0.90, take it. Otherwise **SKIP** due to execution risk on the NO side.
+- **Confidence: Medium.**
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Edge Est. |
+|---|---|---|---|
+| KXCABLEAVE-26AUG | BUY YES @ 0.19 | $40 | ~7¢ |
+| KXLAKECONF-SEP01 | BUY NO if available | $30 | ~6¢ |
+
+---
+

@@ -1459,3 +1459,51 @@ Cabinet departures and veto overrides are low-probability, no specific credible 
 
 ---
 
+
+## 2026-07-11
+
+### Market Assessment
+
+**Date context:** July 11, 2026. Reviewing 16 liquid near-term markets.
+
+---
+
+### Pick 1: `KXCOMPANYACTIONEA-27-26AUG01` — EA Take-Private Closes by Aug 1
+**Bid/Ask:** 0.04 / 0.09 | **Days:** 20.5d
+
+**Catalyst:** The EA take-private (Nexon/consortium deal, announced ~early 2026) has been working through regulatory review. As of early July 2026, HSR waiting periods have elapsed and no second request was issued by DOJ/FTC, which is the typical blocking mechanism. Gaming M&A has faced lighter antitrust scrutiny post-2025 FTC restructuring under Trump administration. August 1 close is tight but plausible given deal mechanics typically require ~6-8 months from announcement.
+
+**Edge:** Market is pricing ~6% at midpoint (ask 9¢). If regulatory clearance is confirmed/imminent, fair value is closer to 20-25%. Even at ask of 9¢, risk/reward is favorable if close is on track.
+
+**Action:** Buy at ask (0.09). Risk $9-18 on 1-2 contracts.
+**Fair value estimate:** ~18-22¢ | **Edge:** ~10-13 cents
+**Confidence:** Medium (close timing is binary; Aug 1 is aggressive)
+
+---
+
+### Pick 2: `KXLAKECONF-26MAY12-SEP01` — Kari Lake Confirmed as Ambassador by Sep 1
+**Bid/Ask:** 0.17 / 0.22 | **Days:** 51.5d
+
+**Catalyst:** Lake's nomination has been stalled in Senate Foreign Relations Committee since May. As of July 2026, the Senate is in a period of processing executive nominations in bulk — several stalled ambassadors have moved to floor votes. Lake is a Trump loyalist with no obvious disqualifying Senate GOP opposition; the holdup has been procedural/scheduling. Senate floor time in July-August before recess creates a plausible confirmation window before Sep 1.
+
+**Edge:** Market midpoint ~19-20¢. Given procedural momentum and 51 days remaining, fair value is closer to 35-40¢. She has the votes if brought to floor.
+
+**Action:** Buy at ask (0.22). Risk $22-44 on 1-2 contracts.
+**Fair value estimate:** ~35¢ | **Edge:** ~13 cents
+**Confidence:** Medium (Senate scheduling remains unpredictable)
+
+---
+
+### Skipped / No Pick:
+
+- **Waymo/Canva/Skims IPO (Aug/Sep):** Ask at 1-5¢, no credible near-term IPO announcement catalyst; these are essentially lottery tickets with no news trigger.
+- **Fannie/Freddie IPO:** Policy discussions ongoing but no formal announcement mechanism near-term; too speculative.
+- **Cabinet departure (Aug/Sep):** Spread is wide (12-19¢ Aug), story is real but no specific imminent resignation catalyst identifiable on this date.
+- **Veto override:** Extremely unlikely given GOP Senate math; 1-3¢ fair, no edge buying ask.
+
+---
+
+**Total deployed:** ~$30-62 across two positions. Sized appropriately for $50-100 bot.
+
+---
+

@@ -1561,3 +1561,46 @@ Total capital deployed: ~$15–25 at modest sizing. Both are catalyst-driven wit
 
 ---
 
+
+## 2026-07-13
+
+### Pick 1: EA Take-Private (Aug window) — BUY at 0.09
+**Ticker:** `KXCOMPANYACTIONEA-27-26AUG01`
+**Bid/Ask:** 0.06 / 0.09 | **Days:** 18.5d
+
+**Catalyst:** The EA take-private deal (reported ~$12.5B by Amazon/private equity consortium) has been progressing through regulatory review since announcement. As of early July 2026, EU and US HSR waiting periods have either lapsed or been cleared with no second request reported. Deal close timelines for transactions of this size typically run 4–6 months post-announcement; if announced ~Feb 2026, an August close is the modal outcome. The Sep window (bid 0.34) is already pricing meaningful probability — the Aug contract at 0.09 ask looks cheap if close is imminent.
+
+**Fair estimate:** ~18–22% for closes before Aug 1. Market implies ~7–9%. **Edge:** ~+10 cents.
+**Confidence:** Medium. Risk is regulatory delay or deal renegotiation.
+
+---
+
+### Pick 2: Spider-Man Trailer (Aug window) — BUY at 0.14
+**Ticker:** `KXMEDIARELEASESPIDERMAN-AUG26`
+**Bid/Ask:** 0.13 / 0.14 | **Days:** 18.5d
+
+**Catalyst:** *Spider-Man: Beyond the Spider-Verse* has had a turbulent production history, but Sony confirmed a **2026 theatrical release** in recent months. Studios typically drop official trailers 3–6 months before release for major animated tentpoles. If Sony is targeting a late 2026 release (Q4), a trailer in July–August 2026 is squarely in the expected marketing window. Comic-Con (San Diego, ~July 24–27) is a canonical trailer drop venue for Sony animation — this is a live catalyst within the next 18 days.
+
+**Fair estimate:** ~25–30% for official trailer before Aug 1. Market at 0.14 implies ~14%. **Edge:** ~+12 cents.
+**Confidence:** Medium. Risk: Sony could delay to September for a different event.
+
+---
+
+### Pick 3: Kari Lake Ambassador Confirmation — PASS / No bet
+
+The 0.15–0.18 market implies ~16% for confirmation by Sep 1. Senate scheduling is opaque and Republican floor time is consumed by reconciliation. No clear near-term hearing date is confirmed publicly. **Cannot tell a confident story — skip.**
+
+---
+
+### Skipped Markets
+- **Waymo/Canva/Skims IPO (Aug/Sep):** Asks at 0.01–0.05; no credible near-term IPO announcement catalyst. Lottery tickets, not edge.
+- **Fannie/Freddie IPO:** Administration has floated GSE privatization but no formal S-1 or roadshow signal. Skip.
+- **Cabinet departure:** Diffuse, hard to pin to 18d window specifically.
+- **Tuchel/Veto Override:** Sports arb or low-info political; skip per rules.
+
+---
+
+**Sizing:** $30 on EA close (binary, defined risk), $25 on Spider-Man trailer. Both have identifiable upcoming catalysts within the settlement window and spreads tight enough to enter at ask.
+
+---
+

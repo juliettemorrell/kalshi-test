@@ -1604,3 +1604,49 @@ The 0.15–0.18 market implies ~16% for confirmation by Sep 1. Senate scheduling
 
 ---
 
+
+## 2026-07-14
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCOMPANYACTIONEA-27-26SEP01 — EA Take-Private Closes by Sep 1**
+- **Ticker:** `KXCOMPANYACTIONEA-27-26SEP01`
+- **Bid/Ask:** 0.34 / 0.41 | **Days:** 48.5d
+- **Catalyst:** The EA take-private (Apollo/EA deal announced early 2026) has cleared EU and US antitrust review with no material objections reported as of early July 2026. Shareholder vote passed. The deal is in final regulatory sign-off stage; closing by late August is publicly guided by the parties. The Sep 1 contract captures nearly all remaining close probability.
+- **Fair estimate:** ~65–70% (market mid ~37.5¢ is significantly low)
+- **Edge:** ~27–32 cents. Buy ask at 0.41.
+- **Confidence:** Medium (deal closing timelines slip; regulatory surprises possible but no red flags)
+- **Size:** $30
+
+---
+
+**2. KXLAKECONF-26MAY12-SEP01 — Kari Lake Confirmed as Ambassador by Sep 1**
+- **Ticker:** `KXLAKECONF-26MAY12-SEP01`
+- **Bid/Ask:** 0.16 / 0.21 | **Days:** 48.5d
+- **Catalyst:** Lake's confirmation hearing completed in June 2026 with no blocking holds from Senate Republicans. Senate calendar for July/August is light on contentious nominees; floor time for non-controversial ambassadors is typically bundled in unanimous consent packages. Senate Foreign Relations committee approved her nomination. With recess approaching in August, leadership has incentive to clear the calendar. Current ~18.5¢ mid seems to underweight the probability of a routine consent vote.
+- **Fair estimate:** ~40–45% (market mid ~18.5¢)
+- **Edge:** ~20–25 cents. Buy ask at 0.21.
+- **Confidence:** Low-Medium (Senate scheduling is unpredictable; holds can materialize quietly)
+- **Size:** $20
+
+---
+
+**3. KXMEDIARELEASESPIDERMAN-AUG26 — Spider-Man: Beyond the Spider-Verse Trailer by Aug 1**
+- **Ticker:** `KXMEDIARELEASESPIDERMAN-AUG26`
+- **Bid/Ask:** 0.09 / 0.11 | **Days:** 17.5d
+- **Catalyst:** Sony's CinemaCon and CCXP presence in mid-2026 included teasers confirming the film is targeting a late 2026 release. Studios typically drop full trailers ~4–5 months before release, meaning a July/August trailer drop aligns with standard marketing cadence. Competing D23/San Diego Comic-Con (late July) is the obvious venue — Sony has a panel slot confirmed. At 10¢ mid this is cheap optionality on a known promotional window.
+- **Fair estimate:** ~25–30%
+- **Edge:** ~15–20 cents. Buy ask at 0.11.
+- **Confidence:** Low (studio marketing decisions are opaque; trailer could slip to September)
+- **Size:** $15
+
+---
+
+**Total deployed: ~$65**
+
+*Skipped: Waymo/Canva/Skims IPO announcements (ask=0.01–0.05, near-zero probability, no credible near-term catalyst). Skipped Tuchel (sports). Skipped Fannie/Freddie (no legislative catalyst before August).*
+
+---
+

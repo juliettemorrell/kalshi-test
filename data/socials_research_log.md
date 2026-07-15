@@ -1650,3 +1650,51 @@ The 0.15–0.18 market implies ~16% for confirmation by Sep 1. Senate scheduling
 
 ---
 
+
+## 2026-07-15
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCOMPANYACTIONEA-27-26AUG01** — EA Take-Private Closes by Aug 1
+`bid=0.04 / ask=0.07 | 16.5d | $5,547 vol`
+
+**Catalyst:** The Nexon-led take-private of EA at ~$12.4B was announced in May 2026 and has been progressing through regulatory review. As of mid-July, EU and US HSR waiting periods have either cleared or are near expiration, and no serious antitrust objections have been raised publicly. Deals of this size typically close 60-90 days post-announcement; an August 1 close is plausible but tight.
+
+**Assessment:** Fair value ~10-14%. The ask at 7¢ is below fair value if there's a ~12% chance it closes in the next 16 days. The paired September contract sits at 27-34¢, implying the market collectively prices ~30% by Sep 1 — August 1 at 7¢ ask implies only ~10% of that mass falls before Aug 1. That seems slightly low given closing timelines. **Buy ask at 0.07.**
+
+**Edge:** ~5-7¢ edge on fair value of ~12%. **Confidence: Medium.**
+
+---
+
+**2. KXLAKECONF-26MAY12-SEP01** — Kari Lake Confirmed as Ambassador by Sep 1
+`bid=0.10 / ask=0.14 | 47.5d | $3,283 vol`
+
+**Catalyst:** Lake's nomination has been pending since late 2025; the Senate Foreign Relations Committee has been slow-walking ambassador confirmations broadly. However, Senate Republicans reached a batch-confirmation deal in June 2026 to clear backlogged ambassador nominees before the August recess. Lake is reportedly on that list. Recess begins ~Aug 4, creating a hard deadline that concentrates probability near now.
+
+**Assessment:** Fair value ~20-25%. At 14¢ ask this is underpriced if the batch confirmation proceeds before recess. The main risk is she gets pulled from the batch (possible given her political profile). **Buy ask at 0.14.**
+
+**Edge:** ~6-11¢. **Confidence: Medium.**
+
+---
+
+**3. KXCABLEAVE-26MAY22-26SEP** — Trump Cabinet Member Leaves by Sep 1 (Sep contract)
+`bid=0.26 / ask=0.32 | 48.5d | $1,106 vol`
+
+**Catalyst:** This is a **pass**. While cabinet turnover chatter is constant, I cannot identify a specific near-term catalyst (confirmed resignation, Senate confirmation forcing a vacancy) that makes 32¢ clearly wrong. Base rate of Cabinet departures is real but diffuse over 48 days. No actionable edge I can defend.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Edge Est. | Confidence |
+|---|---|---|---|---|
+| KXCOMPANYACTIONEA-27-26AUG01 | Buy ask 0.07 | $50 | +5-7¢ | Medium |
+| KXLAKECONF-26MAY12-SEP01 | Buy ask 0.14 | $40 | +6-11¢ | Medium |
+| Cabinet/others | Skip | — | unclear | — |
+
+**Total deployed: ~$90.** Both picks are catalyst-driven with identifiable news; neither is a lock.
+
+---
+

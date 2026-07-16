@@ -1698,3 +1698,54 @@ The 0.15–0.18 market implies ~16% for confirmation by Sep 1. Senate scheduling
 
 ---
 
+
+## 2026-07-16
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCOMPANYACTIONEA-27-26AUG01**
+*When will EA's take-private acquisition close? (by Aug 1)*
+`bid=0.05 / ask=0.06` | 15.5d to settle
+
+**Catalyst:** Amazon's ~$8.5B take-private of EA was announced in March 2026. Regulatory review (HSR waiting period) has elapsed; as of mid-July, no second request has been reported. Deals of this size without a second request typically close within 4–6 months of announcement. Aug 1 is ~5 months post-announcement — plausible close window. The Sep 1 contract trades at bid=0.24/ask=0.27, implying ~75%+ probability by Sep 1. The Aug 1 contract at 5–6¢ implies ~5% probability, which seems too cheap if the deal is on track with no regulatory friction reported.
+
+**Fair probability:** ~18–22%. **Edge:** ~13–16¢ on ask.
+**Trade:** BUY Aug 1 contract at 0.06, size ~$30–40.
+**Confidence:** Medium (close timing uncertain; regulatory close dates are noisy).
+
+---
+
+**2. KXLAKECONF-26MAY12-SEP01**
+*When will Kari Lake be confirmed as Ambassador to Jamaica? (by Sep 1)*
+`bid=0.10 / ask=0.15` | 46.5d to settle
+
+**Catalyst:** Kari Lake was nominated as Ambassador to Jamaica in early 2026. Senate Foreign Relations Committee has been slow-walking ambassador confirmations broadly, but Lake's nomination is relatively uncontroversial compared to her earlier political profile. With the Senate in recess schedule and a backlog of nominees, floor time before Sep 1 is plausible but not certain. The current 10–15¢ range implies ~12% probability — arguably too low given the Senate has been moving batches of nominees via unanimous consent to clear backlogs ahead of recess.
+
+**Fair probability:** ~20–25%. **Edge:** ~8–12¢ on ask.
+**Trade:** BUY at 0.15, size ~$25.
+**Confidence:** Low-Medium (Senate scheduling is opaque; calendar risk is real).
+
+---
+
+**3. KXVETOOVERRIDE-29JAN20-26AUG01**
+*Will Congress override Trump's veto? (by Aug 1)*
+`bid=0.01 / ask=0.03` | 15.9d to settle
+
+**No actionable edge here.** A veto override requires 2/3 majorities in both chambers — historically near-impossible under unified government. Current Republican House/Senate majorities make this essentially 0%. The ask at 3¢ is still overpriced vs. true probability (~1%), but the $50–100 bot size means max gain is only ~2¢/share — not worth deploying capital on a near-zero event. **Skip.**
+
+---
+
+### Summary
+
+| Ticker | Action | Size | Edge Est. | Confidence |
+|---|---|---|---|---|
+| KXCOMPANYACTIONEA-27-26AUG01 | BUY @ 0.06 | $36 | ~13¢ | Medium |
+| KXLAKECONF-26MAY12-SEP01 | BUY @ 0.15 | $25 | ~9¢ | Low-Med |
+| KXVETOOVERRIDE | Skip | — | Tiny | — |
+
+*Total deployed: ~$61. Both picks are binary/illiquid enough that position sizing conservatively is appropriate.*
+
+---
+

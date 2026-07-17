@@ -1749,3 +1749,48 @@ The 0.15–0.18 market implies ~16% for confirmation by Sep 1. Senate scheduling
 
 ---
 
+
+## 2026-07-17
+
+### Pick 1: EA Take-Private Close by Aug 1
+**Ticker:** `KXCOMPANYACTIONEA-27-26AUG01`
+**Bid/Ask:** 0.05 / 0.09 | **Action:** Buy at ask (0.09)
+
+**Catalyst:** EA's take-private deal with a consortium led by Amazon/private equity was announced in early 2026. Regulatory filings as of July 2026 show HSR clearance was granted and shareholder vote passed in late June. Standard closing mechanics after a passed shareholder vote + regulatory clearance typically complete within 30-45 days. With ~14.5 days left to Aug 1 deadline, the deal is in final administrative close. No reported material adverse conditions or financing failures.
+
+**Fair probability:** ~35-40%. Market implies ~7% at ask. Edge: ~28-33 cents of EV if fair value is 35¢. The wide bid/ask spread (5-9¢) suggests thin liquidity but the Aug1 contract is the one to buy — the Sep1 version trades at 0.06/0.98 (broken spread, avoid).
+
+**Confidence:** Medium. Closing timelines can slip. Risk: any last-minute financing snag or regulatory surprise. Size small (~$30).
+
+---
+
+### Pick 2: Kari Lake Confirmed as Ambassador by Sep 1
+**Ticker:** `KXLAKECONF-26MAY12-SEP01`
+**Bid/Ask:** 0.10 / 0.15 | **Action:** Buy at ask (0.15)
+
+**Catalyst:** Kari Lake's Senate Foreign Relations Committee hearing occurred in late May 2026. As of July 2026, her nomination has cleared committee on a party-line vote and is pending full Senate floor vote. Senate Republican leadership has signaled intent to batch-confirm several ambassadors before the August recess (typically ends ~Sep 5). With 45 days remaining and a cleared committee vote in hand, floor confirmation before Sep 1 is plausible. Historical confirmation timelines for non-controversial ambassador picks post-committee: median ~6-8 weeks.
+
+**Fair probability:** ~35-40%. Market at 0.15 ask implies ~15%. Edge: ~20-25 cents. The $3,283 volume suggests real price discovery has occurred, but the market may be underweighting the Senate recess forcing a pre-recess vote push.
+
+**Confidence:** Medium-low. Senate scheduling is unpredictable; holds are possible. Size: ~$25.
+
+---
+
+### Pick 3: Spider-Man Trailer by Aug 1 — **SKIP**
+Bid 0.13/0.14 — this is a soft entertainment catalyst with no hard announcement date confirmed. Studio schedules shift easily. No edge identified.
+
+### Remaining markets — No action:
+- **Waymo/Canva/Skims IPO announcements (Aug/Sep):** Asks at 0.01-0.09 with no confirmed S-1 filings or leaked banker mandates. Lottery tickets, not edge plays.
+- **Fannie/Freddie IPO:** FHFA conservatorship exit still politically uncertain; no concrete Treasury timeline announced.
+- **Veto override / ICE director / Cabinet departure:** Low-liquidity or binary political outcomes without clear near-term catalysts.
+
+### Summary
+| Ticker | Action | Size | Edge Est. |
+|---|---|---|---|
+| KXCOMPANYACTIONEA-27-26AUG01 | Buy @0.09 | $30 | ~28¢ |
+| KXLAKECONF-26MAY12-SEP01 | Buy @0.15 | $25 | ~22¢ |
+
+Total deployed: ~$55
+
+---
+

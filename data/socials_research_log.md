@@ -1794,3 +1794,40 @@ Total deployed: ~$55
 
 ---
 
+
+## 2026-07-18
+
+### Market Analysis
+
+**1. KXCOMPANYACTIONEA-27-26AUG01 — EA Take-Private Closes by Aug 1**
+- **Bid/Ask:** 0.04 / 0.09 | **Days:** 13.5d
+- **Catalyst:** EA's take-private by a consortium (reported Q1 2026) has been working through regulatory review. As of mid-July 2026, no major antitrust objections have been publicly raised, and deal timelines pointed to a summer close. However, large gaming M&A deals routinely slip past initial target windows. The Sep contract (same event) trades at 0.38–0.47, implying the market assigns roughly 40–45% chance of closing by September — meaning the Aug window (~2 weeks out) should price at maybe 15–22% if progress is on track, not 4–9%.
+- **Trade:** BUY at ask 0.09. Fair value estimate ~18–20%. Edge: ~9–11 cents.
+- **Confidence:** Medium. Deal closing is binary and can slip; but the spread between Aug and Sep contracts implies Aug is dramatically underpriced relative to Sep.
+
+---
+
+**2. KXLAKECONF-26MAY12-SEP01 — Kari Lake Confirmed as Ambassador by Sep 1**
+- **Bid/Ask:** 0.09 / 0.11 | **Days:** 44.5d
+- **Catalyst:** Lake's nomination has stalled in Senate committee. As of July 2026, she has faced bipartisan resistance and multiple holds, with no floor vote scheduled. Senate confirmation calendars are packed with higher-priority nominees. 44 days to Sep 1 is tight; Senate recess typically runs August. The 9–11 cent price implies ~10% probability, which actually seems **fair to slightly high** given the recess obstacle. No strong edge here.
+- **Skip.** Cannot identify a clear mispricing direction with confidence.
+
+---
+
+**3. KXCABLEAVE-26MAY22-26AUG — Cabinet Member Leaves by Aug 1**
+- **Bid/Ask:** 0.07 / 0.14 | **Days:** 14.5d
+- **Catalyst:** The Sep version prices at 0.24–0.30, implying ~27% by September. The Aug contract at 7–14 cents implies perhaps 10% in the next 14 days. Given there are no credible imminent resignation/firing reports in major outlets as of this date, the base rate for a Cabinet departure in any given 2-week window in this administration is low. The wide bid/ask (7 cents) makes buying at 0.14 unattractive.
+- **Skip.** Spread too wide; no specific near-term catalyst.
+
+---
+
+### Summary
+
+| # | Ticker | Side | Entry | Fair Value | Edge | Confidence |
+|---|--------|------|-------|-----------|------|------------|
+| 1 | KXCOMPANYACTIONEA-27-26AUG01 | BUY | $0.09 | ~$0.19 | ~10¢ | Medium |
+
+**Single actionable pick.** Deploy $50–75 max on EA Aug given the structural gap between Aug and Sep contract pricing. The other markets either have no near-term catalyst, excessive spreads, or fair pricing.
+
+---
+

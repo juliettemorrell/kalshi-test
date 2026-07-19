@@ -1831,3 +1831,45 @@ Total deployed: ~$55
 
 ---
 
+
+## 2026-07-19
+
+### Pick 1: EA Take-Private (Aug) — KXCOMPANYACTIONEA-27-26AUG01
+**Bid/Ask:** 0.01 / 0.05 | **Days:** 12.5
+
+**Catalyst:** EA's take-private by Apollo/consortium was announced in early 2026 and regulatory review is ongoing. As of July 2026, no closing announcement has been made, and antitrust review timelines for deals this size (~$9B+) typically run 6–12 months from announcement. The deal is not expected to formally close before August 1. However, the Sep market (KXCOMPANYACTIONEA-27-26SEP01) is trading 41–45¢, implying ~43% chance by Sep 1 — the Aug market at 1–5¢ is actually consistent with that (the gap is ~38 cents for one extra month, plausible).
+
+**Verdict:** The Aug market at ask=0.05 is roughly fair or slightly rich given deal timelines. **No trade.**
+
+---
+
+### Pick 2: Spider-Man Trailer — KXMEDIARELEASESPIDERMAN-AUG26
+**Bid/Ask:** 0.12 / 0.14 | **Days:** 12.5
+
+**Catalyst:** *Spider-Man: Beyond the Spider-Verse* has been in production limbo, but Sony has signaled a 2026 release window. As of July 2026, no official trailer has dropped. With Comic-Con (San Diego) running **July 24–27, 2026** — just days away — Sony traditionally uses SDCC to drop major Marvel/animated franchise trailers. This is the single most likely catalyst window before Aug 1. The market at 12–14¢ may be underpricing this given SDCC is essentially the only remaining major venue in the window.
+
+**Fair probability estimate:** ~25–30% (SDCC is likely but not certain; Sony could hold for D23 or later)
+**Edge:** ~12–16¢ fair vs. 13¢ ask — marginal, perhaps 1–2¢ edge.
+**Confidence:** Low. The spread is tight and edge is thin.
+
+**Trade:** Pass. Edge too small for a $50–100 bot after friction.
+
+---
+
+### Pick 3: Kari Lake Ambassador Confirmation — KXLAKECONF-26MAY12-SEP01
+**Bid/Ask:** 0.10 / 0.15 | **Days:** 43.5
+
+**Catalyst:** Kari Lake was nominated as Ambassador to Jamaica. Senate confirmation has stalled — her nomination faced committee delays and Democratic holds. As of July 2026, she has not been confirmed. The Senate recess runs roughly August through early September, severely compressing any remaining floor-vote window before Sep 1. At 10–15¢, the market may be slightly rich given the Senate calendar squeeze.
+
+**Fair probability:** ~8–10%
+**Edge:** Selling the ask isn't available (you'd be selling at bid=0.10). No clean entry.
+**Confidence:** Low.
+
+---
+
+## Summary
+
+**No actionable trades this week.** The most interesting story (Spider-Man/SDCC) has too thin an edge at the current spread. The EA and Lake markets are roughly fairly priced. With a $50–100 bot, transaction costs and slippage eat any marginal edge identified here. Recommend waiting for a sharper catalyst or wider mispricing.
+
+---
+

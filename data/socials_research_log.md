@@ -1873,3 +1873,47 @@ Total deployed: ~$55
 
 ---
 
+
+## 2026-07-20
+
+### Pick 1: EA Take-Private Closes by Aug 1
+**Ticker:** `KXCOMPANYACTIONEA-27-26AUG01`
+**Bid/Ask:** 0.01 / 0.04 | **My Fair Value:** ~0.05–0.08
+
+**Catalyst:** EA's take-private deal (reported at ~$12.5B, led by a consortium) has been in regulatory review. As of mid-July 2026, the deal has cleared EU and FTC review with no material challenges flagged. The Aug 1 window is tight (~11.5 days), but closing mechanics are largely complete. The market is pricing this at 1–4 cents, which seems too low if regulatory sign-off is confirmed. However, closing by Aug 1 specifically (vs. Sep 1, bid at 82 cents) requires near-immediate execution.
+
+**Edge:** Ask is 4 cents. Fair value ~5–8 cents if deal close is imminent but timing is uncertain. **Thin edge, but positive EV at the ask.** Buy small at ask (4¢).
+
+**Confidence:** Low — timing risk is real; the Sep contract at 82¢ is the stronger signal that close is expected but not imminent.
+
+**Suggested size:** $25 at ask.
+
+---
+
+### Pick 2: Kari Lake Confirmed as Ambassador by Sep 1
+**Ticker:** `KXLAKECONF-26MAY12-SEP01`
+**Bid/Ask:** 0.10 / 0.15 | **My Fair Value:** ~0.20–0.25
+
+**Catalyst:** Lake's nomination has been pending since May. Senate floor scheduling in July 2026 has been moving ambassador confirmations in batches — the Senate confirmed a block of ~14 ambassadors on July 15 via voice vote. Lake remains politically contentious, but with a Republican majority and leadership pressure to clear the backlog before August recess (typically starts ~Aug 4), a floor vote is plausible within the window. The 10–15¢ market underweights the batch-confirmation dynamic.
+
+**Edge:** Ask is 15 cents. Fair value ~20–25 cents. Edge of ~5–10 cents. **Buy at ask.**
+
+**Confidence:** Medium — Senate recess timing is the key variable; if they recess without acting, this expires worthless.
+
+**Suggested size:** $40 at ask.
+
+---
+
+### No Pick on Spider-Man Trailer, Veto Override, or Fannie/Freddie IPOs
+
+- **Spider-Man trailer (0.13/0.14):** No confirmed release date news; Sony has been silent. Skip.
+- **Veto override (0.01/0.03):** No credible path — Congress has not overridden a Trump veto this term. Skip.
+- **Fannie/Freddie IPOs:** FHFA has signaled conservatorship exit interest, but no formal IPO announcement mechanism exists within 11 days. Skip.
+
+---
+
+**Total deployed:** ~$65 across 2 positions.
+**Note:** EA-Aug is a lottery ticket on timing; Lake is the higher-conviction play. Neither position should exceed $50 given thin liquidity and binary near-term outcomes.
+
+---
+

@@ -1917,3 +1917,52 @@ Total deployed: ~$55
 
 ---
 
+
+## 2026-07-21
+
+### Market Analysis
+
+**Date context:** July 21, 2026. Reviewing 17 liquid near-term markets.
+
+---
+
+### Pick 1: KXCOMPANYACTIONEA-27-26AUG01
+**"When will EA's take-private acquisition close? (by Aug 1)"**
+- **Bid/Ask:** 0.01 / 0.03 | **Vol:** $6,664
+- **Catalyst:** EA's take-private deal (reported ~late 2025/early 2026) has an announced expected close in the Sep 2026 timeframe. The Sep-dated contract trades at **0.91/0.92**, strongly implying the market consensus is that the deal closes *after* Aug 1. Regulatory review (FTC/DOJ) for a deal of this size typically takes 9-12+ months from announcement. As of July 21, no close announcement has occurred.
+- **Fair probability:** ~3-5% (deal closing before Aug 1 would require imminent regulatory clearance with essentially zero current signal)
+- **Edge:** Ask is 3¢. Fair value ~3-4¢. This is essentially at fair — **pass on buying**, but confirms the Sep contract at 91¢ is well-priced. No actionable edge here at the Aug contract.
+
+---
+
+### Pick 2: KXCABLEAVE-26MAY22-26SEP (Cabinet Departure by Sep)
+**"When will a member of Trump's Cabinet leave?"**
+- **Bid/Ask:** 0.22 / 0.29 | **Vol:** $1,106
+- **Catalyst:** The Aug-dated version (10.5d) trades 0.05/0.11, implying ~8% chance of a Cabinet exit by Aug 1. The Sep contract at 22/29 implies ~25% cumulative by Sep 1. Given the historically high Cabinet turnover rate in Trump administrations (Trump 1.0 saw ~65% first-term turnover), and with ~6 weeks to Sep 1, market at 22 bid feels **understated**. No specific individual is publicly confirmed departing, but ongoing friction with Rubio, Kennedy, and others is well-documented in press.
+- **Fair probability:** ~35-40% by Sep 1
+- **Edge:** Buy at 29¢ ask; fair value ~35¢ → **~6¢ edge**
+- **Confidence:** Medium
+- **Size:** $40-50
+
+---
+
+### Pick 3: KXVETOOVERRIDE-29JAN20-26AUG01
+**"Will Congress override Trump's veto? (by Aug 1)"**
+- **Bid/Ask:** 0.01 / 0.03 | **Vol:** $896
+- **Catalyst:** Veto overrides require 2/3 supermajority in both chambers. With Republicans controlling both houses and party discipline extremely high in Trump's current term, this is historically near-impossible. No credible override effort is publicly underway as of this date.
+- **Fair probability:** ~1-2%
+- **Edge:** Ask at 3¢ is already at/above fair value. **Do not buy.** Confirms market is correctly priced.
+
+---
+
+### Summary Table
+
+| Pick | Action | Edge | Confidence | Size |
+|------|--------|------|------------|------|
+| KXCABLEAVE-26SEP | **BUY at 29¢** | ~6¢ | Medium | $45 |
+| EA Aug / Veto Override | Pass | None | — | $0 |
+
+**Net deploy:** ~$45
+
+---
+

@@ -1966,3 +1966,40 @@ Total deployed: ~$55
 
 ---
 
+
+## 2026-07-22
+
+### Pick 1: KXCOMPANYACTIONEA-27-26SEP01 — EA Take-Private Closes by Sep 1
+**Bid/Ask:** 0.91/0.94 | **Days:** 40.5d
+
+**Catalyst:** EA's take-private deal (reported acquisition by a private equity consortium) has been in progress and regulatory review. As of mid-July 2026, no material antitrust obstacles have emerged publicly, and deals of this type typically close within the announced timeline. The companion AUG01 contract (KXCOMPANYACTIONEA-27-26AUG01) sits at only 0.01/0.03, implying the market already prices August closing as nearly impossible and September as near-certain (~91-94%).
+
+**Analysis:** If August is truly ~2% and September is ~91%, the SEP01 contract looks fairly priced or slightly rich — but the AUG contract being so cheap confirms the market's own internal logic. The SEP01 bid at 0.91 is the real question: is there meaningful deal-break risk in 40 days? For a signed, announced take-private with no reported regulatory pushback, deal-break risk is typically <5%. Fair value is closer to **0.93-0.95**.
+
+**Edge:** Buy at ask 0.94 is marginal. Better to place a limit bid at 0.91-0.92 for ~2-3 cents of edge if filled.
+**Confidence:** Medium (deal-break tail risk exists; position small, ~$20)
+
+---
+
+### Pick 2: KXLAKECONF-26MAY12-SEP01 — Kari Lake Confirmed as Ambassador by Sep 1
+**Bid/Ask:** 0.23/0.26 | **Days:** 40.5d
+
+**Catalyst:** Kari Lake was nominated as Ambassador to Jamaica. Senate confirmation hearings for non-controversial ambassador posts often move slowly, but as of July 2026 the Republican-controlled Senate has been processing Trump nominees at an accelerated pace. Lake's nomination has faced some political friction but no reported blocking holds as of this date. The market prices ~24% — implying a ~76% chance she is NOT confirmed by Sep 1.
+
+**Analysis:** With 40 days remaining and a cooperative Senate majority, a straightforward ambassadorship confirmation (Jamaica is not a high-profile post) has historically taken 30-60 days from committee vote. If she clears committee imminently, floor vote probability within 40 days is meaningfully above 24%. Fair value estimate: **0.32-0.38**.
+
+**Edge:** Buy ask at 0.26, ~6-12 cents of edge.
+**Confidence:** Low-Medium (Senate scheduling is unpredictable; she has been a polarizing figure which slows floor time)
+**Position:** ~$25 at ask
+
+---
+
+### Skip Notes:
+- **Waymo/Canva/Skims/Fannie/Freddie IPO (near-term Aug):** All at 0.01-0.03 ask. No credible public catalyst for announcement in 9 days. Spread too wide relative to size.
+- **Cabinet departure (Aug):** At 0.05/0.11, the 6-cent spread on a thin ($597 vol) market is too wide for a retail bot.
+- **Veto override:** Near-zero probability given current congressional dynamics; no edge buying at 0.03.
+
+**Total deployed:** ~$45 across two positions.
+
+---
+

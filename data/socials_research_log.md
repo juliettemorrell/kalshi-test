@@ -2003,3 +2003,50 @@ Total deployed: ~$55
 
 ---
 
+
+## 2026-07-23
+
+### Pick 1: EA Take-Private (SEP01 close) — BUY YES @ $0.91
+**Ticker:** `KXCOMPANYACTIONEA-27-26SEP01`
+**Bid/Ask:** 0.90/0.91 | 39.5d
+
+**Catalyst:** Amazon's acquisition of EA (announced earlier in 2026) has been progressing through regulatory review. As of mid-July 2026, EU and DOJ review timelines are consistent with a late-Q3 close. No material regulatory obstacles have emerged publicly; the deal has received conditional clearances. The AUG01 contract (8.5d) trades at 0–4¢, correctly implying the close is unlikely by Aug 1. The SEP01 contract at 90–91¢ looks fairly priced or slightly cheap if close is on track — but the wide bid/ask on the AUG01 slug (0–4¢) confirms the market is placing essentially all close probability in the SEP01 window.
+
+**Fair value estimate:** ~93¢. Edge: ~2¢ buying at ask.
+**Confidence:** Medium. Regulatory timelines can slip, but deal is well-advanced.
+**Size:** $40
+
+---
+
+### Pick 2: Kari Lake Ambassador Confirmation (by SEP01) — FADE / BUY NO implicitly via not buying YES @ $0.09
+**Ticker:** `KXLAKECONF-26MAY12-SEP01`
+**Bid/Ask:** 0.08/0.09 | 39.5d
+
+**Catalyst:** Senate confirmation for Lake has been stalled. The Senate foreign relations committee has not scheduled a vote as of late July 2026, and bipartisan opposition has been documented in multiple outlets (Politico, July 2026). With 39 days remaining and the Senate recess running through early September, the window for floor action is extremely narrow — likely only a few legislative days. Jamaica ambassadorship is low-priority relative to other pending nominees.
+
+**Fair value estimate:** ~5¢. The 8–9¢ ask overstates probability by ~3–4¢.
+**Action:** Sell YES (if Kalshi allows) or avoid. Not a direct buy opportunity given the structure, but flags the YES side as overpriced.
+**Confidence:** Medium.
+**Note:** Skipping as a direct trade since retail short on Kalshi requires holding the NO side — only actionable if NO is separately listed at a favorable price. Flagged for awareness only.
+
+---
+
+### Pick 3: Trump Cabinet Departure (by AUG01) — PASS
+**Ticker:** `KXCABLEAVE-26MAY22-26AUG`
+**Bid/Ask:** 0.05/0.11 | 9.5d
+
+The 6¢ spread on a 9-day binary is too wide to extract edge reliably. No confirmed imminent resignation catalyst as of today. The SEP01 version at 20–27¢ has a similarly wide spread. **No trade.**
+
+---
+
+### Summary
+
+| Trade | Action | Ask | Fair Value | Edge | Size |
+|-------|--------|-----|------------|------|------|
+| EA close by SEP01 | BUY YES | $0.91 | ~$0.93 | +2¢ | $40 |
+| Lake confirmation | Monitor NO | — | ~$0.05 | — | — |
+
+**Total deployed: ~$40** (conservative given thin edges elsewhere)
+
+---
+

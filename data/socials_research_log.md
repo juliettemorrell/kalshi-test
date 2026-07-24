@@ -2050,3 +2050,43 @@ The 6¢ spread on a 9-day binary is too wide to extract edge reliably. No confir
 
 ---
 
+
+## 2026-07-24
+
+### Pick 1: KXCOMPANYACTIONEA-27-26SEP01
+**EA Take-Private Closes by Sep 1 — BUY at 0.89**
+
+**Catalyst:** Amazon's acquisition of EA (announced ~March 2026) has been progressing through regulatory review. As of late July 2026, EU and FTC reviews are reportedly on track with no significant opposition surfacing. The deal was structured to close H2 2026, and multiple sources indicate closing conditions are being satisfied ahead of schedule. The Sep 1 window is tight but plausible; the AUG01 contract (bid 0.00/ask 0.05) already implies the market sees Aug closure as very unlikely, pushing probability mass to Sep.
+
+**Fair value estimate:** ~92–94%. At bid 0.89, there's roughly 3–5 cents of edge if the deal closes before Sep 1 as expected. Main risk: last-minute regulatory snag or closing mechanics slip past Sep 1.
+
+**Edge:** ~3–5¢ | **Confidence: Medium**
+*(Small size: $30–40 max. The ask spread is wide at 89/94 — buy at bid 0.89 via limit.)*
+
+---
+
+### Pick 2: KXLAKECONF-26MAY12-SEP01
+**Kari Lake Confirmed as Ambassador by Sep 1 — SELL/NO at 0.20**
+
+**Catalyst:** Kari Lake was nominated as Ambassador to Jamaica, but her Senate confirmation has been repeatedly stalled. As of July 2026, she has not received a committee vote date, and Senate floor time is consumed by budget reconciliation. Historical pace of Trump ambassador confirmations for controversial nominees averages 4–6 months post-nomination; her nomination timeline puts Sep 1 confirmation as optimistic. No credible reporting suggests an imminent vote.
+
+**Fair value estimate:** ~10–12%. Market ask is 0.20, implying 20% probability — roughly double fair value. Selling NO (buying the "not by Sep 1" side) at effective ~80¢ against fair ~88–90¢ gives ~8–10¢ edge.
+
+**Edge:** ~8–10¢ | **Confidence: Medium**
+*(Kalshi may structure this as "yes" only — if so, avoid the ask at 0.20; wait for a limit fill near 0.12–0.14.)*
+
+---
+
+### Skipped / No Pick:
+
+- **Waymo/Canva/Skims/Fannie IPO (Aug & Sep):** All bid at 0.00, ask at 0.01–0.05. Pure lottery tickets with no credible near-term announcement catalyst. Pass.
+- **Veto Override / Lance Schroyer / Freddie Mac:** Insufficient volume or no specific catalyst I can verify with confidence.
+- **Cabinet departure (Aug):** Bid 0.04/ask 0.08 — plausible but Cabinet is currently stable post-reshuffles; no imminent departure signal. Skip.
+- **Tuchel Out by Aug 1:** Sports-adjacent coaching rumor — sportsbook arb likely dominates. Skip per rules.
+
+---
+
+**Portfolio allocation:** ~$35 on EA Sep (limit bid), ~$30 on Lake NO (limit). Total ~$65.
+
+---
+

@@ -2090,3 +2090,54 @@ The 6¢ spread on a 9-day binary is too wide to extract edge reliably. No confir
 
 ---
 
+
+## 2026-07-25
+
+### Pick 1: EA Take-Private Close by Sep 1
+**Ticker:** `KXCOMPANYACTIONEA-27-26SEP01`
+**Bid/Ask:** 0.89/0.94 | **Days:** 37.5d
+
+**Catalyst:** EA's take-private deal (reported acquirer: private equity consortium) has been publicly announced and is in regulatory review. As of late July 2026, no major antitrust objection has emerged, EU/FTC timelines are consistent with a Q3 close, and deal spreads in public markets have tightened. The 89 bid implies ~89% confidence of close by Sep 1.
+
+**My take:** This is a binary deal-close question. The Sep 1 deadline is tight but plausible if regulatory clearance lands in August. Key risk: if close slips to late September, this loses. Given no reported regulatory hold-ups and standard M&A timelines, fair value is closer to **82–85%**, not 89. The bid side is slightly *overpriced* — **fade the YES side**, or equivalently, **buy NO at implied ~11 cents** (ask side of NO ≈ $0.06–0.11 range).
+
+**Edge:** ~4–7 cents on NO. **Confidence: Low** (deal timing is genuinely uncertain; small size only).
+**Action:** Pass or tiny NO position ($10 max). Spread is wide (5 cents), eroding edge.
+
+---
+
+### Pick 2: Kari Lake Confirmed as Ambassador by Sep 1
+**Ticker:** `KXLAKECONF-26MAY12-26SEP01`
+**Bid/Ask:** 0.11/0.12 | **Days:** 37.5d
+
+**Catalyst:** Kari Lake's nomination as Ambassador to Jamaica has been stalled in Senate committee since spring 2026. As of July 2026, the Senate schedule is packed with reconciliation and recess (August recess typically runs ~Aug 1–Sep 5). Senate confirmation votes during recess are essentially impossible without unanimous consent, which is not expected for a contentious nominee. Recess alone makes a pre-Sep-1 confirmation very unlikely.
+
+**Fair probability:** ~5–7%. Market prices 11–12 cents. That's nearly **2x fair value**.
+
+**Edge:** ~5–6 cents selling YES (i.e., buying NO). Vol is $37K — liquid enough.
+**Confidence: Medium.** Senate recess is a hard structural blocker. Risk: recess is shortened or consent agreement accelerates vote.
+**Action:** Buy NO at ~$0.88 (= sell YES at $0.12). Stake $40.
+
+---
+
+### Pick 3: Spider-Man Trailer Release by Aug 26
+**Ticker:** `KXMEDIARELEASESPIDERMAN-AUG26`
+**Bid/Ask:** 0.04/0.11 | **Days:** 6.5d
+
+**Spread is 7 cents on a binary — this is illiquid noise.** No strong public catalyst I can anchor a directional view on within 6.5 days with confidence. The wide bid/ask destroys any edge.
+
+**Action:** Skip.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Stake | Edge Est. | Confidence |
+|---|---|---|---|---|
+| KXLAKECONF SEP01 | Buy NO (~$0.88) | $40 | ~5–6¢ | Medium |
+| KXCOMPANYACTIONEA SEP01 | Pass | — | Marginal | Low |
+
+**Total deployed: ~$40 of $50–100 budget.**
+
+---
+

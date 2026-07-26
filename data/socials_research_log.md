@@ -2141,3 +2141,55 @@ The 6¢ spread on a 9-day binary is too wide to extract edge reliably. No confir
 
 ---
 
+
+## 2026-07-26
+
+### Analysis
+
+**Date context:** July 26, 2026. Reviewing 17 liquid near-term markets.
+
+---
+
+### Pick 1: KXCOMPANYACTIONEA-27-26SEP01
+**EA Take-Private closes by Sep 1 | Bid 0.88 / Ask 0.94**
+
+**Catalyst:** EA's take-private deal (widely reported as Amazon/private equity acquisition announced late 2025) has been grinding through regulatory review. As of late July 2026, EU and FTC clearances have reportedly been granted with no material remedies required. The deal is in final closing mechanics. The Sep 1 deadline is 36 days away and closing conditions appear satisfied.
+
+**Edge:** Market is bid at 0.88. Fair value looks closer to 0.93-0.95 given regulatory green lights and no reported break risk. The ask at 0.94 is actually reasonable — **buy the bid side isn't available, but if you can get filled at 0.89-0.90 as a limit**, there's ~3-5 cents of edge. The short-tenor Aug version (bid 0.00/ask 0.04) implies the market doesn't expect close *this month*, which is consistent — the Sep contract is the right vehicle.
+
+**Fair probability:** ~93% | **Edge:** ~3-5 cents buying near bid
+**Confidence:** Medium (deal timing uncertainty in final weeks is real)
+
+---
+
+### Pick 2: KXVETOOVERRIDE-29JAN20-26AUG01
+**Congress overrides Trump veto by Aug 1 | Bid 0.01 / Ask 0.02**
+
+**Catalyst:** No credible path exists. Republican majorities in both chambers make a 2/3 override vote essentially impossible for any veto Trump has issued. No active override attempt is on the legislative calendar as of late July 2026.
+
+**Edge:** This is a **NO** at 0.02 ask — fair value is ~1-2%. Buying NO (selling YES) isn't directly available in binary structure, but if Kalshi allows limit NO orders, fair value is ~98-99 NO. The ask of $0.02 means YES buyers are overpaying slightly. **No actionable long trade here** — confirming it's correctly priced near zero, skip.
+
+---
+
+### Pick 3: KXCABLEAVE-26MAY22-26SEP (Cabinet departure by Sep 1)
+**Bid 0.19 / Ask 0.25 | 36.5 days**
+
+**Catalyst:** SecDef Hegseth has faced ongoing congressional pressure and credible reporting of internal White House friction as of mid-2026. Historical base rate: Trump's first term saw ~1 Cabinet-level departure every 2-3 months. With 36 days remaining and at least 2 officials (reported names in recent news cycles) under pressure, fair value is closer to 0.28-0.32.
+
+**Edge:** Ask at 0.25 is below fair value estimate of ~0.28-0.30. ~3-5 cents edge buying YES at ask.
+
+**Fair probability:** ~28-30% | **Edge:** ~3-5 cents
+**Confidence:** Low-medium (Cabinet departures are inherently lumpy/unpredictable)
+
+---
+
+### Summary Table
+| Ticker | Direction | Entry | Fair Value | Edge | Confidence |
+|---|---|---|---|---|---|
+| KXCOMPANYACTIONEA-27-26SEP01 | YES limit ~0.90 | 0.90 | 0.93 | +3¢ | Medium |
+| KXCABLEAVE-26MAY22-26SEP | YES ask | 0.25 | 0.29 | +4¢ | Low-Med |
+
+**Sizing:** $30-40 each max given low-medium confidence and small retail scale.
+
+---
+

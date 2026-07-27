@@ -2193,3 +2193,48 @@ The 6¢ spread on a 9-day binary is too wide to extract edge reliably. No confir
 
 ---
 
+
+## 2026-07-27
+
+### Pick 1: EA Take-Private (Sep bucket) — KXCOMPANYACTIONEA-27-26SEP01
+**Bid/Ask: 0.89/0.94 | 35.5d**
+
+**Catalyst:** EA's take-private deal with an Apollo-led consortium was announced in early 2026 and has been progressing through regulatory review. As of late July 2026, no major antitrust objections have materialized — the FTC under current leadership has been less aggressive on pure financial take-privates. The Sep 1 bucket asks whether the close happens by Sep 1. The deal timeline has consistently pointed to Q3 2026 close. The **bid at 0.89** is the actionable side — the market is pricing ~89% on YES.
+
+**My fair value:** ~85%. The spread is wide (5 cents) and the bid-side actually looks slightly *rich* given typical deal-close slippage risk. Close dates frequently slip 2-4 weeks past initial guidance. Buying NO at 0.06 (= 1 - 0.94) implies ~6% chance of slipping past Sep 1, which feels **underpriced** given realistic scheduling variance.
+
+**Trade:** Buy NO (ask side = 0.06) — fair value on NO ~15%. Edge ~+9 cents.
+**Confidence: Medium.** Deal completion itself is near-certain; the question is purely timing.
+
+---
+
+### Pick 2: Kari Lake Ambassador Confirmation — KXLAKECONF-26MAY12-SEP01
+**Bid/Ask: 0.05/0.08 | 35.5d**
+
+**Catalyst:** Kari Lake was nominated as Ambassador to Jamaica and her Senate Foreign Relations Committee hearing has been repeatedly delayed amid Democratic holds and scheduling conflicts. As of July 2026, no confirmation vote has been scheduled. With the Senate calendar packed through August recess (typically Aug 4 – Sep 5), a floor vote before Sep 1 is increasingly unlikely. Senate recess alone makes the window effectively ~5 working days post-recess before the Sep 1 deadline.
+
+**My fair value:** ~4%. The ask at 0.08 is modestly *rich* — sellers at 0.05 look closer to fair. No trade here is compelling enough to act on at retail size; the NO is already priced near 0.92-0.95.
+
+**Pass** — insufficient edge after spread.
+
+---
+
+### Pick 3: Trump Cabinet Departure (Aug bucket) — KXCABLEAVE-26MAY22-26AUG
+**Bid/Ask: 0.03/0.06 | 5.5d**
+
+**Catalyst:** No credible reporting as of July 27 signals an imminent Cabinet resignation or firing within the next 5 days. The Sep bucket at 0.19/0.24 absorbs the longer-horizon speculation. The 5-day window is very tight.
+
+**My fair value:** ~3%. Ask at 0.06 is too rich. **Pass.**
+
+---
+
+### Summary
+
+| Ticker | Trade | Size | Edge |
+|--------|-------|------|------|
+| KXCOMPANYACTIONEA-27-26SEP01 | Buy NO @ 0.06 | $50 | ~+9¢ fair value edge |
+
+Only one actionable pick. The EA timing-slip trade is the cleanest: deal completion isn't in doubt, only the *by Sep 1* calendar question, and the market underweights routine closing delays.
+
+---
+

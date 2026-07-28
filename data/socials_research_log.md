@@ -2238,3 +2238,45 @@ Only one actionable pick. The EA timing-slip trade is the cleanest: deal complet
 
 ---
 
+
+## 2026-07-28
+
+### Market Analysis
+
+**1. KXCOMPANYACTIONEA-27-26SEP01 — EA Take-Private Closes by Sep 1**
+- **Ticker:** `KXCOMPANYACTIONEA-27-26SEP01`
+- **Bid/Ask:** 0.90/0.93 | **Days:** 34.5d
+- **Catalyst:** EA's take-private deal (reported buyer: Apollo/consortium) was announced in late 2025 and has been progressing through regulatory review. As of late July 2026, no material antitrust obstacles have emerged — gaming/entertainment M&A has faced minimal FTC scrutiny under the current administration. The companion AUG01 contract (same deal, earlier window) trades at 0.02/0.03, implying ~97% probability the deal closes *after* Aug 1 but before Sep 1. That's internally consistent and the SEP01 contract at 0.90 bid looks fair-to-slightly-cheap given deal close risk is mostly execution/financing, not regulatory.
+- **Edge:** Mild. Fair value ~0.92-0.94. Bid at 0.90 offers ~2-3 cents edge buying.
+- **Confidence:** Low — spread is wide (3¢), and any last-minute financing hiccup kills this. Position size $30 max.
+- **Action:** BUY SEP01 at ask 0.93 — marginal, skip unless you want near-cash-equivalent exposure.
+
+---
+
+**2. KXCABLEAVE-26MAY22-26SEP — Cabinet Member Leaves by Sep**
+- **Ticker:** `KXCABLEAVE-26MAY22-26SEP`
+- **Bid/Ask:** 0.19/0.24 | **Days:** 35.5d
+- **Catalyst:** RFK Jr. has been publicly at odds with the administration over vaccine/health policy throughout 2026, and there have been credible reports (Axios, Politico, ~July 2026) of friction between HHS and the White House. Additionally, several Cabinet members have faced Senate pressure. With ~35 days remaining and a roster of known friction points, 19-24% feels **underpriced** — historical base rate for a Cabinet departure in any given 35-day window under a turbulent administration is arguably 25-35%.
+- **Fair value estimate:** ~0.30
+- **Edge:** ~6-11 cents buying at ask 0.24
+- **Confidence:** Medium. This is a diffuse catalyst (any Cabinet member counts), which broadens the probability. The ask at 0.24 provides real edge.
+- **Action:** **BUY at ask 0.24, size $50**
+
+---
+
+### Skipped Markets
+
+- **Kari Lake / Waymo / Canva / Skims / Fannie/Freddie IPO (near-term):** All bid=0.00, ask=0.01-0.07 — these are near-zero probability events in a 3-4 day window with no specific imminent catalyst. Buying pennies on long shots with no news hook is noise trading.
+- **Tuchel / Spider-Man trailer / Veto override / Schroyer confirmation:** Insufficient public signal to form a real edge view; skipping per honesty standard.
+
+---
+
+### Summary
+
+| Trade | Action | Size | Edge Est. |
+|-------|--------|------|-----------|
+| KXCABLEAVE-26SEP | BUY @0.24 | $50 | +6-11¢ |
+| KXCOMPANYACTIONEA-SEP01 | Pass (spread too wide) | — | +2-3¢ |
+
+---
+

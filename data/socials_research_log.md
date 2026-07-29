@@ -2280,3 +2280,53 @@ Only one actionable pick. The EA timing-slip trade is the cleanest: deal complet
 
 ---
 
+
+## 2026-07-29
+
+### Pick 1: EA Take-Private – August Window
+**Ticker:** `KXCOMPANYACTIONEA-27-26AUG01`
+**Bid/Ask:** 0.01/0.02 | **Days:** 2.5d
+
+**Catalyst:** EA's take-private deal (reported ~$12.5B, led by a consortium including Amazon/private equity) has been in regulatory review. As of late July 2026, no close has been announced and the August 1 deadline is 2.5 days away. Deal closes of this complexity virtually never happen on short notice without pre-announcement. The September contract (bid 0.92) already prices near-certainty for that window, implying the August close is correctly near-zero.
+
+**Verdict:** Market is fairly priced here. **Pass** – no edge, just confirming the September contract dominates.
+
+---
+
+### Pick 1 (Actual): EA Take-Private – September Window
+**Ticker:** `KXCOMPANYACTIONEA-27-26SEP01`
+**Bid/Ask:** 0.92/0.96 | **Days:** 33.5d
+
+**Catalyst:** The deal has high reported probability of closing by September 2026 based on regulatory filings and shareholder approval timelines circulating in financial press. Bid at 0.92 suggests ~92% implied probability. However, the 4-cent spread is wide and buying at 0.96 ask caps upside to 4 cents on a ~$1 resolution. **Fade the ask** – this is overpriced at ask. No actionable long.
+
+**Verdict:** Skip – spread eats the edge.
+
+---
+
+### Pick 2: Spider-Man Trailer Release – August
+**Ticker:** `KXMEDIARELEASESPIDERMAN-AUG26`
+**Bid/Ask:** 0.03/0.04 | **Days:** 2.5d
+
+**Catalyst:** Sony's *Spider-Man: Beyond the Spider-Verse* has been in production limbo following the 2023 writers/actors strikes delay. As of July 2026, no official trailer has been confirmed imminent. The film's release window remains uncertain; Sony has not publicly scheduled a trailer drop. With 2.5 days to expiry and no credible leak or studio announcement, the fair value is near 2–3%.
+
+**Edge:** Bid at 3 cents is close to fair. **No long.**
+**Verdict:** Skip – can't identify mispricing.
+
+---
+
+### Pick 3: Kari Lake Ambassador Confirmation
+**Ticker:** `KXLAKECONF-26MAY12-SEP01`
+**Bid/Ask:** 0.03/0.06 | **Days:** 33.5d
+
+**Catalyst:** Kari Lake was nominated as Ambassador to Jamaica. Senate confirmation for non-controversial ambassadors typically takes weeks to months. As of late July 2026, her confirmation hearing status is unclear and Senate calendar is crowded with budget/reconciliation. The spread (3–6 cents) implies ~4.5% midpoint probability by September 1. Given Senate recess schedules and the low priority of this nomination, 4–5% is actually reasonable – not clearly mispriced.
+
+**Verdict:** Skip – no identifiable edge.
+
+---
+
+### Summary
+
+**No actionable picks today.** The most liquid markets (EA Sep) have spreads that eliminate retail edge. The near-term expiry markets (Aug 1 window) are correctly priced near zero. Without a breaking catalyst I can specifically identify as unpriced, deploying $50–100 here would be spread-donating. Recommend waiting for a news event (Senate vote schedule, Sony announcement) before entering.
+
+---
+

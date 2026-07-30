@@ -2330,3 +2330,47 @@ Only one actionable pick. The EA timing-slip trade is the cleanest: deal complet
 
 ---
 
+
+## 2026-07-30
+
+### Pick 1: EA Take-Private Closes by Aug 1
+**Ticker:** `KXCOMPANYACTIONEA-27-26AUG01`
+**Bid/Ask:** 0.03 / 0.09 | **Days:** 1.5d
+
+**Catalyst:** EA's take-private deal (by a consortium including private equity) has been widely reported as on track, with shareholder approval obtained and regulatory clearance secured in major jurisdictions. As of late July 2026, closing mechanics are reportedly in final stages. The Sep1 bucket is priced at 0.91 bid — implying the market thinks it *will* close but probably after Aug 1. However, deal-close press releases frequently drop on a Friday or month-end. With 1.5 days left in the Aug 1 window, the true probability is low (~5-8%) but the ask of 0.09 is too rich to buy. **Pass on buying.** The Sep1 contract at 0.91 bid is the cleaner long if you already hold it. No actionable entry here at ask.
+
+---
+
+### Pick 2: Cabinet Member Leaves by Sep 1
+**Ticker:** `KXCABLEAVE-26MAY22-26SEP`
+**Bid/Ask:** 0.18 / 0.23 | **Days:** 33.5d
+
+**Catalyst:** As of July 2026, there are active public reports of friction between Trump and multiple cabinet officials — specifically reporting around HHS Secretary RFK Jr.'s increasingly strained relationship with the administration following public disagreements over vaccine policy, and separately reporting on Treasury tensions. Historical base rate: in Trump's first term, a cabinet-level departure occurred roughly every 2-3 months. We're now ~6 months into the second term with no confirmed departure from the current cabinet (per the market's starting date of May 22). A ~33-day window with elevated political volatility puts fair value closer to **28-32%**. The ask of 0.23 offers real edge.
+
+**Fair value:** ~0.28–0.30
+**Edge:** ~5–7 cents at ask
+**Confidence:** Medium
+**Action:** Buy at 0.23, small size ($25–35)
+
+---
+
+### Pick 3: Kari Lake Confirmed by Sep 1
+**Ticker:** `KXLAKECONF-26MAY12-SEP01`
+**Bid/Ask:** 0.02 / 0.03 | **Days:** 32.5d
+
+**Catalyst:** Lake's nomination has stalled in Senate committee with no scheduled floor vote as of late July 2026, per reporting from The Hill and Politico. Senate recess and competing confirmation priorities (judges, other nominees) make a September 1 confirmation extremely unlikely. Market at 0.02/0.03 is already near-zero — **no edge to buy or sell short.** Skip.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Entry | Fair Value | Edge | Confidence |
+|---|---|---|---|---|---|
+| KXCABLEAVE-26MAY22-26SEP | **BUY** | $0.23 | ~$0.29 | ~6¢ | Medium |
+| KXCOMPANYACTIONEA-27-26AUG01 | Pass | — | — | — | — |
+| KXLAKECONF | Pass | — | — | — | — |
+
+**Total deploy:** ~$30 on cabinet market only. Other markets are either mispriced the wrong direction, too illiquid, or lack verifiable near-term catalysts within the window.
+
+---
+

@@ -2374,3 +2374,57 @@ Only one actionable pick. The EA timing-slip trade is the cleanest: deal complet
 
 ---
 
+
+## 2026-07-31
+
+### Market Assessment
+
+Most of these are 0.5d markets expiring today (Aug 1) with bid=0.00/ask=0.01–0.04 — these are essentially "last hour" lottery tickets on events that almost certainly won't resolve YES today. The edge is on the NO side but you can't short easily on Kalshi retail. I'll focus on the multi-day markets where there's actual pricing to dispute.
+
+---
+
+### Pick 1: KXBLANCHEWITHDRAW-28JAN01-AUG05
+**Ticker:** `KXBLANCHEWITHDRAW-28JAN01-AUG05`
+**Bid/Ask:** 0.10/0.11 | **Days:** 4.9d | **Vol:** $2,455
+
+**Catalyst:** Todd Blanche's AG nomination has been stalled in committee, but as of late July 2026 there are no credible reports of Trump moving to withdraw it. Trump's pattern is to dig in on contested nominees (cf. Gaetz, Gabbard situations) rather than withdraw under Senate pressure. The 10–11¢ price implies ~10% chance of withdrawal by Aug 5 — that feels 2–3x too high given zero public signals from the White House of retreat.
+
+**Fair probability:** ~4–5%
+**Edge:** ~6 cents on the NO side (but retail can only buy YES here, so this is a **pass-on-YES** signal — avoid buying)
+**Actionable:** Only if you can sell/short. Otherwise, skip.
+**Confidence:** Medium
+
+---
+
+### Pick 2: KXCABLEAVE-26MAY22-26SEP
+**Ticker:** `KXCABLEAVE-26MAY22-26SEP`
+**Bid/Ask:** 0.17/0.22 | **Days:** 32.5d | **Vol:** $1,106
+
+**Catalyst:** The wide 5-cent spread signals thin liquidity and uncertainty. As of July 2026, Trump's second-term cabinet has seen notable attrition pressure (Rubio double-duty tension, RFK Jr. friction). The Sep 1 deadline gives 32 days. Historical base rate for a cabinet departure in any given 30-day window in a volatile administration is arguably 15–25%. At 17¢ bid this is **near fair value or slight value on the BUY side** — the ask at 22¢ is too rich, but if you can get filled near 17–18¢ there's modest positive EV.
+
+**Fair probability:** ~20–22%
+**Edge:** ~2–4 cents buying near bid
+**Confidence:** Low (spread is punishing and catalyst is diffuse)
+
+---
+
+### Pick 3: KXLAKECONF-26MAY12-SEP01
+**Ticker:** `KXLAKECONF-26MAY12-SEP01`
+**Bid/Ask:** 0.01/0.04 | **Days:** 31.5d | **Vol:** $39,967
+
+**Catalyst:** Kari Lake's Jamaica ambassadorship confirmation has been delayed by Senate scheduling and bipartisan skepticism. The Senate recess calendar through August makes a pre-Sep 1 confirmation procedurally very difficult. At ask=4¢, market implies ~4% — probably fair to slightly rich. **No edge; skip.**
+
+---
+
+### Summary
+
+| Pick | Action | Size |
+|------|--------|------|
+| KXBLANCHEWITHDRAW AUG05 | Avoid buying YES | — |
+| KXCABLEAVE SEP | Buy near 17–18¢ bid only | $30–40 |
+| KXLAKECONF | Skip | — |
+
+**Net actionable:** One small speculative position on Cabinet departure near the bid. Total deployment: ~$35. Honest assessment: this list has thin genuine edge for retail today.
+
+---
+

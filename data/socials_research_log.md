@@ -2428,3 +2428,44 @@ Most of these are 0.5d markets expiring today (Aug 1) with bid=0.00/ask=0.01–0
 
 ---
 
+
+## 2026-08-01
+
+### Market Review — 3 Picks
+
+---
+
+**1. KXBLANCHEWITHDRAW-28JAN01-AUG05 — Will Todd Blanche's nomination be withdrawn? (settles Aug 5)**
+- **Ticker:** `KXBLANCHEWITHDRAW-28JAN01-AUG05` | Bid 0.04 / Ask 0.05
+- **Catalyst:** As of late July 2026, Blanche's AG nomination has been stalled in Senate committee but there is no public reporting of a formal withdrawal imminent. The short window (4 days to Aug 5) makes a sudden withdrawal highly unlikely absent a specific triggering event. No credible news source as of today confirms withdrawal talks.
+- **Fair probability:** ~3–4%. Ask at 0.05 is marginally overpriced but edge is thin.
+- **Edge:** ~1–2 cents at ask. Small.
+- **Action:** **Sell NO** (i.e., buy NO at implied ~95–96¢) if available, or skip — spread is too tight for meaningful edge on a $50–100 book.
+- **Confidence:** Low — edge exists directionally but insufficient size for retail.
+
+---
+
+**2. KXBLANCHEWITHDRAW-28JAN01-SEP01 — Will Todd Blanche's nomination be withdrawn? (settles Sep 1)**
+- **Ticker:** `KXBLANCHEWITHDRAW-28JAN01-SEP01` | Bid 0.28 / Ask 0.29
+- **Catalyst:** The 28–29¢ price implies ~28% chance of withdrawal by Sep 1. Blanche's nomination has faced sustained opposition but Trump has historically dug in on contested nominees (e.g., Hegseth). No reporting as of Aug 1 indicates Trump is preparing to pull Blanche. Senate dynamics suggest a floor vote or quiet continuation is more probable than outright withdrawal.
+- **Fair probability:** ~15–18%. Market is pricing ~10–12 cents too high.
+- **Edge:** ~10–13 cents selling YES (buying NO at ~71–72¢).
+- **Action:** **Buy NO** at ~0.71 (ask side). Best single pick here.
+- **Confidence:** Medium — directional story is clean; risk is a sudden scandal forcing Trump's hand.
+
+---
+
+**3. KXCABLEAVE-26MAY22-26SEP — When will a Trump Cabinet member leave? (settles Sep)**
+- **Ticker:** `KXCABLEAVE-26MAY22-26SEP` | Bid 0.16 / Ask 0.22
+- **Catalyst:** This bucket prices departure in the next ~31 days at 16–22¢. Trump's current Cabinet has shown unusual stability post-2025 reshuffles; no credible reporting as of Aug 1 points to an imminent departure. Base rate for any single month is low (~10–12% given historical turnover pace of ~1–2 departures/year in second term).
+- **Fair probability:** ~10–13%. Ask at 0.22 is overpriced by ~9–10 cents.
+- **Edge:** ~9–10 cents buying NO.
+- **Action:** **Buy NO** at ~0.78.
+- **Confidence:** Medium-low — Cabinet departures are inherently unpredictable; position size should stay minimal (~$25 max).
+
+---
+
+**Skipped:** Waymo/Canva/Skims/Fannie IPO markets — all near-zero with no credible near-term catalyst. Kari Lake — Ambassador confirmation timing is genuinely uncertain. Lane Johnson — sports, skip per rules.
+
+---
+

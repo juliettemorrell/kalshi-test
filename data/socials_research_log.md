@@ -2469,3 +2469,50 @@ Most of these are 0.5d markets expiring today (Aug 1) with bid=0.00/ask=0.01–0
 
 ---
 
+
+## 2026-08-02
+
+### Market Scan Summary
+
+Scanning for catalyst-driven mispricings in the filtered universe. Date is 2026-08-02.
+
+---
+
+### Pick 1: Todd Blanche Withdrawal — AUG05 contract
+**Ticker:** `KXBLANCHEWITHDRAW-28JAN01-AUG05`
+**Bid/Ask:** 0.07 / 0.10 | **Days:** 3.0d
+
+**Catalyst:** As of late July 2026, Blanche's AG nomination has faced prolonged Senate resistance, but there are no confirmed reports of Trump pulling the nomination imminently. The AUG05 contract (3 days out) is pricing ~8-10% chance of withdrawal in 72 hours. The SEP01 contract trades at 0.30/0.31 and OCT01 at 0.31/0.34, implying ~30% cumulative withdrawal probability over ~60 days. The AUG05 contract's 8-10% for the *next 3 days specifically* appears rich relative to base rate — Trump has shown no urgency to withdraw, and the Senate calendar has no forcing mechanism this week.
+
+**Trade:** **Sell ask at 0.10** (i.e., sell YES). Fair value ~3-4%. Edge ~6 cents.
+**Confidence:** Medium. Binary event with limited information edge; small size appropriate.
+
+---
+
+### Pick 2: Oura IPO by OCT01
+**Ticker:** `KXIPOOURA-26OCT01`
+**Bid/Ask:** 0.15 / 0.25 | **Days:** 59.5d
+
+**Catalyst:** Oura has been consistently cited in 2025-2026 tech IPO pipeline coverage (Bloomberg, Reuters) as a likely 2026 candidate, with reported valuation ~$5B post-Series D. However, no formal S-1 filing or banker selection has been publicly confirmed as of August 2026. The 60-day window (through October 1) is tight for a company that hasn't filed. IPO processes from S-1 to listing typically take 3-5 months minimum after public filing. The ask of 0.25 seems high — comparable "IPO announced by X date" markets for Waymo/Canva/Skims are trading at 0.01-0.06 for similar windows.
+
+**Trade:** **Sell ask at 0.25** (sell YES). Fair value ~8-12%. Edge ~13-17 cents.
+**Confidence:** Medium. The spread is wide (10 cents), suggesting thin book. Use limit sell near 0.20 to avoid slippage.
+
+---
+
+### Skip Rationale for Other Markets
+
+- **Netanyahu arrest (0.02/0.03):** Already near floor; minimal edge selling at 3 cents.
+- **Kari Lake Ambassador confirmation:** Low information; Senate scheduling opaque.
+- **Waymo/Canva/Skims IPO (SEP/OCT):** Asking 0.01-0.06; floor pricing, not actionable.
+- **Last of Us S3:** No confirmed production/release catalyst available.
+- **Lane Johnson retirement:** Sports market — excluded per rules.
+- **AGI by Q3 2026:** Too speculative, no near-term catalyst.
+
+---
+
+### Position Sizing
+Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position given the binary nature. Total exposure: ~$35-40.
+
+---
+

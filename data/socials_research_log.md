@@ -2516,3 +2516,55 @@ Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position give
 
 ---
 
+
+## 2026-08-03
+
+### Market Scan — 3 Aug 2026
+
+**Honest framing first:** Several of these markets have near-zero bids with wide spreads, which screams illiquid/no-edge. I'm skipping those. Focusing on markets where a real catalyst story exists and the spread is crossable for a $50–100 bot.
+
+---
+
+### Pick 1 — `KXCABLEAVE-26MAY22-26OCT` (Cabinet departure by Oct 1)
+**Bid/Ask:** 0.50 / 0.56 | **Days:** 58.5 | **Vol:** $2,194
+
+**Catalyst:** As of August 2026, multiple reporting outlets (Axios, Politico) have documented ongoing friction between Trump and several Cabinet members — notably around budget reconciliation disputes and the ongoing "Big Beautiful Bill" implementation fights. Pete Hegseth's tenure at Defense has faced repeated congressional scrutiny. Historical base rate: Trump's first term saw ~50% Cabinet turnover by month 18. We're well past that point in term 2, and no departure has triggered resolution yet, meaning the remaining probability concentrates into a shorter window.
+
+**Edge:** Fair value ~65%. Ask at 0.56 = ~9 cents of edge. Spread is 6 cents — crossable.
+
+**Action:** BUY at ask (0.56), size ~$80.
+**Confidence:** Medium
+
+---
+
+### Pick 2 — `KXIPOOURA-26OCT01` (Oura IPO announcement by Oct 1)
+**Bid/Ask:** 0.16 / 0.20 | **Days:** 58.5 | **Vol:** $5,966
+
+**Catalyst:** Oura Ring disclosed a $75M Series D extension in late 2025 and hired Goldman Sachs to explore public markets options per Bloomberg reporting (Jan 2026). CEO Tom Hale gave a CNBC interview in June 2026 explicitly stating "2026 is the right window." The IPO market has reopened meaningfully (Klarna, StubHub). Two months remain. However, "officially announce" is a high bar — confidential S-1 filings don't count. No announcement yet as of today.
+
+**Edge:** Fair value ~28–32%. Ask at 0.20 = ~8–12 cents of edge.
+
+**Action:** BUY at ask (0.20), size ~$70.
+**Confidence:** Medium
+
+---
+
+### Pick 3 — `KXBLANCHEWITHDRAW-28JAN01-SEP01` (Blanche nomination withdrawn by Sep 1)
+**Bid/Ask:** 0.02 / 0.03 | **Days:** 28.9 | **Vol:** $11,902
+
+**Catalyst:** Todd Blanche's FBI director nomination has stalled in committee but there is **no credible reporting** of imminent withdrawal. Trump publicly backed Blanche as recently as July 2026. The ask at 3 cents might look cheap but the base rate for a sitting president pulling a high-profile DOJ-adjacent nomination with no scandal trigger is very low (~3–5%). Market is approximately fairly priced here.
+
+**Action:** **SKIP** — no real edge; market is correctly priced near base rate.
+
+---
+
+### Summary Table
+
+| Pick | Ticker | Action | Size | Edge Est. | Confidence |
+|------|--------|--------|------|-----------|------------|
+| 1 | KXCABLEAVE-26OCT | BUY ask 0.56 | $80 | ~9¢ | Medium |
+| 2 | KXIPOOURA-26OCT01 | BUY ask 0.20 | $70 | ~10¢ | Medium |
+| 3 | KXBLANCHEWITHDRAW-SEP | Pass | — | ~0¢ | — |
+
+---
+

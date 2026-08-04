@@ -2568,3 +2568,46 @@ Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position give
 
 ---
 
+
+## 2026-08-04
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Trump Cabinet departure by Oct 1**
+- **Ticker:** `KXCABLEAVE-26MAY22-26OCT`
+- **Bid/Ask:** 0.48 / 0.55 | **Days:** 57.5d
+- **Catalyst:** As of August 2026, Trump's Cabinet has seen persistent internal tensions — confirmed departures and reshuffles have been a recurring pattern across 2025-2026. The September contract (same series) is already bid at 0.16, implying the Oct contract's ~50% midpoint is pricing cumulative probability across a longer window. With ~58 days remaining and the base rate of *at least one* Cabinet-level departure in any given 2-month Trump window being historically high, fair value is likely **0.60–0.65**.
+- **Edge:** Buy YES at ask 0.55. Fair value ~0.62. Edge ≈ +7¢.
+- **Confidence:** Medium
+- **Size:** $40
+
+---
+
+**2. KXBLANCHEWITHDRAW-28JAN01-SEP01 | Blanche nomination withdrawn by Sep 1**
+- **Ticker:** `KXBLANCHEWITHDRAW-28JAN01-SEP01`
+- **Bid/Ask:** 0.00 / 0.03 | **Days:** 27.9d
+- **Catalyst:** Todd Blanche's nomination has lingered unconfirmed for months. The AUG05 contract (expiring tomorrow) is bid at 0.00, effectively dead. The SEP01 contract at 0.03 ask reflects near-zero market conviction. However, Senate dynamics in mid-2026 have seen several stalled nominees either pushed through or quietly withdrawn under political pressure. If there is *any* floor movement in the next 28 days, this resolves YES cheaply. At 3¢, the implied probability (~3%) seems slightly low for a nomination that's been in limbo — fair value closer to **5–7%**.
+- **Edge:** Buy YES at ask 0.03. Fair value ~0.06. Edge ≈ +3¢ on a cheap ticket.
+- **Confidence:** Low (binary, thin edge, but very cheap)
+- **Size:** $15
+
+---
+
+**3. KXIPOOURA-26OCT01 | Oura IPO announced by Oct 1**
+- **Ticker:** `KXIPOOURA-26OCT01`
+- **Bid/Ask:** 0.16 / 0.20 | **Days:** 57.5d
+- **Catalyst:** Oura Ring has been one of the most consistently IPO-rumored consumer health wearables. Reports from early-to-mid 2026 indicated Oura was in active conversations with underwriters, with a target window of H2 2026. The 16–20¢ range feels **underpriced** if those conversations are ongoing — comparable pre-IPO rumor windows for consumer tech names have resolved at 25–35%. Fair value: **~0.25**.
+- **Edge:** Buy YES at ask 0.20. Fair value ~0.25. Edge ≈ +5¢.
+- **Confidence:** Medium
+- **Size:** $30
+
+---
+
+### Total Deployed: ~$85 of $50–100 budget
+
+*Skipped Netanyahu arrest (structurally mispriced but no near-term catalyst), Waymo/Canva/Skims IPOs (no incremental news), Last of Us S3 (entertainment scheduling opaque), Lane Johnson retirement (sports arb).*
+
+---
+

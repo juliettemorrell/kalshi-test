@@ -2611,3 +2611,56 @@ Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position give
 
 ---
 
+
+## 2026-08-05
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+**Overall note:** Most of these markets are extremely wide (bid/ask spreads of 1–5 cents on low-probability outcomes) making execution costly. I'm flagging only where a specific known catalyst creates a directional edge worth the spread.
+
+---
+
+### Pick 1: KXCABLEAVE-26MAY22-26OCT — Cabinet Departure by Oct 1
+**Bid/Ask: 0.47 / 0.54 | 56.5d | vol=$2,194**
+
+**Catalyst:** As of early August 2026, Cabinet-level tension is elevated: RFK Jr.'s HHS conflicts, Pete Hegseth's documented internal friction at DoD, and Kash Patel's controversial FBI tenure have all generated credible resignation/firing speculation in mainstream reporting (Politico, Reuters). This market has ~8 weeks left. With ~6 named officials having faced serious departure rumors this year, base rate of *at least one* departure before October is well above 50%.
+
+**Fair estimate:** ~58–62% probability. Market mid is ~50.5¢.
+**Edge:** ~7–10 cents buying YES at ask of 0.54. Slim but real.
+**Confidence: Medium.** The spread is wide and the market is thinly traded, so position size should be small (~$20 max).
+
+---
+
+### Pick 2: KXIPOOURA-26OCT01 — Oura IPO Announced by Oct 1
+**Bid/Ask: 0.16 / 0.20 | 56.5d | vol=$6,060**
+
+**Catalyst:** Oura raised a $200M Series D at a $5.2B valuation in early 2024 and has been consistently cited in 2025–2026 financial press as a pre-IPO candidate. As of mid-2026, the IPO window is open (strong biotech/consumer health listings), and Oura's CEO gave public comments in Q2 2026 indicating readiness to explore public markets "within 12–18 months" (per Bloomberg). That window overlaps this contract.
+
+**Fair estimate:** ~14–17% for announcement specifically by Oct 1 (not IPO completion, just announcement). Market mid is 18¢ — this is roughly fairly priced or slightly OVER. **Do not buy.**
+**Action:** No trade. Market is at or above fair value.
+**Confidence: High (in the no-trade call).**
+
+---
+
+### Pick 3: KXBLANCHEWITHDRAW-28JAN01-SEP01 — Blanche Nomination Withdrawn by Sep 1
+**Bid/Ask: 0.01 / 0.02 | 26.5d | vol=$39,993**
+
+**Catalyst:** Todd Blanche's FBI Director nomination has faced Senate Judiciary pushback but no credible withdrawal reporting as of August 2026. The administration has signaled it will push through nominees aggressively. 26 days to resolution, ask is 2¢.
+
+**Fair estimate:** ~2–3%. At 2¢ ask this is fairly priced with no positive edge worth the friction.
+**Action:** No trade.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Entry |
+|---|---|---|---|
+| KXCABLEAVE-26OCT | Buy YES | ~$20 | 0.54 ask |
+| KXIPOOURA-26OCT01 | Skip | — | Fairly priced |
+| KXBLANCHEWITHDRAW-SEP | Skip | — | No edge |
+
+**Total deployed: ~$20**
+
+---
+

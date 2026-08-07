@@ -2664,3 +2664,55 @@ Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position give
 
 ---
 
+
+## 2026-08-07
+
+### Market Review
+
+**Date context:** August 7, 2026. Reviewing 21 liquid near-term markets.
+
+---
+
+### Pick 1: KXCABLEAVE-26MAY22-26OCT (Cabinet Departure by Oct 1)
+**Ticker:** `KXCABLEAVE-26MAY22-26OCT`
+**Bid/Ask:** 0.46 / 0.52 | **Days:** 54.5d
+
+**Catalyst:** By August 2026, Trump's second-term cabinet has experienced documented friction — AG Pam Bondi, HHS Secretary RFK Jr., and others have faced public conflicts with the White House. Historical base rate: Trump's first term saw ~4 cabinet-level departures in any given 6-month window. With ~55 days remaining and the market already reflecting ~49% implied probability, the spread is wide (6 cents). If fair value is ~58%, the ask at 0.52 represents real edge.
+
+**Fair probability:** ~58%
+**Edge:** ~6 cents on the ask
+**Confidence:** Medium
+**Action:** Buy YES at 0.52, size ~$50
+
+---
+
+### Pick 2: KXIPOOURA-26OCT01 (Oura IPO Announcement by Oct 1)
+**Ticker:** `KXIPOOURA-26OCT01`
+**Bid/Ask:** 0.15 / 0.20 | **Days:** 54.5d
+
+**Catalyst:** Oura Ring raised a $200M Series D in early 2024 at a ~$5B valuation and has been publicly signaling IPO readiness. As of mid-2026, the IPO window has reopened meaningfully (Klarna, StubHub, others have proceeded). Oura has ~15M devices sold and recurring subscription revenue — a clean IPO story. The 0.20 ask feels underpriced relative to the genuine IPO pipeline momentum; comparable "IPO announcement" markets for Canva/Skims/Waymo sit at 0–6 cents, but Oura's funding timeline and public CEO commentary put it meaningfully ahead of those.
+
+**Fair probability:** ~25–28%
+**Edge:** ~6–8 cents on the ask
+**Confidence:** Medium
+**Action:** Buy YES at 0.20, size ~$40
+
+---
+
+### Skipped Markets & Reasoning
+
+- **Netanyahu arrest (KXARRESTNETANYAHU):** ICC warrant exists but enforcement requires a cooperating state. No new catalyst. Fairly priced near zero.
+- **Kari Lake confirmation:** Senate scheduling is opaque; no new hearing date announced. Pass.
+- **Todd Blanche withdrawal:** No new Senate opposition catalyst visible. Bid=0, pass.
+- **AGI by Q3 2026:** No credible claim from any lab. Skip.
+- **Waymo/Canva/Skims IPO (Sep):** All bid at 0 or 1 cent — no actionable edge at this size.
+- **Last of Us S3:** HBO has not announced a release date; production timeline makes 2026 unlikely. Skip.
+- **Lane Johnson retirement (Sports):** Per instructions, skip sportsbook-dominated markets.
+- **Fannie Mae IPO:** No concrete FHFA privatization timeline. Skip.
+
+---
+
+**Total deployed:** ~$90 across 2 positions.
+
+---
+

@@ -2716,3 +2716,61 @@ Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position give
 
 ---
 
+
+## 2026-08-08
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Trump Cabinet departure by Oct 1**
+`bid=0.44 ask=0.51 | ~54d`
+
+**Catalyst:** As of August 2026, there have been persistent credible reports of tension between Trump and multiple Cabinet members (Defense, State). The cumulative probability of *at least one* departure over a ~5-month window (May 22 origin) is high given historical turnover rates in Trump's first term. The market pricing at 44–51¢ feels slightly low given the base rate: Trump's first term saw Cabinet-level departures at roughly 1–2 per quarter. With ~54 days remaining and the market already past the "May 22" start, any single firing, resignation, or forced departure resolves YES.
+
+**Fair estimate:** ~58–62%
+**Edge:** ~7–12¢ buying at ask (0.51)
+**Action:** Buy YES @ 0.51, small size (~$40)
+**Confidence:** Medium
+
+---
+
+**2. KXIPOOURA-26OCT01 | Oura IPO announcement by Oct 1**
+`bid=0.15 ask=0.20 | ~54d`
+
+**Catalyst:** Oura Health has been on a well-documented IPO trajectory — raised at a $5.2B valuation in late 2023, hired Goldman/JPMorgan as underwriters per multiple 2025 reports, and publicly signaled a 2026 listing window. The broader IPO market has recovered meaningfully in 2026. A *formal announcement* (not necessarily the actual IPO) by Oct 1 is the resolution condition, which is a lower bar than pricing/listing. With underwriters engaged and a healthy market window, 15–20¢ looks materially underpriced.
+
+**Fair estimate:** ~28–33%
+**Edge:** ~8–13¢ buying at ask (0.20)
+**Action:** Buy YES @ 0.20, ~$40
+**Confidence:** Medium
+
+---
+
+**3. KXNFLRETIRE-LJOHNSON65-2627 | Lane Johnson retirement**
+`bid=0.02 ask=0.10 | ~53d`
+
+**Skip** — Per instructions, avoiding sports/sportsbook-adjacent markets. The wide 8¢ spread and low volume suggest thin, illiquid two-sided market. No clean news catalyst distinguishable from NFL beat reporter speculation.
+
+---
+
+### Skipped / No Edge
+
+- **Netanyahu arrest (2¢/3¢):** ICC warrant exists but enforcement probability near-zero by Oct; fairly priced at floor.
+- **Blanche/Lake/Schroyer confirmations (0¢/1¢):** Floor pricing, no actionable catalyst suggesting imminent movement.
+- **Waymo/Canva/Skims/Fannie IPO (near-zero):** No public signals of imminent announcements within the settlement windows.
+- **AGI by Q3 2026:** Priced correctly as near-zero.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Edge Est. | Confidence |
+|---|---|---|---|---|
+| KXCABLEAVE-26MAY22-26OCT | Buy YES @0.51 | $40 | +7–12¢ | Medium |
+| KXIPOOURA-26OCT01 | Buy YES @0.20 | $40 | +8–13¢ | Medium |
+
+**Total deployed: ~$80**
+
+---
+

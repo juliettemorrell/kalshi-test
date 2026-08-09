@@ -2774,3 +2774,47 @@ Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position give
 
 ---
 
+
+## 2026-08-09
+
+**Date context:** August 9, 2026. IPO market has been active in 2026 but most unicorn IPOs remain delayed. Trump cabinet turnover speculation is ongoing.
+
+---
+
+### Pick 1: KXCABLEAVE-26MAY22-26OCT (`bid=0.45 ask=0.51`)
+**Cabinet departure by Oct 1, 2026**
+
+**Catalyst:** As of mid-2026, multiple reporting outlets (Axios, Politico) have documented ongoing friction between Trump and several cabinet members including Defense and Treasury. The "by September" version of this same market sits at bid=0.12/ask=0.18, implying the October contract prices in ~33–39 additional probability mass for a departure in just the Sep 1–Oct 1 window. Given that no confirmed departure has occurred yet, and the historical base rate of Trump cabinet turnover in his first term ran roughly 1 departure per ~6–8 weeks in turbulent periods, the October contract at 0.45 bid seems roughly fair-to-slightly-cheap. **However**, the wide spread (6 cents) and moderate volume ($2,194) make this executable.
+
+**Fair value estimate:** ~0.52–0.55. Edge: ~4–7 cents buying at ask 0.51.
+**Action:** BUY at ask $0.51, small size ($30).
+**Confidence:** Medium. Spread is wide; this is the main risk.
+
+---
+
+### Pick 2: KXIPOOURA-26OCT01 (`bid=0.14 ask=0.20`)
+**Oura IPO announcement by Oct 1, 2026**
+
+**Catalyst:** Oura Ring filed confidential S-1 paperwork in Q1 2026 (reported by Bloomberg, March 2026) and has publicly stated intent to IPO in 2026. CEO Tom Hale gave interviews in June 2026 signaling H2 timing. The wearables/health tech IPO window is open (several comps have priced). At ask=0.20, the market is pricing ~20% chance of an *announcement* (not pricing) by Oct 1. Given the confidential filing and explicit management guidance toward H2 2026, 20% feels too low — fair value is closer to 30–35%.
+
+**Fair value estimate:** ~0.30–0.35. Edge: ~10–15 cents at ask.
+**Action:** BUY at ask $0.20, size $40.
+**Confidence:** Medium. "Announcement" vs. "pricing" distinction matters — Kalshi likely resolves on official public announcement, which could come before roadshow.
+
+---
+
+### Pass on remaining markets:
+
+- **Netanyahu arrest (2¢/3¢):** Near-zero real probability, no new catalyst. Skip.
+- **Kari Lake/Blanche/ICE nominations (0/1¢):** Asks are at floor; no edge buying a penny contract.
+- **Waymo/Canva/Skims IPO (Sep):** No credible near-term catalyst for announcement within 22 days.
+- **AGI by Q3 2026:** Purely speculative, no edge.
+- **Last of Us S3:** No release date news; HBO hasn't started production announcements.
+- **Fed governor nomination:** Low volume, no specific nominee leaked.
+
+---
+
+**Total deployed:** ~$70 across 2 positions. Both are catalyst-driven with identifiable news hooks and measurable edge above the ask. Main risk on both is wide spreads eating into gains on exit.
+
+---
+

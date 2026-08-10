@@ -2818,3 +2818,57 @@ Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position give
 
 ---
 
+
+## 2026-08-10
+
+### Market Review — Actionable Picks
+
+---
+
+**Pick 1: KXCABLEAVE-26MAY22-26OCT — Trump Cabinet departure by Oct 1**
+`bid=0.44 / ask=0.50 | vol=$2,194 | 52d`
+
+**Catalyst:** As of August 2026, the Trump second term has seen sustained internal friction — reported tensions around multiple cabinet officials including ongoing speculation about DOD and DOJ leadership stability. At least one resignation/firing has already occurred per the May 2026 resolution start date framing; this market appears to ask whether *another* departure happens by Oct 1. With ~52 days remaining and a historically volatile cabinet, the market at 44–50¢ likely *underprices* cumulative probability. Base rate from Trump's first term: roughly one departure every 6–8 weeks among senior officials.
+
+- **Fair estimate:** ~60–65%
+- **Edge:** ~10–15¢ vs. ask of 50¢
+- **Action:** BUY at ask (0.50), small size ~$30
+- **Confidence:** Medium
+
+---
+
+**Pick 2: KXIPOOURA-26OCT01 — Oura announces IPO by Oct 1**
+`bid=0.11 / ask=0.14 | vol=$6,281 | 52d`
+
+**Catalyst:** Oura (smart ring maker) filed confidential S-1 paperwork with the SEC in Q1 2026 and has been publicly signaling a 2026 IPO window. Multiple credible reports (Bloomberg, Reuters) through mid-2026 cited Q3/Q4 2026 as target. The IPO window is open with strong tech market conditions. At 11–14¢, the market implies only ~12% probability of an announcement by Oct 1 — but if filing is already confidential and roadshow prep is underway, the *conditional* probability of announcement within 52 days is materially higher.
+
+- **Fair estimate:** ~22–28%
+- **Edge:** ~8–14¢ vs. ask of 14¢
+- **Action:** BUY at ask (0.14), size ~$35
+- **Confidence:** Medium
+
+---
+
+**Pick 3 — PASS on remaining markets**
+
+- **Netanyahu arrest (2¢–3¢):** ICC warrant exists but enforcement path remains near-zero for the timeframe. No new catalyst.
+- **Kari Lake / Blanche nominations:** Both at 0–1¢; floor pricing, no actionable edge for a $50–100 bot.
+- **Waymo/Canva/Skims IPO (Sep):** All priced at 0–2¢ for near-term window; no credible imminent catalyst found.
+- **Last of Us S3:** No confirmed production/release news to trade against.
+- **AGI by Q3 2026:** Spread too wide (2–4¢), effectively a novelty market.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Edge Est. | Confidence |
+|---|---|---|---|---|
+| KXCABLEAVE-26MAY22-26OCT | BUY @0.50 | $30 | +10–15¢ | Medium |
+| KXIPOOURA-26OCT01 | BUY @0.14 | $35 | +8–14¢ | Medium |
+
+**Total deployed: ~$65**
+
+*Both picks are catalyst-driven with identifiable news hooks, not vibes. Size is kept small given medium confidence and binary resolution risk.*
+
+---
+

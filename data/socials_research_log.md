@@ -2872,3 +2872,51 @@ Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position give
 
 ---
 
+
+## 2026-08-11
+
+### Market Review — 3 Picks
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Cabinet Departure by Oct 1**
+`bid=0.44 ask=0.50 | 51.5d | vol=$2,194`
+
+**Catalyst:** As of August 2026, Trump's cabinet has already seen significant churn (Pete Hegseth controversies, multiple acting-secretary shuffles). The SEP contract (same event, shorter window) is bid 0.11/ask 0.16 — implying roughly 11-16% chance by Sep 1. The OCT contract at 44-50¢ implies ~44%+ cumulative by Oct 1. Given the ~30¢ gap for just the Sep→Oct increment, and the historical rate of Trump cabinet departures (4+ in first term within comparable windows), **bid at 0.44 is plausible fair value or slightly cheap**.
+
+**Edge:** Fair value ~50-55%. Buy the bid side (market order ask = 0.50). Edge ~5-10¢ vs. ask.
+**Confidence: Medium.** Spread is wide; this is a "buy the ask" situation with modest edge.
+
+---
+
+**2. KXFEDGOVNOM-29-26OCT01 | Trump Nominates Fed Governor by Oct 1**
+`bid=0.03 ask=0.04 | 51d | vol=$879`
+
+**Catalyst:** There are currently **two vacant Federal Reserve governor seats**. Trump has been openly hostile to the Fed and signaled intent to reshape it. Reports from July 2026 indicate the White House shortlist includes supply-side economists; nominations often cluster before recess periods. With ~51 days remaining and two open seats, the base rate of *at least one* nomination in a 51-day window is meaningfully higher than 3-4¢.
+
+**Edge:** Fair value estimate ~12-18%. Buy ask at 0.04. Edge ~8-14¢ on fair value.
+**Confidence: Medium.** Low volume means thin market; size small ($15-20 max). The ask is extremely low relative to base rate — likely mispriced due to neglect.
+
+---
+
+**3. KXIPOSKIMS-DATE-26OCT01 | Skims IPO Announcement by Oct 1**
+`bid=0.01 ask=0.06 | 50.5d | vol=$4,870`
+
+**Catalyst:** Skims confidentially filed with the SEC in **early 2025** and has been in active IPO prep. Goldman Sachs is reportedly leading the offering. The IPO window of Sept–Oct 2026 is realistic given the filing timeline and market conditions (S&P near highs as of mid-2026). The Sep contract (20.5d) at ask=0.03 implies ~3% by Sep 1; Oct contract at ask=0.06 implies ~6% cumulative — both feel **too low** given confirmed filing and favorable market backdrop.
+
+**Edge:** Fair value ~10-15% by Oct 1. Buy ask at 0.06. Edge ~4-9¢.
+**Confidence: Low-Medium.** IPO timing is notoriously hard to pin; Skims could delay to 2027. Size small ($15 max).
+
+---
+
+### Sizing Suggestion
+| Pick | Max Size | Rationale |
+|------|----------|-----------|
+| Cabinet departure (OCT) | $30 | Most liquid, clearest story |
+| Fed Governor nomination | $15 | Thin market, high edge if right |
+| Skims IPO (OCT) | $15 | Confirmed filing, but timing risk |
+
+**Skip:** Netanyahu arrest (2¢, vanishingly unlikely), AGI Q3 (too speculative), Last of Us S3 (no confirmed production news).
+
+---
+

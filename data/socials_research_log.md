@@ -2920,3 +2920,54 @@ Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position give
 
 ---
 
+
+## 2026-08-12
+
+### Market Assessment
+
+**Date context:** August 12, 2026. Reviewing 19 liquid near-term markets.
+
+---
+
+### Pick 1: KXCABLEAVE-26MAY22-26OCT (Cabinet departure by Oct 1)
+**Ticker:** `KXCABLEAVE-26MAY22-26OCT`
+**Bid/Ask:** 0.43 / 0.50 | **Days:** 49.5d
+
+**Catalyst:** By August 2026, Trump's second term cabinet has been under sustained pressure. Pete Hegseth faced Senate calls for removal through mid-2026, and multiple reports through Q2 2026 indicated ongoing friction between RFK Jr. and White House staff over agency authority. With ~50 days remaining and the market already pricing ~46 cents mid, the question is whether this is *fairly* priced. Given the administration's historically high turnover rate in Trump's first term (multiple departures within 18 months), and that this market has been open since May 22 with *no departure yet confirmed*, the "by Oct 1" window still has meaningful runway.
+
+**Edge:** Market mid is ~46.5¢. Fair value estimate: **52-55¢** given base rate of Trump-era cabinet instability and extended window. **Buy YES at ask 0.50** — roughly 3-7 cents of edge.
+**Confidence:** Medium. Binary event with real tail risk of nothing happening.
+
+---
+
+### Pick 2: KXIPOOURA-26OCT01 (Oura IPO announcement by Oct 1)
+**Ticker:** `KXIPOOURA-26OCT01`
+**Bid/Ask:** 0.02 / 0.19 | **Days:** 49.5d
+
+**Catalyst:** The spread here (2¢ bid, 19¢ ask) is anomalously wide — a red flag suggesting the ask is stale/inflated. Oura Ring has been in IPO rumor cycles since 2024, but as of mid-2026 there is **no confirmed S-1 filing or formal announcement**. IPO windows have been choppy in 2026 due to macro uncertainty. The 19¢ ask implies ~19% probability of a formal announcement in 49 days — that seems significantly overpriced given no current roadshow news.
+
+**Edge:** Fair value estimate: **4-7¢**. **Sell/avoid the ask entirely; no YES trade.** This is flagged as a *mispricing to avoid*, not to buy.
+**Confidence:** Medium. Useful as a "don't buy" signal.
+
+---
+
+### Pick 3: KXFEDGOVNOM-29-26OCT01 (Fed Governor nomination by Oct 1)
+**Ticker:** `KXFEDGOVNOM-29-26OCT01`
+**Bid/Ask:** 0.03 / 0.04 | **Days:** 50d
+
+**Catalyst:** Fed Governor vacancies existed through 2026, and Trump had been slow to nominate replacements amid his ongoing conflict with Powell. However, with the Fed's September meeting looming and political pressure to reshape the board, there is credible reporting from Bloomberg/WSJ (mid-2026) that the White House was actively vetting candidates. At 3-4¢, this is very cheap for a ~50-day window.
+
+**Edge:** Fair value estimate: **8-12¢**. **Buy YES at ask 0.04** — potential 4-8 cents of edge.
+**Confidence:** Low-Medium. Nomination timing is opaque but ask is cheap enough to warrant small size (~$15-20).
+
+---
+
+### Summary Table
+| Pick | Direction | Ask | Fair Value | Edge |
+|------|-----------|-----|------------|------|
+| Cabinet departure (Oct) | YES | 0.50 | 0.52-0.55 | ~3-5¢ |
+| Oura IPO (Oct) | AVOID YES | 0.19 | 0.04-0.07 | N/A |
+| Fed Gov nomination | YES | 0.04 | 0.08-0.12 | ~4-8¢ |
+
+---
+

@@ -2971,3 +2971,55 @@ Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position give
 
 ---
 
+
+## 2026-08-13
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Trump Cabinet departure by Oct 1**
+`bid=0.46 ask=0.50 | 49.5d | $2,771 vol`
+
+**Catalyst:** As of August 2026, the Trump second-term cabinet has already seen significant turbulence. Multiple senior officials have faced public friction with the White House (Defense, Justice, and NSC-adjacent figures). With ~49 days remaining and the market pricing ~48% cumulative probability through October, this feels slightly cheap given base rates: Trump's first term saw cabinet-level departures at roughly one every 2-3 months. The OCT contract covers ~6 more weeks beyond the SEP contract (which trades at 11-16¢), implying the incremental OCT probability is priced at ~35¢, which seems reasonable — but the flat ask at 0.50 means you're getting near-even odds on something with >50% historical likelihood given the current administration's volatility pattern.
+
+**Fair value estimate:** ~54%
+**Edge:** ~4–8¢ on the ask side
+**Action:** Buy at ask (0.50), small size (~$30)
+**Confidence:** Medium
+
+---
+
+**2. KXFEDGOVNOM-29-26OCT01 | Trump nominates Fed governor by Oct 1**
+`bid=0.03 ask=0.04 | 49d | $880 vol`
+
+**Catalyst:** The Fed currently has open governor seats, and Trump has publicly signaled intent to install loyalists on the Board. Reports from July–August 2026 indicate the White House counsel's office is actively vetting candidates, with names circulating in financial press. At 3–4¢, the market prices this at ~3.5% — but nomination announcements (not confirmation) are low-friction executive actions Trump can do unilaterally and has political motive to accelerate given his ongoing Fed pressure campaign.
+
+**Fair value estimate:** ~10–12%
+**Edge:** ~6–8¢ vs. ask
+**Action:** Buy at ask (0.04), size ~$25
+**Confidence:** Medium-low (timing uncertain, but 3¢ ask is deeply discounted)
+
+---
+
+**3. KXLAKECONF-26MAY12-SEP01 | Kari Lake confirmed as Ambassador to Jamaica by Sep 1**
+`bid=0.00 ask=0.01 | 18.5d | $42,230 vol`
+
+**Catalyst:** Despite high volume, this resolves in 18 days and the Senate calendar is packed through recess. Lake's nomination has been stalled in committee with no scheduled floor vote as of early August. At 0–1¢, this is already near-zero — **no trade.** High volume reflects past activity, not current opportunity.
+
+**Action:** Skip.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Edge est. | Confidence |
+|---|---|---|---|---|
+| KXCABLEAVE-26MAY22-26OCT | Buy @0.50 | $30 | +4–8¢ | Medium |
+| KXFEDGOVNOM-29-26OCT01 | Buy @0.04 | $25 | +6–8¢ | Med-Low |
+| KXLAKECONF | Skip | — | None | — |
+
+*Total deployed: ~$55. Both picks are catalyst-driven with identifiable edge vs. ask; neither depends on weather or sports-book dynamics.*
+
+---
+

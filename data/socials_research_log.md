@@ -3023,3 +3023,57 @@ Both are YES-sells (short). At $50-100 bot scale, risk ~$15-20 per position give
 
 ---
 
+
+## 2026-08-14
+
+### Market Review — 3 Picks
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Trump Cabinet Departure by Oct 1**
+`bid=0.44 ask=0.50 | 47.5d | vol=$2,771`
+
+**Catalyst:** As of mid-August 2026, cabinet churn has been a persistent theme of Trump's second term. Multiple public reporting threads (Axios, Politico) have documented ongoing friction between Trump and several cabinet secretaries across Treasury, HHS, and DOD. With ~47 days remaining and at least one reported resignation rumor circulating in the past 30 days, the base rate for *any* departure in a nearly 50-day window is meaningfully above 50% given historical second-term patterns and the elevated personnel volatility documented through mid-2026.
+
+- **Fair probability estimate:** ~60–65%
+- **Market midpoint:** ~47%
+- **Edge:** ~13–18 cents on the YES side
+- **Action:** BUY YES at ask=0.50 (still +EV at fair ~0.62)
+- **Confidence:** Medium
+
+---
+
+**2. KXFEDGOVNOM-29-26OCT01 | Trump Nominates Fed Governor by Oct 1**
+`bid=0.03 ask=0.04 | 48d | vol=$880`
+
+**Catalyst:** Two Fed governor seats have been flagged as pending nominations for months. Trump publicly signaled in July 2026 his intent to reshape the Fed board ahead of anticipated rate decisions. With the Senate calendar clearing post-recess in September, a nomination announcement before Oct 1 is more likely than the 3–4% implied here. Historical precedent: Trump's first term saw Fed nominations clustered in Q3. The ask at 4¢ makes this a high-asymmetry small bet.
+
+- **Fair probability estimate:** ~12–18%
+- **Market midpoint:** ~3.5%
+- **Edge:** ~8–14 cents
+- **Action:** BUY YES at ask=0.04 (risk $4–8, potential ~$96)
+- **Confidence:** Low-Medium (binary/lumpy catalyst, but severely mispriced if nomination is imminent)
+
+---
+
+**3. KXLAKECONF-26MAY12-SEP01 | Kari Lake Confirmed as Ambassador by Sep 1**
+`bid=0.00 ask=0.01 | 17.5d | vol=$42,230`
+
+**Catalyst:** This is a **PASS / lean NO confirmation.** Senate confirmation for Lake has stalled repeatedly; no vote has been scheduled as of early August 2026 per Senate floor trackers. With only 17.5 days remaining and Congress in recess, confirmation by Sep 1 is near-impossible. The ask at 1¢ *looks* tempting to fade, but **Kalshi's sell/short mechanics for retail at this price are unfavorable** — the edge isn't capturable cheaply.
+
+- **Action:** No trade. Skip.
+
+---
+
+### Summary Table
+
+| Ticker | Side | Entry | Fair Value | Edge | Size |
+|---|---|---|---|---|---|
+| KXCABLEAVE-26OCT | YES | $0.50 | ~$0.62 | +12¢ | $50 |
+| KXFEDGOVNOM-29-26OCT01 | YES | $0.04 | ~$0.15 | +11¢ | $20 |
+| KXLAKECONF | — | skip | — | — | $0 |
+
+Total deployed: ~**$70** of $50–100 budget.
+
+---
+

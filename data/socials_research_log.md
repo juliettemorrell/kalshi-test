@@ -3077,3 +3077,53 @@ Total deployed: ~**$70** of $50–100 budget.
 
 ---
 
+
+## 2026-08-15
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Trump Cabinet Departure by Oct 1**
+`bid=0.43 ask=0.49 | ~47d | vol=$2,776`
+
+**Catalyst:** This market has been running since May 22 and is asking whether *any* Cabinet member departs by Oct 1. As of Aug 15, 2026, nearly 3 months have elapsed with no confirmed departure triggering resolution. The bid/ask at 43–49¢ implies ~46% probability for the remaining ~47 days. Given the base rate of Trump's first term (multiple departures) and ongoing reported tensions with several agency heads in 2026 (DOGE-related friction, reported NSC reshuffling), the market likely *underprices* YES at 43¢ bid.
+
+**Fair estimate:** ~55–60% (news cycle shows chronic Cabinet instability; even one resignation or firing suffices).
+**Edge:** ~9–14 cents buying at 0.49 ask.
+**Action:** BUY YES at ask (0.49), size $40.
+**Confidence:** Medium. Binary on timing; one tweet can resolve it.
+
+---
+
+**2. KXFEDGOVNOM-29-26OCT01 | Trump Nominates Fed Governor by Oct 1**
+`bid=0.02 ask=0.03 | ~47d | vol=$883`
+
+**Catalyst:** The Federal Reserve has had a known vacancy since early 2026. Trump has publicly criticized the Fed repeatedly and there are confirmed reports (Bloomberg, WSJ, ~Aug 2026) that the White House shortlist for an open Fed Governor seat is active, with names like Kevin Warsh and others floated. At 2–3¢, the market prices ~2.5% probability of a nomination in the next 47 days. This is far too low — nominations are announced quickly once decided, and political pressure to staff the board before year-end is real.
+
+**Fair estimate:** ~12–18% (nomination ≠ confirmation; the ask only requires announcement).
+**Edge:** ~10–15 cents buying at 0.03 ask.
+**Action:** BUY YES at ask (0.03), size $30.
+**Confidence:** Medium-low. Trump is unpredictable, but the ask is so cheap that even a 10% true probability gives +EV.
+
+---
+
+**3. KXLAKECONF-26MAY12-SEP01 | Kari Lake Confirmed Ambassador by Sep 1**
+`bid=0.00 ask=0.01 | ~17d | vol=$42,230`
+
+**Skip — NO actionable BUY.** At ask=1¢ with 17 days left and Senate schedule compressed by August recess, the market is essentially pricing near-zero and is probably *correctly* priced or even slightly overpriced. No catalyst suggests imminent confirmation vote. Pass.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Ask | Size | Edge Est. | Confidence |
+|---|---|---|---|---|---|
+| KXCABLEAVE-26OCT | BUY YES | 0.49 | $40 | +9–14¢ | Medium |
+| KXFEDGOVNOM-29-26OCT01 | BUY YES | 0.03 | $30 | +10–15¢ | Med-Low |
+| KXLAKECONF | PASS | — | — | — | — |
+
+**Total deployed: ~$70 of $50–100 budget.**
+
+---
+

@@ -3127,3 +3127,54 @@ Total deployed: ~**$70** of $50–100 budget.
 
 ---
 
+
+## 2026-08-16
+
+### Market Assessment
+
+**Date context:** August 16, 2026. Reviewing 21 liquid near-term markets.
+
+---
+
+### Pick 1: KXCABLEAVE-26MAY22-26OCT — Cabinet Departure by Oct 1
+**Ticker:** KXCABLEAVE-26MAY22-26OCT | **Bid/Ask:** 0.44/0.49 | **~46d**
+
+**Catalyst:** This market has been open since May 22, 2026 — nearly 3 months with no resolution, meaning no Cabinet member has officially left yet. However, by mid-August 2026, Trump's second-term Cabinet has seen sustained friction. Reports through mid-2026 indicate ongoing tension around several figures (AG, DHS, Treasury). The October deadline gives ~46 days. With a Cabinet that has already survived longer than many expected, the base rate for a departure over any given 3-month window in a turbulent administration is historically ~40-55%.
+
+**Edge:** Ask at 0.49 is roughly fair-to-slightly-cheap if true probability sits near 50-55%. This is a **thin edge** but directionally defensible. **Do not buy at ask; set a limit bid at 0.44** and hold. Fair value: ~0.50. Edge: ~6¢ at bid.
+
+**Confidence: Low** — spread is wide, resolution criteria matter (resignation vs. firing vs. reassignment). Small position only (~$20).
+
+---
+
+### Pick 2: KXIPOCANVA-DATE-26SEP01 — Canva IPO Announced by Sep 1
+**Ticker:** KXIPOCANVA-DATE-26SEP01 | **Bid/Ask:** 0.01/0.02 | **~16d**
+
+**Catalyst:** Canva has been in active IPO preparation discussions through 2025-2026, but no formal S-1 filing or announcement has materialized as of this writing. With only 16 days to September 1, the window is extremely tight. The ask at 0.02 (2¢) already implies ~2% probability. **This one is correctly priced near zero** — no known catalyst for an imminent announcement. **Pass.**
+
+---
+
+### Pick 3: KXMLBDEBUT-KANDERSON-26SEP01 — Kade Anderson MLB Debut by Sep 1
+**Ticker:** KXMLBDEBUT-KANDERSON-26SEP01 | **Bid/Ask:** 0.32/0.33 | **~16d**
+
+*Skipping — sports market, sportsbook arb dominates per instructions.*
+
+---
+
+### Pick 4: KXFEDGOVNOM-29-26OCT01 — Trump Nominates Fed Governor by Oct 1
+**Ticker:** KXFEDGOVNOM-29-26OCT01 | **Bid/Ask:** 0.02/0.04 | **~46d**
+
+**Catalyst:** Fed governor vacancies have persisted into 2026, and Trump has shown reluctance to fill seats with perceived "mainstream" nominees. No credible nomination reporting exists as of August 2026. At 2-4¢, market already prices this as unlikely. **No clear mispricing — pass.**
+
+---
+
+### Summary Table
+
+| Pick | Action | Limit | Size | Confidence |
+|------|--------|-------|------|------------|
+| KXCABLEAVE-26OCT | Bid at 0.44 | 0.44 | $20 | Low |
+
+**Net deployed: ~$20.** Only one market clears the "real story + mispricing" bar today. Most markets here are either correctly priced near zero or lack identifiable 2026 news catalysts to trade against.
+
+---
+

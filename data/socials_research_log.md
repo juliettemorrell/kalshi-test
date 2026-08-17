@@ -3178,3 +3178,52 @@ Total deployed: ~**$70** of $50–100 budget.
 
 ---
 
+
+## 2026-08-17
+
+### Market Review — Non-Weather, Catalyst-Driven
+
+**Date context:** August 17, 2026. Reviewing 21 liquid near-term markets.
+
+---
+
+### Pick 1: KXCABLEAVE-26MAY22-26OCT — Trump Cabinet Departure (Oct)
+**Ticker:** `KXCABLEAVE-26MAY22-26OCT`
+**Current:** bid=0.38 / ask=0.44 | ~45 days to settle
+
+**Catalyst:** As of mid-2026, multiple Cabinet members (reportedly RFK Jr., Kash Patel adjacents, and Commerce-level officials) have faced mounting pressure or resignation speculation throughout the year. The Sep-settling version of this market (bid=0.11/ask=0.16) implies ~13% for a departure before Sep 1, while the Oct version is at ~41% mid. The spread between Sep and Oct implies ~28–30% incremental probability for a departure in just the Sep 1–Oct 1 window — which seems **high** given no confirmed imminent departure as of today. However, with 45 days and a historically turbulent Cabinet, the Oct contract at 0.38 bid may actually be **slightly cheap** if any ongoing resignation chatter materializes.
+
+**Fair estimate:** ~45–48% (market mid ~41%). Edge: ~4–7 cents buying at ask=0.44 is marginal. **Pass unless ask drops to 0.38.**
+
+---
+
+### Pick 2: KXMLBDEBUT-KANDERSON-26SEP01 — Kade Anderson MLB Debut
+**Ticker:** `KXMLBDEBUT-KANDERSON-26SEP01`
+**Current:** bid=0.32 / ask=0.33 | 14.6 days to settle
+
+**Catalyst:** Kade Anderson is a highly-touted pitching prospect. September call-ups begin September 1 under MLB roster rules — every team can expand rosters. The Oct contract (bid=0.76/ask=0.77) implies ~76% chance he debuts by Oct 1, meaning the market assigns ~44% incremental probability to a Sep 1–Oct 1 debut. The Sep contract at 0.32/0.33 prices ~32% chance he debuts within the next 15 days (before Sep 1). If he's currently in AAA and performing well, a mid-August emergency call-up is plausible but not the base case — Sep 1 expansion is the natural catalyst.
+
+**Verdict:** This is a sports market (sportsbook arb risk). **Skipping per rules.**
+
+---
+
+### Pick 3: KXIPOOURA-26OCT01 — Oura IPO Announcement
+**Ticker:** `KXIPOOURA-26OCT01`
+**Current:** bid=0.07 / ask=0.14 | 44.6 days | vol=$9,358
+
+**Catalyst:** Oura has been consistently rumored for a 2026 IPO; the wide bid/ask (7¢ spread) signals genuine uncertainty, not a stale market. No confirmed S-1 filing as of August 2026. With ~45 days, the ask of 0.14 prices 14% — seems roughly fair given no imminent filing signal. **No strong edge identifiable without a fresh news hook.**
+
+---
+
+### Summary
+
+**No high-confidence actionable picks today.**
+
+- Cabinet departure (Oct) is the most interesting but ask=0.44 erases edge.
+- IPO markets (Oura, Canva, Skims) have wide spreads but no fresh catalysts to exploit directionally.
+- Sports markets excluded per rules.
+
+**Recommendation: Hold cash, monitor Cabinet market for ask to soften toward 0.38.**
+
+---
+

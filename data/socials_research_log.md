@@ -3227,3 +3227,57 @@ Total deployed: ~**$70** of $50–100 budget.
 
 ---
 
+
+## 2026-08-18
+
+### Market Assessment
+
+**Date context:** August 18, 2026. Reviewing the 21 liquid near-term markets.
+
+---
+
+### Pick 1: KXCABLEAVE-26MAY22-26OCT (Cabinet Departure by Oct 1)
+**Ticker:** `KXCABLEAVE-26MAY22-26OCT`
+**Bid/Ask:** 0.43 / 0.44 | **Days to settle:** 44d
+
+**Catalyst:** This market has been running since May 22, 2026, meaning any departures since then count. As of August 2026, multiple senior officials have faced public friction with Trump — Pete Hegseth's DoD tenure has been turbulent throughout 2026, and several cabinet members have faced Senate pressure or public disagreements. The 43-cent price implies roughly ~43% chance *no one* has left yet or will leave in 44 days. Given the historically high cabinet turnover rate in Trump's first term and the ongoing volatility in his second, this feels underpriced toward YES.
+
+**Fair probability estimate:** ~55-60% YES
+**Edge:** ~11-16 cents on the ask at 0.44
+**Action:** BUY YES at 0.44, ~$30 allocation
+**Confidence:** Medium
+
+---
+
+### Pick 2: KXMLBDEBUT-KANDERSON-26SEP01 (Kade Anderson MLB Debut by Sep 1)
+**Ticker:** `KXMLBDEBUT-KANDERSON-26SEP01`
+**Bid/Ask:** 0.33 / 0.34 | **Days to settle:** 13.6d
+
+*(Flagging but declining)* — Sports sportsbook arb risk is real here. Skipping per instructions.
+
+---
+
+### Pick 3: KXIPOSKIMS-DATE-26OCT01 (Skims IPO Announcement by Oct 1)
+**Ticker:** `KXIPOSKIMS-DATE-26OCT01`
+**Bid/Ask:** 0.00 / 0.06 | **Days to settle:** 44d
+
+**Catalyst:** Skims filed confidentially for IPO in late 2024 and has been repeatedly cited in 2025-2026 financial press as targeting a public offering. As of mid-2026, there is no confirmed announcement, but Goldman Sachs is listed as a lead underwriter and market conditions (S&P near highs) are favorable for consumer brand IPOs. The ask at 6 cents implies ~6% probability of announcement by October 1 — plausible given the timeline compression but the confidential filing is now 18+ months old, suggesting either imminent action or a deliberate delay.
+
+**Fair probability estimate:** ~10-14%
+**Edge:** ~4-8 cents
+**Action:** BUY YES at 0.06, ~$20 allocation
+**Confidence:** Low — IPO timing is notoriously hard to pin
+
+---
+
+### Passed On:
+- **Netanyahu arrest markets** — geopolitically driven, ICC enforcement essentially zero probability near-term; market already at 2-3¢ floor, no edge
+- **Waymo/Canva/Fannie IPO (Sep/Oct)** — all at 0-2¢ ask, no credible near-term catalyst to move needle meaningfully
+- **AGI by Q3 2026** — ask at 3¢, appropriately priced at near-zero
+
+---
+
+**Total deployed:** ~$50 across 2 positions
+
+---
+

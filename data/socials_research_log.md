@@ -3281,3 +3281,47 @@ Total deployed: ~**$70** of $50–100 budget.
 
 ---
 
+
+## 2026-08-19
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+---
+
+**Pick 1: KXCABLEAVE-26MAY22-26OCT (Cabinet Departure by Oct 1)**
+- **Ticker:** KXCABLEAVE-26MAY22-26OCT
+- **Bid/Ask:** 0.43 / 0.49 | ~46¢ mid
+- **Catalyst:** This is the cumulative "any cabinet departure since May 22" market. As of August 2026, Trump's second-term cabinet has already seen documented friction (multiple senior officials under pressure or departed). The SEP version (12.6d out) is at 12–17¢, implying the market thinks ~15% chance of a departure in the next 13 days but ~46% cumulatively through October. That spread is internally consistent only if most of the probability mass is in late Sep/Oct. No strong near-term catalyst I can specifically pin to close the gap — **pass on taking a position here without a confirmed imminent departure.**
+
+---
+
+**Pick 2: KXMLBDEBUT-KANDERSON-26SEP01**
+- **Bid/Ask:** 0.13 / 0.14
+- **Rationale:** Per instructions, skip sports markets. **Pass.**
+
+---
+
+**Pick 3: KXIPOSKIMS-DATE-26OCT01**
+- **Ticker:** KXIPOSKIMS-DATE-26OCT01
+- **Bid/Ask:** 0.00 / 0.06 | ~3¢ mid
+- **Catalyst:** Skims was widely reported in late 2024 and early 2025 to be targeting a 2025–2026 IPO window. As of mid-2026, no announcement has materialized publicly. The ask at 6¢ reflects real optionality, but with no confirmed filing or banker roadshow news as of this date, paying 6¢ into an illiquid, wide-spread market is poor risk/reward for a $50–100 bot.
+- **Verdict:** Fair value probably 3–5¢. Edge is thin and spread eats it. **Pass.**
+
+---
+
+**Pick 4: KXFEDGOVNOM-29-26OCT01 — Fed Governor Nomination**
+- **Ticker:** KXFEDGOVNOM-29-26OCT01
+- **Bid/Ask:** 0.03 / 0.04
+- **Catalyst:** Fed Governor seats have been vacant, and Trump has publicly signaled intent to reshape the Fed board. With the FOMC Jackson Hole meeting occurring around this exact date (late August 2026), Fed composition is actively in the news cycle. However, Senate confirmation calendars are slow and no specific nominee announcement appears imminent from public reporting. Fair value ~3–5¢.
+- **Edge:** Minimal. Spread is only 1¢ wide but upside is capped. **Pass.**
+
+---
+
+### Verdict: **No actionable picks today.**
+
+The liquid end of this universe is dominated by IPO announcement markets (Waymo, Canva, Skims, Fannie, Oura) where bid=0 and ask=1–9¢ — these are essentially lottery tickets with no specific near-term catalyst I can responsibly cite as mispricing. The cabinet market (KXCABLEAVE) is the most interesting but is fairly priced given available information. Deploying $50–100 into any of these without a hard news catalyst would be noise trading, not edge.
+
+**Hold cash until a specific catalyst breaks.**
+
+---
+

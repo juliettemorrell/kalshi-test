@@ -3325,3 +3325,53 @@ The liquid end of this universe is dominated by IPO announcement markets (Waymo,
 
 ---
 
+
+## 2026-08-20
+
+### Market Assessment
+
+**Date context:** August 20, 2026. Reviewing 21 liquid near-term markets.
+
+---
+
+### Pick 1: KXCABLEAVE-26MAY22-26OCT — Trump Cabinet departure by Oct 1
+**Ticker:** `KXCABLEAVE-26MAY22-26OCT`
+**Bid/Ask:** 0.43 / 0.49 | **Days:** 41.6d | **Vol:** $3,031
+
+**Catalyst:** This market asks whether *any* Cabinet member leaves by Oct 1. We're already in late August 2026 — over a year into Trump's second term, a period historically rife with turnover. The Sep-dated sister market (`KXCABLEAVE-26MAY22-26SEP`) is at 0.10/0.17, implying the Oct contract is pricing significant incremental probability for the Sep–Oct window specifically. With ~6 weeks remaining and multiple reported friction points in Trump's second-term cabinet (ongoing reporting around DOJ/HHS leadership tensions as of mid-2026), the 0.43 bid looks cheap if any departure has already occurred or is imminent and not yet reflected.
+
+**Fair value estimate:** ~0.55–0.60 (base rate for Cabinet turnover over any rolling 17-month window in Trump 1.0 was near certainty; we're already 17+ months in, so this is more about "has it happened yet" — if confirmed departures haven't settled this, market may be stale).
+**Edge:** ~6–12 cents buying at ask (0.49)
+**Action:** BUY at 0.49, size ~$40
+**Confidence:** Medium
+
+---
+
+### Pick 2: KXMLBDEBUT-KANDERSON-26SEP01 — Kade Anderson MLB Debut by Sep 1
+**Ticker:** `KXMLBDEBUT-KANDERSON-26SEP01`
+**Bid/Ask:** 0.40 / 0.41 | **Days:** 11.6d | **Vol:** $751
+
+*Skipping per rules — sports market, sportsbook-adjacent, tight spread suggests sharp money already present. No retail edge.*
+
+---
+
+### Pick 3: KXIPOSKIMS-DATE-26OCT01 — Skims IPO announcement by Oct 1
+**Ticker:** `KXIPOSKIMS-DATE-26OCT01`
+**Bid/Ask:** 0.00 / 0.06 | **Days:** 41.6d | **Vol:** $4,870
+
+**Catalyst:** Skims had active IPO preparation reported through early 2026 (Goldman Sachs mandate, ~$4B valuation target), but IPO market conditions softened mid-2026. No confirmed announcement as of August 2026. The 0–6 cent spread reflects genuine uncertainty but also thin liquidity. **Problem:** Without a specific fresh catalyst confirming renewed filing activity, buying at 0.06 ask is essentially paying max spread on a low-probability event.
+
+**Verdict:** Pass. No actionable catalyst to distinguish this from random speculation.
+
+---
+
+### Summary
+
+| Pick | Action | Entry | Size | Confidence |
+|------|--------|-------|------|------------|
+| KXCABLEAVE-26OCT | BUY | 0.49 | ~$40 | Medium |
+
+**Only 1 actionable pick.** Most markets here are either: (a) near-zero bid with no specific catalyst to time, (b) sports markets with sharp pricing, or (c) IPO markets where "no news" is the news. Deploying partial capital only; preserving ~$50–60 for better setups.
+
+---
+

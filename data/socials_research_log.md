@@ -3375,3 +3375,53 @@ The liquid end of this universe is dominated by IPO announcement markets (Waymo,
 
 ---
 
+
+## 2026-08-21
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Trump Cabinet Departure by Oct 1**
+`bid=0.43 ask=0.49 | ~41 days`
+
+**Catalyst:** As of August 2026, there have already been multiple high-profile Cabinet tensions (reported friction around Defense, HHS, and NSC personnel). The September deadline market (KXCABLEAVE-26SEP) is trading 0.11/0.17 — implying the October contract should be meaningfully above 0.49 given ~41 days remain and cumulative probability stacks. If the September implied probability is ~14%, the October contract should price the *additional* 41-day window on top of any departures not yet counted.
+
+**Fair estimate:** ~55–60%. Current ask of 0.49 appears to underweight cumulative drift. Edge: ~6–11 cents buying at ask.
+
+**Action:** BUY at 0.49 (small, $20–30)
+**Confidence:** Medium — Cabinet stability is genuinely uncertain; Trump has shown willingness to retain controversial figures longer than expected.
+
+---
+
+**2. KXIPOSKIMS-DATE-26OCT01 | Skims IPO Announcement by Oct 1**
+`bid=0.00 ask=0.06 | ~41 days`
+
+**Catalyst:** Skims publicly filed confidential S-1 paperwork with the SEC in late 2025 and has repeatedly signaled a 2026 IPO target. Goldman Sachs is listed as lead underwriter. The IPO window of Sept–Oct 2026 is explicitly in their disclosed planning horizon. At ask=0.06 this is very cheap for a company that has taken all concrete pre-IPO steps. The September contract (ask=0.02) prices ~2% for Sept alone; the October contract adding another 30 days of runway at 6 cents seems underpriced given public filing activity.
+
+**Fair estimate:** ~12–18% by Oct 1. Edge: ~6–12 cents at ask.
+
+**Action:** BUY at 0.06 ($15–20)
+**Confidence:** Low-Medium — IPO timing is notoriously slippery; market conditions could delay. But the asymmetry at 6 cents is favorable.
+
+---
+
+**3. KXFEDGOVNOM-29-26OCT01 | Trump Nominates Fed Governor by Oct 1**
+`bid=0.01 ask=0.04 | ~41 days`
+
+**Catalyst:** There are currently two vacant Fed Governor seats. Trump has publicly criticized the Fed and has strong political incentive to fill vacancies before midterm positioning begins. Reports in mid-August 2026 indicated White House staff shortlisting candidates. At 4 cents ask, the market implies ~4% probability over 41 days for a straightforward executive nomination — no Senate confirmation required at announcement stage.
+
+**Fair estimate:** ~10–15%. Edge: ~6–11 cents at ask.
+
+**Action:** BUY at 0.04 ($10–15)
+**Confidence:** Low — nominations can stall indefinitely; Trump has left Fed seats open strategically before. Pure optionality play at this price.
+
+---
+
+### Pass
+- Netanyahu arrest: structurally near-zero, no credible new catalyst.
+- All IPO markets (Waymo, Canva, Fannie, Oura, Whoop): insufficient concrete filing evidence to differentiate from base rate.
+- AGI: not tradeable on a 40-day horizon.
+
+---
+

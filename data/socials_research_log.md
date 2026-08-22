@@ -3425,3 +3425,52 @@ The liquid end of this universe is dominated by IPO announcement markets (Waymo,
 
 ---
 
+
+## 2026-08-22
+
+**Date context:** August 22, 2026. Reviewing top liquid non-weather Kalshi markets for catalyst-driven mispricing.
+
+---
+
+### Market Scan Notes
+
+**Netanyahu Arrest (KXARRESTNETANYAHU)** — bid 2¢/ask 3¢. ICC warrant is real but enforcement requires travel to a member state willing to arrest him. No credible near-term travel catalyst to such a state by Oct 1. Market at ~2-3¢ seems roughly fair or slightly rich. No edge identified.
+
+**Kari Lake Ambassador Confirmation (KXLAKECONF)** — bid 0¢/ask 1¢, settles Sep 1 (9.6 days out). Senate confirmations have been grinding slowly; no scheduled vote flagged. At 1¢ ask this is essentially a lottery ticket with 9 days left. No clear catalyst.
+
+**Trump Cabinet Departure (KXCABLEAVE-26OCT)** — bid 38¢/ask 45¢. Highest probability market in the set. This is the one worth examining.
+
+---
+
+### Pick 1: KXCABLEAVE-26MAY22-26OCT (Cabinet Leave by Oct 1)
+
+**Ticker:** KXCABLEAVE-26MAY22-26OCT | Bid 38¢ / Ask 45¢ | 40.6 days
+
+**Catalyst:** As of August 2026, Trump's second-term Cabinet has already seen reported tensions with multiple secretaries. By this point in the administration (~18 months in), historical base rates for Cabinet turnover in Trump's first term saw departures clustering in year 1-2. Current reporting (mid-2026) has flagged friction around multiple department heads. The "by Oct 1" window gives ~40 more days on top of whatever has already accumulated since May 22. If one departure has already occurred since May 22 (the market's start date), this resolves YES immediately — worth verifying. If not, the ~38-45¢ range may actually be *cheap* given the base rate.
+
+**Fair probability estimate:** ~50-55%. The ask at 45¢ implies only ~45% probability, which looks like underpricing given Trump's historical Cabinet churn rate and 40+ days remaining.
+
+**Edge:** ~5-10¢ buying at 45¢ if fair value is ~50-55¢.
+
+**Confidence: Medium.** Caveat: need to confirm no departure has already triggered resolution. Also, definition of "leave" matters (firing vs. resignation vs. interim reassignment).
+
+**Action:** Buy at ask (45¢), small size ($25-40). Monitor for any Cabinet news daily — this can resolve suddenly.
+
+---
+
+### Pick 2: KXFEDGOVNOM-29-26OCT01 (Fed Governor Nomination by Oct 1)
+
+**Ticker:** KXFEDGOVNOM-29-26OCT01 | Bid 3¢ / Ask 4¢ | 40 days
+
+**Catalyst:** There are currently open Fed governor vacancies. Trump has signaled desire to reshape the Fed board. No specific nomination announcement has been made yet, but the administration has a political incentive to move before year-end. At 3-4¢ this seems modestly underpriced — but the timeline is genuinely uncertain and 40 days is short.
+
+**Fair probability:** ~8-12%. Ask at 4¢ is possible edge but thin.
+
+**Confidence: Low.** Passing — too speculative for a real story.
+
+---
+
+**Summary:** One actionable pick (Cabinet departure at 45¢). One pass. No other markets offer identifiable catalyst-driven edge today.
+
+---
+

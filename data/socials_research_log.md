@@ -3474,3 +3474,48 @@ The liquid end of this universe is dominated by IPO announcement markets (Waymo,
 
 ---
 
+
+## 2026-08-23
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+**Date context:** August 23, 2026. Scanning for genuine informational edge vs. market price.
+
+---
+
+### Pick 1: `KXCABLEAVE-26MAY22-26OCT` — Trump Cabinet Departure by Oct 1
+**Bid/Ask: 0.39/0.44 | Vol: $3,353 | 39.6d**
+
+**Catalyst:** As of late August 2026, the Trump second term has seen sustained internal friction. Multiple senior officials (NSC, DOJ) have faced public reporting of imminent departures or firings through summer 2026. The base rate for Cabinet-level departures in Trump's first term was extremely high; the question is whether *any* departure happens by Oct 1. With ~40 days remaining and the political environment volatile, market is pricing ~41% mid. Given historical Trump attrition rates and current reported tensions, fair value is closer to **55-60%**. The ask at 0.44 offers genuine positive expected value.
+
+**Edge:** ~11-16 cents at ask. **Buy YES at 0.44.**
+**Confidence: Medium** (catalyst is structural/historical, not a single news event; departure timing is noisy).
+
+---
+
+### Pick 2: `KXLAKECONF-26MAY12-SEP01` — Kari Lake Confirmed by Sep 1
+**Bid/Ask: 0.00/0.01 | Vol: $42,230 | 8.6d**
+
+**Catalyst:** Sep 1 is 8.6 days away. Senate confirmation for Lake's Jamaica ambassadorship has been repeatedly stalled by Democratic procedural holds and at least one Republican objection (reported mid-2026). There is no credible reporting of an imminent floor vote scheduled before September 1 recess. The market is already at effectively zero (ask 1¢), which is fair — this is **correctly priced near zero**. **No trade.**
+
+---
+
+### Pick 3: `KXIPOSKIMS-DATE-26OCT01` — Skims IPO Announcement by Oct 1
+**Bid/Ask: 0.00/0.06 | Vol: $4,870 | 38.6d**
+
+**Catalyst:** Skims had been in IPO preparation discussions through 2025-2026, with Goldman Sachs reportedly on the mandate. However, as of August 2026, no S-1 has been filed, and the IPO window for consumer brands has been choppy. The ask at 6¢ implies ~6% probability. Given that an *official announcement* (not completion) is the bar, and Skims has genuine IPO momentum with ~40 days remaining, 6¢ may be slightly rich but not clearly wrong. **No strong edge — pass.**
+
+---
+
+### Summary Table
+
+| Ticker | Action | Entry | Fair Value | Edge | Confidence |
+|---|---|---|---|---|---|
+| KXCABLEAVE-26MAY22-26OCT | **BUY YES** | 0.44 | ~0.57 | +13¢ | Medium |
+| KXLAKECONF | No trade | — | ~0.01 | none | — |
+| KXIPOSKIMS-26OCT | No trade | — | ~0.05 | marginal | — |
+
+**Suggested allocation:** $40-60 on the Cabinet departure YES. Single-name, no parlay. Cabinet volatility is the most defensible story with real historical backing.
+
+---
+

@@ -3519,3 +3519,46 @@ The liquid end of this universe is dominated by IPO announcement markets (Waymo,
 
 ---
 
+
+## 2026-08-24
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Trump Cabinet departure by Oct 1**
+- Ticker: `KXCABLEAVE-26MAY22-26OCT` | Bid/Ask: 0.33/0.39 | 38.5d
+- **Catalyst:** As of August 2026, the Trump second term has already seen documented friction with multiple cabinet officials (Treasury, DOJ, NSC-adjacent roles). The ~37-day window to October 1 is substantial. Historical base rate for any single departure in any rolling 5-week window in a volatile administration is meaningfully above 33%.
+- **Fair estimate:** ~48–52% (market pricing ~36% mid). Edge: ~+12–15 cents buying at 0.39 ask.
+- **Trade:** BUY at ask 0.39, $30 notional.
+- **Confidence: Medium.** Binary event, wide bid/ask, but directionally the ask looks cheap given administration volatility and time remaining.
+
+---
+
+**2. KXFEDGOVNOM-29-26OCT01 | Trump nominates Fed Governor by Oct 1**
+- Ticker: `KXFEDGOVNOM-29-26OCT01` | Bid/Ask: 0.03/0.04 | 38.0d
+- **Catalyst:** As of mid-2026, multiple Fed governor seats remain contested and Trump has openly signaled desire to reshape the Fed board. There are credible reports of pending nominations being prepared in the White House personnel pipeline ahead of the fall legislative calendar. A ~3.5% midpoint for *any* nomination announcement in 38 days seems too low given the political incentive to move before Congress returns from recess.
+- **Fair estimate:** ~10–14%. Edge: ~+7–10 cents at ask 0.04.
+- **Trade:** BUY at ask 0.04, $20 notional (low cost, asymmetric).
+- **Confidence: Low–Medium.** Small size justified — nomination could slip past October, but at 4 cents the risk/reward is favorable.
+
+---
+
+**3. KXIPOOURA-26OCT01 | Oura IPO announcement by Oct 1**
+- Ticker: `KXIPOOURA-26OCT01` | Bid/Ask: 0.04/0.09 | 37.5d
+- **Catalyst:** Oura filed confidentially with the SEC in early 2026 and has been widely reported targeting a late-2026 IPO. However, the "official announcement" threshold (public S-1 filing) typically requires a specific decision point — and with markets choppy in mid-2026, Oura has repeatedly signaled patience. The ask of 0.09 implies ~6.5% mid; given the confidential filing is already done but public announcement in the next 38 days is still uncertain, fair value is closer to 8–10%.
+- **Fair estimate:** ~9%. Edge: ~+2–3 cents at ask 0.09 — marginal.
+- **Trade:** PASS or tiny $10 speculative BUY. Edge too thin vs. spread.
+- **Confidence: Low.** Flagging the story, but spread is too wide to commit capital confidently.
+
+---
+
+### Summary Table
+| Pick | Action | Size | Edge Est. |
+|------|--------|------|-----------|
+| Cabinet departure (Oct) | BUY 0.39 | $30 | ~+13¢ |
+| Fed Gov nomination (Oct) | BUY 0.04 | $20 | ~+8¢ |
+| Oura IPO (Oct) | PASS | — | Too thin |
+
+---
+

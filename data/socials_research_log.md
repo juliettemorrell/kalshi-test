@@ -3562,3 +3562,45 @@ The liquid end of this universe is dominated by IPO announcement markets (Waymo,
 
 ---
 
+
+## 2026-08-25
+
+### Macro note
+Most of these markets are either at 0–1¢ bid (effectively "dead money on a long shot") or have spreads so wide (e.g., Oura IPO at 4¢/35¢) that retail edge is destroyed by the spread alone. Honest filter applied below.
+
+---
+
+### Pick 1 — KXCABLEAVE-26MAY22-26OCT (Cabinet departure by Oct 1)
+**Ticker:** `KXCABLEAVE-26MAY22-26OCT`
+**Bid/Ask:** 0.33 / 0.39 | **Days:** 37.5d
+
+**Catalyst:** As of August 2025, Trump's second-term cabinet has already seen significant turbulence — multiple confirmed departures and forced resignations (e.g., NSA and DOJ-level shuffles) have been documented through mid-2026. The short-dated September version of this market (KXCABLEAVE-26MAY22-26SEP) is trading 9¢/13¢, implying ~11% probability in the next 7 days. The October contract at 33–39¢ implies ~36% cumulative probability for the full 37-day window. Given the base rate of Trump-era cabinet instability (~1 departure/month pace in term 2), and that the September window already prices ~11%, the October contract at 33¢ bid looks modestly cheap — fair value is closer to 42–45¢ when you stack the remaining 30 days onto the September baseline.
+
+**Edge:** ~6–9 cents on the bid side. Buy at 0.33–0.35.
+**Position size:** $25–30
+**Confidence:** Medium (catalyst is structural/base-rate, not a single breaking news event; spread is manageable at 6¢)
+
+---
+
+### Pick 2 — KXFEDGOVNOM-29-26OCT01 (Trump nominates Fed governor by Oct 1)
+**Ticker:** `KXFEDGOVNOM-29-26OCT01`
+**Bid/Ask:** 0.03 / 0.04 | **Days:** 37d
+
+**Catalyst:** There are currently two vacant Fed governor seats. Trump has publicly stated intent to install loyalists on the Fed board, and multiple names (Kevin Warsh, etc.) have been floated in press as of mid-2026. With Senate in recess periods ending and the White House under political pressure on rate policy, a nomination announcement before October is plausible. At 3–4¢, the market prices ~3.5% probability, which feels too low given the 37-day window and documented White House urgency on Fed composition.
+
+**Fair value estimate:** ~8–12¢. Edge: ~5–8¢ on a 3¢ entry.
+**Position size:** $20
+**Confidence:** Low-Medium (timing is genuinely uncertain; nomination ≠ confirmation, so resolution rules matter — verify Kalshi resolves on *nomination* announcement, not confirmation)
+
+---
+
+### No pick on IPO markets
+All IPO markets (Oura, Canva, Waymo, Skims, Fannie, Whoop) are either at 0¢ bid with 1–8¢ ask — pure lottery tickets where the spread eats all edge — or have no confirmed near-term filing catalyst. Passing on all.
+
+### No pick on Netanyahu arrest
+Structurally mispriced but geopolitically unpredictable and illiquid enough that exit risk is real.
+
+**Total deployed: ~$45–50**
+
+---
+

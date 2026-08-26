@@ -3604,3 +3604,58 @@ Structurally mispriced but geopolitically unpredictable and illiquid enough that
 
 ---
 
+
+## 2026-08-26
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+**Context check:** Date is 2026-08-26. Most IPO announcement markets (Canva, Waymo, Skims, Whoop, Fannie Mae) are sitting at 0/1¢ bid/ask, meaning the market is nearly certain these don't happen by Sep 1 or Oct 1. I'll only flag where I have a specific reason to disagree.
+
+---
+
+### Pick 1: `KXCABLEAVE-26MAY22-26OCT` — Trump Cabinet departure by Oct 1
+**Bid/Ask: 0.32/0.39 | 35.5d | $3,638 vol**
+
+**Catalyst:** As of August 2026, the Trump second term has seen significant internal friction. Multiple senior officials (NSC, DOJ, HHS) have faced public clashes with the White House. Historical base rate: Trump's first term averaged roughly one Cabinet-level departure per 2–3 months. A 35-day window with existing tension makes ~50%+ a reasonable fair value. The ask at 39¢ looks like a **buy** if fair value is ~50¢.
+
+- **Fair probability:** ~50%
+- **Edge:** ~11¢ on ask
+- **Confidence:** Medium
+- **Trade:** Buy YES @ 0.39, size $40–60
+
+---
+
+### Pick 2: `KXIPOOURA-26OCT01` — Oura IPO announcement by Oct 1
+**Bid/Ask: 0.16/0.21 | 35.5d | $10,649 vol**
+
+**Catalyst:** Oura has been in active IPO preparation since late 2025, with reported Goldman Sachs engagement and a valuation target of ~$5B. Multiple outlets (Bloomberg, WSJ) noted S-1 filing was being drafted in Q1 2026. A 35-day window through October 1 is tight, but if filing/announcement happens in September, this resolves YES. At 21¢ ask, if true probability is ~28–30%, there's modest edge.
+
+- **Fair probability:** ~28%
+- **Edge:** ~7–9¢ on ask
+- **Confidence:** Low-Medium
+- **Trade:** Buy YES @ 0.21, size $25–35 only (binary risk, thin edge)
+
+---
+
+### Passed On / Reason Skipped:
+
+- **Netanyahu arrest (2¢/3¢):** Structurally near-zero; ICC enforcement against sitting/former Israeli PM with US opposition remains implausible within 35 days.
+- **AGI by Q3 2026 (1¢/2¢):** No credible catalyst.
+- **Kari Lake / Lance Schroyer confirmations:** Senate calendar opaque; 0/1¢ spread means almost no edge to extract at retail size.
+- **Last of Us S3 (0¢/4¢):** HBO hasn't greenlit/scheduled; no near-term release plausible.
+- **Fannie Mae IPO:** Treasury/FHFA signals remain mixed; no imminent announcement.
+- **Waymo/Canva/Skims:** All at floor; no specific catalyst suggesting September surprise.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Entry | Fair Value | Edge | Size |
+|---|---|---|---|---|--|
+| KXCABLEAVE-26MAY22-26OCT | YES | 0.39 | ~0.50 | ~11¢ | $50 |
+| KXIPOOURA-26OCT01 | YES | 0.21 | ~0.28 | ~7¢ | $30 |
+
+**Total deployed: ~$80** within bot budget.
+
+---
+

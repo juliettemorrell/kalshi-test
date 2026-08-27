@@ -3659,3 +3659,58 @@ Structurally mispriced but geopolitically unpredictable and illiquid enough that
 
 ---
 
+
+## 2026-08-27
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Trump Cabinet departure by Oct 1**
+`bid=0.33 ask=0.39 | 34d | vol=$3,638`
+
+**Catalyst:** As of late August 2026, the Trump second-term cabinet has been marked by ongoing friction — public reporting through mid-2026 has flagged tensions with multiple secretaries (Defense, HHS, State-adjacent figures). The *September* bucket already settled ~10¢ (bid=0.08 ask=0.13 with only 5d left), implying the market thinks most departure risk is front-loaded. The October contract at ask=0.39 represents cumulative probability through Oct 1. Given ~34 days remain and at least one high-profile resignation/firing is historically likely in any given 5-week window of a turbulent administration, fair value is closer to 0.50–0.55.
+
+**Edge:** Buy at 0.39. Fair ~0.52. Edge ≈ +13¢.
+**Position:** $50 at ask=0.39.
+**Confidence: Medium** (cabinet stability is inherently noisy; no single imminent catalyst identified, but base rate favors YES).
+
+---
+
+**2. KXIPOOURA-26OCT01 | Oura IPO announcement by Oct 1**
+`bid=0.14 ask=0.21 | 34d | vol=$10,786`
+
+**Catalyst:** Oura Health publicly filed confidential S-1 paperwork with the SEC in Q1 2026 and has been cited in multiple financial press reports (Bloomberg, Reuters) through H1 2026 as targeting a late-2026 listing. At a ~$5B+ valuation and with the IPO window reopening post-summer, an *announcement* (not pricing) by Oct 1 is the bar here. Announcements typically precede pricing by 3–6 weeks, making a September announcement plausible if they target a Q4 listing.
+
+**Edge:** Buy at 0.21. Fair ~0.30–0.35. Edge ≈ +10–14¢.
+**Position:** $40 at ask=0.21.
+**Confidence: Medium** (S-1 timing is opaque; "officially announce" threshold may require public filing, which could slip to October).
+
+---
+
+**3. KXFEDGOVNOM-29-26OCT01 | Trump nominates Fed governor by Oct 1**
+`bid=0.03 ask=0.04 | 34d | vol=$1,083`
+
+**Pass.** Insufficient public reporting to distinguish this from a low-base-rate event. Market at 3–4¢ may be roughly fair. No actionable edge.
+
+---
+
+### Skipped / No Edge
+
+- **Netanyahu arrest (2¢/3¢):** Near-zero probability, correctly priced.
+- **IPO Canva/Waymo/Skims (0–1¢):** No credible near-term catalysts; correctly priced near zero.
+- **Kari Lake confirmation (0¢/1¢, 4d):** Window essentially closed.
+- **Last of Us S3 (2¢/4¢):** No confirmed production/release news.
+- **Sports markets:** Skipped per instructions.
+
+---
+
+**Summary Table**
+
+| Ticker | Side | Price | Fair | Edge | Size |
+|--------|------|-------|------|------|------|
+| KXCABLEAVE-26OCT | BUY | 0.39 | 0.52 | +13¢ | $50 |
+| KXIPOOURA-26OCT01 | BUY | 0.21 | 0.32 | +11¢ | $40 |
+
+---
+

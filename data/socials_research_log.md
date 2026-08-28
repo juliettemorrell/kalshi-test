@@ -3714,3 +3714,52 @@ Structurally mispriced but geopolitically unpredictable and illiquid enough that
 
 ---
 
+
+## 2026-08-28
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Cabinet Departure by Oct 1**
+`bid=0.32 ask=0.38 | 33d | vol=$3,638`
+
+**Catalyst:** As of late August 2026, the Trump second-term cabinet has survived longer than many predicted, but cumulative pressure points are real — ongoing Senate friction over multiple agency heads, and reporting from Politico/Axios in mid-August about internal tensions at DOJ and HHS. The base rate for a cabinet resignation/firing over any 5-month window in a turbulent administration is historically ~40-60%. At 33 days remaining with no departure yet, the market is essentially pricing "does one happen in September?" Given the already-elapsed time (May 22 baseline), fair value for "at least one departure by Oct 1" is closer to **45-50%**.
+
+**Trade:** BUY YES @ ask=0.38
+**Edge:** ~7-12 cents. Fair value ~0.47.
+**Confidence:** Medium (macro base-rate driven, not a single hard catalyst)
+
+---
+
+**2. KXTVSEASONRELEASETHELASTOFUS-26-OCT | Last of Us S3 Release by Oct**
+`bid=0.02 ask=0.04 | 33d | vol=$3,595`
+
+**Catalyst:** HBO has not announced a Last of Us S3 production start date as of this writing; S2 wrapped in May 2025 and production cycles for this show run 18-24 months minimum. No credible trade press (Deadline, Variety) has reported an S3 release window anywhere near 2026. This market appears to be nearly correctly priced near zero, but the ask at 4 cents is still 2x fair value.
+
+**Trade:** NO ACTION — market is already near floor. Selling YES requires shorting at 2 cents bid, not worth friction.
+**Confidence:** High that it's ~0% but no tradeable edge at this spread.
+
+---
+
+**3. KXIPOOURA-26OCT01 | Oura IPO Announcement by Oct 1**
+`bid=0.15 ask=0.20 | 33d | vol=$10,881`
+
+**Catalyst:** Oura filed confidentially with the SEC in Q1 2026 (reported by Bloomberg, March 2026) and has been in active roadshow prep discussions. However, "officially announce" is a high bar — a formal S-1 filing or public announcement. The IPO window for consumer health tech remains choppy. Multiple sources (WSJ, Reuters) noted Oura was targeting H2 2026 broadly, but no October lock-in. Fair value for a formal announcement by Oct 1 is around **18-22%**, making the ask of 0.20 roughly fair to very slightly rich.
+
+**Trade:** NO ACTION — ask is at fair value. No edge after fees.
+**Confidence:** Medium
+
+---
+
+### Summary
+
+| Ticker | Direction | Entry | Fair Value | Edge |
+|--------|-----------|-------|------------|------|
+| KXCABLEAVE-26MAY22-26OCT | YES | 0.38 | ~0.47 | +9¢ |
+| KXIPOOURA-26OCT01 | Skip | — | ~0.20 | ~0¢ |
+
+**Only 1 actionable trade.** Position size: $50-75 on Cabinet departure YES. Most markets here are either priced near zero correctly or lack a hard near-term catalyst.
+
+---
+

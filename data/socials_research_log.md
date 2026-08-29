@@ -3763,3 +3763,59 @@ Structurally mispriced but geopolitically unpredictable and illiquid enough that
 
 ---
 
+
+## 2026-08-29
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+**Context check:** Today is 2026-08-29. IPO market has been mixed in 2026; AI/tech sentiment elevated but rate uncertainty remains. Trump cabinet has seen ongoing personnel turbulence throughout 2026.
+
+---
+
+### Pick 1: KXCABLEAVE-26MAY22-26OCT — Trump Cabinet Departure by Oct 1
+**Bid/Ask:** 0.32 / 0.38 | **Days:** 32.4d
+
+**Catalyst:** By late August 2026, the Trump second term has already seen multiple reported friction points (NSC, DOJ, and Commerce leadership tensions reported throughout spring/summer 2026). The base rate for Cabinet-level departures in Trump's first term was extremely high, and the second term has continued that pattern. With 32 days remaining to Oct 1, and the market sitting at ~35¢ mid, this feels **underpriced** given historical cadence. The question resolves YES on *any* confirmed departure.
+
+**Fair estimate:** ~52–58% probability. Mid-market ~35¢ implies ~35% — roughly **17–22 cents of edge**.
+
+**Action:** BUY YES at ask 0.38. Risk ~$38 on one contract.
+
+**Confidence:** Medium (cabinet departures are hard to predict on timing, but the structural base rate is strong).
+
+---
+
+### Pick 2: KXNFLRETIRE-LJOHNSON65-2627 — Lane Johnson Retirement
+**Bid/Ask:** 0.12 / 0.14 | **Days:** 31.4d
+
+Skipping — sports market, per instructions.
+
+---
+
+### Pick 3: KXIPOSKIMS-DATE-26OCT01 — Skims IPO Announcement by Oct 1
+**Bid/Ask:** 0.00 / 0.06 | **Days:** 32.4d
+
+**Catalyst:** Skims confidentially filed for IPO in early 2025 and has been repeatedly reported as targeting a 2025–2026 window. As of mid-2026, no announcement has come. The bid sitting at 0 and ask at 6¢ suggests the market has largely given up on this window. **No specific positive catalyst is visible** — the 26SEP contract just expired worthless (bid=0, ask=1¢), and the Oct window is only 32 days longer. Without a fresh filing signal or banking roadshow leak, this is likely correctly priced near zero.
+
+**Action:** PASS. Market is probably right here.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Entry | Fair Value | Edge | Confidence |
+|---|---|---|---|---|---|
+| KXCABLEAVE-26OCT | BUY YES | 0.38 | ~0.55 | ~17¢ | Medium |
+| KXIPOSKIMS-DATE-26OCT01 | PASS | — | ~0.04 | minimal | Low |
+
+---
+
+### No-Pick Rationale for Remainder
+- **Netanyahu arrest, AGI, Waymo/Canva/Fannie IPOs:** All sitting at near-zero with no visible near-term catalyst; correctly priced at 1–3¢.
+- **Oura IPO (0.10/0.15):** Possible story but Oura has not filed publicly as of August 2026; mid at 12¢ may be fair given persistent rumors.
+- **Lance Schroyer ICE confirmation:** Senate schedule unclear; no actionable edge visible.
+
+**Deployed capital:** ~$38 on one live position.
+
+---
+

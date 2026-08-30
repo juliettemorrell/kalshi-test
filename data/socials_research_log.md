@@ -3819,3 +3819,54 @@ Skipping — sports market, per instructions.
 
 ---
 
+
+## 2026-08-30
+
+### Market Scan — 3 Candidates Evaluated
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Cabinet Departure by Oct 1**
+`bid=0.32 ask=0.38 | 31.4d | $3,638 vol`
+
+**Catalyst:** As of late August 2026, the Trump second-term cabinet has been unusually stable past initial confirmation chaos, but RFK Jr.'s ongoing friction with HHS/NIH leadership and reported tensions around Pete Hegseth (if still in place) or successor figures create non-trivial resignation risk over a 31-day window. The base rate for any single cabinet departure over any rolling 30-day window in a turbulent administration is meaningful. However, the market is already pricing ~35 cents — not obviously cheap given no specific imminent firing is confirmed in public reporting I can anchor to firmly.
+
+**Assessment:** Mid-30s feels roughly fair. **No edge identified.** Skip.
+
+---
+
+**2. KXIPOOURA-26OCT01 | Oura IPO Announcement by Oct 1**
+`bid=0.12 ask=0.17 | 31.4d | $11,735 vol`
+
+**Catalyst:** Oura filed confidentially with the SEC in early 2026 and publicly discussed targeting a 2026 IPO window. As of August 2026, the IPO market has reopened meaningfully (Klarna, etc. proceeded). Oura's CEO has given interviews citing readiness. A ~14% mid-price for announcement *by Oct 1* seems low — announcement ≠ listing, just a public filing or press release. Companies in quiet-period typically announce 3-4 weeks before listing; if they want a September listing they'd announce in early-mid September. The ask at 0.17 offers a reasonable entry.
+
+**Fair probability estimate:** ~22–25%
+**Edge:** ~5–8 cents at the ask
+**Action:** **BUY YES @ 0.17**, small size (~$25)
+**Confidence: Medium**
+
+---
+
+**3. KXFEDGOVNOM-29-26OCT01 | Trump Nominates Fed Governor by Oct 1**
+`bid=0.03 ask=0.04 | 31.4d | $1,083 vol`
+
+**Catalyst:** There are currently two vacant Fed governor seats. Trump has been slow to fill them but political pressure to install allies before the 2026 midterm cycle intensifies has been reported (WSJ, Bloomberg, mid-2026). However, the White House has missed multiple self-imposed deadlines. At 3–4 cents, the market is pricing ~3.5% probability over 31 days. Given that nominations can happen any day and the political incentive exists, this feels slightly cheap — but the track record of delays makes it hard to call this better than ~7–9%.
+
+**Fair probability estimate:** ~7–9%
+**Edge:** ~3–5 cents at the ask
+**Action:** **BUY YES @ 0.04**, very small size (~$15)
+**Confidence: Low** (delay risk is real)
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Edge Est. | Confidence |
+|---|---|---|---|---|
+| KXIPOOURA-26OCT01 | BUY YES @ 0.17 | $25 | +5–8¢ | Medium |
+| KXFEDGOVNOM-29-26OCT01 | BUY YES @ 0.04 | $15 | +3–5¢ | Low |
+
+Total deployed: ~$40. Cabinet market passed — no clear mispricing.
+
+---
+

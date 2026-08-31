@@ -3870,3 +3870,44 @@ Total deployed: ~$40. Cabinet market passed — no clear mispricing.
 
 ---
 
+
+## 2026-08-31
+
+### Market Assessment
+
+**Date context:** August 31, 2026. Reviewing the universe honestly.
+
+---
+
+### Pick 1: KXCABLEAVE-26MAY22-26OCT — Cabinet Departure by Oct 1
+**Bid/Ask:** 0.17 / 0.35 | **Vol:** $3,638
+
+**Catalyst:** The spread here is enormous (18 cents), suggesting real uncertainty. As of late August 2026, Trump's second-term cabinet has had documented friction — reporting through summer 2026 has flagged tensions around multiple cabinet officials (Defense, HHS). The 30-day window to Oct 1 is meaningful: Congress returns from recess in September, historically a pressure-cooker period for cabinet stability. The 0-day sibling market (Sep 1 settle) sitting at bid=0.02/ask=0.05 implies traders think near-term departure is ~3-4% likely, but the cumulative Oct window at ask=0.35 seems to price ~30%+ probability.
+
+**Edge:** The wide spread makes this hard to enter cleanly. **Buy NO** (sell YES) at 0.35 ask feels overpriced given base rate of cabinet departures in any given 30-day window is low (~10-15% historically). Fair value estimate: ~18-22%. Edge if you can sell YES near 0.35: ~13-17 cents.
+
+**Confidence: Low** — spread is too wide for a small retail bot to exploit cleanly without limit order fills. Pass unless you get a fill near 0.20.
+
+---
+
+### Pick 2: KXIPOOURA-26OCT01 — Oura IPO Announcement by Oct 1
+**Bid/Ask:** 0.37 / 0.41 | **Vol:** $13,096
+
+**Catalyst:** Oura Ring has been actively IPO-rumored throughout 2026, with reports of Goldman Sachs engagement and a valuation target of ~$5B. However, the IPO window for tech/health wearables remains constrained by broader market conditions in mid-2026. No confirmed S-1 filing or roadshow announcement has materialized through August. The 0.37-0.41 range implies the market prices ~39% probability of an *official announcement* (not IPO completion) by October 1 — just 30 days away.
+
+**Edge:** With no S-1 filed and no confirmed roadshow as of today, 30 days is a very tight window for a formal announcement. Companies rarely move from silence to official IPO announcement in under 30 days without prior SEC filing signals. Fair value: ~20-25%. **Buy NO** at ask=0.41 implies ~15-20 cent edge.
+
+**Confidence: Medium** — this is the cleanest risk/reward in the set. Oura has incentive to delay until market windows open; no concrete filing evidence visible.
+
+---
+
+### Pick 3: No third pick.
+
+The remaining markets either have near-zero bid/ask (0.00/0.01) making them unactionable for a buy-NO strategy, have prohibitive spreads (Franklin Arias at 0.07/0.74 is a data error or illiquid trap), or lack sufficient public catalyst clarity.
+
+---
+
+**Bot sizing suggestion:** $40 on Oura NO (strongest edge), $0-20 on Cabinet NO only with limit order at 0.20 or better.
+
+---
+

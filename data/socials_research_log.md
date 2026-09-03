@@ -4000,3 +4000,51 @@ After full review: the liquid markets (Oura IPO, Netanyahu arrest) are either ef
 
 ---
 
+
+## 2026-09-03
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+---
+
+**Honest assessment upfront:** Today's date is 2026-09-03. I do not have verified real-time news access to confirm specific September 2026 catalysts. I will flag this clearly and only trade where the market structure itself reveals likely mispricing based on what is knowable about the resolution mechanics and timelines.
+
+---
+
+### Pick 1: KXIPOOURA-26OCT01 — Oura IPO Announcement by Oct 1
+**Bid/Ask:** 0.41 / 0.45 | Vol: $15,957 | Days: 27.4
+
+**Story:** Oura has been publicly signaling IPO readiness since late 2024, with reports of Goldman Sachs engagement and a valuation target of ~$5B+. By September 2026, if no announcement has happened yet, the window to file/announce before Oct 1 is narrow (~27 days). The bid at 0.41 suggests meaningful market belief this happens soon. However, IPO timelines routinely slip, and "officially announce" is a high bar requiring a formal S-1 or press release — not just rumors. **Fair value: ~0.35.** The ask at 0.45 is slightly rich given historical IPO announcement slippage.
+
+**Edge:** ~8-10¢ selling the ask side (if shortable) or avoiding the long. For a retail bot, **skip the long; no buy.**
+**Confidence: Low** (IPO timing is inherently noisy; no actionable buy edge here either).
+
+---
+
+### Pick 2: KXCABLEAVE-26MAY22-26OCT — Trump Cabinet Departure by Oct
+**Bid/Ask:** 0.30 / 0.36 | Vol: $3,822 | Days: 28.4
+
+**Story:** This market resolves YES if any Cabinet member departs by ~Oct 1, 2026. The companion NOV contract (58.5d) trades at **0.58 bid / 0.98 ask** — the 0.98 ask on the NOV contract is clearly broken/stale. The OCT contract at 0.30/0.36 implies ~33% chance of a departure in the next 27 days. Given Trump's historically high Cabinet turnover and that we are already 19+ months into the second term, **fair value is likely 0.40-0.45.** The market appears to underweight baseline turnover rates.
+
+**Trade:** Buy OCT at 0.36.
+**Edge:** ~6-9¢
+**Confidence: Medium** — Cabinet volatility is structural, not dependent on one catalyst. Position size: ~$30.
+
+---
+
+### Pick 3: KXNFLRETIRE-LJOHNSON65-2627 — Lane Johnson Retirement
+**Bid/Ask:** 0.04 / 0.82 | Days: 26.4
+
+**Verdict:** Spread is 78 cents wide. Untradeable. Skip.
+
+---
+
+### No Other Actionable Picks
+- Netanyahu arrest markets (1-2¢ bid) are essentially lotto tickets.
+- MLB debut markets lack retail edge vs. beat reporters.
+- Waymo/Skims/Fannie IPOs all have 0 bids — no price discovery.
+
+**Deploy:** ~$30 on KXCABLEAVE-26OCT at ask 0.36. Hold as only position this cycle.
+
+---
+

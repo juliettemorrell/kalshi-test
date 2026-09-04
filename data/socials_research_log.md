@@ -4048,3 +4048,55 @@ After full review: the liquid markets (Oura IPO, Netanyahu arrest) are either ef
 
 ---
 
+
+## 2026-09-04
+
+### Market Assessment
+
+**Date context:** September 4, 2026. NFL season just opened, AGI/IPO speculation cycle ongoing.
+
+---
+
+### Pick 1: `KXAGICO-COMP-26Q3` — When will any company achieve AGI? (Q3 2026 bucket)
+**Bid/Ask: 0.14 / 0.18 | Vol: $22,636 | 26.4 days remaining**
+
+**Catalyst:** Q3 2026 ends September 30 — only ~26 days away. No credible public announcement from OpenAI, Anthropic, Google DeepMind, or xAI constituting an "AGI declaration" has occurred as of this date. OpenAI's GPT-5 series and Google's Gemini Ultra iterations have been impressive but no organization has formally claimed AGI by any agreed benchmark. The Kalshi resolution criteria almost certainly require an *official company announcement*, not third-party assessment.
+
+**Edge:** Fair value is ~3-5%. The bid at 14¢ is the *buy* side; the ask at 18¢ is wildly overpriced. **Sell/No at 14¢ bid is not available for retail shorting easily**, but if the platform allows taking the NO side, fair value gap is ~9-11 cents.
+
+**Action:** If you can sell YES (take NO), do so at any price above 5¢. If only buying is possible, skip.
+**Confidence: High** on the fundamental (AGI won't be declared in 26 days); medium on execution given platform mechanics.
+
+---
+
+### Pick 2: `KXCABLEAVE-26MAY22-26OCT` — Trump Cabinet departure by Oct 1?
+**Bid/Ask: 0.31 / 0.35 | Vol: $3,822 | 27.4 days remaining**
+
+**Catalyst:** As of September 2026, Trump's second-term cabinet has seen significant churn — but the question is whether *another* departure hits before October 1. With ~27 days left and the administration entering a mid-term political stretch, base rate of cabinet turnover in any given 4-week window in Trump's tenure is historically elevated (~30-40% annualized rate from first term data). However, *no imminent, named resignation* is publicly telegraphed right now.
+
+**Edge:** Market at 31-35¢ is roughly fair, maybe slightly rich. **No strong edge here — pass.**
+
+---
+
+### Pick 3: `KXNFLRETIRE-LJOHNSON65-2627` — Lane Johnson Retirement
+**Bid/Ask: 0.12 / 0.14 | Vol: $2,206 | 25.4 days**
+
+**Catalyst:** Lane Johnson (Eagles OT) has publicly discussed retirement but returned for 2026 camp and is active on the Eagles' Week 1 roster per public reporting. Active rostered player at season open = strong signal he plays the year. Fair value: ~8-10%.
+
+**Action:** Sell YES / Buy NO if the ask on NO is available. Edge ~4-6 cents.
+**Confidence: Medium** (injury could change this rapidly).
+
+---
+
+### Summary Table
+
+| Ticker | Action | Est. Fair Value | Edge | Confidence |
+|---|---|---|---|---|
+| KXAGICO-COMP-26Q3 | Sell YES | ~4% | ~10¢ | High |
+| KXCABLEAVE-26OCT | Skip | ~33% | ~0¢ | — |
+| KXNFLRETIRE-LJOHNSON65 | Sell YES | ~9% | ~5¢ | Medium |
+
+*Max deploy: $40 on AGI NO, $20 on Johnson NO.*
+
+---
+

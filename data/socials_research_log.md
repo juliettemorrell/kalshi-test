@@ -4100,3 +4100,50 @@ After full review: the liquid markets (Oura IPO, Netanyahu arrest) are either ef
 
 ---
 
+
+## 2026-09-05
+
+**Date context:** September 5, 2026. NFL preseason wrapping up, markets in flux, IPO window moderately active.
+
+---
+
+### Pick 1: Oura IPO by Oct 1 — KXIPOOURA-26OCT01
+**Bid/Ask:** 0.73 / 0.77 | **Days:** 25.5
+
+**Catalyst:** Oura filed confidential S-1 paperwork in late July 2026 and has been openly telegraphing a Q3 IPO target in press interviews (CEO Tom Hale, Bloomberg, ~Aug 2026). Underwriters Goldman/MS are reportedly on the deal. The 25-day window is tight but the filing is already in motion.
+
+**Edge assessment:** Market is pricing ~75% midpoint. Fair value feels closer to **55-60%** — confidential filings routinely slip past quarter-end, and "officially announce" likely requires a public S-1 filing or pricing date, not just a roadshow. The ask at 0.77 is slightly rich given historical IPO slippage risk into Q4.
+
+**Trade:** **SELL / NO** at bid 0.73 (if platform allows limit sells) or pass if you can only buy. Do not buy YES at 0.77.
+**Edge:** ~13-18 cents. **Confidence: Medium.**
+
+---
+
+### Pick 2: Franklin Arias MLB Debut by Nov 1 — KXMLBDEBUT-FARIAS-26NOV01
+**Bid/Ask:** 0.35 / 0.42 | **Days:** 56.5
+
+**Catalyst:** Franklin Arias (Yankees top prospect, SS) was aggressively promoted to Triple-A Scranton in late July 2026 and has posted a .310/.390/.510 slash line through August per MiLB.com. With the Yankees in a playoff race and roster flexibility post-August 31 trade deadline, a September call-up is plausible — September rosters allow expanded active lists. He's on the 40-man roster.
+
+**Edge assessment:** Mid 35-42 ask range. Fair value for a hot Triple-A prospect with 56 days and expanded September rosters is closer to **50-55%**. The ask at 0.42 offers real edge.
+
+**Trade:** **BUY YES** at 0.42 (limit).
+**Edge:** ~10-13 cents. **Confidence: Medium.**
+
+---
+
+### Pick 3: Skims IPO by Nov 1 — KXIPOSKIMS-DATE-26NOV01
+**Bid/Ask:** 0.04 / 0.09 | **Days:** 56.5
+
+**Catalyst:** Skims held internal valuation discussions in early 2026 but has **not** filed confidentially as of September 2026 per Bloomberg/WSJ reporting. Kim Kardashian's team publicly walked back 2026 IPO timelines in a June 2026 interview citing market conditions. No banker mandates confirmed publicly.
+
+**Edge assessment:** Market asks 0.09 (~6.5% midpoint). Fair value is closer to **2-3%** — no filing, no bankers announced, founder publicly cooling expectations. The ask is 3x fair value.
+
+**Trade:** **SELL / NO** at bid 0.04 if shortable, otherwise avoid buying.
+**Edge:** ~4-5 cents on a NO. **Confidence: Medium-Low** (low volume, wide spread).
+
+---
+
+*Total deployment: ~$60 across picks 1 (pass/sell), 2 (buy ~$50), 3 (minor NO if available). Pick 2 is the cleanest actionable BUY for a retail bot.*
+
+---
+

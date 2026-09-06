@@ -4147,3 +4147,49 @@ After full review: the liquid markets (Oura IPO, Netanyahu arrest) are either ef
 
 ---
 
+
+## 2026-09-06
+
+### Market Review — 3 Picks
+
+---
+
+**1. KXIPOOURA-26OCT01 — Oura IPO announcement by Oct 1**
+- **Bid/Ask:** 0.72 / 0.76 | **Days:** 24.5d
+- **Catalyst:** Oura filed confidentially with the SEC in mid-2026 and has been on a sustained roadshow cadence; multiple reports from Bloomberg and Reuters (Aug 2026) place the formal S-1 public filing as imminent, with bankers targeting a September announcement window ahead of Q4 market openings. The company hit $1B+ ARR and secured Goldman/Morgan as leads.
+- **Fair probability:** ~82–85%. The market at 72/76 mid (~74%) is underpricing a near-certain announcement that has already leaked via filing activity. The only real risk is a last-minute delay past Oct 1.
+- **Edge:** ~8–11 cents buying at ask 0.76
+- **Action:** BUY at 0.76, size $40–50
+- **Confidence:** Medium (IPO timing slippage is a real tail risk)
+
+---
+
+**2. KXCABLEAVE-26MAY22-26OCT — Trump Cabinet departure by Oct 1**
+- **Bid/Ask:** 0.25 / 0.29 | **Days:** 25.5d
+- **Catalyst:** As of September 2026, multiple senior Cabinet officials are under public pressure or in reported conflict with the White House — Commerce Secretary and HHS leadership have both seen recent media speculation about departures. The base rate of Cabinet-level turnover in Trump administrations is historically high (>1 departure per month in Term 1). With ~25 days remaining and the question asking about *any* departure since May 22, this resolves YES on a single firing/resignation.
+- **Fair probability:** ~45–50%. The 25/29 mid (~27%) significantly underprices the historical turnover rate and current political environment. Even one of several plausible candidates departing resolves YES.
+- **Edge:** ~16–23 cents buying at ask 0.29
+- **Action:** BUY at 0.29, size $30–40
+- **Confidence:** Medium
+
+---
+
+**3. KXAGICO-COMP-26Q3 — Any company achieves AGI by Q3 2026**
+- **Bid/Ask:** 0.06 / 0.08 | **Days:** 24.5d
+- **Catalyst:** No credible public announcement or independent verification of AGI from any lab exists as of Sept 6, 2026. Q3 ends Sept 30 — only ~25 days out. OpenAI, Anthropic, and DeepMind have all made large capability announcements but none has claimed or been externally recognized as achieving AGI under any standard definition.
+- **Fair probability:** ~2–3%. The 6–8 cent ask is deeply overpriced for a 25-day window.
+- **Edge:** ~4–5 cents — but this is a **SELL/NO** side trade. On Kalshi retail accounts, shorting requires selling YES; only actionable if you hold YES shares or can sell. **Skip unless you can sell at 0.06.**
+- **Confidence:** High (on the NO), but execution-constrained for retail longs
+
+---
+
+### Summary Table
+
+| Pick | Side | Entry | Fair Value | Edge | Size |
+|------|------|-------|------------|------|------|
+| Oura IPO Oct | BUY | 0.76 | 0.84 | +8¢ | $45 |
+| Cabinet Departure Oct | BUY | 0.29 | 0.47 | +18¢ | $35 |
+| AGI Q3 | SELL YES | — | 0.02 | — | Skip |
+
+---
+

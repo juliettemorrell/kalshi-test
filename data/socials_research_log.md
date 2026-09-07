@@ -4193,3 +4193,47 @@ After full review: the liquid markets (Oura IPO, Netanyahu arrest) are either ef
 
 ---
 
+
+## 2026-09-07
+
+### Market Assessment
+
+**Date context:** September 7, 2026. NFL season just started (Week 1), reconciliation bill saga ongoing, IPO market conditions relevant.
+
+---
+
+### Pick 1: Oura IPO by Oct 1 — KXIPOOURA-26OCT01
+**Bid/Ask:** 0.66/0.69 | **My Fair Value:** ~0.55 | **Edge:** ~−11¢ (market is OVERPRICED — consider NO/sell)
+
+**Catalyst:** Oura has been "IPO-ready" talk since late 2024, but as of Q3 2026 there is no confirmed S-1 filing or banker mandate publicly announced. The Oct 1 deadline is ~23 days away. IPO processes require SEC S-1 filing, roadshow (~2 weeks minimum), and pricing — virtually impossible to *announce* and close in 23 days without an existing filed S-1 already public. No S-1 is visible on SEC EDGAR. The bid at 0.66 implies 2-in-3 odds for something that requires an imminent filing that doesn't exist yet.
+
+**Fair value:** 0.50–0.55. **Edge selling NO:** ~11–16¢.
+**Confidence: Medium** (risk: Kalshi may define "announce" loosely as a press release, not SEC filing — read resolution criteria carefully before trading).
+
+---
+
+### Pick 2: Trump Cabinet Departure by Oct 1 — KXCABLEAVE-26MAY22-26OCT
+**Bid/Ask:** 0.25/0.29 | **My Fair Value:** ~0.35 | **Edge:** ~+6¢ buying YES
+
+**Catalyst:** This market asks if *any* Cabinet member departs by Oct 1, starting from May 22, 2026. By September 7, we're already 3.5 months into the window with ~23 days remaining. Cabinet turnover in Trump's second term has been elevated — multiple senior officials have faced public friction through summer 2026. The prior November contract (same series) is priced at 0.63–0.90, implying the market already assigns high probability to departure *eventually*. If no departure has occurred yet through ~107 days, the remaining 23-day window at 0.25 bid seems too cheap given ongoing political volatility and the base rate of Trump administration turnover.
+
+**Fair value:** ~0.33–0.38. **Edge:** ~6–9¢.
+**Confidence: Low-Medium** (if no departure happened in 107 days, there may be a structural reason; the Nov contract's wide spread 0.63/0.90 suggests illiquidity, not conviction).
+
+---
+
+### Pick 3: NO PICK — Reconciliation Bill by Oct 1 (KXRECNCBILL)
+
+Bid=0/Ask=0.02 — too illiquid and the legislative calendar makes Oct 1 passage essentially impossible. Would buy NO at 0.02 but position size too small to matter.
+
+---
+
+### Passed Markets
+- **Netanyahu arrest:** Structurally near-zero, ask=0.01 — no edge buying at floor
+- **Waymo/Skims/Canva IPOs:** All at floor pricing, no near-term catalyst
+- **MLB debuts/NFLretirements:** Sportsbook-dominated, skipping
+
+**Deployed capital suggestion:** $40 on Oura NO (if resolution criteria confirm "announce" = formal public filing), $25 on Cabinet YES.
+
+---
+

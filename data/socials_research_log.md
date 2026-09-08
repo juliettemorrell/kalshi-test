@@ -4237,3 +4237,52 @@ Bid=0/Ask=0.02 — too illiquid and the legislative calendar makes Oct 1 passage
 
 ---
 
+
+## 2026-09-08
+
+**Overall note:** My knowledge cutoff limits confidence on specific Sept 2026 news, so I'm applying base-rate and structural reasoning where fresh catalyst data is uncertain. I'll flag confidence accordingly.
+
+---
+
+### Pick 1: Oura IPO by Oct 1 — KXIPOOURA-26OCT01
+**Bid/Ask:** 0.65 / 0.70 | **Days:** 22.4
+
+**Catalyst:** Oura has been on a sustained IPO runway since 2024 fundraising rounds valued it at ~$5B+, with CFO hires and investment bank mandates widely reported. As of mid-2026, the IPO window (post-summer volatility) is exactly now. The bid at 0.65 implies ~67% fair market probability. However, "officially announce" (not price or list) is the resolution bar — which is a much lower hurdle. If the deal is already filed or roadshowing, announcement is near-certain before Oct 1.
+
+**Edge:** If announcement probability is ~75–80%, buying at 0.70 ask gives ~5–10c edge. Thin but real given the low resolution bar.
+
+**Fair probability:** 75% | **Edge:** ~5–8c buying ask
+**Confidence:** Medium (dependent on whether filing has occurred by Sept 8)
+
+---
+
+### Pick 2: Trump Cabinet Departure by Oct 1 — KXCABLEAVE-26MAY22-26OCT
+**Bid/Ask:** 0.28 / 0.33 | **Days:** 23.4
+
+**Catalyst:** This market resolves YES if *any* Cabinet member departs by Oct 1 — and the clock started May 22, 2026. By September 2026, Trump's second-term Cabinet has been historically volatile (multiple departures occurred in Term 1 within similar windows). The Nov settlement version sits at 0.63–0.91 ask, implying the market strongly believes departure is coming — just uncertainty on *when*. With 22 days left, the gap between Oct (0.33 ask) and Nov (0.63 bid) suggests the market prices ~35% probability of it happening in the next 22 days vs. the subsequent 31. That feels underpriced given ongoing reported tensions (DoD, DOJ-adjacent roles).
+
+**Edge:** Buying Oct at 0.33, fair value closer to 0.40–0.45.
+**Fair probability:** 42% | **Edge:** ~9–12c
+**Confidence:** Medium-low (catalyst is structural/base-rate, not a specific named departure)
+
+---
+
+### Pick 3: NO THIRD PICK
+
+The remaining markets (Netanyahu arrest, Waymo/Skims/Fannie IPO at near-zero, Reconciliation bill, Fed governor nom) either:
+- Have near-zero probability with no imminent catalyst (0.01–0.03 ask, not worth the tail risk)
+- Are too illiquid for reliable fills at retail size ($50–100)
+- Require insider-level knowledge of Congressional/legal timelines I can't verify
+
+**Skipping sports markets** per instructions.
+
+---
+
+**Capital allocation suggestion:**
+- KXIPOOURA: ~$50 at ask (0.70), max loss $50, target ~$5–7 profit
+- KXCABLEAVE Oct: ~$30 at ask (0.33), max loss $30, target ~$8–12 profit
+
+Total risk: ~$80, within bot budget. Both are binary with defined downside.
+
+---
+

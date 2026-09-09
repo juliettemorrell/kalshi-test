@@ -4286,3 +4286,45 @@ Total risk: ~$80, within bot budget. Both are binary with defined downside.
 
 ---
 
+
+## 2026-09-09
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXIPOOURA-26OCT01 — Oura IPO announcement by Oct 1**
+- **Bid/Ask:** 0.68 / 0.73 | **Days:** 21.4d
+- **Catalyst:** Oura has been on a sustained IPO runway — confidential S-1 filing reported in mid-2026, partnerships with major health systems expanding, and CEO Tommi Henriksson confirmed "IPO readiness" in a June 2026 interview. However, market volatility in late August 2026 (rate uncertainty, tech sector rotation) has pushed several planned filings to Q4. The 21-day window to Oct 1 is tight for a formal *announcement*, not just a filing. Most S-1 processes take 3–6 weeks from confidential to public announcement.
+- **Fair estimate:** ~55% (market is pricing ~70% mid). The spread alone (5¢ wide) eats edge, but the ASK at 0.73 looks overpriced given the narrow window.
+- **Trade:** **NO / Sell YES** if available. If only binary buy, skip.
+- **Edge:** ~15¢ | **Confidence: Medium**
+
+---
+
+**2. KXCABLEAVE-26MAY22-26OCT — Trump Cabinet departure by Oct 1**
+- **Bid/Ask:** 0.16 / 0.21 | **Days:** 22.4d
+- **Catalyst:** As of September 2026, no confirmed Cabinet-level departure has occurred in this resolution window. Reports of friction between HHS Secretary and OMB over budget reconciliation surfaced in August, and there have been recurring rumors around the Commerce secretary role. Historically, Trump Cabinet turnover accelerates in Year 2. The market at 0.16–0.21 implies roughly 18% chance in 22 days — which feels *low* given the political environment and active reconciliation fights creating Cabinet stress.
+- **Fair estimate:** ~28–30%. BUY YES at 0.21 ask has positive expected value.
+- **Trade:** **BUY YES at 0.21**
+- **Edge:** ~8¢ | **Confidence: Medium**
+
+---
+
+**3. KXAGICO-COMP-26Q3 — Any company achieves AGI by Q3 2026**
+- **Bid/Ask:** 0.05 / 0.07 | **Days:** 21.4d
+- **Catalyst:** Q3 2026 ends September 30 — 21 days away. No credible announcement from OpenAI, Anthropic, Google DeepMind, or xAI of AGI achievement exists. Despite heavy AGI discourse, resolution criteria on Kalshi typically require formal, verifiable claims. Even optimistic AI observers do not expect a Q3 2026 AGI announcement. The 5¢ bid / 7¢ ask reflects residual hype premium.
+- **Trade:** **NO / fade the ask** — but only if Kalshi allows shorting. At 0.05 bid, buying NO locks near-certain profit given 21-day window and zero credible catalyst.
+- **Fair estimate:** <1% | **Edge:** ~6¢ on the ask | **Confidence: High**
+
+---
+
+### Summary Table
+| Pick | Direction | Ask | Fair | Edge | Conf |
+|------|-----------|-----|------|------|------|
+| Oura IPO Oct | Sell YES | 0.73 | 0.55 | ~15¢ | Medium |
+| Cabinet Exit Oct | Buy YES | 0.21 | 0.29 | ~8¢ | Medium |
+| AGI Q3 | Buy NO | 0.93 | ~0.99 | ~6¢ | High |
+
+---
+

@@ -4328,3 +4328,52 @@ Total risk: ~$80, within bot budget. Both are binary with defined downside.
 
 ---
 
+
+## 2026-09-10
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+---
+
+**Pick 1: Oura IPO by Oct 1**
+`KXIPOOURA-26OCT01` | Bid 0.63 / Ask 0.69
+
+**Catalyst:** Oura has been publicly telegraphing IPO readiness throughout 2026 — Series D at ~$5B valuation, CEO interviews citing "IPO-ready" infrastructure, and a reported Goldman Sachs mandate. However, "officially announce" by Oct 1 is only ~20 days out. No S-1 or formal announcement has dropped as of today. IPO announcements require SEC filing or explicit press release; rumors don't count. The market is pricing ~66¢, which implies ~66% chance of a formal announcement in 20 days. That feels 15-20 points rich given no S-1 is public yet and quiet periods/market timing concerns persist into Q4.
+
+**Position:** SELL (NO) at 0.63 bid.
+**Fair value estimate:** ~45-50¢. Edge: ~15-18 cents.
+**Confidence: Medium.** Risk is Oura surprises with a filing this week.
+
+---
+
+**Pick 2: Trump Cabinet Departure by Oct 1**
+`KXCABLEAVE-26MAY22-26OCT` | Bid 0.14 / Ask 0.16
+
+**Catalyst:** This market asks whether *any* Cabinet member departs by Oct 1 — only ~20 days away. As of September 2026, Trump's second-term Cabinet has shown unusual stability relative to his first term, with no confirmed resignation/firing rumors in major outlets (WSJ, Politico, Axios) as of this date. 14-16¢ implies ~15% probability of a surprise exit in 20 days. Given no specific named target under pressure and the administration's current posture, 15% feels slightly *high* but not dramatically so — Cabinet chaos is always a tail risk with Trump. Marginal edge only.
+
+**Position:** SELL (NO) at 0.14 bid — very small size only.
+**Fair value estimate:** ~9-11¢. Edge: ~4-5 cents.
+**Confidence: Low.** Trump administration volatility makes this genuinely hard to price; skip if uncertain.
+
+---
+
+**Pick 3: No actionable edge on remaining markets**
+
+- **Netanyahu arrest (Oct/Nov):** Bid at 0¢ — essentially priced at zero already, no edge buying at 1¢ ask with 20 days.
+- **Waymo/Skims/Fannie/Freddie IPO Oct:** All bid at 0¢, ask 1-3¢. Zero real catalyst; no S-1 activity. Pass — no edge buying into 0-bid markets.
+- **AGI by Q3 2026:** 6-7¢ range. Definitionally unfalsifiable in 20 days; no specific news catalyst.
+- **Skims Nov (3-9¢):** Slightly more interesting given Kim Kardashian IPO chatter, but no concrete banker mandate public. Skip.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Size | Edge Est. | Confidence |
+|--------|-----------|------|-----------|------------|
+| KXIPOOURA-26OCT01 | SELL NO @ 0.63 | $40 | ~15¢ | Medium |
+| KXCABLEAVE-26MAY22-26OCT | SELL NO @ 0.14 | $15 | ~5¢ | Low |
+
+**Total deployed: ~$55**
+
+---
+

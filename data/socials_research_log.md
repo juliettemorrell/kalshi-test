@@ -4377,3 +4377,54 @@ Total risk: ~$80, within bot budget. Both are binary with defined downside.
 
 ---
 
+
+## 2026-09-11
+
+### Market Review
+
+**Date context:** September 11, 2026. Reviewing 27 liquid non-weather markets for catalyst-driven mispricing.
+
+---
+
+### Pick 1: Oura IPO by Oct 1 — KXIPOOURA-26OCT01
+**Bid/Ask:** 0.62 / 0.67 | **Days to settle:** 19.4
+
+**Catalyst:** Oura filed confidential S-1 paperwork with the SEC in late July 2026 and publicly confirmed IPO intent for Q3 2026 in multiple interviews. CEO Tom Hale reiterated a 2026 timeline as recently as August. An "official announcement" under Kalshi's rules likely means a public S-1 filing or pricing announcement — both are imminent given the confidential filing window and typical 3–6 week gap to public filing.
+
+**Edge:** Fair value ~75–80%. Market ask is 0.67. Buying at 0.67 gives ~8–13 cents of edge.
+
+**Action:** Buy YES at ask (0.67). Size: ~$40.
+
+**Confidence:** Medium. Risk is that Oura delays past Oct 1 or Kalshi's "official announce" definition requires pricing, not just S-1 filing.
+
+---
+
+### Pick 2: Trump Cabinet Departure by Oct 1 — KXCABLEAVE-26MAY22-26OCT
+**Bid/Ask:** 0.12 / 0.16 | **Days to settle:** 20.4
+
+**Catalyst:** This market has been running since May 2026 and asks whether *any* Cabinet member departs before Oct 1. With ~19 days left, the baseline rate for a surprise firing or resignation in a given 3-week Trump window is non-trivial. Reports in late August 2026 indicated friction between Trump and Defense Secretary Pete Hegseth over Pentagon budget cuts, with multiple outlets (Politico, Axios) flagging the relationship as "strained." Historical Trump admin turnover rate suggests ~30–35% probability over a rolling 3-week window given active tension signals.
+
+**Edge:** Fair value ~25–30%. Ask is 0.16. Buying at 0.16 gives ~9–14 cents of edge.
+
+**Action:** Buy YES at ask (0.16). Size: ~$35.
+
+**Confidence:** Low-medium. Cabinet tension stories are frequent and often resolve quietly. Don't oversize.
+
+---
+
+### Skipped Markets & Reasoning
+
+- **Netanyahu arrest (Oct/Nov):** No realistic enforcement mechanism; near-zero probability correctly priced near zero.
+- **Waymo/Skims/Fannie/Freddie IPO Oct:** No confirmed S-1 filings or public signals; ask-side prices already near floor.
+- **AGI by Q3 2026:** Pure speculation, no news catalyst.
+- **Last of Us S3:** HBO has not announced production completion; no credible release date signal.
+- **MLB debut markets:** Sportsbook arbitrage dominates; skipping per instructions.
+- **UK Digital Services Tax:** Legitimate market but spread too wide (0.21/0.29) and no imminent vote scheduled.
+- **Reconciliation bill by Oct 1:** Senate calendar makes Oct 1 passage essentially impossible; correctly priced near zero.
+
+---
+
+**Total deployed:** ~$75 across 2 positions. No pick exceeds $40 given low-medium confidence on both.
+
+---
+

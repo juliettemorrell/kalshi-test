@@ -4428,3 +4428,41 @@ Total risk: ~$80, within bot budget. Both are binary with defined downside.
 
 ---
 
+
+## 2026-09-12
+
+### Market Scan — 3 Candidate Picks
+
+---
+
+**1. KXIPOOURA-26OCT01 — Oura IPO announcement by Oct 1**
+- **Bid/Ask:** 0.63 / 0.68 | **Days:** 18.5
+- **Catalyst:** Oura filed confidentially with the SEC in late Q1 2026 and has been telegraphing a 2026 IPO window publicly. As of September 2026, no official announcement has dropped, but the company has hired underwriters (Goldman, Morgan Stanley reported) and roadshow prep is reportedly underway. The Oct 1 deadline is tight — ~18 days.
+- **Assessment:** Market is pricing ~65¢. The risk is binary timing: confidential filing ≠ official announcement. Companies routinely slip 4–8 weeks past expected windows. Fair value is closer to **45–50¢** given the short window and no confirmed public S-1 filing yet. This is **overpriced**.
+- **Trade:** SELL at 0.63 bid. Edge ~15 cents.
+- **Confidence:** Medium. Timing slippage is the core risk; fundamentals favor delay.
+
+---
+
+**2. KXAGICO-COMP-26Q3 — Any company achieves AGI in Q3 2026**
+- **Bid/Ask:** 0.06 / 0.07 | **Days:** 18.5
+- **Catalyst:** Q3 2026 ends Sept 30. No credible claim of AGI achievement has been made by any major lab (OpenAI, Anthropic, DeepMind) as of this date. OpenAI's most recent public communications (mid-2026) continue to describe frontier models as "highly capable but not AGI." The 18-day window makes this essentially a known-outcome situation.
+- **Assessment:** Fair value is effectively **≤1¢**. The ask at 0.07 is the floor of retail liquidity, but the bid at 0.06 still implies 6% — wildly high for something that hasn't happened and has ~18 days left with zero credible signals.
+- **Trade:** SELL at 0.06 bid. Edge ~5 cents, but near-certain outcome makes this high Sharpe even at small size.
+- **Confidence:** High. This is close to a free money short given the definition requires a recognized, verifiable AGI claim within Q3.
+
+---
+
+**3. KXCABLEAVE-26MAY22-26OCT — Cabinet member leaves by Oct 1**
+- **Bid/Ask:** 0.12 / 0.16 | **Days:** 19.5
+- **Catalyst:** Multiple Cabinet-level tensions reported through summer 2026 (ongoing friction at HHS, DOJ per press reporting), but no confirmed resignation or firing has occurred as of Sept 12. The 19.5-day window is short, and the current administration has shown stability despite noise.
+- **Assessment:** Market prices ~14¢. Base rate for a Cabinet departure in any random 20-day window is low (~8–10%). Fair value ~10¢. Slight overpricing but spread is wide (4¢), reducing actionable edge.
+- **Trade:** Marginal SELL at 0.12 bid. Edge ~2–4 cents. Small size only.
+- **Confidence:** Low. Spread eats most of the edge; skip if fills are uncertain.
+
+---
+
+**Sizing:** $30 on Oura SELL, $15 on AGI SELL, $10 on Cabinet (optional). Total ~$55.
+
+---
+

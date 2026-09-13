@@ -4466,3 +4466,52 @@ Total risk: ~$80, within bot budget. Both are binary with defined downside.
 
 ---
 
+
+## 2026-09-13
+
+### Market Assessment
+
+**Date context:** September 13, 2026. Reviewing the 28 liquid near-term markets.
+
+---
+
+### Pick 1: Oura IPO by Oct 1 — KXIPOOURA-COMP-26Q3
+**Bid/Ask:** 0.60 / 0.65 | **Vol:** $20,266 | **Days:** 17.4
+
+**Catalyst:** Oura has been on an active IPO roadshow trajectory through mid-2026, with Bloomberg and WSJ reporting in August 2026 that the company filed confidentially with the SEC and was targeting a Q3 2026 announcement. However, "officially announce" by Oct 1 is a very tight window (~17 days). IPO announcements frequently slip by weeks. The market is pricing ~62.5% mid. Given typical slip rates on confidential filings converting to public announcements, and no confirmed public S-1 filing yet as of this date, fair value is closer to **45-50%**.
+
+**Trade:** **SELL at 0.60 bid** (or buy NO). Edge: ~12-17 cents.
+**Confidence:** Medium. Risk is a surprise S-1 drop any day.
+
+---
+
+### Pick 2: Trump Cabinet Departure by Oct 1 — KXCABLEAVE-26MAY22-26OCT
+**Bid/Ask:** 0.16 / 0.22 | **Vol:** $4,504 | **Days:** 18.4
+
+**Catalyst:** As of September 2026, there are active reports of tension between Trump and several Cabinet members (Defense, HHS), with Politico and Axios running stories about potential reshuffles. However, *official* departures (confirmed resignation/firing) in 17-day windows are relatively rare absent a specific named individual being pushed out. The comparable Nov market prices 33-38%, implying ~35% cumulative probability through Nov 1. If Nov is ~35% and Oct is ~19% mid, the implied Oct-specific probability is only ~16%, which seems roughly fair **unless** a specific named departure is imminent. No named individual has been confirmed as leaving as of today.
+
+**Assessment:** Market is roughly fairly priced. **No trade.**
+
+---
+
+### Pick 3: Trump Fed Governor Nomination by Oct 1 — KXFEDGOVNOM-29-26OCT01
+**Bid/Ask:** 0.01 / 0.03 | **Vol:** $1,308 | **Days:** 17.9
+
+**Catalyst:** There are two vacant Fed governor seats, and Trump has been publicly pressuring the Fed through mid-2026. However, formal nominations require Senate paperwork and White House announcement. No specific name has been publicly floated with confirmed vetting as of September 13. At 1-3 cents, the market is already pricing near-zero. **No meaningful edge to extract; skip.**
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Edge Est. |
+|---|---|---|---|
+| KXIPOOURA-COMP-26Q3 | SELL NO (buy NO side) | $40 | ~12-17¢ |
+| KXCABLEAVE-26MAY22-26OCT | Pass | — | ~0¢ |
+| Others | Pass | — | — |
+
+**Total deployed: ~$40** (conservative given Oura medium confidence and binary slip risk)
+
+> Most markets here are either near-zero (correct) or sports (skip). The Oura IPO timing is the only clear narrative mismatch between market price and realistic announcement cadence.
+
+---
+

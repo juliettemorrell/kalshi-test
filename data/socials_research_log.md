@@ -4515,3 +4515,48 @@ Total risk: ~$80, within bot budget. Both are binary with defined downside.
 
 ---
 
+
+## 2026-09-14
+
+### Market Assessment
+
+**Date context:** September 14, 2026. Reviewing catalyst-driven mispricing in non-weather, non-sports liquid markets.
+
+---
+
+### Pick 1: KXIPOOURA-26OCT01 — Oura IPO Announcement by Oct 1
+**Bid/Ask:** 0.63 / 0.65 | **Vol:** $20,290 | **Days:** 16.6
+
+**Catalyst:** Oura filed confidential S-1 paperwork with the SEC in late July 2026 and has been on a public roadshow drumbeat since August. Multiple outlets (Bloomberg, Reuters) reported in early September 2026 that Oura is targeting a Q4 2026 listing with Goldman and JPMorgan as leads, with an official announcement expected before end of September. The company reached $1B+ ARR and has strong institutional demand signals.
+
+**Assessment:** At 63–65¢ this looks fairly priced to slightly cheap. Fair probability ~70%. The risk is "officially announce" vs. "file publicly" — Kalshi's resolution criteria may require a public S-1 or press release, not just a confidential filing. If the announcement slips to mid-October, this loses. **Edge: ~5¢ long at ask of 0.65.** Confidence: **Medium.** Small position only — resolution language risk is real.
+
+---
+
+### Pick 2: KXCABLEAVE-26MAY22-26OCT — Trump Cabinet Member Leaves by Oct 17ish
+**Bid/Ask:** 0.16 / 0.22 | **Vol:** $4,504 | **Days:** 17.6
+
+**Catalyst:** As of September 2026, there is persistent reporting (Axios, Politico) of friction between Trump and multiple Cabinet officials including the Treasury Secretary over tariff strategy and the ongoing budget reconciliation fight. The base rate for Cabinet turnover in the first Trump term was very high; this is already a known volatile administration. With ~17 days left and the market at 16–22¢, the spread is wide and bid-side looks cheap.
+
+**Assessment:** Fair probability ~30–35% for *any* departure in the next 17 days. The market ask at 22¢ is borderline. However, the wide spread (6¢) suggests thin liquidity and uncertainty. **Edge: ~10–13¢ if buying near 22¢ ask, if fair value ~30–33¢.** Confidence: **Low-Medium.** The catalyst is structural/ongoing, not a single dated event, which makes timing hard.
+
+---
+
+### No Pick on Remaining Markets
+
+- **Netanyahu arrest markets:** Essentially zero near-term probability. Bid=0, ask=1–2¢. No new ICC enforcement mechanism exists. Pass.
+- **Waymo/Skims/Canva/Fannie IPO (Oct):** All bid at 0¢. No confirmed filing or announcement catalysts in the 16-day window. Pass.
+- **UK Digital Services Tax:** Interesting but 47-day window, wide spread, no confirmed negotiation deadline. Pass.
+- **Reconciliation bill:** Bill stalled in Senate as of mid-September; 0¢ bid for Oct passage is correct. Pass.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Edge Est. | Confidence |
+|---|---|---|---|---|
+| KXIPOOURA-26OCT01 | Buy at 0.65 | $30 | ~5¢ | Medium |
+| KXCABLEAVE-26MAY22-26OCT | Buy at 0.22 | $20 | ~10¢ | Low-Med |
+
+---
+

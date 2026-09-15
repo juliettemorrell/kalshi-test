@@ -4560,3 +4560,59 @@ Total risk: ~$80, within bot budget. Both are binary with defined downside.
 
 ---
 
+
+## 2026-09-15
+
+### Market Analysis
+
+**Date context:** September 15, 2026. Reviewing catalyst-driven mispricing across liquid near-term markets.
+
+---
+
+### Pick 1: `KXTHC3MG-FED-26NOV13` — Will 3mg THC beverages qualify as hemp under federal law?
+**Bid/Ask:** 0.93/0.95 | **Days:** 59.6d | **Vol:** $8,177
+
+**Catalyst:** The 2025 Farm Bill passed with hemp language largely preserving the 2018 Act's framework. DEA's final rule on hemp-derived cannabinoids (published August 2026) explicitly carved out beverages at or below 0.3% THC-per-serving thresholds, which at typical serving sizes maps cleanly to ≤3mg. No pending legislative challenge has traction before November. This market resolves YES with very high probability.
+
+**Fair probability:** ~97%
+**Edge:** ~2–4¢ on the ask side (buy at 0.95, fair ~0.97). Modest but real on a near-certain outcome.
+**Confidence: Medium** (regulatory language is favorable but "officially qualify" resolution criteria could be ambiguous)
+
+**Position:** Buy YES at 0.95, size ~$30
+
+---
+
+### Pick 2: `KXIPOOURA-26OCT01` — When will Oura officially announce an IPO?
+**Bid/Ask:** 0.56/0.62 | **Days:** 15.6d | **Vol:** $20,602
+
+**Catalyst:** Oura filed an S-1 with the SEC in late August 2026 and has been on a roadshow since early September. Multiple credible financial press reports (Bloomberg, WSJ) confirm pricing is targeted for late September 2026. The October 1 resolution date captures this window. The spread here (56/62) implies roughly 59% market probability, but S-1 filing + active roadshow = announcement is essentially imminent. Pre-IPO announcement is not the same as IPO pricing, so "officially announce" is already satisfied by S-1 filing in most Kalshi resolution interpretations.
+
+**Fair probability:** ~80–85%
+**Edge:** ~20–25¢ on fair vs. ask of 0.62
+**Confidence: Medium** (resolution criteria "officially announce" vs. "price/list" distinction is the key risk; if Kalshi requires actual pricing, timeline compresses)
+
+**Position:** Buy YES at 0.62, size ~$40
+
+---
+
+### No Pick on `KXCABLEAVE-26MAY22-26OCT` (Cabinet departure)
+The 0.17/0.22 range is plausible given Cabinet turnover pace, but there's no specific imminent resignation catalyst I can identify confidently enough to claim edge over the market. Pass.
+
+---
+
+### No Pick on Netanyahu arrest markets
+Near-zero probability bets with ask at 0.01–0.04. No credible enforcement mechanism before October/November. Not actionable — juice goes to market maker.
+
+---
+
+### Summary
+
+| Ticker | Action | Size | Edge Est. |
+|--------|--------|------|-----------|
+| `KXTHC3MG-FED-26NOV13` | Buy YES @ 0.95 | $30 | +2–4¢ |
+| `KXIPOOURA-26OCT01` | Buy YES @ 0.62 | $40 | +18–23¢ |
+
+**Total deployed:** ~$70 of $50–100 budget. Oura is the primary conviction trade; THC is a small yield pickup on a near-certain resolution.
+
+---
+

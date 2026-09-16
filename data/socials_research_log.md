@@ -4616,3 +4616,49 @@ Near-zero probability bets with ask at 0.01–0.04. No credible enforcement mech
 
 ---
 
+
+## 2026-09-16
+
+### Market Assessment
+
+**Date context:** September 16, 2026. Reviewing available catalysts against listed markets.
+
+---
+
+### Pick 1: Oura IPO — `KXIPOOURA-26OCT01`
+**Bid/Ask:** 0.50/0.51 | **Vol:** $20,972 | **14.6d to settle**
+
+**Catalyst:** Oura has been in active IPO preparation through 2026, with bankers engaged and S-1 filings reported in industry press (Bloomberg/Reuters coverage through mid-2026 indicating a Q3/Q4 2026 target window). The market is essentially a coin flip at 50/51, but the question is whether an *announcement* comes before Oct 1 — roughly 15 days away. IPO announcement timelines frequently slip, and "officially announce" is a high bar. With only ~2 weeks remaining, the base rate for a specific IPO announcement landing in any given 2-week window is low even for companies actively preparing. **Fair value: ~35%.** The ask at 51¢ looks overpriced.
+
+**Trade:** Sell YES (or buy NO if available) at ~50¢. Edge: ~15¢.
+**Confidence: Medium** — IPO timing is inherently uncertain; the slip risk is real but so is the possibility they've already filed.
+
+---
+
+### Pick 2: Trump Cabinet Departure — `KXCABLEAVE-26MAY22-26OCT` (Oct)
+**Bid/Ask:** 0.17/0.21 | **Vol:** $4,504 | **15.6d to settle**
+
+**Catalyst:** As of September 2026, Trump's cabinet has seen notable turbulence. However, this market covers departures through Oct ~1 — only ~15 days. The question is whether *another* departure occurs in this narrow window. With no specific credible imminent resignation/firing reported in the current news cycle (no named Cabinet member publicly under fire as of mid-September 2026), the short window makes this unlikely. Base rate for a Cabinet exit in any random 15-day window is roughly 15-20% given the administration's historical pace (~4-5 exits/year = ~1 per 70 days). **Fair value: ~15%.** Ask at 21¢ is modestly overpriced.
+
+**Trade:** Pass — edge is only ~6¢, too small for a $50-100 position with meaningful uncertainty.
+
+---
+
+### Pick 3: THC Hemp Federal Law — `KXTHC3MG-FED-26NOV13`
+**Bid/Ask:** 0.91/0.94 | **Vol:** $8,177 | **58.6d to settle**
+
+**Catalyst:** The 2023 Farm Bill extension and subsequent regulatory guidance created a legal gray zone for hemp-derived THC beverages. As of late 2026, no federal rule definitively reclassifying 3mg THC beverages *out* of hemp status has been finalized. The market at 91/94 implies near-certainty they remain legal — which aligns with legislative inertia. **This is appropriately priced; no actionable edge.**
+
+---
+
+### Summary
+
+| Ticker | Action | Edge | Confidence |
+|--------|--------|------|------------|
+| KXIPOOURA-26OCT01 | Sell YES ~50¢ | ~15¢ | Medium |
+| Others | Pass | <6¢ or no story | — |
+
+Only one actionable pick. Small position ($50) on Oura NO makes sense given the tight 15-day window and IPO announcement slip risk.
+
+---
+

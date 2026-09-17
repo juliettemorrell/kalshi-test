@@ -4662,3 +4662,50 @@ Only one actionable pick. Small position ($50) on Oura NO makes sense given the 
 
 ---
 
+
+## 2026-09-17
+
+**Date context:** September 17, 2026. Reviewing catalyst-driven, non-weather, non-sports-game markets.
+
+---
+
+### Pick 1: Oura IPO by Oct 1 — `KXIPOOURA-26OCT01`
+**Bid/Ask:** 0.52 / 0.58 | **Days:** 13.6d
+
+**Catalyst:** Oura has been publicly telegraphing 2026 IPO readiness since late 2025, with CEO Tom Hale giving repeated on-record comments about being "IPO-ready." However, *announcing* an IPO (S-1 filing or formal public declaration) by October 1 — only ~14 days out — requires an imminent move. No S-1 has been filed with the SEC as of this writing, and the quiet period before a filing typically leaves no public signal. The market at ~55¢ feels slightly generous for a 2-week window with no visible filing activity.
+
+**Fair probability:** ~42–45%. Edge: ~8–13¢ on the **NO** side (sell/ask not available easily; buy NO at ~42¢ vs market implied 55¢).
+**Action:** If NO is tradeable, buy NO. If only YES available, pass.
+**Confidence:** Medium.
+
+---
+
+### Pick 2: 3mg THC Hemp Federal Law — `KXTHC3MG-FED-26NOV13`
+**Bid/Ask:** 0.91 / 0.93 | **Days:** 57.6d
+
+**Catalyst:** The 2023 Farm Bill's hemp definition (≤0.3% THC by dry weight) was extended into 2024–2025 via continuing resolutions. The new Farm Bill negotiations have repeatedly stalled, and DEA's proposed rulemaking to restrict hemp-derived cannabinoids remains in limbo. At 91–93¢, the market implies near-certainty that 3mg THC beverages *already* qualify under existing federal hemp law — which is legally defensible under the current statutory definition. This is essentially a "status quo holds" bet, and the status quo strongly supports YES. The only risk is a surprise adverse DEA final rule or new Farm Bill language before November 13.
+
+**Fair probability:** ~88–90%. This looks **slightly overpriced** at 91¢ given non-trivial regulatory tail risk, but the edge is thin (~1–3¢). **Pass** — not enough edge for a retail bet.
+
+---
+
+### Pick 3: Trump Cabinet Departure by Oct 1 — `KXCABLEAVE-26MAY22-26OCT`
+**Bid/Ask:** 0.18 / 0.23 | **Days:** 14.6d
+
+**Catalyst:** As of September 2026, there are persistent public reports of friction between Trump and several Cabinet members (ongoing press coverage of tensions with NSC/State-adjacent roles). However, *confirmed departures* within 14 days require an imminent firing or resignation. The 14-day window is tight. At 18–23¢, the market prices ~20% probability — reasonable but potentially cheap if any specific resignation is rumored imminently. Without a specific named official publicly on thin ice right now, this is speculative.
+
+**Fair probability:** ~20–22%. Essentially fairly priced. **Pass.**
+
+---
+
+### Summary
+
+| Ticker | Action | Size |
+|---|---|---|
+| KXIPOOURA-26OCT01 | Buy NO (if available) | $40 |
+| Others | Pass | — |
+
+**Net actionable: 1 trade, ~$40.** The Oura IPO NO is the only market with clear mechanical mispricing for the 14-day window. Most other markets are fairly priced or lack a specific datable catalyst edge.
+
+---
+

@@ -4709,3 +4709,45 @@ Only one actionable pick. Small position ($50) on Oura NO makes sense given the 
 
 ---
 
+
+## 2026-09-18
+
+### Market Review — 3 Picks
+
+---
+
+**1. KXCABLEAVE-26MAY22-26OCT | Trump Cabinet departure by Oct 1**
+- Ticker: `KXCABLEAVE-26MAY22-26OCT` | Bid/Ask: 0.18/0.23 | 13.6d remaining
+- **Catalyst:** By September 2026, the Trump second-term cabinet has seen significant turbulence. Multiple reported friction points (DoD, DOJ) have circulated in press through mid-2026, and with only ~13 days to settlement, the cumulative probability of *any* departure (resignation, firing, or forced out) since the market's start date is meaningful. The Nov settlement of the same market sits at 0.36/0.37, implying ~36% for the longer window. The Oct contract at 0.18/0.23 seems cheap relative to that baseline given we're already deep into the measurement window.
+- **Fair value estimate:** ~28–32%. Edge vs. ask: ~5–9 cents.
+- **Action:** Buy at ask (0.23), small size (~$30).
+- **Confidence:** Medium. Binary event risk; settlement definition matters.
+
+---
+
+**2. KXTHCLEGALSALE3MG-FED-26NOV16 | 3mg THC beverages federally legal to sell by Nov 16**
+- Ticker: `KXTHCLEGALSALE3MG-FED-26NOV16` | Bid/Ask: 0.94/0.97 | 59.6d remaining
+- **Catalyst:** The 2018 Farm Bill hemp framework and subsequent DEA/FDA guidance has left low-dose THC beverages (≤0.3% delta-9 by dry weight, which maps to ~3mg per serving in typical beverage volumes) in a de facto legal gray zone that is widely commercially exploited. The companion market `KXTHC3MG-FED-26NOV13` (hemp classification) sits at 0.91/0.97. No Congressional action to *ban* these products is credibly moving before November 2026. The ask of 0.97 is too rich — buying here risks a 3-cent gain vs. a 97-cent loss if an unexpected regulatory action occurs.
+- **Fair value estimate:** ~91–93%. This is actually **overpriced at ask**.
+- **Action:** **Fade/sell** if your platform allows, or **avoid buying**. The bid at 0.94 is closer to fair; no buy edge exists.
+- **Confidence:** Medium (noting this as a "avoid the ask" call, not a short for a small retail bot).
+
+---
+
+**3. KXAIMILLENNIUM-28-26OCT01 | AI solves Millennium Prize Problem by Oct 1**
+- Ticker: `KXAIMILLENNIUM-28-26OCT01` | Bid/Ask: 0.11/0.30 | 12.6d remaining
+- **Spread is enormous (11/30) — likely stale/broken market.** No credible public announcement of a verified Millennium Prize solution by any AI lab exists as of September 2026. The bid at 0.11 may reflect noise; fair value is near zero for 12 days.
+- **Action:** Skip. Spread too wide, low liquidity ($2,098 vol), and no actionable catalyst.
+
+---
+
+### Summary Table
+
+| Pick | Action | Size | Edge |
+|------|--------|------|------|
+| Cabinet departure Oct | Buy 0.23 | ~$30 | ~+7¢ |
+| THC beverages | Avoid ask | — | Overpriced |
+| AI Millennium Oct | Skip | — | Bad spread |
+
+---
+

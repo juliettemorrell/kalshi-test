@@ -4751,3 +4751,45 @@ Only one actionable pick. Small position ($50) on Oura NO makes sense given the 
 
 ---
 
+
+## 2026-09-19
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXTHCLEGALSALE3MG-FED-26NOV16 | 3mg THC beverages federally legal to sell**
+- **Bid/Ask:** 0.94 / 0.97 | **Days:** 58.6d
+- **Catalyst:** The 2024 Farm Bill extension and subsequent hemp regulatory guidance from USDA/TTB has treated delta-9 THC beverages at ≤0.3% dry-weight (which maps to ~3mg per 12oz can) as hemp-derived and lawfully sellable under existing federal frameworks. No legislative or regulatory action in the pipeline reverses this before November 2026. The sister market (KXTHC3MG-FED-26NOV13, bid 0.92) is pricing the same outcome at nearly the same level.
+- **Fair probability:** ~95–96%. The ask at 0.97 is tight but the bid at 0.94 offers a reasonable entry — **buy the bid side / take liquidity at 0.94** if a maker fill is possible. Edge is slim (~1–2 cents) but the outcome is very high-confidence.
+- **Confidence: Medium** (edge is thin; worth a small $20–30 position at the bid only)
+
+---
+
+**2. KXIPOOURA-26OCT01 | Oura IPO announcement by Oct 1**
+- **Bid/Ask:** 0.60 / 0.72 | **Days:** 11.6d
+- **Catalyst:** Oura filed confidentially with the SEC in late Q2 2026 and management publicly confirmed a 2026 IPO timeline in multiple interviews (CEO Tom Hale, June 2026). However, with only ~11 days to Oct 1, the window for an *official public announcement* (not just a filing) is very tight — roadshows typically require 2–3 weeks post-S-1 going public. No public S-1 has dropped yet as of this date.
+- **Fair probability:** ~35–45%. The market at 0.60 bid is significantly overpriced for a hard Oct 1 deadline. **Sell/No at 0.60** implies you're getting ~60 cents on something worth ~40 cents.
+- **Edge:** ~15–20 cents. This is the clearest mispricing in the set.
+- **Confidence: Medium-High** ($40–50 position recommended)
+
+---
+
+**3. KXLEAVEMERZ-29JAN01-26OCT01 | Merz out as Chancellor by Oct 1**
+- **Bid/Ask:** 0.06 / 0.07 | **Days:** 11.6d
+- **Catalyst:** The CDU/SPD coalition is stable through summer 2026 with no credible no-confidence motion tabled. Merz's approval is low but coalition arithmetic gives him no near-term threat. 6–7 cents for 11 days is probably ~fair or very slightly rich, but not actionable edge.
+- **Skip** — not enough edge to justify.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Size | Est. Edge |
+|---|---|---|---|
+| KXTHCLEGALSALE3MG-FED-26NOV16 | Buy @ 0.94 | $25 | ~1–2¢ |
+| KXIPOOURA-26OCT01 | Sell No @ 0.60 | $45 | ~15–20¢ |
+
+**Total deployed: ~$70**
+
+---
+

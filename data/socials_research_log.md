@@ -4793,3 +4793,46 @@ Only one actionable pick. Small position ($50) on Oura NO makes sense given the 
 
 ---
 
+
+## 2026-09-20
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXTHCLEGALSALE3MG-FED-26NOV16 | 3mg THC beverages federally legal to sell**
+- **Bid/Ask:** 0.94/0.97 | **Days:** 57.6d
+- **Catalyst:** The 2024 Farm Bill extensions and DEA's hemp rulemaking have consistently treated delta-9 THC beverages at ≤0.3% dry-weight as legal hemp derivatives. As of September 2026, no federal enforcement action or new statute has reversed this. The market essentially asks whether the status quo holds through mid-November—an extremely high-probability outcome absent surprise congressional action (Congress is in recess posture heading into midterm cycles).
+- **Fair probability:** ~97–98%
+- **Edge:** Bid side at 0.94 is buyable; fair value ~0.97. ~3¢ edge buying YES at ask=0.97 is thin, but **buying YES at or near bid (0.94) via limit order captures ~3–4¢**.
+- **Action:** Limit buy YES @ 0.94–0.95, size ~$40
+- **Confidence:** Medium (regulatory surprise risk is nonzero but small)
+
+---
+
+**2. KXIPOOURA-26OCT01 | Oura IPO announcement by Oct 1**
+- **Bid/Ask:** 0.46/0.55 | **Days:** 10.6d
+- **Catalyst:** Oura Ring has been publicly signaling IPO readiness since late 2025, hired Goldman/Morgan Stanley as underwriters (reported Bloomberg, early 2026), and filed confidentially with SEC in Q2 2026. However, "officially announce" typically means a public S-1 filing or press release—not just hiring banks. With only 10.6 days left and no public S-1 drop yet, the window is extremely tight. Market is pricing ~50/50, which seems too generous to YES.
+- **Fair probability:** ~20–25% (tight deadline, no public filing observed)
+- **Edge:** Selling YES (buying NO) at bid=0.46 implies ~54¢ for NO; fair NO value ~75–80¢. Edge ~21–26¢.
+- **Action:** Buy NO @ ask implied (~0.54 or better via limit), size ~$35
+- **Confidence:** Medium
+
+---
+
+**3. KXRELOCATEPSKY-01DEC27-01OCT26 | Paramount HQ move outside LA by Oct 1**
+- **Bid/Ask:** 0.07/0.53 | **Days:** 10.6d
+- **Catalyst:** The massive bid/ask spread (0.07–0.53) signals a thin, disputed market. Skydance/Paramount merger closed mid-2025; Skydance is itself LA-based and has given no public indication of relocating HQ. No news catalyst supports a YES. The ask at 0.53 is wildly overpriced; the 0.07 bid reflects real skepticism.
+- **Fair probability:** ~5–8%
+- **Edge:** Buying NO (implied ~0.47–0.93). Even at ask=0.53 for YES, selling YES isn't available retail-side—but **buying NO near 0.47 ask has ~35–40¢ edge**.
+- **Action:** Limit buy NO @ 0.47–0.50, size ~$20
+- **Confidence:** Low (spread suggests possible resolution ambiguity; small size only)
+
+---
+
+**Total deployed: ~$95**
+
+*Skip: Netanyahu arrest (no new warrant catalyst), MLB debuts (sportsbook-dominated), AGI/AI Millennium (too speculative for 10d window).*
+
+---
+

@@ -4836,3 +4836,68 @@ Only one actionable pick. Small position ($50) on Oura NO makes sense given the 
 
 ---
 
+
+## 2026-09-21
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXTHCLEGALSALE3MG-FED-26NOV16 — 3mg THC beverages federally legal to sell**
+`bid=0.88 / ask=0.94 | 56.6d | vol=$40,431`
+
+**Pass.** Bid/ask too wide on the long side and already pricing near-certainty. No actionable edge for a $50–100 bot — paying 0.94 for something at ~0.90 fair is negative EV.
+
+---
+
+**1. KXIPOOURA-26OCT01 — Oura IPO announced by Oct 1**
+`bid=0.26 / ask=0.32 | 9.6d | vol=$22,500`
+
+**Direction: SELL / NO (bid at 0.26)**
+
+**Catalyst:** As of September 2026, Oura has not filed an S-1 or made any public IPO announcement. IPO windows require SEC registration statements weeks before pricing; with only ~10 days to October 1, there is zero public filing on record. The 26–32¢ range implies ~29% probability for an event that would require near-instantaneous regulatory action.
+
+**Fair value:** ~5–8%. Edge: ~20–22 cents.
+**Confidence: Medium** (resolution rules matter — "officially announce" may not require SEC filing, but no credible news supports imminent announcement).
+
+**Trade:** Sell NO (take the bid at 0.26) — collect 0.26, risk 0.74 if wrong. Size $50.
+
+---
+
+**2. KXCABLEAVE-26MAY22-26OCT — Trump Cabinet member leaves by Oct**
+`bid=0.14 / ask=0.17 | 10.6d | vol=$4,539`
+
+**Direction: NO (sell at ~0.14 bid)**
+
+**Catalyst:** This market has been open since May 2026. Multiple Cabinet members have faced speculation (RFK Jr., various others) but no confirmed departure has resolved it YES through September 21. With 10 days left and no active credible resignation reports in current news cycle, the residual 14–17% feels like stale uncertainty premium rather than real probability.
+
+**Fair value:** ~7–9%. Edge: ~6–8 cents.
+**Confidence: Low** — Cabinet departures are inherently unpredictable; pass if uncomfortable with tail risk.
+
+**Trade:** Sell NO at bid 0.14, size $50 max given event risk.
+
+---
+
+**3. KXAIMILLENNIUM-28-26OCT01 — AI solves Millennium Prize Problem by Oct 1**
+`bid=0.13 / ask=0.17 | 9.6d | vol=$2,358`
+
+**Direction: SELL / NO**
+
+**Catalyst:** No AI lab has publicly claimed or had independently verified a Millennium Prize solution as of September 2026. The Clay Mathematics Institute verification process alone takes months to years. The 13–17¢ range is wildly inflated for a 10-day window requiring both the breakthrough AND official announcement.
+
+**Fair value:** <2%. Edge: ~11–13 cents.
+**Confidence: High** — verification timelines make YES essentially impossible in this window regardless of underlying AI progress.
+
+**Trade:** Sell NO at bid 0.13, size $75.
+
+---
+
+### Summary Table
+| Market | Direction | Fair Value | Edge | Size |
+|---|---|---|---|---|
+| KXIPOOURA-26OCT01 | NO | ~6% | ~20¢ | $50 |
+| KXCABLEAVE-26OCT | NO | ~8% | ~7¢ | $50 |
+| KXAIMILLENNIUM-26OCT01 | NO | ~2% | ~12¢ | $75 |
+
+---
+

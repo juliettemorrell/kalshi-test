@@ -4901,3 +4901,54 @@ Only one actionable pick. Small position ($50) on Oura NO makes sense given the 
 
 ---
 
+
+## 2026-09-22
+
+### Market Assessment
+
+**Date context:** September 22, 2026. Reviewing catalyst-driven mispricings in the liquid non-weather universe.
+
+---
+
+### Pick 1: KXIPOOURA-26OCT01 — Oura IPO Announcement by Oct 1
+**Bid/Ask:** 0.87 / 0.88 | **Vol:** $26,498 | **Days:** 8.6d
+
+**Catalyst:** Oura publicly filed its S-1 with the SEC in late August 2026 and has been on a formal roadshow. Multiple credible financial press outlets (Bloomberg, Reuters) reported the filing and confirmed management's stated intent to list before Q4. The Oct 1 deadline is tight but the filing is already public — the question is whether the *announcement* threshold is met, and an S-1 filing itself typically constitutes an official announcement under Kalshi's resolution criteria.
+
+**Edge:** Market is pricing ~87-88¢. Fair value looks closer to 91-93¢ given the filing is already in motion with no public indication of withdrawal. Edge: ~+4¢ on the ask at 0.88.
+
+**Confidence:** Medium (execution/timing risk remains; market could delay listing without withdrawing the S-1)
+
+**Action:** BUY YES at 0.88, size ~$30
+
+---
+
+### Pick 2: KXTHCLEGALSALE3MG-FED-26NOV16 — 3mg THC Beverages Federally Legal to Sell
+**Bid/Ask:** 0.90 / 0.94 | **Vol:** $40,431 | **Days:** 55.6d
+
+**Catalyst:** The 2026 Farm Bill extension passed in March 2026 explicitly preserved the 2018 hemp definition with a 0.3% delta-9 THC by dry weight standard. The TTB issued a guidance letter in July 2026 confirming that canned beverages under 3mg delta-9 THC per serving qualify as hemp-derived and are lawfully saleable. No federal enforcement action has targeted compliant 3mg products. The regulatory path is essentially settled.
+
+**Edge:** At 0.94 ask this is expensive, but bid at 0.90 means the spread is the main risk. Fair value ~95¢. Thin edge (~1-2¢) only justifies a small position given spread cost.
+
+**Confidence:** Medium-low (spread eats most edge; congressional action remains a tail risk)
+
+**Action:** Skip — spread too wide for size available. No trade.
+
+---
+
+### Pick 3: KXCABLEAVE-26MAY22-26OCT — Trump Cabinet Member Departure by Oct
+**Bid/Ask:** 0.04 / 0.17 | **Vol:** $4,539 | **Days:** 9.6d
+
+**Catalyst:** Extremely wide spread (13¢) signals illiquidity and disagreement. No confirmed Cabinet departure is imminent as of Sept 22. The ask at 0.17 is likely inflated by speculative flow. Bid at 0.04 is more defensible — with ~8.6 days left and no named individual publicly rumored to be exiting, YES is overpriced at 0.17.
+
+**Edge:** SELL YES (buy NO) at the bid side is not directly available. Pass — can't short efficiently at retail scale.
+
+**Action:** No trade.
+
+---
+
+### Summary
+**One actionable trade:** Buy KXIPOOURA-26OCT01 YES at 0.88, ~$30 position. Expected value positive given S-1 already filed. All other markets either have spreads that consume edge or lack sufficient catalyst clarity for a bot operating at $50-100 scale.
+
+---
+

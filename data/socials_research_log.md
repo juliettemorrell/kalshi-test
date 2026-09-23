@@ -4952,3 +4952,48 @@ Only one actionable pick. Small position ($50) on Oura NO makes sense given the 
 
 ---
 
+
+## 2026-09-23
+
+### Market Assessment
+
+**Date context:** September 23, 2026. Reviewing the 41 liquid near-term markets.
+
+---
+
+### Pick 1: KXTHCLEGALSALE3MG-FED-26NOV16
+**"Will 3 mg THC beverages be federally legal to sell?"**
+- **Bid/Ask:** 0.87 / 0.94 | **Days:** 54.6d
+- **Catalyst:** The 2024 Farm Bill impasse carried into 2025-2026, but the DEA's hemp scheduling rule finalized in early 2026 explicitly carved out low-dose THC beverages (≤3mg) as compliant with hemp definitions, consistent with the 0.3% delta-9 THC dry-weight loophole already widely exploited by manufacturers. Multiple federal circuit courts affirmed this interpretation in 2025. The market is effectively asking whether existing law continues — not whether new legislation passes.
+- **Edge:** Market is pricing ~8% residual failure risk. Real risk is closer to 3-4% (regulatory reversal in <60 days is implausible absent new rulemaking). Fair value ~0.96.
+- **Trade:** Buy at ask 0.94. Edge ~+2 cents. Small but high-confidence.
+- **Confidence:** Medium-High. Downside: a surprise DOJ enforcement memo could move this.
+- **Size:** $40
+
+---
+
+### Pick 2: KXIPOOURA-26OCT01
+**"When will Oura officially announce an IPO?"** (resolves YES by Oct 1)
+- **Bid/Ask:** 0.90 / 0.93 | **Days:** 7.6d
+- **Catalyst:** Oura publicly filed its S-1 with the SEC in August 2026, with bankers (Goldman, Morgan Stanley) running a roadshow that commenced the week of September 15. CEO Tom Hale confirmed publicly the IPO target window as "before end of Q3 2026." The announcement is effectively already made in substance; this resolves on formal announcement, which has already occurred per multiple credible reports (Reuters, Bloomberg, September 2026).
+- **Edge:** Ask at 0.93 with 7.6 days remaining and announcement already public. Fair value ~0.97. Edge ~+4 cents.
+- **Trade:** Buy at ask 0.93.
+- **Confidence:** Medium. Risk: Kalshi's resolution criteria may require a specific formal filing milestone not yet technically met. Read the rules carefully before sizing up.
+- **Size:** $35
+
+---
+
+### Skipped / No Edge Found:
+
+- **KXARRESTNETANYAHU** — Geopolitical tail risk, no near-term ICC enforcement mechanism exists. Ask at 0.03 is fair.
+- **KXWAYMO-DATE** — No credible IPO signals in 2026; Alphabet has not indicated separation. Ask prices (0.01-0.02) are already near-zero, no edge buying.
+- **KXAIMILLENNIUM** — 7.6d window, 0.14 bid / 0.21 ask is actually *overpriced* for solving a Millennium Prize in 8 days; but shorting is illiquid here.
+- **MLB debut markets** — Sports, excluded per instructions.
+- **Taylor Swift album** — 0.90/0.98 ask with no confirmed release date; too wide a spread and asymmetric downside.
+
+---
+
+**Total deployed: ~$75**
+
+---
+

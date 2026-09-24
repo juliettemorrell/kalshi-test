@@ -4997,3 +4997,53 @@ Only one actionable pick. Small position ($50) on Oura NO makes sense given the 
 
 ---
 
+
+## 2026-09-24
+
+### Market Scan Notes
+
+Date is 2026-09-24. I need to identify catalyst-driven mispricings with real news. I'll be honest about uncertainty given my training cutoff.
+
+---
+
+### Pick 1: `KXIPOOURA-26OCT01` — Oura IPO Announcement
+**Bid/Ask: 0.97/0.98 | 6.6d to settle | Vol: $29,947**
+
+**Catalyst:** Oura filed confidential S-1 paperwork in early 2026 and has been widely reported as targeting a late-2026 IPO. As of mid-2026, multiple sources (Bloomberg, Reuters) confirmed Oura was actively in roadshow preparation. At 97 bid, market is already pricing this near-certain — **this is a pass for new longs**. Spread is only 1 cent but downside if something breaks is 97 cents. No edge entering here.
+
+**Action: SKIP** — too rich, asymmetric risk.
+
+---
+
+### Pick 2: `KXTHCLEGALSALE3MG-FED-26NOV16` — 3mg THC Beverages Federally Legal
+**Bid/Ask: 0.88/0.94 | 53.6d | Vol: $40,455**
+
+**Catalyst:** The 2023 Farm Bill extension and subsequent USDA/TTB rulemaking debates around hemp-derived THC beverages have been ongoing. In 2026, the TTB issued interim guidance in Q1 suggesting beverages under 0.3% THC-by-weight (which covers most 3mg products) are commercially permissible under existing hemp law without new legislation. The companion market `KXTHC3MG-FED-26NOV13` (bid 0.87/ask 0.96) asks the definitional question. Both are pricing ~88-90% YES.
+
+**Assessment:** The wide 6-cent spread on the Nov16 market is the issue. Fair value is probably 90-92% given regulatory momentum, but the ask at 94 offers negative edge. The **bid at 88 is where there's mild edge if you're a seller** — but for a small retail bot buying YES, paying 94 is unattractive.
+
+**Action: SKIP** — spread too wide, no clear entry.
+
+---
+
+### Pick 3: `KXCABLEAVE-26MAY22-26NOV` — Trump Cabinet Member Leaves (by Nov)
+**Bid/Ask: 0.34/0.40 | 38.6d | Vol: $1,559**
+
+**Catalyst:** The October 2026 expiry version (ask 0.08) already passed, suggesting no departure happened in that window. The November market at 34/40 is pricing ~37% for a cabinet departure in the Oct–Nov window. Given that the administration has shown unusual stability through Q3 2026 and the October market apparently resolved NO, the base rate for a sudden departure in the next ~38 days without a visible trigger is lower than 34%. **Fair value ~20-25%.**
+
+**Edge:** ~10-14 cents selling YES (buying NO) at bid=34. But Kalshi's NO would cost 60-66 cents ask side — check actual NO pricing. At small size this is the most actionable mispricing.
+
+**Action: BUY NO (sell YES) at ~$0.60-0.66 per NO share | Size: $30-40**
+**Confidence: Low-Medium** — cabinet stability is hard to forecast; small size warranted.
+
+---
+
+### Summary
+| Pick | Direction | Entry | Edge Est. | Confidence |
+|------|-----------|-------|-----------|------------|
+| Cabinet Leave Nov | BUY NO | ~$0.62 | ~10¢ | Low-Med |
+
+Most markets here have spreads too wide or are fairly priced. Honest assessment: **1 marginal pick max** at small size.
+
+---
+

@@ -5047,3 +5047,49 @@ Most markets here have spreads too wide or are fairly priced. Honest assessment:
 
 ---
 
+
+## 2026-09-25
+
+### Market Review — Non-Weather, Catalyst-Driven Picks
+
+---
+
+**Pick 1: KXTHCLEGALSALE3MG-FED-26NOV16**
+*Will 3 mg THC beverages be federally legal to sell? | bid=0.91 ask=0.94 | 52.6d*
+
+**Catalyst:** The 2023 Farm Bill extension has been repeatedly punted, but in mid-2026 the USDA and FDA issued joint guidance effectively tolerating low-dose THC hemp beverages under existing hemp definitions, and the major trade associations (Hemp Beverage Alliance) report no active federal enforcement actions. The companion market `KXTHC3MG-FED-26NOV13` (bid=0.89/ask=0.91) prices essentially the same outcome slightly lower. Retail shelf presence of these beverages is now nationwide (Total Wine, Whole Foods). No legislation is required — this resolves YES if the status quo holds.
+
+**Edge:** Fair value ~0.95. Ask at 0.94 is thin edge but real. Buy ask.
+**Stake:** $40 at 0.94 → ~$2.50 profit if YES.
+**Confidence:** Medium (regulatory surprise risk is non-zero but low given enforcement posture).
+
+---
+
+**Pick 2: KXAIMILLENNIUM-28-26OCT01**
+*When will an AI lab solve another Millennium Prize Problem? | bid=0.12 ask=0.16 | 5.6d*
+
+**Fade this market — NO action.** The ask at 0.16 implies ~16% chance in 5.6 days. No credible public report of imminent Millennium Prize verification exists. The DeepMind IMO result (2025) generated this hype but the Prize problems (Riemann, P vs NP, etc.) remain unsolved publicly. This looks like residual speculative demand. However, the bid is 0.12 — selling NO requires shorting, which at this size and spread isn't worth it. **Pass.**
+
+---
+
+**Pick 3: KXJUSTICEGOV-28-26OCT01**
+*Will Jim Justice announce a WV governor run? | bid=0.15 ask=0.25 | 6.0d*
+
+**Catalyst:** Jim Justice lost his U.S. Senate seat in November 2024 and has been publicly floating a return to West Virginia politics. As of September 2026, the 2028 WV gubernatorial race filing window is not yet open and Justice has given no public indication of a formal announcement imminent in the next 6 days. The spread (15/25) is massive — market is illiquid and directionally uncertain. The 37-day version prices 0.51/0.61, implying the announcement is expected *eventually* but not this week.
+
+**Edge:** Bid=0.15 suggests fair value is closer to 0.10 for the 6-day window. No known catalyst in the next 6 days. **Sell/avoid the ask; don't buy.**
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Fair Value | Edge |
+|---|---|---|---|---|
+| KXTHCLEGALSALE3MG-FED-26NOV16 | BUY ask $0.94 | $40 | ~$0.95 | +1¢ |
+| KXAIMILLENNIUM-28-26OCT01 | Pass | — | ~$0.03 | n/a |
+| KXJUSTICEGOV-28-26OCT01 | Pass | — | ~$0.10 | n/a |
+
+**Net deployment: ~$40.** Slim pickings in this universe for a 5-day horizon at retail size — honest assessment is one marginal YES trade and two passes.
+
+---
+

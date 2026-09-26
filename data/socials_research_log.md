@@ -5093,3 +5093,44 @@ Most markets here have spreads too wide or are fairly priced. Honest assessment:
 
 ---
 
+
+## 2026-09-26
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXTHCLEGALSALE3MG-FED-26NOV16 — Will 3mg THC beverages be federally legal to sell?**
+- **Bid/Ask:** 0.88 / 0.90 | **Days:** 51.6d | **Vol:** $40,833
+- **Catalyst:** The 2024 Farm Bill extension has repeatedly kicked the hemp/THC beverage ambiguity down the road. As of September 2026, no DEA final rule reclassifying hemp-derived delta-9 THC beverages ≤3mg has been finalized or blocked. The status quo since the 2018 Farm Bill has allowed these products to proliferate commercially with broad retailer acceptance. No imminent federal enforcement action or legislative ban is on the table before November 2026.
+- **Edge:** Market is priced at ~89¢. Fair value is ~93-95¢ — the regulatory trajectory strongly favors continued legal ambiguity resolving as "yes" given the statutory language and industry entrenchment. Edge ~4-6¢ on the YES side.
+- **Confidence:** Medium. Regulatory inaction is the base case, but a surprise DEA ruling is a tail risk.
+- **Action:** BUY YES at 0.90, small size (~$30).
+
+---
+
+**2. KXAIMILLENNIUM-28-26OCT01 — Will an AI lab solve another Millennium Prize Problem? (Oct settle)**
+- **Bid/Ask:** 0.19 / 0.21 | **Days:** 4.6d | **Vol:** $2,823
+- **Catalyst:** DeepMind's AlphaProof solved IMO-level problems in 2024-2025, generating ongoing speculation. However, the Millennium Prize Problems (Riemann, P vs NP, Navier-Stokes, etc.) remain unsolved as of September 2026 — no credible announcement has emerged. The 4.6-day window makes a surprise announcement essentially zero probability.
+- **Edge:** Fair value ≈ 2-3¢. Market ask is 21¢ — massively overpriced for a 4-day window on an event that would be the biggest math news in history.
+- **Confidence:** High that NO is correct.
+- **Action:** BUY NO (sell YES) at bid 0.19 — expect to collect ~17¢ of edge. Size ~$40.
+
+---
+
+**3. KXIPOOURA-26OCT01 — Will Oura officially announce an IPO? (Oct settle)**
+- **Bid/Ask:** 0.97 / 0.98 | **Days:** 4.6d | **Vol:** $31,292
+- **Catalyst:** Oura has been in active IPO preparation through 2026, with bankers engaged and S-1 filing widely reported in financial press as imminent. At 97¢ bid with only 4.6 days remaining, the market implies this announcement is essentially done. If the announcement was already made or is public, this is near-certain settlement. If not yet official, a 4-day window at 97¢ carries binary risk.
+- **Verdict:** Without confirming the announcement is *already* public, this is a liquidity/arb play rather than a misprice. **SKIP** — insufficient edge for the binary tail risk.
+
+---
+
+### Summary Table
+| Pick | Side | Entry | Fair Value | Edge |
+|------|------|-------|-----------|------|
+| THC 3mg beverages | YES | 0.90 | ~0.94 | ~4¢ |
+| AI Millennium Oct | NO | 0.81 | ~0.97 | ~16¢ |
+| Oura IPO | — | Skip | — | — |
+
+---
+

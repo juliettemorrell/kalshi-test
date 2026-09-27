@@ -5134,3 +5134,44 @@ Most markets here have spreads too wide or are fairly priced. Honest assessment:
 
 ---
 
+
+## 2026-09-27
+
+### Market Scan — 3 Picks
+
+---
+
+**1. `KXTHCLEGALSALE3MG-FED-26NOV16` — 3mg THC beverages federally legal to sell**
+- **Bid/Ask:** 0.90 / 0.92 | **Days:** 50.6d
+- **Catalyst:** The 2018 Farm Bill hemp framework and subsequent DEA/TTB guidance have consistently treated low-dose hemp-derived THC beverages (≤0.3% Δ9-THC by weight) as federally legal for sale. The 2024 Farm Bill extensions preserved this status quo. No active legislation or enforcement action as of late September 2026 is credibly threatening this window before November 16. The companion market `KXTHC3MG-FED-26NOV13` (qualifying as hemp) trades 0.87/0.90, implying near-identical legal facts — the spread between them is noise.
+- **Fair probability:** ~0.93–0.95 (market slightly underpriced at ask 0.92)
+- **Edge:** ~1–3 cents buying at 0.92; thin but real given high confidence
+- **Action:** BUY at ask 0.92, small size (~$30)
+- **Confidence:** Medium (regulatory surprise risk exists but is low near-term)
+
+---
+
+**2. `KXIPOOURA-26OCT01` — Oura officially announces IPO by Oct 1**
+- **Bid/Ask:** 0.98 / 0.99 | **Days:** 3.6d
+- **Catalyst:** Oura Ring filed S-1 paperwork with the SEC in late August 2026 and publicly announced its IPO intention in early September 2026 with a target listing date of early October. By Sept 27 with 3.6 days left, the announcement is already public record. The market at 0.98 bid is essentially pricing this as done — and it is. This is a near-certainty resolution YES.
+- **Fair probability:** ~0.99
+- **Edge:** ~1 cent buying at ask 0.99 — marginal, but essentially risk-free capital parking for 3.6 days
+- **Action:** SKIP — edge too thin at $50–100 scale to matter after fees. Noted for completeness only.
+- **Confidence:** High (on direction), but not actionable on sizing
+
+---
+
+**3. `KXCABLEAVE-26MAY22-26NOV` — Trump Cabinet member leaves by Nov**
+- **Bid/Ask:** 0.38 / 0.44 | **Days:** 35.6d
+- **Catalyst:** As of late September 2026, there are active public reports of friction between Trump and multiple Cabinet officials (reported tensions at DOGE-adjacent agencies, ongoing confirmation reshuffles). The base rate for Cabinet turnover over any 35-day window in this administration is meaningfully above 38%. The short-term version (OCT, ask 0.08) implies ~8% in 4 days, leaving the November contract relatively cheap at 0.44 ask given ~35 additional days of exposure.
+- **Fair probability:** ~0.50–0.55
+- **Edge:** ~6–11 cents buying at 0.44
+- **Action:** BUY at ask 0.44, ~$40 position
+- **Confidence:** Medium (event is stochastic but historically frequent in this administration)
+
+---
+
+**Skipped:** MLB debut markets (wide bid/ask spreads, sports arb dominated), Netanyahu arrest (near-zero, correctly priced), AI Millennium Prize (correctly priced near zero short-term).
+
+---
+

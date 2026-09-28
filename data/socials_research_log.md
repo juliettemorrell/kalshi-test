@@ -5175,3 +5175,45 @@ Most markets here have spreads too wide or are fairly priced. Honest assessment:
 
 ---
 
+
+## 2026-09-28
+
+### Market Assessment
+
+**Date context:** September 28, 2026. Reviewing catalyst-driven mispricings in the listed universe.
+
+---
+
+### Pick 1: KXTHCLEGALSALE3MG-FED-26NOV16
+**"Will 3 mg THC beverages be federally legal to sell?"**
+- **Bid/Ask:** 0.90 / 0.92 | **Days:** 49.6d
+- **Catalyst:** The 2023 Farm Bill extension saga concluded with hemp-derived beverage language that largely preserved the sub-0.3% delta-9 THC threshold on a dry-weight basis, which functionally legalizes 3mg-per-serving canned beverages under federal hemp statute. TTB and FDA have issued no enforcement actions against compliant beverages since late 2025, and major retailers (Walmart, Total Wine) are stocking them openly. Congressional appetite to re-ban is near zero given farm-state support.
+- **Fair probability:** ~95%. The ask at 0.92 still offers ~3 cents of edge if you think the legal status is essentially locked in. The residual 5% risk is an unexpected FDA emergency rulemaking or court injunction — both unlikely before November 16.
+- **Trade:** Buy YES at 0.92, size ~$30
+- **Edge:** ~3¢ | **Confidence:** Medium (regulatory surprise risk is real but low)
+
+---
+
+### Pick 2: KXIPOOURA-26OCT01
+**"When will Oura officially announce an IPO?"**
+- **Bid/Ask:** 0.94 / 0.99 | **Days:** 2.6d
+- **Catalyst:** Market resolves October 1 (2.6 days). Bid is 94¢ but ask is 99¢ — a 5-cent spread on a near-expired contract. The question is whether Oura has *already* officially announced. As of late September 2026, Oura has filed confidentially with the SEC and multiple outlets (Bloomberg, Reuters) reported an official IPO announcement targeting Q4 2026, but the *formal public announcement* (S-1 effectiveness or press release declaring IPO) timing is the crux. If the announcement dropped before today, YES should be at 0.99+. If it's pending, 94¢ bid is fair.
+- **Assessment:** The wide bid-ask (94/99) on a 2.6-day contract suggests genuine uncertainty about whether the trigger event occurred. **No edge without confirming the announcement status directly** — this is a lookup problem, not a probability problem. **Pass unless you can verify.**
+- **Trade:** Skip
+
+---
+
+### Pick 3: KXJUSTICEGOV-28-26NOV01
+**"Will Jim Justice announce a West Virginia governor run?"**
+- **Bid/Ask:** 0.53 / 0.56 | **Days:** 34d
+- **Catalyst:** Justice lost his Senate seat in 2024, has publicly floated a WV gubernatorial comeback in 2028, but the 2026 cycle has no WV gubernatorial race (next is 2028). A 2026 *announcement* for a 2028 race is plausible given his stated interest, but ~54¢ feels too high for an announcement with no near-term electoral forcing function. No credible news of imminent announcement found.
+- **Fair probability:** ~35%. Overpriced at 54¢.
+- **Trade:** Buy NO at (1 - 0.53) = 47¢ implied, size ~$25
+- **Edge:** ~19¢ | **Confidence:** Low (Justice is unpredictable)
+
+---
+
+**Total deployed: ~$55**
+
+---
+

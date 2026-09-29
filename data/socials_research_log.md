@@ -5217,3 +5217,44 @@ Most markets here have spreads too wide or are fairly priced. Honest assessment:
 
 ---
 
+
+## 2026-09-29
+
+### Pick 1: `KXTHCLEGALSALE3MG-FED-26NOV16` — Will 3 mg THC beverages be federally legal to sell?
+**Bid/Ask: 0.97/0.99 | 48.6d**
+
+**Pass.** At 97 bid, this is priced for near-certainty. The 2018 Farm Bill hemp framework and the 2024 DEA proposed rule clarifying delta-9 THC at ≤0.3% by weight (which covers most 3mg beverages in standard serving sizes) do support legality. But the ask spread is too tight and the position is already crowded. No edge buying at 99¢.
+
+---
+
+### Pick 1 (actionable): `KXAIMILLENNIUM-28-26NOV01` — AI lab solves another Millennium Prize Problem
+**Bid/Ask: 0.23/0.30 | 32.6d | vol=$1,324**
+
+**Catalyst:** DeepMind's AlphaProof solved IMO problems at gold-medal level in 2024, and in early 2026 there were credible reports of progress on the Riemann Hypothesis and P vs NP structure problems circulating from MATS/ARC researchers. The October-horizon version (1.6d) is rightly near zero, but the **November horizon at 23–30¢ looks mildly rich on the sell side** — no specific lab has publicly claimed a Millennium Prize submission as of late September 2026.
+
+**Fair value:** ~15–18¢. Market is pricing ~26¢ midpoint.
+**Edge:** ~8–11¢ selling the ask side (sell at 0.23 bid).
+**Action:** Sell at 0.23 (small, ~$25 notional). Low liquidity risk.
+**Confidence: Medium-low** — binary tail risk if a surprise announcement drops.
+
+---
+
+### Pick 2: `KXUKDST-28APR06-26NOV01` — UK cut or repeal digital services tax by Nov 1
+**Bid/Ask: 0.18/0.26 | 32.6d | vol=$408**
+
+**Catalyst:** The UK-US trade framework announced in May 2026 included DST negotiation as a key US demand, and UK Chancellor Reeves signaled willingness to reform DST in July 2026 parliamentary testimony. However, no formal legislative action has been tabled as of late September, and the UK fiscal position makes a near-term revenue giveaway politically difficult before a budget statement. A November 1 resolution requires formal announcement within ~33 days.
+
+**Fair value:** ~12–15¢. Midpoint of 22¢ overestimates speed of UK legislative process.
+**Edge:** ~7–10¢ on the sell side.
+**Action:** Sell at 0.18 bid (~$25 notional).
+**Confidence: Medium** — US trade pressure is real but UK timelines are slow.
+
+---
+
+### No Pick 3
+The remaining markets either have no clean near-term catalyst (Waymo IPO, Skims IPO, Fannie Mae), are essentially resolved (THC beverages), or carry too much uncertainty for a $50–100 bot (Netanyahu arrest at 0–1¢ is theoretically underpriced but practically near-zero for a reason).
+
+**Total deployment: ~$50 across two small sell positions.**
+
+---
+

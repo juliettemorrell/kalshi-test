@@ -5258,3 +5258,41 @@ The remaining markets either have no clean near-term catalyst (Waymo IPO, Skims 
 
 ---
 
+
+## 2026-09-30
+
+### Market Assessment
+
+Most markets here are either expiring today (0.6d) with stale prices, illiquid, or require insider-grade information. Three candidates with real stories:
+
+---
+
+### Pick 1: `KXTHCLEGALSALE3MG-FED-26NOV16` — Will 3mg THC beverages be federally legal to sell?
+**Bid/Ask: 0.96/0.99 | Days: 47.6 | Vol: $41,093**
+
+**Catalyst:** The 2023 Farm Bill extension has repeatedly punted on hemp-derived THC beverage rules. The FDA's current posture and USDA's draft hemp rules (published mid-2026) have trended toward keeping low-dose THC beverages in a legal gray zone rather than outright prohibition. The companion market (`KXTHC3MG-FED-26NOV13`, bid 0.88/ask 0.91) on the "qualify as hemp" question trades ~10 cents lower — suggesting the market already prices meaningful legal risk. At 96 bid, the market implies ~97% confidence of legality by Nov 16.
+
+**Assessment:** This is **overpriced**. Congressional inaction is the baseline, and "federally legal to sell" requires affirmative regulatory clarity, not just absence of a ban. The gap between the two related markets (88 vs. 96) is internally inconsistent — if hemp qualification is only 88-cent confident, legal-to-sell cannot be 96-cent confident. **Fade the YES** by not holding, or buy the cheaper hemp-qualification market instead. Not a clean short for a small bot given the 96 bid, so **pass on direct trade** — spread too thin for $50-100.
+
+---
+
+### Pick 2: `KXCABLEAVE-26MAY22-26NOV` — When will a member of Trump's Cabinet leave?
+**Bid/Ask: 0.37/0.43 | Days: 32.6 | Vol: $1,561**
+
+**Catalyst:** This is the November expiry. The October version (bid 0.02/ask 0.06, vol $4,592) is expiring near-zero, meaning the market has seen no confirmed Cabinet departure through Sept 30. Several cabinet members (notably RFK Jr., Tulsi Gabbard) have faced ongoing friction with Trump through 2026, and historical base rate for any Cabinet departure over any 30-day window in a volatile administration is meaningful. At 37-43 cents for ~32 days, this feels roughly fairly priced given base rates. **No strong edge identified.**
+
+---
+
+### Pick 3: `KXJUSTICEGOV-28-26NOV01` — Will Jim Justice announce a WV governor run?
+**Bid/Ask: 0.32/0.41 | Days: 32.0 | Vol: $435**
+
+**Catalyst:** Jim Justice lost his Senate seat in Nov 2024. The Oct expiry (bid 0.01/ask 0.04) implies near-zero probability by Oct 1. The Nov market at 32-41 cents implies he might announce in October. No credible public reporting as of late September 2026 suggests an imminent announcement. **Lean NO / pass** — spread too wide (9 cents) for a $50-100 position.
+
+---
+
+### Conclusion: **No actionable picks today.**
+
+The liquid markets are either fairly priced, have spreads too wide for small retail size, or the edge is directionally unclear without insider knowledge. The THC markets have an internal inconsistency worth monitoring but no clean entry for a retail bot at this size.
+
+---
+

@@ -5296,3 +5296,52 @@ The liquid markets are either fairly priced, have spreads too wide for small ret
 
 ---
 
+
+## 2026-10-01
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+---
+
+**Honest assessment upfront:** The date is 2026-10-01. My training knowledge has a hard cutoff, so I cannot verify specific breaking news catalysts from mid-2026. I will flag this clearly for each pick rather than fabricate citations.
+
+---
+
+### Pick 1: `KXTHCLEGALSALE3MG-FED-26NOV16`
+**Will 3mg THC beverages be federally legal to sell? | Bid 0.96 / Ask 0.99**
+
+- **Story:** The companion market `KXTHC3MG-FED-26NOV13` (does hemp law *qualify* them) is bid 0.87/ask 0.90 — pricing ~88% yes. If hemp qualification passes, legal sale follows almost mechanically. The sale market at 0.96 bid seems *fairly* priced or even slightly rich given the qualification market hasn't resolved yet. **No actionable edge** — the 3–4 cent gap between markets is likely correct and the spread on the sale market is tight (3 cents). Pass.
+
+---
+
+### Pick 2: `KXARRESTNETANYAHU-28JAN01-26NOV01`
+**Will Netanyahu be arrested? | Bid 0.02 / Ask 0.09**
+
+- **Story:** ICC arrest warrant for Netanyahu was issued in late 2024. As of my knowledge, no arrest has occurred in any state that would execute it. The 31-day window to Nov 1, 2026 would require a cooperative jurisdiction arrest — extremely unlikely given diplomatic realities and Netanyahu's travel patterns. Fair value: ~2–3%.
+- **Edge:** Ask at 0.09 is ~6–7 cents above fair value. This is a **sell/NO** opportunity if the platform allows it (selling at 0.09 = buying NO at 0.91). At $50–100 position size, selling NO at 91 cents with ~97% fair value means ~6 cent edge.
+- **Confidence: Medium** (structural/political story is clear; residual tail risk of surprise arrest exists)
+- **Action:** Sell YES / Buy NO at ask. Small size appropriate.
+
+---
+
+### Pick 3: `KXJUSTICEGOV-28-26NOV01`
+**Will Jim Justice announce a WV governor run? | Bid 0.28 / Ask 0.38**
+
+- **Story:** Jim Justice served as WV governor 2017–2025 and then as U.S. Senator from Jan 2025. Running for governor while sitting as a senator within ~1 year of taking that seat would be politically unusual and constitutionally odd. No strong catalyst pushing this above 20–25% fair value is evident from known facts. Ask at 0.38 seems rich.
+- **Edge:** ~10–13 cents if fair value is 25%. Spread is wide (10 cents), so market is illiquid — **low volume ($435) means fill risk is real**.
+- **Confidence: Low** (thin volume, could have 2026-specific news I'm unaware of)
+- **Action:** Skip due to low liquidity and information gap.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Edge Est. | Confidence |
+|--------|--------|-----------|------------|
+| KXARRESTNETANYAHU | Buy NO (~sell YES) | ~6¢ | Medium |
+| KXJUSTICEGOV | Pass (illiquid) | — | Low |
+
+**One actionable pick this scan.** Sizing: $50–75 on Netanyahu NO.
+
+---
+

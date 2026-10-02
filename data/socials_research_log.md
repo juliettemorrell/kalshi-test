@@ -5345,3 +5345,51 @@ The liquid markets are either fairly priced, have spreads too wide for small ret
 
 ---
 
+
+## 2026-10-02
+
+### Market Scan Summary
+
+Working date: Oct 2, 2026. Reviewing catalyst-driven, non-weather, non-parlay markets with real news hooks.
+
+---
+
+**No confident actionable picks today.**
+
+Here's the honest breakdown by category:
+
+**THC Beverage markets (KXTHCLEGALSALE3MG, KXTHC3MG-FED):**
+Already priced at 88–99¢. These are near-ceiling. No edge buying into crowded longs at this spread. Selling at bid is not worth the tail risk of a late regulatory reversal or technical definitional ruling. Skip.
+
+**Netanyahu arrest (KXARRESTNETANYAHU):**
+Bid/ask 2–3¢. The ICC warrant is real and outstanding, but no credible near-term travel or enforcement catalyst before Nov 1. Market is correctly priced near zero for this window. No edge.
+
+**Belichick/UNC (KXNCAAFCOACHLEAVE-26BBEL):**
+48–58¢ spread is wide and this is a sports coaching departure market. Sportsbook-adjacent, dominated by insiders. Skip per rules.
+
+**Waymo IPO (KXWAYMO-DATE):**
+0–2¢ for Nov 1 window. Alphabet has given no IPO signals for Waymo in public filings; most analyst commentary places any IPO 2027+. Market correctly priced near zero. No edge.
+
+**UK Chagos/Diego Garcia (KXUKCHAGOS):**
+14–16¢. The Starmer government has faced significant backpressure on this deal, and there are reports the deal is stalled, but "reversal" before Dec 1 requires a formal government announcement that isn't imminent. Fair value probably 10–18¢. Spread is too tight relative to uncertainty for a $50–100 bot to extract edge.
+
+**Fannie/Freddie IPO (KXIPOFANNIE, KXFREDDIE):**
+Near zero for Nov window, 3–12¢ for Dec. No concrete FHFA announcement or Treasury action detected. Correctly priced low.
+
+**Kennedy Center reopen (KXKENNEDYREOPEN-28-26OCT08):**
+5.6 days to settle, bid 1¢/ask 6¢. Extremely thin volume ($207). Too illiquid and too close to expiry with no reliable sourcing on building status. Skip.
+
+**Skims IPO (KXIPOSKIMS):**
+Kim Kardashian's Skims has had recurring IPO rumors but no banker mandate or SEC filing publicly confirmed as of research date. 3–10¢ is reasonable agnosticism. No directional edge.
+
+**Cabinet departure (KXCABLEAVE):**
+30–36¢. Plausible but diffuse — no specific named cabinet member with a credible imminent exit catalyst in the next 30 days that isn't already in price.
+
+---
+
+**Conclusion:** The liquid end of this universe is either correctly priced or has spreads too wide for a $50–100 position to survive. The illiquid end lacks reliable catalysts. The most interesting structural opportunity (Chagos reversal) lacks a near-term forcing function. Sitting out this cycle is the right call.
+
+> **Positions: 0 | Capital deployed: $0**
+
+---
+

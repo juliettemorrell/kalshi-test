@@ -5436,3 +5436,42 @@ Kim Kardashian's Skims has had recurring IPO rumors but no banker mandate or SEC
 
 ---
 
+
+## 2026-10-04
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXTHCLEGALSALE3MG-FED-26NOV16 | 3mg THC beverages federally legal to sell?**
+- **Bid/Ask:** 0.96 / 0.99 | **Days:** 43.6d
+- **Catalyst:** The 2023 Farm Bill extension expired, and Congress has repeatedly punted hemp/THC regulation. The companion market KXTHC3MG-FED-26NOV13 (bid 0.88/ask 0.95) suggests the "qualifies as hemp" question is already settling YES at ~90¢. If hemp qualification passes, legal sale follows nearly automatically — yet this market trades at nearly the same price, meaning the market is roughly fairly priced. **However**, the ask at 0.99 is too thin; there is no edge buying at 0.99 with ~4¢ of remaining upside and real tail risk (a last-minute DEA enforcement action or legislative ambiguity). **Action: PASS — no edge at ask.**
+
+---
+
+**2. KXUKCHAGOS-28JAN01-26DEC01 | Will the UK reverse the Diego Garcia sovereignty transfer?**
+- **Bid/Ask:** 0.14 / 0.16 | **Days:** 57.6d
+- **Catalyst:** As of mid-2026, the UK–Mauritius Chagos deal remains deeply politically toxic. Kemi Badenoch's Conservative opposition and vocal Labour backbenchers have blocked ratification multiple times. The US (under Trump administration) has openly pressured the UK *not* to transfer sovereignty, and no treaty signing has occurred. Reversal (or indefinite freeze) now looks more likely than the market implies. **Fair value estimate: ~30–35%.** At ask 0.16, edge is roughly **+15–19 cents**. Spread is tight (2¢), volume is low but manageable for a $50–75 position.
+- **Trade:** BUY at ask 0.16, size $60
+- **Confidence: Medium**
+
+---
+
+**3. KXCABLEAVE-26MAY22-26NOV | Cabinet member leaves by November?**
+- **Bid/Ask:** 0.28 / 0.34 | **Days:** 28.6d
+- **Catalyst:** This is the *near-term* (Nov) slice. Trump's second-term cabinet has shown unusual stability through mid-2026, but October is historically volatile — budget negotiations, potential agency conflicts, and ongoing RFK Jr. friction with HHS create genuine near-term departure risk. The December version trades at 0.52/0.54, implying ~50% over ~58 days. The November slice at 0.28–0.34 for 28 days looks slightly **cheap** relative to the December implied rate (~30–35% for the next 30 days embedded in that spread). **Fair value: ~38–42%.** Edge at ask 0.34 is roughly **+4–8 cents** — thin but real.
+- **Trade:** BUY at ask 0.34, size $40
+- **Confidence: Low** (spread is wide, catalyst is diffuse)
+
+---
+
+### Summary Table
+
+| # | Ticker | Action | Size | Edge Est. | Confidence |
+|---|--------|--------|------|-----------|------------|
+| 1 | THC Legal Sale | Pass | — | None at ask | — |
+| 2 | UK Chagos Reversal | Buy @ 0.16 | $60 | ~+16¢ | Medium |
+| 3 | Cabinet Leave Nov | Buy @ 0.34 | $40 | ~+6¢ | Low |
+
+---
+

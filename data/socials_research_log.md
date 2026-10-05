@@ -5475,3 +5475,45 @@ Kim Kardashian's Skims has had recurring IPO rumors but no banker mandate or SEC
 
 ---
 
+
+## 2026-10-05
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXKENNEDYREOPEN-28-26OCT08**
+*Will the Kennedy Center's main building reopen? (settles Oct 8, 2.6d)*
+- **Bid/Ask:** 0.03 / 0.06 | **Vol:** $208
+- **Catalyst:** The Kennedy Center underwent Trump-administration-directed leadership changes in early 2025 and announced an aggressive renovation/reopening timeline. As of late September 2026, reporting indicates the main hall reopening has been repeatedly delayed and no confirmed Oct 8 date has been announced publicly. The 3–6¢ range already prices this very low, but the honest read is: **sell/fade any YES** — fair value is near 2–3¢, ask is 6¢. The spread is too wide and volume too thin for a clean entry. **Skip** — no edge after spread.
+
+---
+
+**2. KXUKCHAGOS-28JAN01-26DEC01**
+*Will the UK reverse the Diego Garcia sovereignty transfer? (56.6d)*
+- **Bid/Ask:** 0.14 / 0.16 | **Vol:** $1,874
+- **Catalyst:** The UK-Mauritius Chagos deal, announced in October 2024, has faced sustained opposition from the US (Trump administration explicitly pressured London to abandon it). In September 2026, the Starmer government publicly reaffirmed commitment to the treaty but faces significant parliamentary and US diplomatic resistance. A reversal within ~57 days is unlikely but non-trivial given US pressure escalation. Market at 14–16¢ seems **slightly rich** — fair value closer to 10–11¢. Edge: ~4¢ on the NO side (sell YES at 14¢ bid).
+- **Trade:** Sell YES @ 0.14. Small size ($30).
+- **Confidence: Low** — this is a slow-moving diplomatic process; the spread is tight enough to make the trade marginal.
+
+---
+
+**3. KXCABLEAVE-26MAY22-26NOV (27.6d)**
+*When will a member of Trump's Cabinet leave? (resolves Nov)*
+- **Bid/Ask:** 0.28 / 0.33 | **Vol:** $1,631
+- **Catalyst:** By October 2026, Trump's second-term Cabinet has seen notable churn — multiple secretaries have faced Senate criticism and internal friction (consistent with historical second-term patterns and 2026 reporting on DOD/HHS turbulence). The broader Dec series is at 43–51¢; the Nov series at 28–33¢ implies ~28–30% chance of a departure specifically in the next 27 days. Given the base rate of Cabinet departures in Trump's orbit and current political friction, fair value is closer to **35–38¢**. Edge: ~5–7¢ buying YES.
+- **Trade:** Buy YES @ 0.33. ($40).
+- **Confidence: Medium** — Cabinet volatility is structurally underpriced in near-term windows, but timing is always uncertain.
+
+---
+
+### Summary Table
+| Ticker | Direction | Entry | Fair Value | Edge | Size |
+|---|---|---|---|---|---|
+| KXUKCHAGOS-26DEC01 | Sell YES | 0.14 | ~0.10 | ~4¢ | $30 |
+| KXCABLEAVE-26NOV | Buy YES | 0.33 | ~0.37 | ~5¢ | $40 |
+
+Total deployed: ~$70 of $50–100 budget.
+
+---
+

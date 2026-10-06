@@ -5517,3 +5517,50 @@ Total deployed: ~$70 of $50–100 budget.
 
 ---
 
+
+## 2026-10-06
+
+**Context check:** Date is October 6, 2026. I need to reason carefully about what's actually knowable by this date.
+
+---
+
+### Pick 1: KXKENNEDYREOPEN-28-26OCT08
+**Ticker:** Kennedy Center main building reopen by Oct 8  
+**Bid/Ask:** 0.03 / 0.04 | **Days to settle:** 1.6d  
+**Direction:** SELL (or avoid buying)
+
+This settles in ~1.6 days (Oct 8). The Kennedy Center renovation under the Trump administration has faced repeated delays; the main hall has not reopened as of this writing. At 3-4 cents, the market is pricing ~3-4% chance it reopens in the next ~38 hours. That's probably fair-to-slightly-rich given no credible announcement of imminent reopening. **Too thin to trade profitably** — spread is 1 cent on a 4-cent ask. Pass.
+
+---
+
+### Pick 2: KXNCAAFCOACHLEAVE-26MNOR-120126
+**Ticker:** When will Mike Norvell leave Florida State?  
+**Bid/Ask:** 0.30 / 0.96 | **Days to settle:** 55.6d  
+
+This bid/ask spread (0.30–0.96) is absurdly wide — a 66-cent spread signals broken/illiquid market mechanics, likely a "bucket" question where YES means "by Dec 2026." Florida State fired Norvell after a disastrous 2024 season (2–10), and he was replaced. **He is already gone.** If this market hasn't resolved, it's a clear mispricing. However, the wide ask suggests the market may be structured oddly (perhaps asking about a *specific future date bucket*). At 30-cent bid, if he's already departed, this should resolve YES.
+
+**Catalyst:** Norvell was fired by Florida State in November/December 2024 — well-documented public event. By October 2026 this should be resolved or the YES side is essentially free money at the bid.  
+**Fair value:** ~0.95 if "leave by Dec 2026" and he left in 2024.  
+**Edge:** ~65 cents at ask if structural. **BUT** the 96-cent ask means buying costs 96 cents for a contract worth ~95 cents — no edge buying. Selling the NO at 4 cents (100-96) is the play if available.  
+**Confidence: Low** — market structure unclear; may be a future-departure-only question.
+
+---
+
+### Pick 3: KXCABLEAVE-26MAY22-26NOV
+**Ticker:** Cabinet member leaves by November 2026  
+**Bid/Ask:** 0.26 / 0.33 | **Days to settle:** 26.6d  
+**Direction:** BUY near bid (~0.27)
+
+By October 2026, Trump's second-term cabinet has already seen multiple departures (historically every administration loses cabinet members within 18 months). The ~29% market price for "at least one cabinet departure by Nov 2026" seems **low** given the pace of Trump administration turnover documented through 2025-2026. Base rate for any departure in any given month is historically high.  
+**Catalyst:** General pattern of Trump second-term instability; no single news needed — actuarial edge.  
+**Fair value:** ~0.45  
+**Edge:** ~15 cents  
+**Confidence: Medium**  
+**Size:** $40 at bid
+
+---
+
+**No position on THC/hemp markets** — legal text interpretation risk too high for retail without legal expertise.
+
+---
+

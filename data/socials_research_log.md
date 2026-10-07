@@ -5564,3 +5564,38 @@ By October 2026, Trump's second-term cabinet has already seen multiple departure
 
 ---
 
+
+## 2026-10-07
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXTHCLEGALSALE3MG-FED-26NOV16 — Will 3mg THC beverages be federally legal to sell?**
+- **Bid/Ask:** 0.98 / 0.99 | **Days:** 40.6d
+- **Catalyst:** The 2018 Farm Bill hemp framework (and its 2023/2024 renewal debates) left delta-9 THC beverages under 0.5mg/serving in a legal gray zone that has *not* been resolved by FDA rulemaking. As of late 2026, FDA has not issued a final rule explicitly legalizing THC beverages at 3mg. The companion market KXTHC3MG-FED-26NOV13 (will they *qualify as hemp*) trades at 0.89–0.96 — a meaningfully lower implied probability for the definitional question. If the definitional question resolves NO, this sale-legality market should also resolve NO.
+- **Edge:** Market prices YES at ~98.5¢. If the hemp-qualification market implies ~10–15% NO probability, this market is mispriced by at least 8–12¢. **Sell YES (buy NO) at ask=0.99; fair value ~0.87.**
+- **Confidence:** Medium. Resolution language matters critically — if "federally legal" is interpreted loosely (no active federal enforcement = legal), it could still resolve YES. Check exact resolution rules before trading.
+
+---
+
+**2. KXUKCHAGOS-28JAN01-26DEC01 — Will the UK reverse the Diego Garcia sovereignty transfer?**
+- **Bid/Ask:** 0.14 / 0.15 | **Days:** 54.6d
+- **Catalyst:** The Chagos/Diego Garcia deal was signed in October 2024 under the Starmer government. As of mid-2026, the UK has faced sustained US pressure (Trump administration explicitly opposing the transfer), but the Starmer government has *not* reversed it — and reversing would require formal repudiation of a signed treaty, a high political bar. With a Labour government still in place and no parliamentary vote scheduled to reverse it before December 2026, 14–15¢ overprices reversal.
+- **Edge:** Fair value ~6–8¢. **Sell YES at 0.14 bid; edge ~6–8¢.**
+- **Confidence:** Medium. Risk: if US applies extreme tariff/defense pressure forcing UK capitulation before Dec 1.
+
+---
+
+**3. KXKENNEDYREOPEN-28-26NOV05 — Kennedy Center main building reopen by Nov 5**
+- **Bid/Ask:** 0.11 / 0.12 | **Days:** 28.6d
+- **Catalyst:** The Kennedy Center underwent Trump-administration-directed renovations in early 2026. No credible announcement of a firm reopening date before November 5 has been made publicly. The December market trades at 0.15–0.24, implying the market already leans toward a later reopening. At 11–12¢ for a sub-30-day window with no announced date, this is likely still ~3–5¢ overpriced.
+- **Edge:** Fair value ~7–8¢. **Sell YES at 0.11 bid; modest edge ~3–4¢.**
+- **Confidence:** Low. Small position only — low volume, resolution details unclear.
+
+---
+
+*Total deployed: ~$150–200 across three positions at small retail scale. Largest conviction: Trade #1 (THC beverages) and Trade #2 (Chagos).*
+
+---
+

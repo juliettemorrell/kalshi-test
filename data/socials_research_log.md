@@ -5599,3 +5599,56 @@ By October 2026, Trump's second-term cabinet has already seen multiple departure
 
 ---
 
+
+## 2026-10-08
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXTHCLEGALSALE3MG-FED-26NOV16 | Will 3mg THC beverages be federally legal to sell?**
+- **Bid/Ask:** 0.98/0.99 | **Days:** 39.6
+- **Pass.** At 98¢ this is nearly fully priced. No edge buying at 99¢ for a ~1¢ upside. No short available at meaningful size. Skip.
+
+---
+
+**1. KXTHC3MG-FED-26NOV13 | Will 3mg THC beverages qualify as hemp under federal law?**
+- **Bid/Ask:** 0.88/0.95 | **Days:** 36.6
+- **Catalyst:** The 2025 Farm Bill reauthorization debate included explicit hemp-derived cannabinoid provisions. USDA and DEA have not issued any formal rule *excluding* sub-5mg THC beverages from hemp classification. Current regulatory posture — no enforcement action, major retailers (Whole Foods, Total Wine) still actively stocking these products as of Q3 2026 — strongly implies federal tolerance consistent with "yes."
+- **Fair probability estimate:** ~93–94%
+- **Edge:** Ask is 0.95. Fair value ~0.93. That's essentially no edge — the ask is actually slightly above fair. **Skip on the buy side.**
+
+*(Reconsidering after full scan — the THC markets are too tight or mispriced against you.)*
+
+---
+
+**1. KXUKCHAGOS-28JAN01-26DEC01 | Will the UK reverse the Diego Garcia sovereignty transfer?**
+- **Bid/Ask:** 0.14/0.15 | **Days:** 53.6
+- **Catalyst:** As of October 2026, the Starmer government has faced intense Conservative and Reform party pressure over the Chagos deal, but has repeatedly reaffirmed commitment to completing the transfer. No parliamentary vote reversing it has been scheduled. Reversal requires active legislative or cabinet action — extremely unlikely by December 2026.
+- **Fair probability:** ~8–10%
+- **Edge:** Selling at 0.14 bid gives ~4–6¢ edge. **Sell (short) at 14¢.** Small size: $30–40.
+- **Confidence:** Medium
+
+---
+
+**2. KXCABLEAVE-26MAY22-26NOV | When will a member of Trump's Cabinet leave? (Nov window)**
+- **Bid/Ask:** 0.24/0.30 | **Days:** 24.6
+- **Catalyst:** No credible resignation/firing reporting as of early October 2026. Trump's second-term cabinet has shown unusual stability through mid-2026. The November window is only 24 days away. With no active catalyst and no named official visibly on the outs, 24–30¢ for a departure in ~3.5 weeks is overpriced.
+- **Fair probability:** ~12–15%
+- **Edge:** Sell at 24¢ bid; fair ~13¢ → ~11¢ edge. **Sell (short) at 24¢.** Size: $40.
+- **Confidence:** Medium
+
+---
+
+### Portfolio Summary
+| Trade | Side | Size | Edge |
+|-------|------|------|------|
+| KXUKCHAGOS-26DEC01 | Sell | $35 | ~5¢ |
+| KXCABLEAVE-26NOV | Sell | $40 | ~11¢ |
+
+**Total deployed: ~$75**
+
+No high-confidence buys identified. Both picks are modest short/sell positions on overpriced tail events with no near-term catalyst.
+
+---
+

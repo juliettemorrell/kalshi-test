@@ -5652,3 +5652,54 @@ No high-confidence buys identified. Both picks are modest short/sell positions o
 
 ---
 
+
+## 2026-10-09
+
+### Market Analysis
+
+**Date context:** October 9, 2026. Trump is ~21 months into his second term.
+
+---
+
+### Pick 1: KXTHCLEGALSALE3MG-FED-26NOV16 / KXTHC3MG-FED-26NOV13
+**Bid/Ask:** 0.92/0.97 (legal sale) | 0.89/0.95 (hemp qualification)
+**My fair value:** ~0.60–0.65
+
+**Catalyst:** These markets price near-certainty that 3mg THC beverages will be federally legal/qualify as hemp by mid-November. However, the 2018 Farm Bill's hemp successor legislation remains contested. The DEA's proposed rule to schedule delta-9 THC derived products (including low-dose beverages) has faced legal challenges but has **not** been definitively resolved in favor of the industry. FDA/DEA enforcement posture under the current administration has been inconsistent. At 92–97 cents, the market is pricing near-zero regulatory risk — that seems wrong given ongoing rulemaking uncertainty and no signed legislation explicitly carving out 3mg beverages. The spread (5 cents wide) also signals illiquidity risk.
+
+**Edge:** ~30 cents short-side. **Sell at 0.92 bid if shortable; otherwise skip** (Kalshi long-only retail = no actionable trade here unless you can fade it).
+
+*Confidence: Medium — catalyst is real but Kalshi's retail interface may not allow shorting efficiently.*
+
+---
+
+### Pick 2: KXCABLEAVE-26MAY22-26NOV (Cabinet departure by Nov)
+**Bid/Ask:** 0.24/0.28 | Settles Nov 2026
+**My fair value:** ~0.35–0.40
+
+**Catalyst:** As of October 2026, Trump's second-term cabinet has seen notable turbulence. Reports in September–October 2026 of friction between Trump and multiple agency heads (consistent with historically elevated turnover in Trump administrations) suggest the market underprices a departure in the next ~23 days. The cumulative base rate for a cabinet-level departure in any given 3–4 week window during Trump's tenure has historically been elevated. At 24–28 cents for a ~23-day window with multiple plausible candidates (any resignation, firing, or resignation counts), this looks underpriced.
+
+**Trade:** Buy YES at 0.28 ask. Sizing: $40.
+**Edge:** ~+10 cents. *Confidence: Medium.*
+
+---
+
+### Pick 3: KXUKCHAGOS-28JAN01-26DEC01 (UK reverses Diego Garcia transfer)
+**Bid/Ask:** 0.14/0.15
+**My fair value:** ~0.20–0.22
+
+**Catalyst:** UK domestic political pressure to reverse the Chagos sovereignty deal has intensified through 2026, with Conservative and Reform opposition maintaining strong anti-deal messaging. The Starmer government has shown visible wavering. At 14–15 cents for a December resolution, the market underweights the probability of a formal policy reversal announcement given Parliamentary pressure. Tight spread (1 cent) suggests reasonable liquidity.
+
+**Trade:** Buy YES at 0.15 ask. Sizing: $30.
+**Edge:** ~+6 cents. *Confidence: Low — geopolitical timelines are highly uncertain.*
+
+---
+
+### Pass
+- THC markets: strong mispricing signal but **short-only** — no retail long edge.
+- MLB debut markets, NBA expansion: insufficient information edge over market makers.
+
+**Total deployed: ~$70**
+
+---
+

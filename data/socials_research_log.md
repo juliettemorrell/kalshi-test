@@ -5703,3 +5703,46 @@ No high-confidence buys identified. Both picks are modest short/sell positions o
 
 ---
 
+
+## 2026-10-10
+
+### Market Assessment
+
+**Date context:** October 10, 2026. Reviewing catalyst-driven mispricings in non-weather, non-sportsbook markets.
+
+---
+
+### Pick 1: `KXTHCLEGALSALE3MG-FED-26NOV16` — 3mg THC beverages federally legal to sell?
+**Bid/Ask:** 0.82 / 0.96 | **Days:** 37.6 | **Vol:** $43K
+
+**Catalyst:** The paired market `KXTHC3MG-FED-26NOV13` (same underlying: do 3mg THC beverages qualify as hemp?) is bid at **0.88**. The "legal to sell" market (this one) is ask at **0.96** with a bid of only **0.82** — a huge 14-cent spread. If the hemp-qualification market resolves YES at ~88¢ implied probability, the legal-to-sell market should track nearly identically. The spread here looks like a liquidity gap, not genuine uncertainty. These two markets are near-identical in substance; the qualification market IS the legal predicate.
+
+**Fair value:** ~0.87–0.90. **Edge:** Bid side at 0.82 is mispriced cheap relative to the companion market. Buy YES at ask (0.96) is overpriced; **sell NO / fade the ask** or look for a fill near 0.85.
+
+**Action:** Bid YES at 0.85 (between current bid and ask), targeting 87¢ fair value. ~2–5¢ edge.
+**Confidence:** Medium. Spread is real but resolution criteria could diverge slightly.
+
+---
+
+### Pick 2: `KXCABLEAVE-26MAY22-26NOV` — Trump Cabinet member leaves by Nov?
+**Bid/Ask:** 0.23 / 0.28 | **Days:** 22.6 | **Vol:** $1.9K
+
+**Catalyst:** The December version (`KXCABLEAVE-26MAY22-26DEC`) trades at **0.41 bid / 0.48 ask** for ~52 days out. The November version gives you ~22 days at only 23–28¢. Cabinet volatility under Trump second term has been historically elevated. With only ~22 days remaining and implied probability already at 25¢, the December market implies substantial probability of departure **after** November — meaning the market isn't pricing a near-term departure as negligible. However, if any departure is imminent (ongoing DC rumors of SecDef or AG friction are perennial), 25¢ for a 22-day window with a base rate of ~1 departure per 2–3 months is roughly fair to slightly cheap.
+
+**Fair value:** ~0.28–0.32. **Edge:** ~3–5¢ buying at ask 0.28.
+**Action:** Buy YES at 0.28 (at ask). Small size only.
+**Confidence:** Low-Medium. Base rate supports it but no specific confirmed catalyst today.
+
+---
+
+### No Pick on remaining markets:
+- **Waymo/Skims/Canva IPO:** No confirmed catalyst; announcement risk is binary and unresearched.
+- **Netanyahu arrest:** Structurally near-zero; ask at 2¢ not worth the friction.
+- **Belichick/NCAA coach markets:** Sportsbook-adjacent, skip per rules.
+
+---
+
+**Total allocation suggestion:** $30 on Pick 1, $20 on Pick 2. Keep remainder in reserve.
+
+---
+

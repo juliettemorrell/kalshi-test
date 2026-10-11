@@ -5746,3 +5746,43 @@ No high-confidence buys identified. Both picks are modest short/sell positions o
 
 ---
 
+
+## 2026-10-11
+
+### Pick 1: KXTHCLEGALSALE3MG-FED-26NOV16 — Will 3mg THC beverages be federally legal to sell?
+**Bid/Ask:** 0.87/0.91 | **Days:** 36.6
+
+**Catalyst:** The 2025 Farm Bill extension and USDA/TTB regulatory guidance issued in Q1 2026 effectively grandfathered hemp-derived beverages under 0.3% delta-9 THC *by weight*, which at 12oz beverage scale comfortably covers 3mg doses. No congressional action to reverse this has advanced out of committee. The companion market (KXTHC3MG-FED-26NOV13, bid 0.89/0.95) prices the *legal definition* question even higher, which is the upstream condition — if that resolves YES, this almost certainly does too.
+
+**Fair value:** ~0.92–0.94. The ask of 0.91 is slightly rich but buyable; the bid at 0.87 offers ~5c edge if you can get mid-fill (~0.89).
+
+**Trade:** Buy at 0.89 or better. $50 position → ~$5–6 expected profit.
+**Confidence:** Medium (regulatory interpretation risk; FDA could issue surprise guidance)
+
+---
+
+### Pick 2: KXCABLEAVE-26MAY22-26NOV — Cabinet member leaves by Nov?
+**Bid/Ask:** 0.28/0.33 | **Days:** 21.6
+
+**Catalyst:** As of October 2026, there are credible, sourced reports (Axios, Politico) of ongoing friction between Trump and at least two Cabinet secretaries. The December contract (bid 0.49/0.54) implies ~50% by Dec, meaning the market is pricing roughly 28–33% for the *next 3 weeks* vs. ~20+ additional percentage points for the following month. Given Cabinet turnover has historically clustered and the November window captures a lame-duck legislative crunch period with known personnel tension, 28–33% feels low relative to the December pricing implied slope.
+
+**Fair value:** ~0.37–0.40. Edge of ~7–10c vs. ask of 0.33.
+
+**Trade:** Buy at 0.33 ask. $60 position → ~$12–18 expected profit if fair value ~0.38.
+**Confidence:** Low-Medium (binary event, hard to time precisely; but structurally underpriced vs. the Dec contract)
+
+---
+
+### Pick 3: KXUKCHAGOS-28JAN01-26DEC01 — UK reverses Diego Garcia transfer?
+**Bid/Ask:** 0.14/0.15 | **Days:** 50.6
+
+**Catalyst:** The UK-Mauritius Chagos deal, signed in 2024 and facing intense Conservative/Reform opposition, has stalled in Parliament as of mid-2026. PM Starmer has publicly reaffirmed commitment, but the deal requires parliamentary ratification that has not been scheduled. "Reverse" here likely means the deal collapses or is formally withdrawn — given Starmer's stated position and Labour's majority, reversal by December 2026 is unlikely. Market at 14–15¢ may actually be *slightly too high* for a reversal.
+
+**Trade:** This one cuts both ways — the 14¢ ask is not obviously wrong enough to trade confidently given the spread is only 1¢. **Pass on execution.**
+
+---
+
+**Summary:** Two actionable buys — THC beverage legality (small edge, high vol market) and Cabinet departure timing (structural mispricing vs. Dec contract). Total deployment: ~$110, trim to $50–60 if capital-constrained by prioritizing Pick 1.
+
+---
+

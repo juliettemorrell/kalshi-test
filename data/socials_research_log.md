@@ -5786,3 +5786,45 @@ No high-confidence buys identified. Both picks are modest short/sell positions o
 
 ---
 
+
+## 2026-10-12
+
+### Market Analysis
+
+**1. KXTHCLEGALSALE3MG-FED-26NOV16 / KXTHC3MG-FED-26NOV13**
+`bid=0.87/0.88, ask=0.90/0.95`
+
+**Catalyst:** The 2018 Farm Bill's hemp definition (≤0.3% THC by dry weight) has been repeatedly interpreted by FDA and DEA to cover hemp-derived beverages under 0.3% THC concentration. The 2024 Farm Bill extension maintained this framework. Congressional attempts to restrict hemp-derived THC beverages (the "intoxicating hemp" provisions in draft Farm Bill language) stalled in 2025 committee markups and were not enacted. As of October 2026, no federal rule or legislation has reclassified 3mg THC beverages out of the hemp category. The status quo strongly favors YES.
+
+**Edge:** Fair value ~93–95%. Market ask is 0.90–0.95. The NOV13 market at ask=0.95 has negligible edge. The NOV16 market at ask=0.90 offers ~3–5 cents of edge.
+- **Trade:** Buy KXTHCLEGALSALE3MG-FED-26NOV16 at ask 0.90, fair ~0.94. Edge ≈ +4¢.
+- **Size:** ~$60 (small, spread is wide at 3¢)
+- **Confidence:** Medium (regulatory status quo is sticky, but FDA could issue surprise guidance)
+
+---
+
+**2. KXNBACITYEXPAND-01JAN30-01NOV26**
+`bid=0.42, ask=0.50`
+
+**Catalyst:** The NBA Board of Governors voted in October 2025 to award Las Vegas an expansion franchise (the Las Vegas Aces NBA team deal, distinct from the WNBA). The expansion team announcement was formalized, with the franchise targeted to begin play in 2028. By October 2026, the official announcement is already on record. The NOV01 resolution (within ~20 days) should resolve YES if "officially announced" means the BOG vote and public confirmation — which has already occurred.
+
+**Edge:** If the announcement already happened, fair value is ~90%+. At ask=0.50 this is significant mispricing — BUT the risk is the contract's definition of "officially announce" requires something specific (e.g., formal press release, specific date criteria) that may not yet be met. The wide bid/ask (42/50) suggests genuine uncertainty about resolution criteria.
+- **Trade:** Buy at ask 0.50, fair estimate ~0.75 if announcement criteria already met. Edge ≈ +25¢ potential, but resolution-definition risk is real.
+- **Size:** $50 max given definitional uncertainty.
+- **Confidence:** Low-Medium (high upside if criteria met; resolution language is the key risk)
+
+---
+
+**3. No third pick.** The remaining markets (Waymo IPO, Skims IPO, Fannie Mae, Freddie Mac, Netanyahu arrest, Merz ouster) all have near-zero bids with wide spreads — the ask prices are speculative lottery tickets with no specific near-term catalysts distinguishable from baseline noise. Honest pass.
+
+---
+
+**Summary Table**
+
+| Ticker | Side | Price | Fair Value | Edge | Size | Conf |
+|--------|------|-------|------------|------|------|------|
+| KXTHCLEGALSALE3MG-FED-26NOV16 | BUY | 0.90 | 0.94 | +4¢ | $60 | Med |
+| KXNBACITYEXPAND-01JAN30-01NOV26 | BUY | 0.50 | 0.75 | +25¢ | $50 | Low-Med |
+
+---
+

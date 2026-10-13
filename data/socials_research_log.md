@@ -5828,3 +5828,55 @@ No high-confidence buys identified. Both picks are modest short/sell positions o
 
 ---
 
+
+## 2026-10-13
+
+### Market Analysis
+
+**Pick 1: KXTHC3MG-FED-26NOV13**
+`Will 3 mg THC beverages qualify as hemp under federal law?`
+Bid/Ask: 0.88/0.95 | 31.6d | Vol: $12,452
+
+**Catalyst:** The 2018 Farm Bill's hemp definition (delta-9 THC ≤0.3% dry weight) has been consistently interpreted by USDA and courts to cover compliant beverages. The DEA's 2024 scheduling rule attempt was vacated, and no new federal enforcement action targeting 3mg THC hemp beverages has passed Congress in 2026. The companion December market (KXTHC3MG-FED-26DEC10) trades at 0.91/0.98, implying ~95% fair value. The November market at 0.88 bid is structurally cheaper for a near-identical legal question with ~30 fewer days of risk.
+
+**Fair probability:** ~90-92%
+**Edge:** ~2-4 cents buying at ask (0.95). Thin but real — the spread between Nov and Dec markets implies mispricing on the Nov side.
+**Action:** Buy YES at 0.95, small size ($30-40)
+**Confidence:** Medium
+
+---
+
+**Pick 2: KXUKCHAGOS-28JAN01-26DEC01**
+`Will the UK reverse the Diego Garcia sovereignty transfer?`
+Bid/Ask: 0.14/0.15 | 48.6d | Vol: $1,878
+
+**Catalyst:** The UK-Mauritius Chagos deal, signed in October 2024, has faced sustained opposition from the Trump administration and UK domestic critics (Farage, Reform UK). As of mid-2026, the deal remains formally unratified and politically toxic. The Starmer government has shown no indication of reversal — the deal is stalled but not reversed. "Reversal" by Dec 1 requires affirmative UK action abandoning the treaty, which has near-zero probability. The 14/15 cent market dramatically overprices this.
+
+**Fair probability:** ~3-5%
+**Edge:** ~9-11 cents selling NO (i.e., selling YES at 0.14 bid is unavailable; this is a NO buy at ~0.85-0.86 implied). At ask 0.15, buying NO costs ~$0.85 — fair value ~$0.95-0.97.
+**Action:** Buy NO at implied ~0.85 ask ($0.15 YES ask = $0.85 NO). Size: $40
+**Confidence:** Medium
+
+---
+
+**Pick 3: KXJUSTICEGOV-28-26NOV01**
+`Will Jim Justice announce a West Virginia governor run?`
+Bid/Ask: 0.24/0.32 | 19d | Vol: $485
+
+**Skipping** — insufficient public information about Justice's 2026 political intentions post-Senate term. Cannot construct a credible catalyst story. Volume too low for confidence.
+
+---
+
+### Passed Markets (notable)
+- **THC federally legal SALE (KXTHCLEGALSALE3MG):** Distinct from hemp qualification — requires affirmative federal legalization, much harder bar. Skip.
+- **Cabinet leave markets:** Too diffuse/no specific near-term catalyst.
+- **Waymo/Skims/Canva IPO Nov:** All near-zero with no announced timelines. Correctly priced near zero.
+
+### Summary Table
+| Ticker | Action | Size | Edge Est. |
+|--------|--------|------|-----------|
+| KXTHC3MG-FED-26NOV13 | Buy YES @0.95 | $35 | +2-4¢ |
+| KXUKCHAGOS-28JAN01-26DEC01 | Buy NO @~0.85 | $40 | +9-11¢ |
+
+---
+

@@ -5880,3 +5880,49 @@ Bid/Ask: 0.24/0.32 | 19d | Vol: $485
 
 ---
 
+
+## 2026-10-14
+
+### Market Scan Notes
+
+Date is 2026-10-14. I need to be honest: I don't have reliable real-time news for events that have occurred between my training cutoff and this date. I will reason from structural/known information and flag confidence accordingly.
+
+---
+
+### Pick 1: KXTHCLEGALSALE3MG-FED-26NOV16
+**THC 3mg beverages federally legal to sell — bid/ask: 0.89/0.91, settles Nov 16**
+
+**Catalyst:** The 2024 Farm Bill debates and subsequent regulatory guidance from TTB/FDA trended toward treating sub-3mg delta-9 THC hemp beverages as compliant with the 2018 Farm Bill framework. The companion market `KXTHC3MG-FED-26NOV13` (bid 0.88/ask 0.95) covers the definitional "hemp" question, and the Dec version trades at 0.94/0.98 — implying the market already prices this as near-certain by December. The November sell market at 0.89 bid looks slightly cheap relative to December's 0.94 bid for essentially the same underlying legal status. No credible reversal catalyst is visible.
+
+**Fair value estimate:** ~0.92. Edge: ~3 cents on the buy at 0.91 ask.
+**Position:** BUY YES at 0.91 ask, small ($40).
+**Confidence: Low** — the ask is already 0.91, so edge is thin and execution risk matters. Pass if ask widens.
+
+---
+
+### Pick 2: KXCABLEAVE-26MAY22-26DEC
+**Trump Cabinet member leaves by December — bid/ask: 0.51/0.54, settles ~Dec**
+
+**Catalyst:** By October 2026, the Trump second-term cabinet has been in place ~21 months. Historical base rate: virtually every modern administration has lost at least one cabinet member within 21 months. The companion Nov market trades at 0.20/0.22 (so ~21% chance someone leaves in the next 17 days), implying the Dec market's residual probability (someone leaves between ~Nov 1 and Dec) adds meaningful probability. The Dec market at 0.51/0.54 seems to underweight cumulative probability given the historical churn rate in Trump's first term (multiple departures by month 21).
+
+**Fair value estimate:** ~0.60. Edge: ~6 cents buying at 0.54 ask.
+**Position:** BUY YES at 0.54 ask, ~$50.
+**Confidence: Medium** — base rates strongly favor YES; the main risk is if a Nov departure already resolves the earlier tranche and this market's structure is cumulative (need to verify contract terms).
+
+---
+
+### Pick 3: No third pick.
+
+The remaining markets (Netanyahu arrest, Waymo IPO, Fannie/Freddie IPO, Kennedy Center) either have near-zero bids with wide spreads where I can't construct a genuine edge story, or are sports-adjacent. The Katie Zacharia markets are interesting but require real-time insider knowledge of White House staffing I can't verify.
+
+---
+
+**Summary table:**
+
+| Ticker | Dir | At | Fair | Edge | Size | Conf |
+|---|---|---|---|---|---|---|
+| KXTHCLEGALSALE3MG-FED-26NOV16 | YES | 0.91 | 0.92 | ~1¢ | $40 | Low |
+| KXCABLEAVE-26MAY22-26DEC | YES | 0.54 | 0.60 | ~6¢ | $50 | Med |
+
+---
+

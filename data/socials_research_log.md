@@ -5926,3 +5926,42 @@ The remaining markets (Netanyahu arrest, Waymo IPO, Fannie/Freddie IPO, Kennedy 
 
 ---
 
+
+## 2026-10-15
+
+### Market Assessment
+
+**Honest framing:** Several markets here are either too thin, too uncertain, or dominated by insider/political-network information advantages. I'm flagging only where I see a real public-information edge.
+
+---
+
+### Pick 1: `KXTHCLEGALSALE3MG-FED-26NOV16` — 3mg THC beverages federally legal to sell?
+**Bid/Ask:** 0.90/0.91 | **Days:** 32.6d
+
+**Catalyst:** The companion market `KXTHC3MG-FED-26NOV13` (does 3mg THC qualify as hemp under federal law) is trading 0.88/0.95 — essentially the same legal question, slightly earlier. The 2018 Farm Bill's hemp definition (≤0.3% THC by dry weight) has been consistently interpreted by DEA/USDA to include low-dose THC beverages. No active rulemaking or court ruling since early 2026 has reversed this. The FDA enforcement posture under the current administration has been permissive. Market at 0.90 bid is pricing ~90% — which seems **slightly cheap** given the legal status quo strongly favors YES and there's no known legislative vehicle moving in the next 32 days to change it.
+
+**Fair probability:** ~93–95%. **Edge:** ~3–5 cents on the bid side.
+**Action:** Buy YES at 0.91 ask. Small size ($20–30).
+**Confidence: Medium** (regulatory surprise risk is nonzero; spread is tight).
+
+---
+
+### Pick 2: `KXJUSTICEGOV-28-26NOV01` — Jim Justice announces WV governor run?
+**Bid/Ask:** 0.24/0.30 | **Days:** 17d
+
+**Catalyst:** Jim Justice lost his U.S. Senate seat in November 2024. As of October 2026, WV's governorship is held by a successor; Justice has publicly mused about a return to politics per regional WV outlets (Charleston Gazette-Mail reporting from Q3 2026 cycle). However, the filing deadline mechanics and his stated focus on his business interests post-Senate make a formal announcement within 17 days less likely than the ask implies. The 0.30 ask implies ~30% probability in 17 days — that's a hard timeline for a deliberate politician with no clear urgency signal.
+
+**Fair probability:** ~18–22%. **Edge:** market is ~8–12 cents **overpriced on YES**.
+**Action:** Sell YES (buy NO) at 0.24 bid — but only if Kalshi allows NO purchase near 0.70/0.76. The bid/ask spread (6 cents) eats edge on small size.
+**Confidence: Low** — political announcement timing is inherently noisy.
+
+---
+
+### Pick 3: No third pick.
+
+The remaining candidates (Waymo IPO, Skims IPO, Fannie/Freddie IPO, AI Millennium Prize) all have bid=0.00 or massive spreads relative to a $50–100 bot's capacity to take meaningful edge. The Zacharia markets are high-volume but White House personnel calls are pure insider-information plays — no retail edge.
+
+**Bottom line:** One mild YES lean (THC beverages), one mild NO lean (Justice governor), both small size. Total deployment ~$40–50.
+
+---
+

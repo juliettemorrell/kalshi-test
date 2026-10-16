@@ -5965,3 +5965,45 @@ The remaining candidates (Waymo IPO, Skims IPO, Fannie/Freddie IPO, AI Millenniu
 
 ---
 
+
+## 2026-10-16
+
+### Market Scan — 3 Picks
+
+---
+
+**1. `KXTHCLEGALSALE3MG-FED-26NOV16` — 3mg THC beverages federally legal to sell?**
+- **Bid/Ask:** 0.90 / 0.91 | **Days:** 31.6d | **Vol:** $43,459
+- **Catalyst:** The companion market `KXTHC3MG-FED-26NOV13` (qualifying as hemp under federal law) is bid/ask 0.88/0.95 — the market already prices ~90%+ that the hemp classification holds. The 2018 Farm Bill's hemp definition (≤0.3% delta-9 THC by dry weight) straightforwardly covers 3mg beverages, and DEA/USDA have not moved to reclassify. No credible legislative vehicle to restrict this passes before November. The legal-sale market at 0.90 bid is a near-certain YES if the hemp classification holds (which the other market prices at 88%+).
+- **Fair probability:** ~93%. Edge: ~3 cents on the ask (buy at 0.91, fair ~0.94).
+- **Trade:** Buy YES at 0.91. Small size given thin edge.
+- **Confidence:** Medium (regulatory surprise risk is non-zero but low near-term).
+
+---
+
+**2. `KXZACHARIAOUT-26OCT-26OCT20` — Zacharia out by Oct 20?**
+- **Bid/Ask:** 0.04 / 0.06 | **Days:** 3.6d | **Vol:** $317,628
+- **Catalyst:** As of Oct 16, there is no credible reporting of imminent Zacharia departure. The longer-dated Dec 1 window trades at 0.40, implying ~40% cumulative exit probability over ~45 days. The Oct 20 window (3.6 days) at 0.05 mid implies ~5% in ~4 days — consistent with a ~0.1%/day hazard rate applied to the base. No specific news event (cabinet reshuffle, scandal) is scheduled in this window.
+- **Fair probability:** ~4-5%. The market is roughly fairly priced; no edge to act.
+- **Action:** **Pass** — the volume is high but the price reflects base rate correctly. No actionable catalyst.
+
+---
+
+**3. `KXAIMILLENNIUM-28-26NOV01` — AI lab solves another Millennium Prize Problem by Nov 1?**
+- **Bid/Ask:** 0.06 / 0.08 | **Days:** 15.6d | **Vol:** $2,115
+- **Catalyst:** DeepMind's AlphaProof solved IMO problems in 2025, generating speculation about Millennium Prize proximity. However, no credible pre-publication or announcement has leaked for any of the seven remaining problems (Riemann, P vs NP, etc.) in October 2026. The 15-day window is extremely tight for a verified mathematical proof of this magnitude (Clay Institute verification alone takes months).
+- **Fair probability:** ~2-3%. Market ask of 0.08 is **overpriced by ~5 cents**.
+- **Trade:** Buy NO (sell YES) at 0.06 bid if available, or skip if only ask-side accessible. With bid at 0.06, selling YES at 0.06 locks in small edge.
+- **Confidence:** Medium-high (structural: verification timeline alone kills this).
+
+---
+
+### Summary Table
+| Ticker | Action | Edge | Confidence |
+|---|---|---|---|
+| KXTHCLEGALSALE3MG-FED-26NOV16 | Buy YES ~0.91 | ~3¢ | Medium |
+| KXZACHARIAOUT-26OCT-26OCT20 | Pass | None | — |
+| KXAIMILLENNIUM-28-26NOV01 | Sell YES / Buy NO | ~3-5¢ | Med-High |
+
+---
+

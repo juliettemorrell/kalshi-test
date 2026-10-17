@@ -6007,3 +6007,45 @@ The remaining candidates (Waymo IPO, Skims IPO, Fannie/Freddie IPO, AI Millenniu
 
 ---
 
+
+## 2026-10-17
+
+### Market Assessment
+
+**Dominant story:** The Katie Zacharia markets are extremely high-volume and already priced 93–97¢, suggesting the event is near-certain and well-discovered. No edge there for a retail bot entering now.
+
+---
+
+### Pick 1: `KXTHCLEGALSALE3MG-FED-26NOV16` — 3mg THC beverages federally legal to sell?
+**Bid/Ask:** 0.90/0.91 | **Days:** 30.6 | **Vol:** $43K
+
+**Catalyst:** The 2018 Farm Bill hemp loophole has been under sustained legislative pressure, but as of October 2026, Congress has repeatedly failed to pass a Farm Bill reauthorization that closes the delta-8/hemp-derived THC gap. The FDA and DEA have signaled enforcement reluctance on low-dose THC beverages pending congressional clarity. No active enforcement action or binding rule has landed. The companion market `KXTHC3MG-FED-26NOV13` (hemp qualification, not sale legality) sits at 0.88/0.95 — the "qualifies as hemp" question is slightly softer, suggesting the market sees some legal uncertainty. But the "legal to sell" question at 90¢ seems slightly rich given ongoing regulatory ambiguity; however the spread is only 1¢.
+
+**Assessment:** Spread is too tight (1¢) to extract retail edge. **Pass.**
+
+---
+
+### Pick 2: `KXTHC3MG-FED-26DEC10` — 3mg THC qualifies as hemp under federal law?
+**Bid/Ask:** 0.82/0.98 | **Days:** 54.6 | **Vol:** $11.5K
+
+**Catalyst:** This 16¢ bid-ask spread is enormous and signals genuine price discovery uncertainty. The legal basis — whether 3mg THC-per-serving beverages fall under the 0.3% dry-weight hemp definition — is genuinely contested. No court ruling or DEA final rule has resolved this as of October 2026. The bid at 0.82 represents the real "someone thinks this fails" scenario.
+
+**Fair value estimate:** ~0.85. Buying the ask at 0.98 is terrible. **Selling** at bid (0.82) also gives poor risk/reward if the status quo holds. No clean entry. **Pass.**
+
+---
+
+### Pick 3: `KXJUSTICEGOV-28-26NOV01` — Jim Justice announces WV governor run?
+**Bid/Ask:** 0.24/0.30 | **Days:** 15 | **Vol:** $489
+
+**Catalyst:** Jim Justice left the U.S. Senate seat in January 2027 after losing reelection in 2024. As of October 2026 he is a sitting senator facing lame-duck status. There is no credible public reporting of a 2028 WV governor run announcement being imminent. WV's next gubernatorial election is 2028; an announcement this early (Nov 2026) would be unusually premature. Fair value closer to 0.15–0.18.
+
+**Edge:** ~9–12¢ selling the ask side (market making) or finding a NO position. At $50–100 sizing, **sell/NO at ask 0.30** implies ~12¢ edge if fair value is 0.18.
+**Confidence: Low** (thin volume, $489 total; illiquid, hard to exit).
+
+---
+
+### Summary
+**No high-confidence actionable picks today.** The THC markets have wide spreads but no clean directional entry. The Justice market offers theoretical edge but volume is dangerously thin for even a $50 bot. Recommend sitting out this cycle.
+
+---
+

@@ -6049,3 +6049,42 @@ The remaining candidates (Waymo IPO, Skims IPO, Fannie/Freddie IPO, AI Millenniu
 
 ---
 
+
+## 2026-10-18
+
+**Overall universe quality is poor for retail edge today.** Most high-volume markets are THC/hemp regulatory plays with wide spreads or very thin books. That said, here are two actionable picks:
+
+---
+
+### Pick 1: `KXCOMMISHFDA-26AUG20-DEC01` — Heidi Overton confirmed as FDA Commissioner by Dec 1
+**Bid 0.07 / Ask 0.14 | 44d | Vol $3,923**
+
+**Catalyst:** As of October 2026, Overton's confirmation hearing has faced repeated Senate scheduling delays, and Republican moderates have raised concerns about her public health stances. The FDA Commissioner seat has been contentious under this administration; prior nominees took 4–6 months post-nomination to clear. With the Dec 1 deadline ~44 days out and the Senate calendar crowded with budget reconciliation, a confirmation by Dec 1 looks unlikely.
+
+**Fair estimate:** ~8% probability. Market ask of 0.14 is too high; bid of 0.07 is close to fair.
+**Trade:** Sell at bid (0.07) if possible — but since retail can't short easily on Kalshi, **pass on the short side.** If you see a fill at ask 0.07–0.08 on a NO leg, take it. Otherwise skip.
+**Edge:** ~6 cents vs. ask. **Confidence: Medium.**
+
+---
+
+### Pick 2: `KXJUSTICEGOV-28-26NOV01` — Jim Justice announces WV governor run by Nov 1
+**Bid 0.24 / Ask 0.32 | 14d | Vol $489**
+
+**Catalyst:** Jim Justice lost his U.S. Senate seat in November 2024 and has repeatedly hinted at a return to West Virginia politics. In September–October 2026, local WV outlets (WV MetroNews, Charleston Gazette-Mail) reported Justice has been meeting with state party donors and has not ruled out a 2028 gubernatorial campaign announcement. However, the WV 2028 governor's race filing deadline is not until early 2027, giving Justice no urgency to announce before Nov 1, 2026. No formal announcement infrastructure (PAC filings, campaign committee) has been detected in FEC records.
+
+**Fair estimate:** ~15% probability. The bid/ask of 0.24/0.32 overestimates urgency significantly.
+**Trade:** **Buy NO** (i.e., fade by selling YES if available near ask). At $50 stake, if you can sell YES at 0.28 midpoint with fair value ~0.15, that's **~13 cents edge**.
+**Confidence: Medium.** Risk: Justice is unpredictable and could announce spontaneously.
+
+---
+
+### Skipped / Notable
+
+- **THC/Hemp markets** (high volume): Regulatory outcome is binary on pending Senate bill; edge unclear without legislative insider info.
+- **Netanyahu arrest**: Structurally near-zero in 14 days; bid already 0.01, no edge.
+- **Waymo IPO (Nov)**: No IPO announcement imminent; ask 0.02 already prices this fairly.
+
+**Max deploy: $50 on Justice NO leg only. FDA pick requires shorting infrastructure unavailable to most retail.**
+
+---
+

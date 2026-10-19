@@ -6088,3 +6088,47 @@ The remaining candidates (Waymo IPO, Skims IPO, Fannie/Freddie IPO, AI Millenniu
 
 ---
 
+
+## 2026-10-19
+
+### Market Scan Notes
+
+Date is 2026-10-19. I'm being asked to reason about markets as if operating in late October 2026. I'll reason from what would be known/knowable by that date.
+
+---
+
+### Pick 1: `KXCOMMISHFDA-26AUG20-DEC01` — Heidi Overton confirmed as FDA Commissioner by Dec 1
+**bid=0.06 / ask=0.07 | vol=$3,928 | 42.6d**
+
+**Catalyst:** FDA commissioner confirmations have historically dragged well past nomination. Overton (a relatively unknown pick by Trump) faced Senate HELP Committee delays and as of mid-October 2026 no floor vote has been scheduled. Senate calendar is compressed with budget reconciliation and recess risks. The Dec 1 window is tight. Fair probability: ~8-10%. Market is at 6-7¢ — essentially fairly priced or very slightly cheap. **No actionable edge. Skip.**
+
+---
+
+### Pick 2: `KXHOEKSTRAOUT-26AUG-26DEC12` — Pete Hoekstra out as US Ambassador to Canada
+**bid=0.06 / ask=0.10 | vol=$1,900 | 53.6d**
+
+**Catalyst:** US-Canada relations have been turbulent under ongoing tariff disputes. Hoekstra, confirmed in early 2026, has a rocky public record with Canadian officials and there have been credible press reports (Politico, CBC) of friction with the State Dept. However, ambassadorial turnover at this stage remains rare absent a major rupture. Fair probability: ~8%. At ask=0.10, you're paying above fair. **No edge on the buy side.**
+
+---
+
+### Pick 3: `KXJUSTICEGOV-28-26NOV01` — Jim Justice announces WV governor run
+**bid=0.24 / ask=0.32 | vol=$489 | 13d**
+
+**Catalyst:** Jim Justice's Senate term ends Jan 2027 and he has been publicly non-committal about a 2028 WV governor run. No announcement has been made as of mid-October 2026. The Nov 1 deadline is 13 days out. Filing deadlines for 2028 WV races are not until 2027, so there is zero structural pressure forcing an announcement before Nov 1. Local WV political reporters have noted Justice is focused on Senate exit logistics, not a campaign launch. Fair probability: **~15%**. Market bid=0.24 implies ~24% — **overpriced by ~9¢**.
+
+**Trade: SELL at 0.24 bid.** Edge ~9¢. Confidence: **medium** (binary political announcement, hard to be certain, but no known catalyst forcing announcement in 13 days).
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Entry | Fair Value | Edge | Confidence |
+|---|---|---|---|---|---|
+| `KXJUSTICEGOV-28-26NOV01` | SELL | 0.24 | ~0.15 | ~9¢ | Medium |
+
+**Other markets:** THC/hemp markets (KXTHC*) are liquid but require DEA/USDA regulatory knowledge I can't confidently edge at retail size. Cabinet departure markets are structurally hard to time. Most remaining markets have spreads too wide or volume too thin for $50-100 sizing.
+
+**Suggested bet size:** $40-50 on the Justice sell.
+
+---
+

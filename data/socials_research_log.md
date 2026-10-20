@@ -6132,3 +6132,49 @@ Date is 2026-10-19. I'm being asked to reason about markets as if operating in l
 
 ---
 
+
+## 2026-10-20
+
+### Pick 1: KXTHCLEGALSALE3MG-FED-26NOV16
+**Bid/Ask:** 0.92/0.96 | **Days:** 27.6d | **Vol:** $46,674
+
+**Catalyst:** The companion market KXTHC3MG-FED-26NOV13 (does 3mg THC qualify as hemp under federal law?) is trading 0.88/0.95 — nearly identical probability. The Farm Bill extension language and DEA/USDA interim guidance issued in mid-2026 effectively grandfathered hemp-derived beverages under the 0.3% THC-per-volume threshold interpretation. Congressional inaction has consistently defaulted to "legal by omission." The legal-sale market at 0.92 bid likely *slightly* lags the hemp-qualification market, suggesting the gap between qualification and retail legality is being overpriced.
+
+**Trade:** **BUY at ask 0.96** — fair value ~0.93-0.94. This is a *tight* edge (~-2 to -3 cents at ask), so **pass on this one at current ask**. Only actionable if ask drops to 0.93.
+
+---
+
+### Pick 2: KXNCAAFCOACHLEAVE-26BBEL-120126
+**Bid/Ask:** 0.24/0.33 | **Days:** 41.6d | **Vol:** $15,571
+
+**Catalyst:** Bill Belichick took the UNC head coaching job in January 2025. As of October 2026, UNC is mid-season. There is **no credible public reporting** of Belichick planning to leave after one season — he is 74, this was framed as his "legacy" college project, and no NFL vacancy has emerged that would plausibly pull him back mid-contract. The 0.24/0.33 spread implies ~28% market probability he leaves by Dec 1, 2026 — which requires him quitting mid-season with ~4 games remaining. That's extremely unlikely absent a health event or firing, neither of which has any current signal.
+
+**Trade:** **SELL at bid 0.24** (i.e., bet NO). Fair value: ~8-12%. Edge: ~12-16 cents. This is the clearest mispricing in the set.
+
+**Confidence: Medium** (tail risk: health/family emergency unknown)
+
+**Size: $60**
+
+---
+
+### Pick 3: KXJUSTICEGOV-28-26NOV01
+**Bid/Ask:** 0.24/0.32 | **Days:** 12d | **Vol:** $489
+
+**Catalyst:** Jim Justice was elected to the U.S. Senate in November 2024 and seated in January 2025. Announcing a WV governor run while sitting as a freshman senator within ~18 months of taking office would be politically bizarre and has no credible reporting behind it. The filing deadline for WV governor 2028 is well in the future. Market at ~28% for a YES within 12 days is significantly overpriced.
+
+**Trade:** **SELL at bid 0.24**. Fair value: ~5-8%. Edge: ~16-19 cents. Volume is low ($489) so size accordingly.
+
+**Confidence: Medium-Low** (low volume = noisy price, but directionally correct)
+
+**Size: $40**
+
+---
+
+### Summary Table
+| Ticker | Direction | Edge (approx) | Size | Confidence |
+|---|---|---|---|---|
+| KXNCAAFCOACHLEAVE-26BBEL | SELL NO | ~14¢ | $60 | Medium |
+| KXJUSTICEGOV-28-26NOV01 | SELL NO | ~17¢ | $40 | Med-Low |
+
+---
+

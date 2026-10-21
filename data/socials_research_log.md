@@ -6178,3 +6178,55 @@ Date is 2026-10-19. I'm being asked to reason about markets as if operating in l
 
 ---
 
+
+## 2026-10-21
+
+### Market Scan Notes
+
+Date context: October 21, 2026. Reviewing catalyst-driven non-weather, non-sports-game markets.
+
+---
+
+### Pick 1: `KXTHCLEGALSALE3MG-FED-26NOV16` — 3mg THC beverages federally legal to sell by Nov 16
+**Bid/Ask: 0.93 / 0.99 | Days: 26.6**
+
+**Pass.** Priced at ~96¢ mid — essentially fully priced. Even if the catalyst is real (Farm Bill successor / USDA hemp rule), there's no edge buying at 93+ with capped upside of 7¢ and real binary downside if regulatory action stalls. Skip.
+
+---
+
+### Pick 2: `KXCABLEAVE-26MAY22-26NOV` — Trump Cabinet member leaves by Nov 1
+**Bid/Ask: 0.10 / 0.11 | Days: 11.6 | Vol: $3,464**
+
+**Catalyst:** As of October 2026, the Trump second-term cabinet has been notably stable compared to first term. No credible resignation/firing reports are circulating. With only ~11 days to resolution and bid at 10¢, the market is asking: does someone leave in the next 11 days? Without a named target or active reporting, this feels fairly priced or even slightly rich at 10¢.
+
+**Fair value estimate:** ~7-8¢. Marginal sell if available, but spread is tight (10/11) and Kalshi retail can't easily short small positions efficiently here.
+
+**Action: Skip** (can't short easily at retail scale; not enough edge on buy side).
+
+---
+
+### Pick 3: `KXJUSTICEGOV-28-26NOV01` — Jim Justice announces WV governor run by Nov 1
+**Bid/Ask: 0.24 / 0.32 | Days: 11.0 | Vol: $489**
+
+**Catalyst:** Jim Justice lost his U.S. Senate seat in November 2024 and his term as West Virginia governor ended January 2025. There have been murmurs about a political comeback but **no confirmed public announcement or campaign filing** as of late October 2026. The WV gubernatorial election would be 2028. Filing deadlines are not imminent. With 11 days to Nov 1 and no concrete news hook, the 28¢ mid seems elevated.
+
+**Fair value estimate:** ~12-15¢. The 8-16¢ edge on the sell side is real but selling on Kalshi retail is friction-heavy.
+
+**Action: BUY NO at ~0.68 (ask side implies NO at 68¢).** If you can sell YES or buy NO, this is the clearest mispricing. Mid-market YES fair value ~13¢ vs. 28¢ market mid. **~15¢ edge.**
+
+**Confidence: Medium.** Low volume ($489) means thin market but also easier to get filled. Risk: Justice makes a surprise announcement.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Edge Est. | Confidence |
+|---|---|---|---|
+| KXTHCLEGALSALE3MG-FED-26NOV16 | Skip | <3¢ | — |
+| KXCABLEAVE-26MAY22-26NOV | Skip | ~3¢ sell | Low |
+| KXJUSTICEGOV-28-26NOV01 | Buy NO (~$50) | ~15¢ | Medium |
+
+**Deploy ~$50 max on Justice NO.** Thin liquidity limits size; don't chase.
+
+---
+

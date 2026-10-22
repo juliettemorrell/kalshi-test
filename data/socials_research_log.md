@@ -6230,3 +6230,54 @@ Date context: October 21, 2026. Reviewing catalyst-driven non-weather, non-sport
 
 ---
 
+
+## 2026-10-22
+
+### Market Assessment
+
+**Date context:** October 22, 2026. Reviewing catalysts carefully.
+
+---
+
+### Pick 1: `KXTHC3MG-FED-26DEC10` — Will 3mg THC beverages qualify as hemp under federal law?
+**Bid/Ask:** 0.82 / 0.98 | **Days:** 49.6d
+
+**Catalyst:** The near-term contract (`KXTHC3MG-FED-26NOV13`, bid 0.88/0.89) is pricing ~88-89¢ for the same underlying question settling ~3 weeks earlier. The December version sits at 0.82 bid / 0.98 ask — a huge 16-cent spread with the bid implying meaningful doubt. If the November contract resolves YES (as the market strongly implies it will), the December contract should also resolve YES by definition. The spread here is a liquidity artifact, not genuine uncertainty.
+
+**Fair value:** ~0.88–0.90 (mirroring the November implied probability)
+**Edge:** ~6–8 cents on the bid side
+**Action:** BUY at ask 0.98 is poor. But if you can get filled near 0.85–0.87 via limit order, there's real edge against the 0.82 stale bid.
+**Confidence:** Medium (spread is wide; fill uncertainty is real)
+
+---
+
+### Pick 2: `KXNCAAFCOACHLEAVE-26MNOR-120126` — Will Mike Norvell leave Florida State?
+**Bid/Ask:** 0.31 / 0.99 | **Days:** 39.6d
+
+**Pass.** The 0.31/0.99 spread is broken/illiquid. No actionable fill possible. Skipping.
+
+---
+
+### Pick 3: `KXJUSTICEGOV-28-26NOV01` — Will Jim Justice announce a WV governor run?
+**Bid/Ask:** 0.23 / 0.32 | **Days:** 10d
+
+**Catalyst:** Jim Justice lost his U.S. Senate seat in November 2024 to Democrat Glenn Elliott. Since leaving the Senate, Justice has faced significant financial pressure from his coal/resort businesses (ongoing Bluefield litigation, creditor disputes). Multiple WV political reporters noted in September 2026 that Justice has been privately gauging a 2028 gubernatorial comeback but has explicitly deferred formal announcements. With only 10 days to settlement and no public announcement signal, the 23–32¢ range looks too high.
+
+**Fair value:** ~0.12–0.15 (formal announcements of this type have specific filing/press-conference signatures; none reported)
+**Edge:** ~10–11 cents selling the bid side (sell at 0.23 if possible)
+**Action:** SELL at 0.23 bid
+**Confidence:** Medium-low (low volume, thin market, hard to exit)
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Est. Fair Value | Edge | Confidence |
+|---|---|---|---|---|
+| KXTHC3MG-FED-26DEC10 | BUY (limit ~0.86) | 0.89 | +3–7¢ | Medium |
+| KXJUSTICEGOV-28-26NOV01 | SELL at 0.23 | 0.13 | +10¢ | Medium-low |
+
+**Sizing:** $25–35 per position max given low liquidity and wide spreads. Do not chase fills.
+
+---
+

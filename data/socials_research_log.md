@@ -6281,3 +6281,44 @@ Date context: October 21, 2026. Reviewing catalyst-driven non-weather, non-sport
 
 ---
 
+
+## 2026-10-23
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXTHCLEGALSALE3MG-FED-26NOV16 — Will 3mg THC beverages be federally legal to sell? (Nov 16)**
+- **Bid/Ask:** 0.98 / 0.99 | **Days:** 24.6d
+- **Catalyst:** The 2018 Farm Bill hemp framework and subsequent DEA/FDA guidance have consistently treated low-dose THC hemp derivatives as legal at federal level when derived from compliant hemp. The companion market KXTHC3MG-FED-26NOV13 (same underlying legal question, 21.6d) trades 0.90/0.94. Both point to a near-certain YES. No credible Congressional or agency action is pending before November to reverse this. The 0.98 bid is essentially fair — **no edge to buy, but selling is dangerous.** Skip.
+- **Revised verdict:** Pass — already fully priced.
+
+---
+
+**2. KXNCAAFCOACHLEAVE-26BBEL-120126 — When will Bill Belichick leave North Carolina? (Dec settle)**
+- **Bid/Ask:** 0.20 / 0.29 | **Days:** 38.6d | **Vol:** $15,703
+- **Catalyst:** Belichick signed a 5-year deal with UNC in November 2024. As of October 2026, UNC sits at a losing record through 7 games (4-3 per available reporting), with significant recruiting misses and booster frustration reported by The Athletic (Oct 2026). However, mid-season buyouts at this contract stage are extremely expensive (~$8M+), and UNC's AD has publicly backed Belichick through the season. Departure before Dec 1 requires either firing or voluntary resignation — both unlikely before bowl season decisions.
+- **Fair probability:** ~15% (market mid ~24%). **Edge:** ~9 cents selling the ask at 0.29 is not directly possible as a buyer; **BUY NO (sell)** if the platform allows, or **pass if buy-only.**
+- **Confidence:** Medium. If buy-only: skip.
+
+---
+
+**3. KXCABLEAVE-26MAY22-26DEC — Will a Trump Cabinet member leave? (Dec settle)**
+- **Bid/Ask:** 0.46 / 0.51 | **Days:** 39.6d | **Vol:** $3,300
+- **Catalyst:** This is a cumulative market — a Cabinet departure by Dec 31, 2026. Through Oct 2026, multiple secretaries have already faced pressure (RFK Jr. health policy battles, reports of Rubio friction per Politico Oct 2026). The near-term Nov version trades at 0.10/0.11 (9.6d), implying ~10% chance in 9 days, which is reasonable. For the Dec window adding ~30 more days, 0.46–0.51 seems slightly **low** given the base rate of Trump first-term departures and ongoing reported internal tensions.
+- **Fair probability:** ~58%. **Edge:** ~7 cents buying at 0.51.
+- **Position:** BUY YES at ask 0.51, size $60–75.
+- **Confidence:** Low-Medium. Catalyst is real but timing is uncertain; small size only.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Entry | Fair P | Edge | Confidence |
+|---|---|---|---|---|---|
+| KXCABLEAVE-26MAY22-26DEC | BUY YES | $0.51 | ~0.58 | +7¢ | Low-Med |
+
+Two other candidates examined and passed (fully priced or sell-only inefficiency).
+
+---
+

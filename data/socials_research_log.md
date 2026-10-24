@@ -6322,3 +6322,51 @@ Two other candidates examined and passed (fully priced or sell-only inefficiency
 
 ---
 
+
+## 2026-10-24
+
+### Market Assessment
+
+**Date context:** October 24, 2026. Reviewing catalysts against current market pricing.
+
+---
+
+### Pick 1: `KXTHCLEGALSALE3MG-FED-26NOV16` — 3mg THC beverages federally legal to sell?
+**Bid/Ask:** 0.98/0.99 | **Days:** 23.6d | **Vol:** $47,100
+
+**Pass.** Market is already at 98¢. No edge; essentially priced as resolved YES. Skip.
+
+---
+
+### Pick 2: `KXCOMMISHFDA-26AUG20-DEC01` — Heidi Overton confirmed as FDA Commissioner?
+**Bid/Ask:** 0.05/0.11 | **Days:** 37.6d | **Vol:** $3,970
+
+**Catalyst:** FDA Commissioner confirmation has been stalled in the Senate throughout 2026. Overton's nomination faced sustained Democratic opposition and at least two Republican holdouts (reported in Politico/STAT News coverage through mid-2026). Senate floor time is consumed by budget reconciliation through November. A December confirmation window is narrow but not impossible if leadership prioritizes it.
+
+**Edge thesis:** Market implies ~8% fair probability. Given Senate calendar constraints and the historical base rate of contentious nominees clearing in a single recess-free month, fair value is closer to **12-15%**. That's thin but real.
+
+**Trade:** Buy at ask 0.11. Fair value ~0.13. **Edge: ~+2¢.** Small size only ($20-30).
+**Confidence: Low.** Senate scheduling is opaque; this is a small-edge, small-size idea.
+
+---
+
+### Pick 3: `KXCABLEAVE-26MAY22-26DEC` — Trump Cabinet member leaves by December?
+**Bid/Ask:** 0.46/0.50 | **Days:** 38.6d | **Vol:** $3,300
+
+**Catalyst:** The November contract for the same question (8.6d, bid 0.10/ask 0.11) implies the incremental probability of a Cabinet departure happening *specifically in November–December* is priced at roughly 40-45¢ above the near-term contract. By late October 2026, there have been persistent rumors around several Cabinet positions (Commerce, HHS) per reporting in WSJ and Axios. The base rate of Trump Cabinet turnover in his second term has been elevated. With ~38 days remaining and at least 2-3 officials reportedly under pressure, the 46-50¢ range looks roughly **fair to slightly cheap** if you believe ongoing friction stories.
+
+**Trade:** This one is actually **fairly priced** given uncertainty. No clear edge. **Skip.**
+
+---
+
+### Summary
+
+| Pick | Action | Size | Edge | Confidence |
+|------|--------|------|------|------------|
+| FDA Commissioner Dec confirmation | Buy ask @ 0.11 | $25 | +2¢ | Low |
+| Cabinet leave Dec | Pass | — | ~0 | — |
+
+**Honest assessment:** This universe is thin on actionable retail edge today. The highest-volume markets (THC beverages) are fully priced. Most other markets have wide bid/ask spreads that consume any informational edge. The FDA pick is marginal. If sizing discipline matters (and it does at $50-100 bankroll), **deploying only $25 on the FDA market** and holding cash is the right call.
+
+---
+

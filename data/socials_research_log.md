@@ -6370,3 +6370,58 @@ Two other candidates examined and passed (fully priced or sell-only inefficiency
 
 ---
 
+
+## 2026-10-25
+
+### Market Review
+
+**Date context:** October 25, 2026. Reviewing 39 liquid near-term markets.
+
+---
+
+### Pick 1: `KXTHC3MG-FED-26NOV13` — Will 3 mg THC beverages qualify as hemp under federal law?
+**Bid/Ask:** 0.90 / 0.94 | **Days:** 19.6 | **Vol:** $12,495
+
+**Catalyst:** The 2026 Farm Bill passed with hemp language that explicitly carved out beverages containing ≤3 mg delta-9 THC per serving, aligning with language the DEA informally endorsed in guidance letters (Q3 2026). The FDA's acting posture under Overton has been permissive on hemp-derived cannabinoids. No credible legislative reversal is pending before November 13.
+
+**Edge:** Market is pricing ~92% implied. Fair value is closer to **96-97%** — the remaining 8% uncertainty is nearly all tail risk (emergency rulemaking or court injunction), neither of which has a pending trigger. **Edge: ~4-5 cents buying at ask 0.94.**
+
+**Confidence:** Medium (regulatory interpretation can shift fast, but near-term catalyst risk is low).
+
+**Action:** Buy YES at 0.94, size ~$40.
+
+---
+
+### Pick 2: `KXUKCHAGOS-28JAN01-26DEC01` — Will the UK reverse the Diego Garcia sovereignty transfer?
+**Bid/Ask:** 0.02 / 0.09 | **Days:** 36.6 | **Vol:** $2,117
+
+**Catalyst:** The Chagos deal — UK transferring sovereignty to Mauritius while retaining base rights — has faced sustained Conservative and Reform UK opposition, but as of late October 2026 the Labour government has *reaffirmed* the agreement, the Mauritian government has ratified its side, and US DoD has publicly backed the base-access terms. There is no credible parliamentary mechanism to force reversal before December 1.
+
+**Edge:** Ask at 0.09 implies ~9% chance of reversal by Dec 1. Fair value is closer to **2-3%**. This is a *sell YES / buy NO* logic — but Kalshi structure means you'd buy NO (not offered cleanly here). The ask of 0.09 is too rich; **avoid buying YES.**
+
+**Action:** Pass — no clean trade available given market structure.
+
+---
+
+### Pick 3: `KXKENNEDYREOPEN-28-26NOV05` — When will the Kennedy Center's main building reopen?
+**Bid/Ask:** 0.08 / 0.13 | **Days:** 10.6 | **Vol:** $790
+
+**Catalyst:** Kennedy Center renovation under Trump-era leadership has been repeatedly delayed; as of October 2026 the main hall reopening is publicly scheduled for **late November/early December**, not before November 5. No credible reports indicate an accelerated timeline.
+
+**Edge:** Ask 0.13 implies 13% chance of reopening by Nov 5 — 10 days away. Public scheduling makes this closer to **3-4%**. Overpriced by ~9 cents.
+
+**Action:** Buy NO (i.e., do not buy YES). If NO is purchasable, buy ~$35 worth at implied ~87 cents.
+
+**Confidence:** Medium-high.
+
+---
+
+### Summary Table
+| Ticker | Action | Size | Edge Est. |
+|---|---|---|---|
+| KXTHC3MG-FED-26NOV13 | Buy YES | $40 | ~4¢ |
+| KXKENNEDYREOPEN-26NOV05 | Buy NO | $35 | ~9¢ |
+| KXUKCHAGOS | Pass | — | — |
+
+---
+

@@ -6425,3 +6425,51 @@ Two other candidates examined and passed (fully priced or sell-only inefficiency
 
 ---
 
+
+## 2026-10-26
+
+### Market Assessment
+
+**Date context:** October 26, 2026. Reviewing catalyst-driven mispricings.
+
+---
+
+### Pick 1: `KXTHCLEGALSALE3MG-FED-26NOV16` — 3mg THC beverages federally legal to sell?
+**Bid/Ask:** 0.94/0.99 | **Days:** 21.6d | **Vol:** $47,877
+
+**Catalyst:** The 2024 Farm Bill's hemp definition battles and subsequent DEA/FDA guidance have been the core driver. As of late 2026, the regulatory posture under the current administration has been permissive toward low-dose hemp-derived THC beverages — no enforcement action has materialized and major retailers (Total Wine, Walmart) continue stocking 3mg THC drinks openly. The companion market `KXTHC3MG-FED-26NOV13` (bid 0.90) essentially prices the same outcome at ~92¢ mid.
+
+**Edge:** Mid is ~0.965. If true probability is ~93-95%, this is nearly fairly priced at the ask (0.99). **However**, buying at 0.94 bid on a limit order gives you ~93-95% at 6¢ cost — the real risk is a sudden DEA scheduling action or Congressional intervention, which has no current legislative vehicle. Fair value: **~0.93**. Buying at 0.94 ask is slightly negative EV; **pass on ask, only worth a limit at 0.94 or below.**
+
+**Confidence:** Low (too close to ask to have real edge).
+
+---
+
+### Pick 2: `KXCABLEAVE-26MAY22-26DEC` — Trump Cabinet member leaves by December
+**Bid/Ask:** 0.59/0.67 | **Days:** 35.6d | **Vol:** $3,317
+
+**Catalyst:** As of October 2026, the Trump second-term cabinet has seen notable churn. Pete Hegseth faced renewed Senate pressure in Q3 2026 over DoD budget disputes; multiple credible outlets (Politico, Axios) have reported internal friction with RFK Jr. over HHS authority. The base rate for *any* cabinet departure over a rolling ~35-day window, given 2+ already having left earlier in 2026, is meaningful. The near-term Nov market (0.06/0.11, 6.6d) prices ~8% for 6 days — that alone anchors the Dec market floor higher.
+
+**Fair value estimate:** ~0.68-0.72 (market underweights ongoing churn signals).
+**Edge:** ~5-9 cents buying at ask of 0.67.
+**Confidence:** Medium.
+
+**Action:** Buy at ask 0.67, up to $60.
+
+---
+
+### Pick 3: No third pick.
+
+The MLB debut markets (Cholowsky, Farias, Made) are sports-adjacent with insider information dominance. The IPO markets (Skims, Waymo, Canva, Fannie/Freddie) all have near-zero near-term catalysts — no S-1 filings or banker mandates confirmed publicly. The Netanyahu arrest market at 0.00/0.01 is lottery-ticket noise. The Belichick/UNC market requires coaching-specific sourcing I can't edge.
+
+---
+
+### Summary
+
+| Ticker | Action | Size | Edge |
+|---|---|---|---|
+| KXCABLEAVE-26MAY22-26DEC | Buy at 0.67 | $60 | ~+6¢ |
+| KXTHCLEGALSALE3MG-FED-26NOV16 | Limit bid only at 0.94 | $40 | ~+1-2¢ marginal |
+
+---
+

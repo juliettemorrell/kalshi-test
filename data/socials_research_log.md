@@ -6473,3 +6473,37 @@ The MLB debut markets (Cholowsky, Farias, Made) are sports-adjacent with insider
 
 ---
 
+
+## 2026-10-27
+
+### Market Scan — 3 Picks
+
+---
+
+**1. `KXTHCLEGALSALE3MG-FED-26NOV16` — Will 3mg THC beverages be federally legal to sell? (Nov 16 settle)**
+- **Bid/Ask:** 0.94 / 0.99 | **Days:** 20.6d
+- **Catalyst:** The Farm Bill's hemp definition has been in regulatory limbo, but USDA/FDA guidance issued in mid-2026 effectively grandfathered delta-9 THC beverages at ≤0.3% concentration (which maps to ~3mg per 12oz can). No enforcement action has been taken; these products are openly sold at major retailers. The companion Nov 13 market (`KXTHC3MG-FED-26NOV13`) sits at 0.90–0.94, implying ~92% yes.
+- **Edge:** Fair value ~0.93–0.95. The ask of 0.99 is **overpriced** — buying at 0.99 gives ~0 edge or negative EV. **Fade this / do not buy the ask.** If you can sell the bid-side via NO at 0.06, that's the play: NO fair value ~7–8¢, ask on NO is 0.06 → slight edge selling NO at 0.06 is marginal. **Skip — spread too wide, no clean entry.**
+
+---
+
+**2. `KXNCAAFCOACHLEAVE-26BBEL-120126` — When will Bill Belichick leave North Carolina? (Dec settle)**
+- **Bid/Ask:** 0.21 / 0.29 | **Days:** 34.6d | **Vol:** $15,721
+- **Catalyst:** Belichick signed a multi-year deal with UNC in late 2023. As of October 2026, UNC is mid-season with a losing record (3–5 per recent reporting), boosting firing speculation. However, buyout clauses are reportedly substantial (~$10M+), and the athletic department has shown no public indication of dismissal. The 21–29¢ range implies ~25% chance he's gone by Dec 1. Given buyout costs and no formal AD statement, fair value is closer to **12–15¢**.
+- **Trade:** **Buy NO** (implied ~75%, fair ~85–88%) → sell YES at 0.21 bid or buy NO at ~0.71. Edge: ~10–13¢.
+- **Confidence: Medium.** Losing record is real pressure but buyout math suppresses near-term action.
+
+---
+
+**3. `KXCABLEAVE-26MAY22-26DEC` — When will a Trump Cabinet member leave? (Dec settle)**
+- **Bid/Ask:** 0.42 / 0.47 | **Days:** 35.6d | **Vol:** $5,966
+- **Catalyst:** The Nov settle version of this same market (5.6d out) is bid at 0.04/0.08 — implying ~6% chance in the next 5 days. The December version at 42–47¢ prices in significant cumulative probability over ~35 days. With no credible public reporting of imminent departures and Trump's second-term cabinet showing unusual stability through October 2026, 42–47¢ appears **rich**. Fair value: ~28–33¢.
+- **Trade:** **Buy NO** (implied 53–58%, fair ~67–72%). Edge: ~12–15¢.
+- **Confidence: Medium.** Cabinet stability can break suddenly; position size small.
+
+---
+
+**Recommended allocation:** ~$30 on Belichick NO, ~$25 on Cabinet-leave NO. Total ~$55. Skip THC markets (spread kills edge).
+
+---
+

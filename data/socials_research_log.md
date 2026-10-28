@@ -6507,3 +6507,53 @@ The MLB debut markets (Cholowsky, Farias, Made) are sports-adjacent with insider
 
 ---
 
+
+## 2026-10-28
+
+### Market Assessment
+
+**Date context:** October 28, 2026. Reviewing catalysts against current bid/ask spreads.
+
+---
+
+### Pick 1: `KXTHC3MG-FED-26NOV13` — Will 3 mg THC beverages qualify as hemp under federal law?
+**Bid/Ask: 0.90 / 0.94 | 16.6d | Vol: $12,495**
+
+**Catalyst:** The Farm Bill extension debate has repeatedly punted on THC beverage classification, but the DEA's hemp rule finalization (delayed multiple times through 2025-2026) has consistently leaned toward the 0.3% delta-9 THC *per serving* interpretation that would include 3mg beverages. Industry lobbying (Cannabis Beverage Association) has been effective, and no active legislative move to explicitly exclude 3mg beverages is on the floor before November 13. The regulatory status quo favors YES.
+
+**Edge:** Bid of 0.90 is reasonable; fair value ~0.92-0.93. Thin edge (~2-3¢) but very high confidence on direction. The ask of 0.94 is slightly rich — **buy the NO side is not compelling; this is a hold/pass on new entry unless you can sell at 0.93+.**
+
+*Revised: **No trade** — spread too tight for retail edge.*
+
+---
+
+### Pick 2: `KXCOMMISHFDA-26AUG20-DEC01` — Will Heidi Overton be confirmed as FDA Commissioner?
+**Bid/Ask: 0.03 / 0.08 | 33.6d | Vol: $4,002**
+
+**Catalyst:** Heidi Overton was nominated as FDA Commissioner in 2026. As of late October, Senate HELP Committee has not scheduled a confirmation vote. The Senate calendar through December is crowded with appropriations and other nominees. Historical confirmation timelines for FDA commissioners under contested nominations average 6-9 months. Overton's unconventional background has drawn committee skepticism. **Fair value: ~5-8%** for confirmation by December 1. The ask at 0.08 is roughly fair; bid at 0.03 is slightly low.
+
+**Edge:** Marginal. No strong mispricing detected. **Skip.**
+
+---
+
+### Pick 3: `KXUKCHAGOS-28JAN01-26DEC01` — Will the UK reverse the Diego Garcia sovereignty transfer?
+**Bid/Ask: 0.02 / 0.09 | 33.6d | Vol: $2,117**
+
+**Catalyst:** The Chagos deal has been under sustained political pressure from the Conservatives and Reform UK throughout 2026. However, the Starmer government has shown no signal of reversal — they view the US base security guarantee as the core justification. No parliamentary vote forcing reversal is scheduled. The 0.02 bid looks like fair value; the 0.09 ask is overpriced relative to ~3-4% true probability.
+
+**Trade: Sell YES (or buy NO) if the market structure allows it. Fair value ≈ 3¢. Ask is at 9¢ — meaningful overpricing.**
+- **Edge: ~5-6¢ | Confidence: Medium**
+- **Size: $50 at NO**
+
+---
+
+### Summary Table
+
+| Pick | Direction | Edge | Confidence | Size |
+|------|-----------|------|------------|------|
+| KXUKCHAGOS-26DEC01 | Buy NO | ~5¢ | Medium | $50 |
+
+Only one actionable trade. Other markets either have spreads too tight for retail or insufficient catalyst clarity.
+
+---
+

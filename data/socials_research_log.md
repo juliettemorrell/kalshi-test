@@ -6557,3 +6557,50 @@ Only one actionable trade. Other markets either have spreads too tight for retai
 
 ---
 
+
+## 2026-10-29
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXTHCLEGALSALE3MG-FED-26NOV16 / KXTHC3MG-FED-26NOV13**
+*Will 3mg THC beverages be federally legal to sell / qualify as hemp?*
+- **Bid/Ask:** 0.92/0.97 (Nov 13 version: 0.92/0.96)
+- **Catalyst:** The 2018 Farm Bill hemp definition (≤0.3% delta-9 THC by dry weight) has been consistently interpreted to cover compliant 3mg beverages. Congress has not passed any restricting legislation as of this date, and the DEA/USDA have not issued final rules reclassifying these products. The legal status quo strongly favors YES. No credible near-term federal crackdown catalyst exists in the next 2–3 weeks.
+- **Fair probability:** ~0.95
+- **Edge:** Bid side at 0.92 offers ~3 cents edge vs. fair. Thin but real. The ask at 0.97 is overpriced to buy, but **selling NO (buying YES at 0.92 bid) is the play** if the platform allows limit orders near 0.93–0.94.
+- **Confidence:** Medium (regulatory surprise is the tail risk; small size appropriate)
+
+---
+
+**2. KXCABLEAVE-26MAY22-26DEC**
+*When will a member of Trump's Cabinet leave? (Dec settlement)*
+- **Bid/Ask:** 0.49/0.57
+- **Catalyst:** By late October 2026, there have already been multiple Cabinet-level departures in Trump's second term (historically, turnover has been high). The Nov settlement version is nearly expired at 0.03/0.06 (implying near-zero probability for the next 3 days), but the Dec version at 0.49/0.57 prices a ~50% chance of *another* departure by December. Given the historically elevated Trump Cabinet churn rate and ongoing political turbulence, fair value is likely closer to 0.65+. Buying at ask 0.57 offers ~8 cents edge.
+- **Fair probability:** ~0.65
+- **Edge:** ~8 cents at ask
+- **Confidence:** Medium
+
+---
+
+**3. KXCOMMISHFDA-26AUG20-DEC01**
+*When will Heidi Overton be confirmed as FDA Commissioner?*
+- **Bid/Ask:** 0.04/0.07
+- **Catalyst:** Heidi Overton's nomination has faced documented Senate opposition from both parties over her unconventional views. Senate floor time is compressed with the legislative calendar. At 4–7 cents, the market prices ~5% chance of confirmation by Dec 1. Given recess schedules and the contested nomination history, fair value is closer to 3–4 cents — meaning the **NO side (don't buy YES)** is correct and this market is fairly priced to slightly overpriced on YES. **Pass on buying YES.**
+
+> Revising: No actionable buy on this one.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Edge |
+|---|---|---|---|
+| KXTHCLEGALSALE3MG-FED-26NOV16 | Buy YES ~0.93 limit | $30 | ~3¢ |
+| KXCABLEAVE-26MAY22-26DEC | Buy YES at ask 0.57 | $40 | ~8¢ |
+
+Total deployed: ~$70. No sports markets touched.
+
+---
+

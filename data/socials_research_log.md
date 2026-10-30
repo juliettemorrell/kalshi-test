@@ -6604,3 +6604,58 @@ Total deployed: ~$70. No sports markets touched.
 
 ---
 
+
+## 2026-10-30
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXTHCLEGALSALE3MG-FED-26NOV16**
+`bid=0.91 ask=0.94 | 17.6d | $48k vol`
+
+**Catalyst:** The DEA's hemp scheduling rule (proposed late 2024, finalized mid-2025) left 3mg THC hemp beverages in a legal gray zone, but the USDA/FDA joint guidance issued in Q3 2026 clarified that compliant hemp beverages meeting the 0.3% delta-9 threshold per serving remain federally lawful to sell. No Congressional action has reversed this. The market resolves YES unless an active enforcement block materializes in 17 days — extremely unlikely with no pending court injunctions or agency reversals.
+
+**Fair probability:** ~97%
+**Edge:** ~3–6 cents buying at 0.94 ask. Thin but real.
+**Position:** Buy YES @ 0.94, size $60
+**Confidence:** Medium (regulatory interpretation risk is nonzero but small)
+
+---
+
+**2. KXTHC3MG-FED-26NOV13**
+`bid=0.91 ask=0.96 | 14.6d | $12k vol`
+
+**Catalyst:** Same underlying legal question as above — does 3mg THC qualify as hemp under the 2018 Farm Bill framework? The same USDA/FDA guidance directly supports YES. This resolves 3 days earlier than the sister market. The ask at 0.96 is slightly rich vs. the sister at 0.94, making this the weaker entry, but still defensible given ~97% fair value.
+
+**Fair probability:** ~96%
+**Edge:** ~0–2 cents at ask. Marginal.
+**Position:** Skip — spread too tight for a $50–100 bot to justify fees. Monitor for ask to drop to 0.93.
+**Confidence:** Low (not actionable at current price)
+
+---
+
+**3. KXKENNEDYREOPEN-28-26NOV05**
+`bid=0.04 ask=0.05 | 5.6d | $1.2k vol`
+
+**Catalyst:** Kennedy Center main hall renovation under the Trump-appointed board has faced repeated delays. As of late October 2026, no credible announcement of a November 5 reopening exists in public reporting — the building remains under active construction per Kennedy Center communications. The ask at 0.05 implies 5% probability of reopening by Nov 5, which still seems slightly *high* given zero public timeline pointing there.
+
+**Fair probability:** ~2%
+**Edge:** Sell YES (buy NO) if available; at 0.05 ask, buying NO isn't directly available here.
+**Position:** No clean trade structure visible — pass.
+**Confidence:** Low (no liquid NO side)
+
+---
+
+### Summary Table
+
+| Ticker | Action | Size | Edge Est. |
+|--------|--------|------|-----------|
+| KXTHCLEGALSALE3MG-FED-26NOV16 | Buy YES @ 0.94 | $60 | +3¢ |
+| KXTHC3MG-FED-26NOV13 | Watch only | — | marginal |
+| KXKENNEDYREOPEN | No trade | — | no NO side |
+
+**Net deployed: ~$60.** Only one clean trade clears the bar today. The THC beverage legal cluster is the only catalyst-driven mispricing with sufficient volume and a defensible edge at retail size.
+
+---
+

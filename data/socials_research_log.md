@@ -6659,3 +6659,27 @@ Total deployed: ~$70. No sports markets touched.
 
 ---
 
+
+## 2026-10-31
+
+**No actionable picks today.**
+
+### Reasoning by market:
+
+**Roch Cholowsky MLB Debut (KXMLBDEBUT-RCHOLOWSKY-26NOV01)** — Settles in ~0.6 days, ask at $0.06. Cholowsky is a top Cubs prospect. No credible reporting as of late October 2026 indicates an imminent call-up for a November 1 debut — MLB rosters are locked post-season. The near-zero bid reflects reality. No edge; the ask is likely a stale/erroneous quote on an effectively dead market.
+
+**Bill Belichick leaving UNC (KXNCAAFCOACHLEAVE-26BBEL-120126)** — Bid/ask spread is wide (0.22/0.32), suggesting genuine uncertainty. Belichick's first season at UNC has been rocky by most accounts, but no confirmed buyout talks, resignation rumors, or program-threatening event has surfaced as a specific catalyst before December 2026. The wide spread reflects illiquidity, not a knowable edge for retail. **Pass** — can't construct a firm probability without a concrete news hook.
+
+**Las Vegas NBA Expansion (KXNBACITYEXPAND-01JAN30-01NOV26)** — Settles tomorrow at a 2/3 cent market. NBA expansion to Las Vegas has been discussed, but no formal vote or BOG approval is expected by November 1, 2026. The 2–3 cent pricing is approximately correct. No edge.
+
+**Dabo Swinney leaving Clemson (KXNCAAFCOACHLEAVE-26DSWI-120126)** — The 7¢/66¢ spread is enormous and immediately suspicious. A 59-cent spread almost always means this is a multi-outcome contract where only one specific timing bucket (e.g., "before Dec 1") is being asked about, and the ask is a placeholder. Clemson's 2026 season performance would be the catalyst — no confirmed reports of Swinney firing or resignation circulating. **Pass** — spread structure suggests a trap, not an opportunity.
+
+**Mike Norvell leaving Florida St. (KXNCAAFCOACHLEAVE-26MNOR-120126)** — Bid 0.30/ask 0.34, tightest spread in the set. FSU's 2025 season was disappointing and buyout rumors have circulated. However, the December 2026 settlement window is 30+ days out, and absent a specific firing announcement or bowl-season collapse catalyst *right now*, 30–32¢ appears to fairly price ongoing uncertainty. No asymmetric edge identifiable today.
+
+### Bottom line:
+All five markets are sports-category. The two with tradeable spreads (Belichick, Norvell) lack a specific near-term catalyst that would create clear mispricing today. The Dabo market's spread is structurally suspicious. For a $50–100 bot, deploying capital here without a firm news hook risks losing to better-informed sports bettors or to contract-structure confusion.
+
+**Recommendation: Hold cash, revisit if a coaching firing or concrete roster news breaks.**
+
+---
+

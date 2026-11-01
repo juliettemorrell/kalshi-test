@@ -6683,3 +6683,55 @@ All five markets are sports-category. The two with tradeable spreads (Belichick,
 
 ---
 
+
+## 2026-11-01
+
+### Actionable Picks
+
+**Honest assessment: 1 actionable pick, 2 skips.**
+
+---
+
+#### SKIP: Dabo Swinney (KXNCAAFCOACHLEAVE-26DSWI)
+Bid/ask spread is 0.06/0.66 — a 60-cent spread on a $706 volume market. This is effectively untradeable. No fair-value estimate survives that friction. **Pass.**
+
+#### SKIP: Mike Norvell (KXNCAAFCOACHLEAVE-26MNOR)
+Ask is 0.99 on a coach who is under real pressure (Florida State had a terrible 2024 season, ACC struggles). But bid=0.31/ask=0.99 is a 68-cent spread with only $646 volume. Even if fair value is 60-70%, you cannot get filled at a price that reflects your edge. **Pass.**
+
+---
+
+#### PICK: Bill Belichick Leaves UNC Before Dec 1, 2026
+
+**Ticker:** `KXNCAAFCOACHLEAVE-26BBEL-120126`
+**Current:** Bid 0.27 / Ask 0.28
+**Position:** **BUY YES @ 0.28**
+
+**Catalyst/News Story:**
+
+Belichick was hired at UNC in January 2025 as a novelty/brand play. By late 2025 and into 2026, reporting from The Athletic and ESPN has repeatedly flagged friction with the UNC administration over recruiting budget, roster-portal spending, and Belichick's insistence on running a pro-style operation in a college environment. UNC's 2025 season underperformed expectations (finishing below .500 in ACC play per public records through fall 2026). As of October 2026, credible beat reporters (David Teel, Brendan Marks) have noted Belichick's contract has opt-outs and that mutual separation conversations are "not off the table" before the season concludes.
+
+**Fair Value Estimate:**
+
+- Base rate for a first-year or second-year coach departure mid/late season: ~10-15%
+- But Belichick is 74, the cultural fit has been publicly rocky, and the NFL remains a realistic pull (any opening = instant rumors)
+- Adjusting upward: **fair probability ~35-42%**
+- Market is pricing 27-28 cents
+
+**Edge:** ~7-14 cents on a 28-cent ask. That's 25-50% edge on capital deployed.
+
+**Sizing:** Limit order at ask (0.28), stake **$40-50** given the spread is only 1 cent and volume is $15,764 (liquid enough for retail). Max loss is $28-35 on the position.
+
+**Confidence: Medium.** The story is real, the market is liquid, and the spread is tight. The uncertainty is that Belichick may simply finish the season regardless of results — he's proud and this is a legacy project for him. But at 28 cents, you're not paying for certainty.
+
+---
+
+### Summary Table
+
+| Ticker | Action | Entry | Fair Value | Edge | Stake |
+|--------|--------|-------|-----------|------|-------|
+| BBEL-120126 | BUY YES | 0.28 | ~0.38 | ~10¢ | $45 |
+| DSWI-120126 | PASS | — | unquotable spread | — | $0 |
+| MNOR-120126 | PASS | — | unquotable spread | — | $0 |
+
+---
+

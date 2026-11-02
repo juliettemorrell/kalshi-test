@@ -6735,3 +6735,42 @@ Belichick was hired at UNC in January 2025 as a novelty/brand play. By late 2025
 
 ---
 
+
+## 2026-11-02
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+---
+
+**Pick 1: KXTAIWANLVL4-27JAN01 — US Level 4 Travel Advisory for Taiwan**
+- **Bid/Ask:** 1.1¢ / 3.7¢ | **Fair estimate:** ~2¢
+- **Catalyst:** No credible near-term trigger. Cross-strait tensions remain elevated but static; the US has not issued Level 4 advisories for Taiwan historically even during peak PLA exercises (August 2022 Pelosi visit). The State Department's current advisory sits at Level 2. The 3.7¢ ask is already thin, but the bid at 1.1¢ suggests the market is fairly skeptical. No breaking news as of today points toward imminent escalation sufficient for a Level 4 designation.
+- **Edge:** Slight — **sell/fade at ask** if you can get filled near 2.5–3¢. Fair value ~2¢. Edge ~1–1.5¢ on the short side, but Kalshi's no-short mechanic for retail makes this hard to execute.
+- **Action:** Skip — retail can't short easily. Pass.
+
+---
+
+**Pick 2: KXFDAAPPROVE-MDMA-27JAN01 — FDA Approve MDMA for PTSD?**
+- **Bid/Ask:** 6¢ / 13¢ | **Fair estimate:** ~5–6¢
+- **Catalyst:** FDA issued a Complete Response Letter (CRL) to Lykos Therapeutics in August 2024, rejecting MDMA-assisted therapy and requiring an additional Phase 3 trial. A new trial cannot realistically complete, be reviewed, and receive approval by January 2027 — that timeline is ~2.5 years minimum from a standing start. No advisory committee has been re-convened. The ask at 13¢ is roughly double fair value.
+- **Edge:** ~7¢ if you could short; but again, retail long-only. **Do not buy at 13¢.** Fair value is sub-6¢.
+- **Action:** Skip — overpriced but no long opportunity. Pass.
+
+---
+
+**Pick 3: KXCHINAEUV-30-27JAN01 — Will China Obtain an EUV Machine?**
+- **Bid/Ask:** 4¢ / 12¢ | **Fair estimate:** ~4–5¢
+- **Catalyst:** ASML export controls were tightened further in 2024–2025 by Dutch/US coordination. China's domestic EUV program (SMEE) remains years behind; no credible report suggests an imminent breakthrough or smuggling success at the machine level. The 12¢ ask prices in too much optionality for a 59-day window. Fair value is near the bid.
+- **Edge:** ~7–8¢ short edge, but unlongable at current ask.
+- **Action:** Skip — same short-side-only problem.
+
+---
+
+### Verdict: **No actionable long buys today.**
+
+All three interesting markets are **overpriced on the ask** with fair value near or below the bid — ideal short targets, but Kalshi retail accounts are long-only by default. The sports markets are excluded per brief. The entertainment/parlay markets (IShowSpeed, Prison Break) have spreads too wide (bid 3¢ / ask 77¢) to be anything but noise.
+
+**Recommendation: Hold cash. Do not deploy $50–100 into any of these at current ask prices.**
+
+---
+

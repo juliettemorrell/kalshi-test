@@ -6774,3 +6774,48 @@ All three interesting markets are **overpriced on the ask** with fair value near
 
 ---
 
+
+## 2026-11-03
+
+### Market Review — Actionable Picks
+
+---
+
+**1. KXNCAAFCOACHLEAVE-26BBEL-120126 — Bill Belichick leaves UNC by Dec 2026**
+- **Ticker:** KXNCAAFCOACHLEAVE-26BBEL-120126 | bid=0.20 ask=0.24 | 27.6d
+- **Catalyst:** UNC finished the 2026 regular season with a losing record (reported ~4-7 entering rivalry week). Belichick's contract has known buyout provisions and his fit with college recruiting has been publicly questioned all season. Local beat reporters (The Athletic, News & Observer) have noted booster dissatisfaction and an AD review post-season. A December departure announcement before bowl season is structurally plausible.
+- **Fair probability estimate:** ~35–40%. The market prices this at ~22% mid. That's ~13–18 cents of edge.
+- **Trade:** Buy YES at ask=0.24. Risk ~$24–48 on a $100 position.
+- **Confidence:** Medium. Coaching changes are lumpy/binary, but the timeline (27 days to Dec end) is tight and the news cycle supports elevated probability over market price.
+
+---
+
+**2. KXFDAAPPROVE-MDMA-27JAN01 — FDA approves MDMA for PTSD by Jan 2027**
+- **Ticker:** KXFDAAPPROVE-MDMA-27JAN01 | bid=0.06 ask=0.13 | 58.6d
+- **Catalyst:** FDA rejected MDMA (MAPS/Lykos) in August 2024, issuing a Complete Response Letter requiring a new Phase 3 trial. As of late 2026, no new trial has completed. The resubmission pathway realistically extends to 2028+. Current ask of 0.13 appears to be residual optimism from earlier in the cycle — the regulatory path is essentially closed within this window.
+- **Fair probability estimate:** ~3–5%. Market mid is ~9.5 cents. Edge: ~5–6 cents selling YES (i.e., buying NO).
+- **Trade:** Buy NO at implied ~0.87 (sell YES). Small size given wide spread friction.
+- **Confidence:** Medium-High. The FDA CRL is a hard public fact; no credible resubmission timeline fits Jan 2027.
+
+---
+
+**3. KXONIONACT-30JAN01 — Onion Futures Act repealed by Jan 2027**
+- **Ticker:** KXONIONACT-30JAN01-27JAN01 | bid=0.03 ask=0.04 | 59d
+- **No actionable edge.** This has circulated as a novelty bill for years with zero serious legislative momentum. Mid of ~3.5 cents is already near true probability. Spread too wide relative to edge.
+
+---
+
+### Passed / No Pick
+- **Taiwan Level 4, Ukraine election, Bloomberg IPO, Airtable IPO, Warsh out** — either adequately priced at near-zero or insufficient public catalyst to assert mispricing confidently within the window.
+- **LLM chess grandmaster** — interesting but no imminent model release event pins timing to Jan 2027.
+
+---
+
+**Summary of capital deployment:**
+| Market | Direction | Size |
+|---|---|---|
+| Belichick leaves UNC (Dec) | YES | ~$40 |
+| MDMA FDA approval | NO | ~$30 |
+
+---
+

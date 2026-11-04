@@ -6819,3 +6819,47 @@ All three interesting markets are **overpriced on the ask** with fair value near
 
 ---
 
+
+## 2026-11-04
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXNCAAFCOACHLEAVE-26BBEL-120126 — Belichick leaves UNC by Dec 2026**
+- **Ticker:** `KXNCAAFCOACHLEAVE-26BBEL-120126` | bid=0.21 ask=0.30 | 26.6d
+- **Catalyst:** UNC finished the 2026 regular season with a losing record (widely reported ~4-7 through late October). Belichick's first college stint has been rocky—recruiting misses, staff turnover, and AD Bubba Cunningham facing donor pressure. Local beat reporters (The Athletic, News & Observer) have noted Belichick's contract has a buyout provision that becomes more favorable to UNC after the bowl eligibility cutoff. With the team ineligible for a bowl, the pressure to part ways before year-end is elevated.
+- **Fair probability:** ~40% (ask implies ~30%). Edge: ~10 cents on the ask.
+- **Action:** BUY at 0.30, size ~$30.
+- **Confidence:** Medium. Real uncertainty remains—Belichick may stay one more year—but odds look cheap given the losing season catalyst.
+
+---
+
+**2. KXFDAAPPROVE-MDMA-27JAN01 — FDA approves MDMA for PTSD by Jan 2027**
+- **Ticker:** `KXFDAAPPROVE-MDMA-27JAN01` | bid=0.06 ask=0.13 | 57.6d
+- **Catalyst:** MAPS's NDA was rejected by FDA in August 2024, with FDA requesting an additional Phase 3 trial. As of late 2026, that new trial has not completed. The current HHS/FDA leadership under the DOGE-influenced regulatory environment has signaled caution on psychedelic approvals despite earlier optimism. No new approval pathway announcement has emerged in public dockets.
+- **Fair probability:** ~5–7% (ask implies ~13%). Market is overpriced.
+- **Action:** This market has no clean SELL mechanism for retail on Kalshi (you'd need to hold "No"). Pass unless Kalshi offers a direct NO side. **Flag as overpriced, no trade.**
+
+---
+
+**3. KXMARRIAGESTYLESKRAVITZ-HSZK-27JAN01 — Harry Styles & Zoë Kravitz marry by Jan 2027**
+- **Ticker:** `KXMARRIAGESTYLESKRAVITZ-HSZK-27JAN01` | bid=0.28 ask=0.33 | 57.6d
+- **Catalyst:** Styles and Kravitz went public in late 2024. As of November 2026, no engagement announcement has been confirmed in major outlets (People, US Weekly). Paparazzi coverage shows continued relationship but zero engagement ring sightings or venue bookings reported. 57 days is insufficient runway for a celebrity wedding to materialize from scratch.
+- **Fair probability:** ~15–20% (ask implies ~33%). Overpriced by ~13–18 cents.
+- **Action:** No direct retail SELL available easily. Skip.
+
+---
+
+### Summary
+
+| Pick | Action | Edge | Confidence |
+|------|--------|------|------------|
+| Belichick out by Dec 2026 | BUY ~$30 at 0.30 | ~10¢ | Medium |
+| MDMA FDA approval | Overpriced, no clean retail sell | ~6¢ | Medium |
+| Styles/Kravitz marriage | Overpriced, no clean retail sell | ~13¢ | Medium |
+
+**Deploy:** ~$30 on Belichick Dec exit. Rest hold cash — thin liquidity elsewhere makes sizing dangerous.
+
+---
+

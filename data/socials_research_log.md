@@ -6863,3 +6863,56 @@ All three interesting markets are **overpriced on the ask** with fair value near
 
 ---
 
+
+## 2026-11-05
+
+### Market Assessment
+
+**Date context:** November 5, 2026. Midterm election day in the US.
+
+---
+
+### Pick 1: KXWARSHOUT-26JUL-27JAN01 — Kevin Warsh out as Fed Chair?
+**Bid/Ask:** 0.01 / 0.02 | **Vol:** $2,429
+
+**Catalyst:** This market asks if Warsh is *out* by Jan 2027. Warsh was confirmed as Fed Chair in early 2026. He has shown no signs of departure — no public conflict with Treasury, no health reports, no resignation rumors as of late October 2026. The base rate for a Fed Chair leaving within ~12 months of confirmation is near zero historically. The ask at 2¢ is already cheap, but the *bid* side (selling YES at 1¢) is the play — this is essentially noise money.
+
+**Edge:** Fair value ~1-1.5%. Ask at 2¢ is slight overpay for YES buyers; not actionable for us to buy. **Pass on buying.** No clean NO contract available structurally on Kalshi binary. Skip.
+
+---
+
+### Pick 2: KXLLMCHESS-30-27 — Will an LLM beat a grandmaster in chess?
+**Bid/Ask:** 0.04 / 0.08 | **Vol:** $5,314
+
+**Catalyst:** As of late 2026, no frontier LLM (GPT-5, Claude 4, Gemini Ultra) plays chess natively at GM level without tool use/engine calls. The question specifically asks about an LLM (not an engine-assisted system). Every serious benchmark attempt has shown LLMs plateau well below 2200 ELO in pure inference. The 57-day window to January 2027 makes this essentially impossible without an extraordinary unannounced capability jump. No credible preprint or lab announcement suggests this is imminent.
+
+**Fair value:** ~2-3%. Ask is 8¢.
+**Edge:** ~5-6 cents by buying NO (selling YES if structure allows) — but on Kalshi this is a YES binary, so *don't buy YES at 8¢.*
+**Actionable:** Avoid buying. Market is correctly cheap but not exploitable from the buy side.
+
+---
+
+### Pick 3: KXFDAAPPROVE-MDMA-27JAN01 — FDA approve MDMA for PTSD?
+**Bid/Ask:** 0.06 / 0.13 | **Vol:** $1,287
+
+**Catalyst:** FDA issued a Complete Response Letter rejecting MDMA-assisted therapy (Lykos Therapeutics) in August 2024. Lykos has been restructuring and would need to conduct additional trials — a process taking years, not months. By November 2026, no resubmission has been accepted or approved. The Jan 2027 deadline makes approval effectively impossible given the regulatory timeline.
+
+**Fair value:** ~2-3%. Ask at 13¢ is a significant overpay.
+**Edge:** ~10 cents. This is real mispricing.
+**Confidence: High.**
+**Action: BUY NO / avoid YES.** Since Kalshi YES binary — do not buy. If a NO contract is available, buy up to $50 at 87¢ NO (= 13¢ YES implied).
+
+---
+
+### Summary
+
+| Pick | Action | Edge | Confidence |
+|------|--------|------|------------|
+| MDMA FDA | Buy NO (don't buy YES) | ~10¢ | High |
+| LLM Chess | Don't buy YES | ~5¢ | High |
+| Warsh Out | No clean trade | — | — |
+
+**Net deployment:** $50 on MDMA NO if contract available. Otherwise, **no actionable buys** in YES-only structure this cycle.
+
+---
+

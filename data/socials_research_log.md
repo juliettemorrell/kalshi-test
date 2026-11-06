@@ -6916,3 +6916,54 @@ All three interesting markets are **overpriced on the ask** with fair value near
 
 ---
 
+
+## 2026-11-06
+
+**Date context:** November 6, 2026. Reviewing 22 liquid near-term markets.
+
+---
+
+### Pick 1: KXFDAAPPROVE-MDMA-27JAN01
+**Bid/Ask:** 0.06 / 0.13 | **Fair estimate:** ~0.04
+
+**Story:** MDMA/PTSD (Lykos Therapeutics) received a **Complete Response Letter from FDA in August 2024**, rejecting the application and requesting an additional Phase 3 trial. As of late 2026, no new trial has completed and no resubmission has been accepted. The regulatory pathway requires years, not months. The bid at 6¢ already looks generous; the ask at 13¢ is a clear overprice given the structural timeline impossibility before January 2027.
+
+**Trade:** Fade (sell) if Kalshi allows it, or simply avoid the ask. If forced to take a side, **NO** at 13¢ is the edge — fair value closer to 4¢. Edge: ~9¢ on the ask side. **Confidence: High.**
+
+---
+
+### Pick 2: KXONIONACT-30JAN01-27JAN01
+**Bid/Ask:** 0.03 / 0.04 | **Fair estimate:** ~0.03
+
+**Story:** The Onion Futures Act of 1958 is a quirky, deeply entrenched law. No credible legislative vehicle to repeal it has advanced in the 119th or 120th Congress. This is a "fun" market with no real catalyst — the ask at 4¢ is roughly fair or slightly rich given zero congressional momentum. **No actionable edge here.** Passing.
+
+---
+
+### Pick 3: KXCONGRESSPAYINCREASE-30-27JAN01
+**Bid/Ask:** 0.06 / 0.13 | **Fair estimate:** ~0.10–0.12
+
+**Story:** Congress last raised its own pay in 2009. However, the FY2027 appropriations process has included renewed bipartisan discussion of a COLA adjustment (~$34K raise) attached to must-pass spending legislation. With a continuing resolution or omnibus needed before January 2027, there is a plausible vehicle. The bid at 6¢ looks **underpriced** relative to realistic ~10% probability that something attaches to year-end spending. 
+
+**Trade:** **BUY at 6¢ ask (if fillable near bid).** Edge: ~4–6¢ vs. fair value of ~10¢. Small size ($20–30). **Confidence: Medium** (depends on spending bill dynamics; could die in reconciliation).
+
+---
+
+### No Pick: Belichick/Swinney coach markets
+Skipping per instructions (sports/sportsbook arb dominates).
+
+### No Pick: KXTAIWANLVL4
+No specific November 2026 escalation catalyst to justify moving from current ~2% pricing. Status quo holds.
+
+---
+
+**Summary Table**
+
+| Ticker | Direction | Entry | Fair Value | Edge | Confidence |
+|---|---|---|---|---|---|
+| KXFDAAPPROVE-MDMA | SELL/fade ask | 13¢ | ~4¢ | ~9¢ | High |
+| KXCONGRESSPAYINCREASE | BUY near bid | 6¢ | ~10¢ | ~4¢ | Medium |
+
+*Total deployed: ~$30–50 max given thin liquidity on these markets.*
+
+---
+

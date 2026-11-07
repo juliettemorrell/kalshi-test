@@ -6967,3 +6967,42 @@ No specific November 2026 escalation catalyst to justify moving from current ~2%
 
 ---
 
+
+## 2026-11-07
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXFDAAPPROVE-MDMA-27JAN01 — FDA Approve MDMA for PTSD**
+- **Bid/Ask:** 0.06 / 0.13 | **Fair estimate:** ~0.05
+- **Catalyst:** MAPS's NDA for MDMA-assisted therapy (midomafetamine) was rejected by FDA in August 2024, with a Complete Response Letter citing deficiencies in trial design and functional unblinding. As of late 2026 there is no credible re-submission timeline that would resolve before January 2027. The FDA's advisory committee already voted against approval (9-2) in June 2024, and the agency has shown no signals of reversal. The ask at 0.13 looks like residual optimism from 2023-era hype.
+- **Trade:** **Sell/No at 0.06 bid** — market is fairly priced at the bid; don't buy the ask.
+- **Edge:** Ask overpriced by ~7-8 cents vs. fair ~0.05. If you can get a fill near 0.07 on the No side, that's real edge.
+- **Confidence:** Medium (regulatory surprise is always possible, but structural barriers are high)
+
+---
+
+**2. KXCHINAEUV-30-27JAN01 — Will China Obtain an EUV Machine?**
+- **Bid/Ask:** 0.04 / 0.13 | **Fair estimate:** ~0.03
+- **Catalyst:** ASML's export controls to China have been progressively tightened through 2024-2026 under coordinated US/Dutch/Japanese pressure. China has no domestic EUV capability (SMEE is years behind on DUV, let alone EUV). No credible intelligence or news report as of November 2026 suggests an imminent workaround. The ask at 0.13 is nearly 4x fair value.
+- **Trade:** **No/Sell at ask** — this is a tail-risk market being overpriced by retail buyers who confuse "China is trying" with "China will succeed by January 2027."
+- **Edge:** ~9-10 cents of edge if filled near 0.13 ask on the No side.
+- **Confidence:** Medium-High (geopolitical shock could move this, but physical delivery is the constraint, not politics alone)
+
+---
+
+**3. KXCONGRESSPAYINCREASE-30-27JAN01 — Will Congressional Salaries Increase?**
+- **Bid/Ask:** 0.05 / 0.13 | **Fair estimate:** ~0.06
+- **Catalyst:** Congressional pay has been frozen since 2009. COLA provisions have been repeatedly blocked. The current political environment (deficit focus, anti-incumbent sentiment) makes a pay raise vote before January 2027 essentially a non-starter. No bill has advanced committee in this session. Fair value is ~5-6%, so the ask at 0.13 is roughly 2x fair.
+- **Trade:** **No at ask** — same logic as above; don't buy the ask, and the No side has edge.
+- **Edge:** ~7 cents vs. ask.
+- **Confidence:** Medium
+
+---
+
+### Sizing
+All three are small-edge No-side plays. At $50-100 bot scale, risk $20-30 per market max. Total deployment: ~$70. These are low-probability events being priced too high — classic retail-driven ask inflation.
+
+---
+

@@ -7006,3 +7006,52 @@ All three are small-edge No-side plays. At $50-100 bot scale, risk $20-30 per ma
 
 ---
 
+
+## 2026-11-08
+
+**Date context:** November 8, 2026. Reviewing 25 liquid near-term markets for catalyst-driven mispricings.
+
+---
+
+### Pick 1: `KXFDAAPPROVE-MDMA-27JAN01` — FDA Approve MDMA for PTSD
+**Bid/Ask:** 0.06 / 0.13 | **Vol:** $1,287
+
+**Catalyst:** MAPS's NDA for MDMA-assisted therapy (midomafetamine) was rejected by FDA in August 2024 with a Complete Response Letter citing trial design flaws. MAPS resubmitted but FDA's advisory committee remained skeptical. By late 2026, there is no credible public signal of re-approval momentum — FDA leadership under the current administration has shown no appetite to expedite this. The ask at 0.13 (13%) is too high for a compound that failed its primary advisory committee vote and faces unresolved Chemistry/Manufacturing/Controls issues.
+
+**Fair probability:** ~5–7%. Edge: ~6–8 cents selling the ask side (or buying NO if available).
+**Direction:** Fade YES. Avoid buying at ask.
+**Confidence:** Medium
+
+---
+
+### Pick 2: `KXCHINAEUV-30-27JAN01` — Will China Obtain an EUV Machine?
+**Bid/Ask:** 0.05 / 0.13 | **Vol:** $925
+
+**Catalyst:** ASML export controls have been continuously tightened through 2024–2026 under US/Dutch/Japanese coordination. As of Q3 2026, there is zero credible reporting of China successfully obtaining or domestically producing an EUV machine (DUV workarounds remain their ceiling). The 13% ask implies meaningful probability within ~54 days — this is implausible given the multilateral enforcement regime and ASML's compliance posture. SMEE (China's domestic fab equipment maker) remains years away from EUV capability per all public technical assessments.
+
+**Fair probability:** ~3–5%. Edge: ~8–10 cents against the ask.
+**Direction:** Fade YES.
+**Confidence:** Medium
+
+---
+
+### Pick 3: `KXWARSHOUT-26JUL-27JAN01` — Kevin Warsh Out as Fed Chair?
+**Bid/Ask:** 0.01 / 0.02 | **Vol:** $2,429
+
+**Catalyst:** This market is already priced near zero, which is correct. Warsh was confirmed as Fed Chair and there is no public reporting of any removal effort or resignation signal as of November 2026. Market is fairly priced. **No edge — skip.**
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Fair Prob | Ask | Edge | Confidence |
+|---|---|---|---|---|---|
+| KXFDAAPPROVE-MDMA | Fade YES | 6% | 13¢ | ~7¢ | Medium |
+| KXCHINAEUV | Fade YES | 4% | 13¢ | ~9¢ | Medium |
+
+**Sizing:** $25–35 each at small retail scale. Both are "sell the hype" plays on structurally impossible near-term outcomes. Neither has a credible 54-day catalyst pathway.
+
+**Skipped:** Sports (arb-dominated), entertainment/celebrity (no informational edge), AGI (definitional ambiguity), Onion Futures Act (too legislative/slow-moving with no floor vote scheduled).
+
+---
+

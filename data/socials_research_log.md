@@ -7055,3 +7055,50 @@ All three are small-edge No-side plays. At $50-100 bot scale, risk $20-30 per ma
 
 ---
 
+
+## 2026-11-09
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXFDAAPPROVE-MDMA-27JAN01 — FDA approve MDMA for PTSD?**
+*bid=0.06 / ask=0.13 | vol=$1,287 | 52.6d*
+
+**Catalyst:** FDA rejected Lykos Therapeutics' MDMA-AT NDA in August 2024, issuing a Complete Response Letter and requiring a new Phase 3 trial. As of late 2026, no new trial has completed. The regulatory path is 3-5+ years minimum from restart. The ask at 0.13 is pricing ~13% chance of approval by Jan 2027 — that is implausible given trial timelines alone.
+
+**Trade:** SELL at bid=0.06 (or as market maker near 0.07-0.08). Fair value: ~2-3%. Edge: ~4-5 cents on the ask side. This is a "no" that's hard to get filled selling, but if you can sell at 0.08+, it's solid.
+
+**Confidence: High** (regulatory timeline is public and deterministic)
+
+---
+
+**2. KXAGICO-COMP-26Q4 — Any company achieve AGI by Q4 2026?**
+*bid=0.07 / ask=0.08 | vol=$49,666 | 53d*
+
+**Catalyst:** No major lab (OpenAI, Anthropic, DeepMind, Google) has claimed AGI achievement. OpenAI's internal "AGI" threshold criteria remain unpublished and disputed. Q4 2026 ends ~Dec 31, 2026 — 53 days away. Even if a lab internally crosses some benchmark, Kalshi resolution requires public announcement/consensus. No credible public signal exists pointing to imminent AGI declaration.
+
+**Trade:** SELL ask=0.08. Fair value: ~3-4%. Edge: ~4-5 cents. The bid/ask is tight here but volume is high enough to get fills.
+
+**Confidence: Medium-High** (definition risk: OpenAI could self-declare, but market likely requires broader consensus)
+
+---
+
+**3. KXTAIWANLVL4-27JAN01 — US Level 4 travel advisory for Taiwan?**
+*bid=0.012 / ask=0.069 | vol=$213,997 | 52.6d*
+
+**Catalyst:** Cross-strait tensions remain elevated but static. No new PLA military exercises, no blockade signals, no State Dept language shift as of Nov 2026. The wide bid/ask (1.2 to 6.9 cents) suggests the market is thinly contested on the ask side. Level 4 requires a war-imminent determination — a very high bar. Current State Dept advisory is Level 2.
+
+**Trade:** SELL at ~0.05 (between bid/ask). Fair value: ~2-3%. Edge: ~2-3 cents. Spread is wide enough to find a fill.
+
+**Confidence: Medium** (geopolitical tail risk is real but near-term catalyst is absent)
+
+---
+
+### Sizing
+All three are small "sell the overpriced tail" plays. At $50-100 bot scale, allocate ~$25-35 per position maximum. These are slow-bleed decay trades — no catalyst expected to resolve them early.
+
+**Skip:** Sports (Belichick/Swinney), entertainment long-shots, math conjectures — no edge over market.
+
+---
+

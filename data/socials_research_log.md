@@ -7102,3 +7102,54 @@ All three are small "sell the overpriced tail" plays. At $50-100 bot scale, allo
 
 ---
 
+
+## 2026-11-10
+
+### Market Scan Summary
+
+Date context: November 10, 2026. Reviewing 29 markets for catalyst-driven mispricing.
+
+---
+
+### Pick 1: KXFDAAPPROVE-MDMA-27JAN01
+**"Will the FDA approve MDMA for PTSD?"**
+- **Bid/Ask:** 0.06 / 0.13 | **Action:** BUY at ask (0.13)
+- **Catalyst:** The FDA rejected Lykos Therapeutics' MDMA-assisted therapy NDA in August 2024, citing trial design flaws and requesting a new Phase 3 trial. As of late 2026, no new trial has completed; the MAPS/Lykos resubmission timeline points to 2027–2028 at earliest. The ask at 13¢ implies ~13% chance by Jan 2027 — that's too high given zero completed trials and an active Complete Response Letter still unresolved.
+- **Trade:** Actually SELL/NO — but Kalshi mechanics here likely require buying NO. If the market is structured as YES=approval, the ask of 13¢ is **overpriced**. Fair value: ~4–6%.
+- **Edge:** ~7–9 cents
+- **Confidence:** Medium
+
+*Correction on direction: avoid if you can only buy YES. Skip if no NO side available at liquid size.*
+
+---
+
+### Pick 2: KXCEONVDA-01JAN33-01JAN27
+**"When will Jensen Huang leave as Nvidia CEO?" — specifically the by-Jan-2027 tranche**
+- **Bid/Ask:** 0.14 / 0.15 | **Action:** SELL (or buy NO)
+- **Catalyst:** Jensen Huang, 63, showed zero succession signals through mid-2026. Nvidia's AI infrastructure dominance (Blackwell ramp, sovereign AI deals) makes a voluntary departure extremely unlikely in the next ~52 days. No health disclosures, no board pressure reported. The 14–15¢ range implies ~14% chance he leaves by Jan 1, 2027 — far too high for a 52-day window on a healthy, fully-engaged founder-CEO at peak relevance.
+- **Fair value:** 2–4%
+- **Edge:** ~10–12 cents
+- **Confidence:** Medium-High
+
+---
+
+### Pick 3: KXTAIWANLVL4-27JAN01
+**"Will the US issue a Level 4 travel advisory for Taiwan?"**
+- **Bid/Ask:** 0.012 / 0.069 | **Action:** PASS / lean NO
+- **Catalyst:** The wide spread (5.7¢) makes this hard to trade profitably at retail size. Cross-strait tensions remain elevated but no imminent PLA blockade or kinetic action has been signaled publicly in late 2026. Fair value is probably 3–5%, meaning the ask is at the top of fair range. Spread too wide for a $50–100 bot to absorb.
+- **Action:** Skip.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Edge Est. | Confidence |
+|---|---|---|---|
+| KXFDAAPPROVE-MDMA-27JAN01 | NO (if available) | ~8¢ | Medium |
+| KXCEONVDA-01JAN33-01JAN27 | NO / Sell | ~11¢ | Medium-High |
+| KXTAIWANLVL4 | Skip | — | — |
+
+**Suggested allocation:** ~$40 on Jensen NO, ~$30 on MDMA NO. Keep remainder as dry powder given limited liquidity on most other names.
+
+---
+

@@ -7153,3 +7153,56 @@ Date context: November 10, 2026. Reviewing 29 markets for catalyst-driven mispri
 
 ---
 
+
+## 2026-11-11
+
+### Market Assessment
+
+**Date context:** November 11, 2026. Reviewing 30 liquid near-term markets.
+
+---
+
+### Pick 1: KXFDAAPPROVE-MDMA-27JAN01
+**FDA Approve MDMA for PTSD | Bid 0.06 / Ask 0.13**
+
+**Catalyst:** FDA rejected Lykos Therapeutics' MDMA-AT NDA in August 2024, citing clinical deficiencies and requesting a new Phase 3 trial. As of November 2026, no new Phase 3 trial could have completed and been reviewed within this timeframe — typical Phase 3 trials run 3-5 years minimum. There is no credible regulatory pathway to approval by January 2027.
+
+**Fair probability:** ~3-4%. Market ask of 0.13 is significantly overpriced.
+**Trade:** BUY NO (sell ask side implied through NO). Effectively buying NO at ~87 cents. Edge: ~8-10 cents on NO.
+**Confidence: High.** The science/regulatory timeline is deterministic here — a new trial cannot complete in time.
+
+---
+
+### Pick 2: KXTAIWANLVL4-27JAN01
+**US Level 4 Travel Advisory for Taiwan | Bid 0.012 / Ask 0.07**
+
+**Catalyst:** The massive bid/ask spread (0.012–0.07) signals thin, noisy pricing. Current State Department advisory for Taiwan sits at Level 2 (Exercise Increased Caution) as of late 2026, with no active military escalation triggering a Level 4 designation. Level 4 ("Do Not Travel") requires near-war conditions. Cross-strait tensions remain elevated but no blockade or kinetic conflict has materialized.
+
+**Fair probability:** ~2-3%. The ask at 0.07 is ~3x fair value.
+**Trade:** BUY NO at implied ~93 cents. Edge: ~4-5 cents on NO.
+**Confidence: Medium.** Tail risk is real (a sudden PLA escalation could move this), but base rate for Level 4 in next 51 days is very low given current diplomatic posture.
+
+---
+
+### Pick 3: KXWARSHOUT-26JUL-27JAN01
+**Kevin Warsh Out as Fed Chair | Bid 0.01 / Ask 0.02**
+
+**Catalyst:** Powell's term runs through May 2026; if Warsh was nominated and confirmed as Fed Chair, his removal within months would require extraordinary circumstances (Fed Chair removal requires cause under law — a standing legal constraint Trump tested but did not breach). No credible news of Warsh departure. Market at 0.01/0.02 is essentially noise-priced near zero.
+
+**Fair probability:** ~1%. Already near floor — this is a **pass** as there's no edge worth the spread cost on a $50-100 bot.
+
+**Revised call: Skip Pick 3.** Spread is only 1 cent but position sizing makes it uneconomical.
+
+---
+
+### Summary Table
+
+| Ticker | Side | Entry | Fair Value | Edge |
+|---|---|---|---|---|
+| KXFDAAPPROVE-MDMA | NO | ~$0.87 | ~$0.97 | ~10¢ |
+| KXTAIWANLVL4 | NO | ~$0.93 | ~$0.97 | ~4¢ |
+
+**Total deployment:** ~$40-60 across both NO positions at small size given liquidity constraints.
+
+---
+

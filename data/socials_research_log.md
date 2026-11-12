@@ -7206,3 +7206,51 @@ Date context: November 10, 2026. Reviewing 29 markets for catalyst-driven mispri
 
 ---
 
+
+## 2026-11-12
+
+### Market Review — 3 Picks
+
+---
+
+**1. KXFDAAPPROVE-MDMA-27JAN01 — FDA Approve MDMA for PTSD**
+`bid=0.06 / ask=0.13 | ~$1,287 vol`
+
+**Catalyst:** MAPS/Lykos Therapeutics received a Complete Response Letter in August 2024 rejecting MDMA-assisted therapy, and as of late 2026 there is no resubmission approval on record. The FDA's advisory committee voted against it on efficacy/safety grounds, and no new NDA resubmission has cleared review. The market resolves YES only if approval happens by Jan 2027 — roughly 50 days away.
+
+**Edge:** Fair probability ~5-7%. The ask at 0.13 is roughly 2x fair value. **No trade here** — but if you already hold YES, this is a clear EXIT. I would not buy at ask.
+
+*Skip — overpriced YES side, no actionable buy.*
+
+---
+
+**2. KXWARSHOUT-26JUL-27JAN01 — Kevin Warsh Out as Fed Chair?**
+`bid=0.01 / ask=0.02 | ~$2,429 vol`
+
+**Catalyst:** Jerome Powell's term runs through May 2026. Reports from mid-2026 indicate Trump has not moved to remove Powell early after the Supreme Court signaled limits on executive removal of independent agency heads. Warsh was rumored as a replacement but no formal announcement has emerged. For Warsh to be "out" as Fed Chair by Jan 2027, he would first need to be *in* — which hasn't happened.
+
+**Edge:** Ask is 0.02. Fair probability is effectively <1% within 50 days. This is essentially a free-roll mispricing in the NO direction — but Kalshi doesn't let you short easily at retail scale. **No actionable long.**
+
+*Skip — mispriced but not tradeable on the YES side.*
+
+---
+
+**3. KXCHINAEUV-30-27JAN01 — Will China Obtain an EUV Machine?**
+`bid=0.05 / ask=0.11 | ~$930 vol`
+
+**Catalyst:** ASML export controls remain in force and were tightened further in 2024-2025 under Dutch/US coordination. As of November 2026, no credible report indicates China has obtained a high-NA or even legacy EUV tool. SMEE (China's domestic lithography effort) has not demonstrated working EUV at scale. The 50-day window to Jan 2027 makes this essentially impossible without a dramatic, public geopolitical reversal.
+
+**Edge:** Fair probability ~3-4%. Ask is 0.11 — roughly 3x fair. The YES side is significantly overpriced. **Actionable: Buy NO** (i.e., avoid YES; if Kalshi offers NO side, buy NO at implied ~0.89, which is fair at ~0.96-0.97).
+
+**Trade:** Buy NO on KXCHINAEUV-30-27JAN01 up to ~$50 if NO ask is ≤0.95.
+- Fair NO value: ~0.96
+- Edge: ~1-6 cents
+- **Confidence: Medium** (resolution criteria ambiguity is the main risk)
+
+---
+
+### Summary
+Only one actionable position identified. Thin liquidity universe limits sizing. Deploy ≤$50 on the EUV NO. No other markets have both a clear catalyst AND a tradeable entry at retail scale today.
+
+---
+

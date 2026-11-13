@@ -7254,3 +7254,51 @@ Only one actionable position identified. Thin liquidity universe limits sizing. 
 
 ---
 
+
+## 2026-11-13
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+**Date context:** November 13, 2026. Reviewing 28 liquid near-term markets.
+
+---
+
+### Pick 1: `KXFDAAPPROVE-MDMA-27JAN01` — FDA Approve MDMA for PTSD
+**Bid/Ask:** 0.06 / 0.13 | **Vol:** $1,287
+
+**Catalyst:** MAPS's NDA for MDMA-assisted therapy was rejected by FDA in August 2024, and a subsequent advisory committee in June 2024 voted 9-2 against approval citing clinical trial design flaws and abuse potential. As of late 2026, no credible resubmission pathway has been publicly confirmed. The FDA's Complete Response Letter requirements are substantial, and MAPS has faced organizational/financial stress. Fair probability: ~5-7%. The bid at 6¢ is roughly fair but the ask at 13¢ is significantly rich.
+
+**Trade:** Sell at ask is unavailable for retail; skip buying. **No entry** — bid-side only opportunity, and retail can't short easily on Kalshi. Pass.
+
+---
+
+### Pick 2: `KXWARSHOUT-26JUL-27JAN01` — Kevin Warsh Out as Fed Chair?
+**Bid/Ask:** 0.01 / 0.02 | **Vol:** $2,429
+
+**Catalyst:** Warsh was confirmed as Fed Chair in early 2026 (replacing Powell). No credible public reporting as of November 2026 suggests imminent removal or resignation. Fed Chair tenure is institutionally protected; Trump firing a sitting chair remains legally contested territory. The 1-2¢ range already prices this as a near-zero event. No edge identifiable — market is correctly priced at the floor.
+
+**No actionable trade.**
+
+---
+
+### Pick 3: `KXCHINAEUV-30-27JAN01` — Will China Obtain an EUV Machine?
+**Bid/Ask:** 0.04 / 0.10 | **Vol:** $930
+
+**Catalyst:** ASML export controls, reinforced by Dutch/US coordination through 2024-2026, have blocked EUV shipments to China. SMEE (China's domestic fab equipment maker) has made incremental DUV progress but credible public reporting through late 2026 shows no functional EUV machine domestically produced or smuggled. The 60-day window to January 2027 is extremely tight for a development this significant. Fair probability: ~3-4%. Ask at 10¢ is **significantly overpriced** relative to fundamentals.
+
+**Trade:** BUY NO (if available as a "No" contract) or treat the Yes ask at 10¢ as something to fade. On Kalshi, if the No side is accessible near 90¢, that offers meaningful edge (~6-7¢). **Medium confidence.** Size: $40-50 max given thin volume.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Fair P | Market Ask | Edge | Confidence |
+|---|---|---|---|---|---|
+| KXCHINAEUV | No (fade Yes) | ~4% | 10¢ | ~6¢ | Medium |
+
+**Other markets:** Math conjectures (Riemann, Hodge, P vs NP) are novelty contracts with no near-term catalysts — correctly priced near zero. Coach/sports markets excluded per instructions.
+
+**Net actionable picks: 1**
+
+---
+

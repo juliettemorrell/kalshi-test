@@ -7302,3 +7302,52 @@ Only one actionable position identified. Thin liquidity universe limits sizing. 
 
 ---
 
+
+## 2026-11-14
+
+### Market Assessment
+
+**Date context:** November 14, 2026. Reviewing catalyst-driven mispricings in the filtered universe.
+
+---
+
+### Pick 1: `KXFDAAPPROVE-MDMA-27JAN01` — FDA Approve MDMA for PTSD
+**Bid/Ask:** 0.06 / 0.13 | **Vol:** $1,287
+
+**Catalyst:** MAPS's NDA for MDMA-assisted therapy (midomafetamine) was rejected by FDA in August 2024, with a Complete Response Letter citing deficiencies in trial design and functional unblinding. As of late 2026, no resubmission has been accepted or approved. The FDA's advisory committee voted *against* approval (9-2) back in mid-2024. A re-approval within this January 2027 window requires resubmission, full review cycle (6-12 months minimum), and reversal of entrenched scientific skepticism — essentially impossible in this timeframe.
+
+**Fair probability:** ~4% (mostly tail risk of emergency/accelerated pathway reversal)
+**Edge:** Bid side is 6¢, fair is ~4¢ — market is slightly *overpriced* on YES. No clear buy. **Pass on buying YES.**
+
+> This market isn't actionable as a buy, but confirms the universe has limited edge here.
+
+---
+
+### Pick 2: `KXWARSHOUT-26JUL-27JAN01` — Kevin Warsh Out as Fed Chair?
+**Bid/Ask:** 0.01 / 0.02 | **Vol:** $2,429
+
+**Catalyst:** Powell's term runs through May 2026. Warsh was widely reported as Trump's preferred successor through 2025, and by mid-2026 he was confirmed as Fed Chair. If he's already *in* the role, this market ("Warsh out") by January 2027 — only ~7 months into a tenure — resolves NO with very high probability. No credible public reporting suggests any imminent departure, scandal, or firing.
+
+**Fair probability:** ~1–2%
+**Edge:** Ask is 2¢, fair is ~1–1.5¢. Buying NO (selling YES) at 98¢ is essentially the play if the contract structure allows — but at this spread and volume, **not actionable for a $50–100 bot.**
+
+---
+
+### Pick 3: `KXCHINAEUV-30-27JAN01` — Will China Obtain an EUV Machine?
+**Bid/Ask:** 0.04 / 0.10 | **Vol:** $930
+
+**Catalyst:** ASML's export controls to China remain in force under Dutch/US pressure through 2026. China's domestic EUV program (SMEE) has shown no credible near-EUV throughput. No credible reporting through mid-November 2026 suggests a machine transfer occurred. The 6¢ spread and fair value near 4–5% suggests the ask (10¢) is meaningfully overpriced.
+
+**Fair probability:** ~4–5%
+**Edge:** ~5¢ edge buying NO implicitly; but if YES ask is 10¢ and fair is 5¢, **avoid buying YES.** Not structured for easy NO purchase.
+
+---
+
+### Summary
+
+**No confident BUY recommendations this cycle.** The liquid markets are dominated by near-zero probability long-tail events where the ask is elevated but not egregiously so for a small bot to exploit safely. Spreads are wide, volumes are modest, and no single catalyst creates a clean mispricing above noise threshold for a $50–100 position with positive expected value net of fees.
+
+**Recommended action: Hold cash, revisit Monday.**
+
+---
+

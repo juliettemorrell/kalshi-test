@@ -7351,3 +7351,47 @@ Only one actionable position identified. Thin liquidity universe limits sizing. 
 
 ---
 
+
+## 2026-11-15
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXTAIWANLVL4-27JAN01 — US Level 4 Travel Advisory for Taiwan**
+- **Bid/Ask:** 0.012 / 0.068 | **Fair estimate:** ~0.03–0.04
+- **Catalyst:** Cross-strait tensions remain elevated but no acute crisis is active as of mid-November 2026. The US has not upgraded Taiwan beyond Level 2 (exercise increased caution) in recent years, and State Department advisory changes of this magnitude require either active military conflict or imminent threat—neither present. The wide spread (1.2¢ bid vs 6.8¢ ask) suggests the ask is significantly overpriced relative to base rate.
+- **Trade:** BUY NO (sell ask or let bid ride). Fair value ~3–4¢; ask at 6.8¢ implies ~15% overpricing vs reality.
+- **Edge:** ~3–4¢ on a ~$50 position. **Confidence: Medium.**
+
+---
+
+**2. KXFDAAPPROVE-MDMA-27JAN01 — FDA Approves MDMA for PTSD**
+- **Bid/Ask:** 0.06 / 0.13 | **Fair estimate:** ~0.05–0.07
+- **Catalyst:** FDA rejected LYKOS Therapeutics' MDMA-assisted therapy NDA in August 2024, requiring a new Phase 3 trial. As of late 2026, no new trial has completed. A re-submission and approval by January 2027 is essentially impossible given typical trial timelines (3–5 years). The 13¢ ask is significantly overpriced for an event with near-zero path to resolution in ~47 days.
+- **Trade:** BUY NO (fade the ask). Market is pricing ~13% probability; true probability is effectively <3% for *this specific settlement window*.
+- **Edge:** ~6–10¢. **Confidence: High.**
+
+---
+
+**3. KXWARSHOUT-26JUL-27JAN01 — Kevin Warsh Out as Fed Chair**
+- **Bid/Ask:** 0.01 / 0.02 | **Fair estimate:** ~0.02–0.03
+- **Catalyst:** Warsh was confirmed as Fed Chair in 2026. Fed Chair removals are constitutionally constrained (Supreme Court precedent limits at-will removal). No credible public reporting suggests imminent departure. However, the ask at 2¢ is near-zero and already correctly pricing this as near-impossible. **No edge worth taking here**—spread is too tight and position size too small to matter.
+- **Trade:** Pass. Correctly priced.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Edge Est. | Confidence | Size |
+|---|---|---|---|---|
+| KXTAIWANLVL4 | Sell YES / Buy NO | ~3¢ | Medium | $40 |
+| KXFDAAPPROVE-MDMA | Buy NO | ~6–8¢ | High | $60 |
+| KXWARSHOUT | Pass | None | — | $0 |
+
+**Total deployed: ~$100**
+
+> ⚠️ Thin liquidity on KXTAIWANLVL4 means fills may be partial. MDMA market has the clearest hard-news anchor (FDA rejection + trial timeline math) and is the strongest single pick.
+
+---
+

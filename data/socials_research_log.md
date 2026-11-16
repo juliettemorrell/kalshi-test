@@ -7395,3 +7395,47 @@ Only one actionable position identified. Thin liquidity universe limits sizing. 
 
 ---
 
+
+## 2026-11-16
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+---
+
+**Pick 1: KXFDAAPPROVE-MDMA-27JAN01**
+*Will the FDA approve MDMA for PTSD?*
+- **Bid/Ask:** 0.06 / 0.13 | **Fair estimate:** ~0.04–0.05
+- **Direction:** SELL (or avoid buying) — market likely OVERpriced
+- **Catalyst:** FDA's June 2024 advisory committee voted against LYKOS Therapeutics' MDMA-assisted therapy application (9-2 against efficacy, unanimous on safety concerns). FDA formally rejected it in August 2024. LYKOS resubmission timeline remains unclear; a full re-approval cycle typically takes 1–2+ years minimum. No credible resubmission news as of late 2026 suggests resolution by Jan 2027 is very unlikely.
+- **Edge:** Bid is 6¢, fair value ~4–5¢. Not a strong sell setup given bid/ask spread, but buying at ask (13¢) is clearly wrong. **Avoid buying.**
+- **Confidence:** Medium
+
+---
+
+**Pick 2: KXWARSHOUT-26JUL-27JAN01**
+*Kevin Warsh out as Fed chair?*
+- **Bid/Ask:** 0.01 / 0.02 | **Fair estimate:** ~0.02–0.03
+- **Direction:** Slight lean YES — marginally underpriced at ask
+- **Catalyst:** Powell's term runs through May 2026. Reports through mid-2026 indicated Trump was frustrated with Powell but legally constrained from firing him before term end. Warsh was widely floated as successor. By Nov 2026, Powell's term has expired and a new chair should already be seated — meaning this market may resolve YES simply on the structural transition. If Warsh was NOT chosen, it resolves NO. The 1–2¢ ask suggests the market thinks this already resolved NO. Worth verifying current Fed chair — if Powell is gone and Warsh isn't chair, NO is correct.
+- **Edge:** Minimal. Too close to zero to deploy capital confidently without confirming current Fed chair identity.
+- **Confidence:** Low — **pass unless you can confirm Warsh appointment status**
+
+---
+
+**Pick 3: KXCHINAEUV-30-27JAN01**
+*Will China obtain an EUV machine?*
+- **Bid/Ask:** 0.04 / 0.10 | **Fair estimate:** ~0.04–0.05
+- **Direction:** SELL at ask — overpriced
+- **Catalyst:** ASML remains under strict Dutch/US export controls on EUV. No credible reporting through 2026 suggests China has obtained or is close to obtaining an EUV system. SMEE (China's domestic lithography effort) has demonstrated DUV progress but EUV remains years away domestically. The 10¢ ask implies ~10% probability by Jan 2027, which is too high given zero reported shipments and tightening controls.
+- **Edge:** ~5–6¢ edge if fair value is ~4¢. Spread is wide so buying the NO side at ask costs 10¢ vs. ~96¢ payout.
+- **Confidence:** Medium
+
+---
+
+**Capital allocation suggestion (retail $50–100 bot):**
+- KXCHINAEUV NO: $30–40 at ask
+- KXFDAAPPROVE-MDMA: Monitor only, don't buy ask
+- KXWARSHOUT: Skip pending data confirmation
+
+---
+

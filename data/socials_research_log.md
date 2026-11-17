@@ -7439,3 +7439,44 @@ Only one actionable position identified. Thin liquidity universe limits sizing. 
 
 ---
 
+
+## 2026-11-17
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXFDAAPPROVE-MDMA-27JAN01 — FDA approve MDMA for PTSD**
+- **Bid/Ask:** 0.06 / 0.13 | **Fair estimate:** ~0.05
+- **Catalyst:** MAPS's NDA for MDMA-assisted therapy (midomafetamine) was rejected by FDA in August 2024 with a Complete Response Letter citing deficiencies in trial design and abuse-potential data. A re-submission has not been publicly confirmed as accepted for review. As of late 2026, no credible re-filing timeline has emerged, and FDA's advisory committee previously voted against approval 9-2. The ask at 13¢ is materially **overpriced** relative to ~5% fair value within this window.
+- **Trade:** **Sell/No** at 0.06 bid (or pass if no-side unavailable; do not buy YES at 0.13)
+- **Edge:** ~8¢ if selling at bid; medium confidence
+- **Confidence: Medium**
+
+---
+
+**2. KXAGICO-COMP-26NOV — Any company achieve AGI by Nov 2026**
+- **Bid/Ask:** 0.03 / 0.04 | **Fair estimate:** ~0.02
+- **Catalyst:** This settles in ~14 days (Nov 30, 2026). No major lab (OpenAI, Anthropic, DeepMind, xAI) has made an AGI declaration. OpenAI's o3/o4 models and Google's Gemini Ultra iterations have shown strong benchmarks but no organization has formally claimed or had an independent body verify AGI. The ask at 4¢ still carries a ~2¢ overprice for a near-certain NO within 14 days.
+- **Trade:** **No/Sell** at 3¢ bid. Very short duration, nearly certain resolution NO.
+- **Edge:** ~1-2¢, but near-certainty on a 14-day horizon makes it clean
+- **Confidence: High**
+
+---
+
+**3. KXTAIWANLVL4-27JAN01 — US issues Level 4 travel advisory for Taiwan**
+- **Bid/Ask:** 0.011 / 0.03 | **Fair estimate:** ~0.01
+- **Catalyst:** Taiwan's current US State Dept advisory sits at Level 2 ("Exercise Increased Caution"). A jump to Level 4 ("Do Not Travel") would require an acute military crisis or invasion. Cross-strait tensions remain elevated but no mobilization signals, PLA exercises, or diplomatic rupture have occurred in Nov 2026 that would foreshadow such a dramatic advisory change within 45 days. The ask at 3¢ is roughly 3x fair value.
+- **Trade:** **No** at 1.1¢ bid (or avoid YES entirely)
+- **Edge:** ~2¢ if short side accessible
+- **Confidence: Medium**
+
+---
+
+### Skipped / No-Trade Rationale
+- **Onion Futures Act, Riemann/Hodge/P≠NP, Birch-SD:** No near-term catalyst; resolution nearly impossible in window; already priced near zero — no edge buying or selling.
+- **Mamdani, Warsh, State Rename:** Negligible volume, wide spreads, no specific catalyst.
+- **Sports markets:** Excluded per instructions.
+
+---
+

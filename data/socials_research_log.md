@@ -7480,3 +7480,48 @@ Only one actionable position identified. Thin liquidity universe limits sizing. 
 
 ---
 
+
+## 2026-11-18
+
+### Market Scan — 3 Candidates
+
+---
+
+**1. KXFDAAPPROVE-MDMA-27JAN01 — FDA approve MDMA for PTSD**
+- **Bid/Ask:** 0.06 / 0.12 | **Vol:** $1,287
+- **Catalyst:** MAPS's NDA for MDMA-assisted therapy (lykos Therapeutics) was rejected by FDA in August 2024 with a Complete Response Letter demanding a new Phase 3 trial. As of late 2026, no new trial has completed. The regulatory pathway remains blocked for the near term; FDA approval by Jan 2027 is essentially impossible given trial timelines (3–5 years minimum from restart).
+- **Fair probability:** ~2–3%
+- **Edge:** Ask is 12¢; fair value ~3¢. That's ~9¢ edge on the **NO** side (sell/fade the ask).
+- **Trade:** Sell YES at 6¢ bid if possible, or pass if only maker-side available. At $50 position, risk is capped.
+- **Confidence:** High on direction, medium on liquidity (thin book).
+
+---
+
+**2. KXTAIWANLVL4-27JAN01 — US Level 4 travel advisory for Taiwan**
+- **Bid/Ask:** 0.011 / 0.015 | **Vol:** $214,473
+- **Catalyst:** This is the most liquid market here. Despite elevated cross-strait tensions in 2025–2026, the State Department has maintained Taiwan at Level 2 ("Exercise Increased Caution"). A Level 4 would require an active conflict or imminent invasion—no credible intelligence suggests this within 44 days. No diplomatic escalation trigger is currently live.
+- **Fair probability:** ~1%
+- **Edge:** Already priced at 1–1.5¢; fair value ~1¢. Minimal edge, but the ask at 1.5¢ is a slight overprice.
+- **Trade:** Skip — spread is too tight for meaningful retail edge at $50–100 scale. Noted for completeness only.
+- **Confidence:** High on NO, but no actionable edge after fees.
+
+---
+
+**3. KXONIONACT-30JAN01-27JAN01 — Onion Futures Act repealed**
+- **Bid/Ask:** 0.01 / 0.02 | **Vol:** $275,444
+- **Catalyst:** The Onion Futures Act (1958) repeal has been discussed in deregulation contexts under the current administration, but no bill has passed committee, and there's no floor vote scheduled before January 2027. The ask at 2¢ implies ~2% probability — arguably still generous given zero legislative momentum.
+- **Fair probability:** ~0.5–1%
+- **Edge:** ~1–1.5¢ edge selling at 1¢ bid. Too small for retail sizing.
+- **Trade:** Skip — not enough edge per dollar at this scale.
+
+---
+
+### Summary
+
+**Single actionable pick: Fade KXFDAAPPROVE-MDMA-27JAN01 YES at 6¢ bid.**
+- The FDA CRL + multi-year trial requirement makes Jan 2027 approval structurally impossible. Market bid at 6¢ is ~3× fair value. Recommended position: $50 on NO (sell YES). Max loss = $50, expected value positive at ~$30 net.
+
+No other markets in this list offer a compelling catalyst + mispricing combination at retail scale.
+
+---
+

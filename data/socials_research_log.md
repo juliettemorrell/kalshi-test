@@ -7525,3 +7525,56 @@ No other markets in this list offer a compelling catalyst + mispricing combinati
 
 ---
 
+
+## 2026-11-19
+
+### Market Review
+
+**Date context:** November 19, 2026. Reviewing 29 liquid near-term markets for catalyst-driven mispricing.
+
+---
+
+### Pick 1: KXFDAAPPROVE-MDMA-27JAN01
+**Bid/Ask:** 0.06 / 0.12 | **Vol:** $1,287
+
+**Catalyst:** MAPS Benefit Corporation's MDMA-assisted therapy NDA was rejected by FDA in August 2024, with a Complete Response Letter citing trial design concerns. A re-submission would require new Phase 3 data — a multi-year process. As of late 2026, no credible re-submission timeline has emerged. The 6–12% market pricing implies meaningful near-term approval probability that simply doesn't exist given the regulatory pipeline reality.
+
+**Edge:** Fair value ~2–3%. Ask at 12¢ is ~4–5x overpriced. **Sell** (YES) if available, or avoid buying. If the market allows NO side: strong NO at 88¢ bid-side.
+
+**Confidence:** High (regulatory timeline is public and unambiguous)
+
+---
+
+### Pick 2: KXNCAAFCOACHLEAVE-26BBEL-120126 (Belichick leaves UNC by Dec 2026)
+**Bid/Ask:** 0.02 / 0.19 | **Vol:** $16,620 | **11.6 days to settle**
+
+**Catalyst:** Bill Belichick was hired as UNC head coach in November 2024 for a multi-year deal. No credible reporting as of November 2026 suggests imminent departure. The 11-day window is extremely tight. The ask at 19¢ is wildly wide — this is a liquidity/spread issue, not genuine probability. The bid at 2¢ is closer to reality for a December 2026 departure.
+
+**Trade:** Buy NO (or sell YES) — fair value near 3–5%. The ask side is uninvestable but the bid/mid spread signals the market is essentially saying "unlikely" while leaving an enormous ask for uninformed buyers.
+
+**Confidence:** Medium (coaching departures can be sudden, but no catalyst exists)
+
+---
+
+### Pick 3: KXLLMCHESS-30-27
+**Bid/Ask:** 0.04 / 0.08 | **Vol:** $5,540
+
+**Catalyst:** As of 2026, leading LLMs (GPT-5 class, Gemini Ultra 2, etc.) still rely on tool-use or engine calls to play strong chess — native autoregressive LLM play remains well below grandmaster level per published benchmarks. No peer-reviewed result or major public demo has shown a pure LLM (no search, no Stockfish) defeating an active grandmaster under standard conditions. The 4–8¢ range may seem cheap but the resolution criteria likely requires a *clean* demonstration — which hasn't happened.
+
+**Trade:** Lean NO / avoid YES. Fair value ~3–5%. If you can sell YES at 8¢ with favorable resolution criteria, small edge exists.
+
+**Confidence:** Medium
+
+---
+
+### Skipped
+- Millennium Prize math problems (Riemann, Hodge, P≠NP, BSD): structurally mispriced but no near-term catalyst; bid=0 already reflects it.
+- Coach departure sports markets: sportsbook arb dominates.
+- Taiwan Level 4, Onion Futures Act: too policy-opaque for confident edge.
+
+---
+
+**Bot sizing suggestion:** $15–25 per position given low-liquidity order books.
+
+---
+

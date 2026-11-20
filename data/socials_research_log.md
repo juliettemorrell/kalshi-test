@@ -7578,3 +7578,52 @@ No other markets in this list offer a compelling catalyst + mispricing combinati
 
 ---
 
+
+## 2026-11-20
+
+### Market Scan — 3 Candidates Evaluated
+
+---
+
+**1. KXFDAAPPROVE-MDMA-27JAN01 — FDA approve MDMA for PTSD**
+`bid=0.06 / ask=0.09 | vol=$1,287`
+
+**Catalyst:** MAPS/Lykos Therapeutics received a Complete Response Letter (CRL) from FDA in August 2024 rejecting MDMA-assisted therapy, citing clinical trial design flaws and abuse potential concerns. An AdCom in 2024 voted 9-2 against. As of late 2026, no resubmission has been accepted, and FDA under the current administration has shown no signals of reversal. The ask at 9¢ implies ~9% probability by Jan 2027 — that is too high. Resubmission, re-review, and approval within ~42 days is implausible given regulatory timelines alone.
+
+**Edge:** Fair value ~2-3¢. **Sell** the YES at bid=6¢ if possible, or avoid buying. If a NO side is tradeable, that's the play.
+**Confidence: High** (regulatory timeline is structurally decisive)
+⚠️ *Check if Kalshi offers NO side; with bid=0¢ on NO this may be illiquid to enter short.*
+
+---
+
+**2. KXCHINAEUV-30-27JAN01 — Will China obtain an EUV machine?**
+`bid=0.04 / ask=0.09 | vol=$935`
+
+**Catalyst:** ASML export controls tightened repeatedly through 2024-2026 under US/Dutch/Japanese coordination. China's domestic EUV program (SMEE) has not demonstrated a commercially viable machine. As of mid-2026, no credible reports of a smuggled or domestically produced EUV unit reaching production use. The ask at 9¢ implies ~9% by Jan 2027 — slightly rich given the 42-day window and no known near-term delivery event. Fair value closer to 3-4¢.
+
+**Edge:** ~5¢ edge buying NO (if available) or avoiding YES. Thin volume makes this marginal for a $50-100 bot.
+**Confidence: Medium** (geopolitical surprise is always nonzero)
+
+---
+
+**3. KXNCAAFCOACHLEAVE-26BBEL-010127 — Belichick leaves North Carolina by Jan 1**
+`bid=0.16 / ask=0.26 | vol=$5,142`
+
+Skipping per instructions — sports market, sportsbook dynamics dominate.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Fair Value | Ask | Edge | Confidence |
+|---|---|---|---|---|---|
+| KXFDAAPPROVE-MDMA | Sell YES / Buy NO | ~3¢ | 9¢ | ~6¢ | High |
+| KXCHINAEUV-30 | Avoid YES | ~4¢ | 9¢ | ~5¢ | Medium |
+
+### Actionable Trade
+**Best single trade:** If the NO contract on `KXFDAAPPROVE-MDMA-27JAN01` is purchasable near 91-94¢, allocate $50-75. The regulatory resubmission pipeline is public and slow; there is no plausible 42-day path to approval. This is a structural mispricing, not a probabilistic guess.
+
+**Pass on KXCHINAEUV** — volume too thin ($935) for confident fill at fair price with a retail bot.
+
+---
+

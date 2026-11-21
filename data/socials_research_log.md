@@ -7627,3 +7627,50 @@ Skipping per instructions — sports market, sportsbook dynamics dominate.
 
 ---
 
+
+## 2026-11-21
+
+### Market Review — Non-Weather, Catalyst-Driven
+
+**Honest assessment up front:** The list is dominated by long-horizon resolution markets (Riemann, P vs NP, Hodge, etc.) that are structurally mispriced for reasons that won't resolve in 60 days, sports coach markets where sportsbooks dominate, and very low-volume illiquid names. After scrubbing for real catalysts, I have **one credible pick and two weak maybes**.
+
+---
+
+### Pick 1 — KXFDAAPPROVE-MDMA-27JAN01
+**"Will the FDA approve MDMA for PTSD?"**
+- **Bid/Ask:** 0.06 / 0.09 | Vol: $1,287
+- **Catalyst:** MAPS/Lykos Therapeutics received a Complete Response Letter (CRL) from the FDA in August 2024 rejecting MDMA-assisted therapy, citing data integrity concerns and demanding a new Phase 3 trial. As of late 2026, no new trial has completed, and the FDA's Advisory Committee remains skeptical. The resubmission pathway realistically requires 2–4 more years minimum.
+- **Fair probability:** ~3–4% by Jan 2027. Market ask of 9¢ implies ~9% — roughly **2–3x overpriced**.
+- **Trade:** **SELL** at 0.09 (ask). Edge ≈ 5–6 cents on fair value.
+- **Confidence: Medium.** Risk is a surprise accelerated approval or emergency authorization, but no known catalyst supports that before January 2027.
+
+---
+
+### Pick 2 — KXMAMDANIOUT-26AUG-27JAN01
+**"Will Zohran Mamdani announce departure as NYC Mayor?"**
+- **Bid/Ask:** 0.00 / 0.02 | Vol: $16,297
+- **Catalyst:** Mamdani won the NYC mayoral race in November 2025 and took office January 2026. No credible resignation/departure news exists as of this date. At 0–2¢ ask this is essentially priced at near-zero already. No actionable edge — market is correctly priced. **Skip.**
+
+---
+
+### Pick 3 — KXIPOBLOOMBERG-DATE-27JAN01
+**"When will Bloomberg officially announce an IPO?"**
+- **Bid/Ask:** 0.01 / 0.06 | Vol: $3,259
+- **Catalyst:** Bloomberg LP has discussed IPO possibilities for years with no concrete action. No banker mandates or S-1 filings are public as of November 2026. The ask of 6¢ implies ~6% chance by Jan 2027 — that's modestly high for something with zero announced progress.
+- **Fair probability:** ~2–3%. Edge ≈ 3–4 cents.
+- **Trade:** **SELL** at 0.06. Very thin volume makes fill uncertain.
+- **Confidence: Low.** Michael Bloomberg's private control preferences are well-documented but surprise announcements happen.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Edge (¢) | Confidence | Size |
+|---|---|---|---|---|
+| KXFDAAPPROVE-MDMA-27JAN01 | SELL @0.09 | ~5–6¢ | Medium | $40 |
+| KXIPOBLOOMBERG-DATE-27JAN01 | SELL @0.06 | ~3–4¢ | Low | $20 |
+
+**Total deployed: ~$60.** Most of this universe lacks near-term binary catalysts suitable for a retail edge — honest pass on the rest.
+
+---
+

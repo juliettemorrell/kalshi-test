@@ -7674,3 +7674,56 @@ Skipping per instructions — sports market, sportsbook dynamics dominate.
 
 ---
 
+
+## 2026-11-22
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+**Date context:** November 22, 2026. Reviewing 30 liquid near-term markets.
+
+---
+
+### Pick 1: `KXNCAAFCOACHLEAVE-26BBEL-120126` — Bill Belichick leaves North Carolina (settles ~Dec 1, 2026)
+**Bid/Ask: 0.11 / 0.43 | Vol: $8,355 | 8.6 days**
+
+**Skip.** Category is Sports — per instructions, skipping due to sportsbook arb dominance. Flagging only because the spread is egregious (32¢ wide) suggesting genuine uncertainty, not edge for retail.
+
+---
+
+### Pick 2: `KXFDAAPPROVE-MDMA-27JAN01` — Will the FDA approve MDMA for PTSD?
+**Bid/Ask: 0.06 / 0.08 | Vol: $1,287 | 39.6 days**
+
+**Catalyst:** FDA's advisory committee voted **against** MDMA-assisted therapy (MDMA for PTSD) in June 2024, and the FDA formally **rejected** Lykos Therapeutics' NDA in August 2024, requesting a new Phase 3 trial. As of late 2026, no new trial has completed. No credible resubmission pathway exists within 40 days.
+
+**Fair probability:** ~3–4%. Market ask of 8¢ is roughly 2× fair value.
+
+**Trade:** **Sell NO** (i.e., sell YES at bid of 6¢ if possible, or avoid buying YES). If you can sell YES at 6¢, edge is ~2–3¢. Thin but real.
+
+**Confidence: Medium** (regulatory timeline is clear; the risk is an unexpected emergency authorization, which is remote).
+
+---
+
+### Pick 3: `KXWARSHOUT-26JUL-27JAN01` — Kevin Warsh out as Fed Chair?
+**Bid/Ask: 0.01 / 0.02 | Vol: $2,429 | 39.6 days**
+
+**Catalyst:** Kevin Warsh was confirmed as Fed Chair in 2026. There is **no credible public reporting** as of November 2026 of imminent removal or resignation. Fed Chair terms are legally protected (Humphrey's Executor precedent, reaffirmed). Trump's earlier removal threats did not materialize into action against Warsh after his confirmation. Market at 1–2¢ already prices this near-zero.
+
+**Assessment:** Market is **correctly priced** near zero. No edge buying or selling at these levels for a $50–100 bot — transaction costs eat any margin.
+
+**Skip.**
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Edge Est. | Confidence | Action |
+|--------|-----------|-----------|------------|--------|
+| KXFDAAPPROVE-MDMA-27JAN01 | Sell YES | ~2–3¢ | Medium | Small position, sell YES at bid if maker order fills |
+| KXWARSHOUT | — | ~0¢ | — | No trade |
+
+---
+
+**Honest note:** This universe is thin for catalyst edge. Most high-volume markets (Riemann Hypothesis, AGI, Taiwan Level 4) are either long-horizon or already efficiently priced near extremes. The MDMA market is the only genuine mispricing story with a clear, verifiable public catalyst. Size accordingly given the small-lot context.
+
+---
+

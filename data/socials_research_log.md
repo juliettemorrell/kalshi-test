@@ -7770,3 +7770,51 @@ Skipping per instructions — sports market, sportsbook dynamics dominate.
 
 ---
 
+
+## 2026-11-24
+
+### Market Review — Non-Weather, Catalyst-Driven
+
+**Date context:** November 24, 2026. Reviewing 31 liquid near-term markets.
+
+---
+
+### Pick 1: `KXNCAAFCOACHLEAVE-26BBEL-120126` — Bill Belichick leaves North Carolina by Dec 2026
+**Bid/Ask: 0.06 / 0.28 | Vol: $18,374 | Expires: ~6.6d**
+
+**Catalyst:** Belichick's first season at UNC has been a high-profile disaster. The Tar Heels finished with a losing record (4-7 as of late November 2026), generating sustained media pressure and donor discontent. Multiple outlets (The Athletic, ESPN) reported in mid-November that UNC's athletic department is "evaluating the program." However, Belichick has a buyout structure making a December departure expensive for both sides, and no credible resignation reporting exists. The 0.28 ask implies ~28% probability — that is too high for a voluntary departure within 6 days with no announced buyout resolution. The true probability is closer to 8-10%.
+
+**Trade:** **Sell/No** at ask (if platform allows), or avoid buying. If you can fade the ask, edge is ~18 cents.
+**Confidence: Medium**
+
+---
+
+### Pick 2: `KXFDAAPPROVE-MDMA-27JAN01` — FDA approves MDMA for PTSD by Jan 2027
+**Bid/Ask: 0.01 / 0.07 | Vol: $1,287 | Expires: ~37.6d**
+
+**Catalyst:** MAPS/Lykos Therapeutics received a Complete Response Letter (CRL) from the FDA in August 2024 rejecting MDMA-assisted therapy, citing data integrity concerns and requesting a new Phase 3 trial. As of November 2026, no new trial has completed. The Trump-era FDA under Makary has been reform-minded but has shown no signal of reversing the MDMA CRL via an accelerated pathway. Approval by January 2027 is essentially impossible given the trial timeline. Fair value: ~1-2%.
+
+**Trade:** **Buy No / Fade** — the ask at 7 cents is 5-6 cents above fair value. At $50-100 scale, buy No if available, or ignore Yes entirely.
+**Confidence: High**
+
+---
+
+### Pick 3: `KXLLMCHESS-30-27` — LLM beats chess grandmaster by Jan 2027
+**Bid/Ask: 0.05 / 0.11 | Vol: $5,959 | Expires: ~38d**
+
+**Catalyst:** No credible published benchmark as of November 2026 shows any LLM (without tool use/external engine) defeating a grandmaster in standard chess. This requires genuine game-tree search capability, not pattern completion. The ask at 11 cents implies ~11% probability in 38 days — elevated, likely driven by general AI hype. No specific announced attempt is imminent. Fair value: 3-4%.
+
+**Trade:** **Fade the ask** — edge ~7 cents. Small position ($50).
+**Confidence: Medium**
+
+---
+
+### Summary Table
+| Ticker | Direction | Edge (¢) | Confidence |
+|--------|-----------|----------|------------|
+| KXNCAAFCOACHLEAVE-26BBEL-120126 | Sell Yes | ~18¢ | Medium |
+| KXFDAAPPROVE-MDMA-27JAN01 | Sell Yes / Buy No | ~5-6¢ | High |
+| KXLLMCHESS-30-27 | Sell Yes | ~7¢ | Medium |
+
+---
+

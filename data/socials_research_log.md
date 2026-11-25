@@ -7818,3 +7818,44 @@ Skipping per instructions — sports market, sportsbook dynamics dominate.
 
 ---
 
+
+## 2026-11-25
+
+### Market Scan — 3 Candidates Identified
+
+---
+
+**1. KXFDAAPPROVE-MDMA-27JAN01 — FDA approve MDMA for PTSD?**
+- **Bid/Ask:** 0.01 / 0.07 | **Vol:** $1,287
+- **Catalyst:** FDA rejected Lykos Therapeutics' MDMA-AT NDA in August 2024, issuing a Complete Response Letter and requesting a new Phase 3 trial. As of late 2026, no new trial has completed. The regulatory path remains closed within this window (Jan 2027 settlement). The ask at 7¢ is still too high given the structural impossibility of a new trial completing and approval issuing in ~37 days.
+- **Trade:** **SELL/NO** at 7¢. Fair value ~1–2¢. Edge: ~5¢.
+- **Confidence:** High. This is a known dead regulatory pathway for the near term.
+
+---
+
+**2. KXNCAAFCOACHLEAVE-26BBEL-120126 — Belichick leaves North Carolina (Dec 2026 settle, 5.6d)**
+- **Bid/Ask:** 0.06 / 0.23 | **Vol:** $18,377
+- **Catalyst:** As of November 2026, Belichick is in his second season at UNC. There are no credible reports of him departing mid-season in December. The wide bid/ask spread (6¢–23¢) reflects illiquidity and noise. No NFL vacancy has opened that would pull him away before bowl season ends.
+- **Trade:** **NO (sell ask)** — buy NO implicitly by not paying 23¢. If you can sell YES at 23¢, edge is substantial. Fair value ~8–10¢ for a mid-season December exit with no catalyst.
+- **Edge:** ~13¢ if selling YES at ask. **Confidence:** Medium (surprise news could move this, but base rate of mid-season P5 HC departure is <5%).
+
+---
+
+**3. KXWARSHOUT-26JUL-27JAN01 — Kevin Warsh out as Fed Chair?**
+- **Bid/Ask:** 0.01 / 0.02 | **Vol:** $2,429
+- **Catalyst:** Warsh was confirmed as Fed Chair in 2026. There is zero credible reporting of him being removed or resigning within 37 days. Powell's legal battles over Fed independence already established the precedent that removal is politically and legally difficult. At 2¢ ask this is essentially noise, but the NO side is correctly priced. **No trade here** — spread too tight, no edge to capture.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Entry | Fair Value | Edge | Confidence |
+|---|---|---|---|---|---|
+| KXFDAAPPROVE-MDMA | NO | 7¢ ask | ~2¢ | ~5¢ | High |
+| KXNCAAFCOACHLEAVE-26BBEL-120126 | Sell YES | 23¢ | ~9¢ | ~14¢ | Medium |
+| KXWARSHOUT | Skip | — | — | — | — |
+
+**Capital allocation suggestion (~$75 total):** $50 on MDMA-FDA NO, $25 on Belichick December NO. Both are structurally closed stories within the settlement window.
+
+---
+

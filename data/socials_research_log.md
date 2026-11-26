@@ -7859,3 +7859,58 @@ Skipping per instructions — sports market, sportsbook dynamics dominate.
 
 ---
 
+
+## 2026-11-26
+
+### Market Scan — Non-Weather, Catalyst-Driven
+
+**Date context:** November 26, 2026. Reviewing 33 liquid near-term markets.
+
+---
+
+### Pick 1: `KXAGICO-COMP-26NOV` — AGI by November 2026
+**Bid/Ask:** 0.00 / 0.01 | Vol: $14,560 | Settles in **4.6 days**
+
+**Catalyst:** This market settles in ~4 days. No credible AGI announcement has been made by any major lab (OpenAI, Anthropic, Google DeepMind) as of late November 2026. There are no pending announcements that meet any reasonable AGI threshold definition. The ask at $0.01 implies ~1% probability — that's arguably still slightly high given the settlement window is essentially closed, but the spread is too tight to trade profitably. **Pass** — no edge after fees on a $0.01 ask.
+
+---
+
+### Pick 2: `KXNCAAFCOACHLEAVE-26BBEL-120126` — Belichick Leaves UNC by December 2026
+**Bid/Ask:** 0.08 / 0.18 | Vol: $18,377 | Settles in **4.6 days**
+
+Skipping per instructions (sports market, sportsbook arb dynamics dominate).
+
+---
+
+### Pick 1 (Real): `KXFDAAPPROVE-MDMA-27JAN01` — FDA Approves MDMA for PTSD
+**Bid/Ask:** 0.01 / 0.07 | Vol: $1,287 | Settles ~Jan 2027
+
+**Catalyst:** The FDA rejected Lykos Therapeutics' MDMA-PTSD application in August 2024, issuing a Complete Response Letter and requesting a new Phase 3 trial. As of late 2026, no new trial has had time to complete. The resubmission pathway realistically takes 2–4 years minimum. The ask at $0.07 is too high — fair value is closer to **0.01–0.02**. This is a **NO** trade (sell if you hold YES; don't buy). No actionable long entry at ask.
+
+---
+
+### Pick 2 (Real): `KXCHINAEUV-30-27JAN01` — China Obtains EUV Machine
+**Bid/Ask:** 0.02 / 0.07 | Vol: $970 | Settles ~Jan 2027
+
+**Catalyst:** ASML export controls remain tightly enforced by Dutch/US authorities through 2026. No credible reporting suggests China has obtained or is on the verge of obtaining an EUV machine through any channel. Dutch government reaffirmed restrictions in mid-2026. Ask of $0.07 implies ~7% — fair value closer to **1–2%**. Edge ~5 cents on the NO side, but Kalshi may not offer a direct NO position cleanly here. **Low confidence** given thin volume and unclear resolution criteria.
+
+---
+
+### Pick 3: `KXPNP-32-27JAN01` — P vs NP Resolved (by 2027)
+**Bid/Ask:** 0.23 / 0.25 | Vol: $209,613 | Settles ~Jan 2027
+
+This is likely a multi-year bucket market (2027 bucket). No credible P vs NP resolution is in progress. At 23–25 cents this feels like cumulative probability across a long horizon being miread as near-term. **Pass** — unclear bucket structure makes sizing dangerous for a small retail bot.
+
+---
+
+### Summary Table
+
+| Ticker | Direction | Fair Value | Ask | Edge | Confidence |
+|--------|-----------|-----------|-----|------|------------|
+| KXFDAAPPROVE-MDMA | NO/Don't Buy | ~0.02 | 0.07 | ~5¢ | Medium |
+| KXCHINAEUV | NO | ~0.02 | 0.07 | ~5¢ | Low |
+
+**No high-confidence actionable longs identified this scan.** Thin volume on the most mispriced markets limits position sizing for a $50–100 bot.
+
+---
+

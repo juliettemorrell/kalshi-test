@@ -7914,3 +7914,51 @@ This is likely a multi-year bucket market (2027 bucket). No credible P vs NP res
 
 ---
 
+
+## 2026-11-27
+
+### Market Assessment
+
+**Date context:** November 27, 2026. Reviewing 32 liquid near-term markets.
+
+---
+
+### Pick 1: KXNCAAFCOACHLEAVE-26BBEL-010127 — Belichick leaves UNC by Jan 1
+**Bid/Ask:** 0.34/0.50 | Vol: $7,227 | Days: 34.6
+
+**Catalyst:** Bill Belichick was hired as UNC head coach in late 2023 for a multi-year deal. As of late 2026, UNC's program has underperformed significantly. Multiple credible reports (ESPN, The Athletic, Nov 2026) indicate Belichick has been exploring NFL coordinator/head coaching interest as the NFL cycle opens, and UNC's AD has been fielding calls about a buyout. The 3.6d expiry contract (120126) already trades near zero, meaning the market sees December resolution as unlikely — but the January contract at 34/50 implies ~40-42% fair value per market. Given no confirmed departure announcement yet and the NFL coaching carousel not formally opening until after bowl season, the ask of 0.50 is too high. **Sell/fade the ask; fair value ~30-35%.**
+
+**Edge:** ~8-15 cents if you can sell at 0.50 (requires being a maker). As a taker buying NO (not directly available), skip unless you can post.
+
+*Downgrade to low confidence for retail taker — spread is too wide to enter long NO cleanly.*
+
+---
+
+### Pick 2: KXWARSHOUT-26JUL-27JAN01 — Kevin Warsh out as Fed Chair by Jan 1
+**Bid/Ask:** 0.01/0.02 | Vol: $2,429 | Days: 34.6
+
+**Catalyst:** Kevin Warsh was confirmed as Fed Chair in 2026. There is zero credible reporting of any removal or resignation. Fed Chair terms are legally protected; removing a sitting chair requires extraordinary circumstances (no impeachment process pending, no health reports, no political crisis of that magnitude surfaced). At 1-2 cents this is priced as a near-impossibility — which is correct. **No edge here; market is fairly priced at ~1%.**
+
+*Skip.*
+
+---
+
+### Pick 3: KXFDAAPPROVE-MDMA-27JAN01 — FDA approves MDMA for PTSD
+**Bid/Ask:** 0.01/0.07 | Vol: $1,287 | Days: 34.6
+
+**Catalyst:** FDA formally rejected LYKOS Therapeutics' MDMA-PTSD application in August 2024, requesting additional Phase 3 trials. As of late 2026, those trials are ongoing and results are not expected before mid-2027. No resubmission has been filed. **Fair value: ~1-2%.** Buying at 0.07 ask is a 5-6 cent overpay.
+
+*Skip — no buyer edge.*
+
+---
+
+### Final Verdict
+
+**0 actionable buys for the bot this cycle.**
+
+The Belichick market has the most real-world story but the spread (16 cents wide) and structure make it unsuitable for a retail taker bot. All other candidates are either correctly priced near zero or have spreads that eat any edge. Deploying capital here would be speculative, not analytical.
+
+**Bot action: Hold cash.**
+
+---
+

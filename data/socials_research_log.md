@@ -7962,3 +7962,39 @@ The Belichick market has the most real-world story but the spread (16 cents wide
 
 ---
 
+
+## 2026-11-28
+
+### Market Scan — 3 Picks
+
+---
+
+**1. KXONIONACT-30JAN01-27JAN01 — Onion Futures Act Repealed?**
+- **Bid/Ask:** 0.01 / 0.02 | **Days:** 34
+- **Catalyst:** The Onion Futures Act (1958) repeal has been periodically pushed by libertarian-leaning deregulation advocates, and the current DOGE-era deregulation sweep in 2025-2026 generated some congressional chatter. However, as of late 2026 no bill has advanced out of committee, there is zero legislative momentum in the lame-duck window before Jan 1, and this is an extremely niche commodity law that attracts no lobbying dollars. The 34-day window ending Jan 1 makes passage essentially impossible.
+- **Trade:** **BUY NO** (sell YES at 0.01 bid — but spread is too wide to short cheaply). Actually pass: at 1¢ bid the YES is already nearly zero; can't profitably short. **Skip execution**, but fair value is ~1–2%. No edge after spread.
+
+---
+
+**2. KXNCAAFCOACHLEAVE-26BBEL-120126 — Belichick Leaves UNC by Dec 2026**
+- **Bid/Ask:** 0.08 / 0.18 | **Days:** 2.6
+- **Catalyst:** This market settles in ~2.6 days (by ~Dec 1, 2026). Belichick completed his first full season at UNC (2025, 6-6) and returned for 2026. As of late November 2026, the season is winding down — UNC has had a mediocre year but Belichick has shown no public signs of departure. No credible reporting from The Athletic, ESPN, or local outlets (WRAL, News & Observer) indicates imminent resignation or firing before December 1. The wide spread (8¢ bid, 18¢ ask) implies the market is undecided.
+- **Trade:** **BUY NO** at ~0.82 implied (buy NO = pay ~0.82). Fair value for NO: ~90–92%. Edge on YES side: overstated at 18¢ ask. **Buy NO** — but Kalshi likely prices this as the complement; if YES ask is 0.18, NO bid is ~0.82. Fair NO = ~90¢. Edge ≈ 8–10 cents.
+- **Size:** $50 on NO.
+- **Confidence:** Medium (2.6-day window; binary news risk exists).
+
+---
+
+**3. KXFDAAPPROVE-MDMA-27JAN01 — FDA Approves MDMA for PTSD**
+- **Bid/Ask:** 0.01 / 0.07 | **Days:** 33.6
+- **Catalyst:** FDA formally rejected Lykos Therapeutics' MDMA-AT application in August 2024, issuing a Complete Response Letter and requesting a new Phase 3 trial. As of 2026, no new trial data has been submitted or accepted. Under RFK Jr.'s HHS tenure there was brief speculation of reversal, but FDA's career scientists have not reopened the application. Reapproval by Jan 1, 2027 is effectively impossible given trial timelines.
+- **Trade:** **BUY NO** (YES ask = 0.07 is already cheap, but fair value YES ≈ 1–2%). Can't short efficiently. **Pass on execution** — spread eats the edge.
+
+---
+
+### Net Action
+- **One executable trade:** Buy NO on KXNCAAFCOACHLEAVE-26BBEL-120126, ~$50.
+- Other markets: mispriced but spread/liquidity makes execution uneconomical.
+
+---
+
